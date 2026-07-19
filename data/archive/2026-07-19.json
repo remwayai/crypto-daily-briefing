@@ -1,123 +1,98 @@
 {
   "date": "2026-07-19",
-  "collected_at": "2026-07-19T22:17:05",
-  "profile": "rem-crypto",
-  "mission": [
-    "bitcoin",
-    "top10",
-    "risk20",
-    "highrisk_trending"
-  ],
+  "collected_at": "2026-07-19T22:48:05",
   "bitcoin": {
     "id": "bitcoin",
     "symbol": "BTC",
     "name": "Bitcoin",
     "rank": 1,
-    "price_usd": 64538,
-    "change_24h_pct": 0.71544,
-    "market_cap": 1294499412464,
-    "volume_24h": 16545190124,
-    "ath": 126080,
-    "atl": 67.81
+    "price_usd": 64522,
+    "change_24h_pct": 0.68716,
+    "market_cap": 1294223829915,
+    "volume_24h": 16474574432
   },
-  "btc_dominance_pct": 56.44810353687446,
-  "global_mcap_change_24h_pct": 0.6976282504032915,
+  "btc_dominance_pct": 56.457807084164216,
+  "global_mcap_change_24h_pct": 0.7036326857837063,
   "top10": [
     {
       "id": "bitcoin",
       "symbol": "BTC",
       "name": "Bitcoin",
       "rank": 1,
-      "price_usd": 64538,
-      "change_24h_pct": 0.71544,
-      "market_cap": 1294499412464,
-      "volume_24h": 16545190124,
-      "ath": 126080,
-      "atl": 67.81
+      "price_usd": 64522,
+      "change_24h_pct": 0.68716,
+      "market_cap": 1294223829915,
+      "volume_24h": 16474574432
     },
     {
       "id": "ethereum",
       "symbol": "ETH",
       "name": "Ethereum",
       "rank": 2,
-      "price_usd": 1873.39,
-      "change_24h_pct": 1.58532,
-      "market_cap": 226083771178,
-      "volume_24h": 5923692987,
-      "ath": 4946.05,
-      "atl": 0.432979
+      "price_usd": 1871.04,
+      "change_24h_pct": 1.48012,
+      "market_cap": 225802688754,
+      "volume_24h": 5922488957
     },
     {
       "id": "tether",
       "symbol": "USDT",
       "name": "Tether",
       "rank": 3,
-      "price_usd": 0.999224,
-      "change_24h_pct": -0.00666,
-      "market_cap": 184080308527,
-      "volume_24h": 26080899691,
-      "ath": 1.32,
-      "atl": 0.572521
+      "price_usd": 0.999213,
+      "change_24h_pct": -0.01029,
+      "market_cap": 184078329625,
+      "volume_24h": 26160291159
     },
     {
       "id": "binancecoin",
       "symbol": "BNB",
       "name": "BNB",
       "rank": 4,
-      "price_usd": 569.47,
-      "change_24h_pct": -0.10268,
-      "market_cap": 75833402475,
-      "volume_24h": 386536807,
-      "ath": 1369.99,
-      "atl": 0.0398177
+      "price_usd": 570.26,
+      "change_24h_pct": 0.07182,
+      "market_cap": 75939866957,
+      "volume_24h": 399272069
     },
     {
       "id": "usd-coin",
       "symbol": "USDC",
       "name": "USDC",
       "rank": 5,
-      "price_usd": 0.999802,
-      "change_24h_pct": -0.01222,
-      "market_cap": 73282201133,
-      "volume_24h": 4710913972,
-      "ath": 1.043,
-      "atl": 0.877647
+      "price_usd": 0.999851,
+      "change_24h_pct": 0.01441,
+      "market_cap": 73285962024,
+      "volume_24h": 4725790324
     },
     {
       "id": "ripple",
       "symbol": "XRP",
       "name": "XRP",
       "rank": 6,
-      "price_usd": 1.097,
-      "change_24h_pct": 0.87535,
-      "market_cap": 68545924732,
-      "volume_24h": 691427567,
-      "ath": 3.65,
-      "atl": 0.00268621
+      "price_usd": 1.098,
+      "change_24h_pct": 1.07557,
+      "market_cap": 68588619389,
+      "volume_24h": 693634009
     },
     {
       "id": "solana",
       "symbol": "SOL",
       "name": "Solana",
       "rank": 7,
-      "price_usd": 76.25,
-      "change_24h_pct": 1.8644,
-      "market_cap": 44427742389,
-      "volume_24h": 1177364150,
-      "ath": 293.31,
-      "atl": 0.500801
+      "price_usd": 76.17,
+      "change_24h_pct": 1.683,
+      "market_cap": 44385837294,
+      "volume_24h": 1184042902
     },
     {
       "id": "tron",
       "symbol": "TRX",
       "name": "TRON",
       "rank": 8,
-      "price_usd": 0.326987,
-      "change_24h_pct": 1.43045,
-      "market_cap": 31021500455,
-      "volume_24h": 320613281,
-      "ath": 0.431288,
-      "atl": 0.00180434
+      "price_usd": 0.326921,
+      "change_24h_pct": 1.42181,
+      "market_cap": 31015226978,
+      "volume_24h": 310015727
     },
     {
       "id": "figure-heloc",
@@ -127,21 +102,17 @@
       "price_usd": 1.042,
       "change_24h_pct": 1.49143,
       "market_cap": 20948213929,
-      "volume_24h": 106381933,
-      "ath": 1.049,
-      "atl": 0.155357
+      "volume_24h": 106381933
     },
     {
       "id": "hyperliquid",
       "symbol": "HYPE",
       "name": "Hyperliquid",
       "rank": 10,
-      "price_usd": 60.95,
-      "change_24h_pct": 2.83508,
-      "market_cap": 13557222985,
-      "volume_24h": 252985259,
-      "ath": 76.7,
-      "atl": 3.81
+      "price_usd": 60.89,
+      "change_24h_pct": 2.58108,
+      "market_cap": 13545848192,
+      "volume_24h": 255160813
     }
   ],
   "risk20": [
@@ -150,84 +121,80 @@
       "symbol": "DOGE",
       "name": "Dogecoin",
       "rank": 11,
-      "price_usd": 0.072524,
-      "change_24h_pct": 0.4138,
-      "market_cap": 11251142481,
-      "volume_24h": 272787346,
-      "ath": 0.731578,
-      "atl": 8.69e-05
+      "price_usd": 0.072425,
+      "change_24h_pct": 0.42316,
+      "market_cap": 11235501247,
+      "volume_24h": 272802467
     },
     {
       "id": "usds",
       "symbol": "USDS",
       "name": "USDS",
       "rank": 12,
-      "price_usd": 0.999841,
-      "change_24h_pct": 0.0002,
-      "market_cap": 9991516001,
-      "volume_24h": 23134356,
-      "ath": 1.15,
-      "atl": 0.948265
+      "price_usd": 0.999871,
+      "change_24h_pct": 0.00567,
+      "market_cap": 9991221242,
+      "volume_24h": 23856459
     },
     {
       "id": "rain",
       "symbol": "RAIN",
       "name": "Rain",
       "rank": 13,
-      "price_usd": 0.01442322,
-      "change_24h_pct": 4.44923,
-      "market_cap": 9547188550,
-      "volume_24h": 26367629,
-      "ath": 0.01614328,
-      "atl": 0.00222126
+      "price_usd": 0.01442552,
+      "change_24h_pct": 4.48879,
+      "market_cap": 9547520927,
+      "volume_24h": 23163590
     },
     {
       "id": "zcash",
       "symbol": "ZEC",
       "name": "Zcash",
       "rank": 14,
-      "price_usd": 554.84,
-      "change_24h_pct": -0.45774,
-      "market_cap": 9315460401,
-      "volume_24h": 213653382,
-      "ath": 3191.93,
-      "atl": 16.08
+      "price_usd": 554.23,
+      "change_24h_pct": -0.04441,
+      "market_cap": 9306176324,
+      "volume_24h": 212966210
     },
     {
       "id": "leo-token",
       "symbol": "LEO",
       "name": "LEO Token",
       "rank": 15,
-      "price_usd": 9.8,
-      "change_24h_pct": 0.13343,
-      "market_cap": 9021257932,
-      "volume_24h": 322955,
-      "ath": 10.57,
-      "atl": 0.799859
+      "price_usd": 9.79,
+      "change_24h_pct": 0.05802,
+      "market_cap": 9009733570,
+      "volume_24h": 483815
     },
     {
       "id": "whitebit",
       "symbol": "WBT",
       "name": "WhiteBIT Coin",
       "rank": 16,
-      "price_usd": 56.32,
-      "change_24h_pct": 0.85535,
-      "market_cap": 6643861542,
-      "volume_24h": 28199828,
-      "ath": 64.11,
-      "atl": 3.06
+      "price_usd": 56.31,
+      "change_24h_pct": 0.90299,
+      "market_cap": 6642280659,
+      "volume_24h": 28211260
     },
     {
       "id": "stellar",
       "symbol": "XLM",
       "name": "Stellar",
       "rank": 17,
-      "price_usd": 0.191011,
-      "change_24h_pct": 2.07038,
-      "market_cap": 6522403606,
-      "volume_24h": 116611067,
-      "ath": 0.875563,
-      "atl": 0.00047612
+      "price_usd": 0.1902,
+      "change_24h_pct": 1.81727,
+      "market_cap": 6496579058,
+      "volume_24h": 111921857
+    },
+    {
+      "id": "monero",
+      "symbol": "XMR",
+      "name": "Monero",
+      "rank": 18,
+      "price_usd": 333.59,
+      "change_24h_pct": 0.32129,
+      "market_cap": 6264737201,
+      "volume_24h": 84852981
     },
     {
       "id": "chainlink",
@@ -235,119 +202,89 @@
       "name": "Chainlink",
       "rank": 19,
       "price_usd": 8.36,
-      "change_24h_pct": 0.87875,
-      "market_cap": 6255151246,
-      "volume_24h": 130818914,
-      "ath": 52.7,
-      "atl": 0.148183
-    },
-    {
-      "id": "monero",
-      "symbol": "XMR",
-      "name": "Monero",
-      "rank": 18,
-      "price_usd": 333.11,
-      "change_24h_pct": 0.48614,
-      "market_cap": 6254205879,
-      "volume_24h": 85739496,
-      "ath": 797.73,
-      "atl": 0.216177
+      "change_24h_pct": 0.96365,
+      "market_cap": 6250608764,
+      "volume_24h": 127319543
     },
     {
       "id": "cardano",
       "symbol": "ADA",
       "name": "Cardano",
       "rank": 20,
-      "price_usd": 0.166404,
-      "change_24h_pct": 1.02127,
-      "market_cap": 6204745289,
-      "volume_24h": 171336839,
-      "ath": 3.09,
-      "atl": 0.01925275
+      "price_usd": 0.166406,
+      "change_24h_pct": 1.28691,
+      "market_cap": 6204893317,
+      "volume_24h": 170403613
     },
     {
       "id": "canton-network",
       "symbol": "CC",
       "name": "Canton",
       "rank": 21,
-      "price_usd": 0.127119,
-      "change_24h_pct": 1.76749,
-      "market_cap": 4972248421,
-      "volume_24h": 6007300,
-      "ath": 0.194152,
-      "atl": 0.059024
+      "price_usd": 0.127388,
+      "change_24h_pct": 2.07149,
+      "market_cap": 4982744512,
+      "volume_24h": 6084398
     },
     {
       "id": "dai",
       "symbol": "DAI",
       "name": "Dai",
       "rank": 22,
-      "price_usd": 0.999789,
-      "change_24h_pct": 0.00804,
-      "market_cap": 4643303821,
-      "volume_24h": 77854995,
-      "ath": 1.22,
-      "atl": 0.88196
+      "price_usd": 0.999589,
+      "change_24h_pct": -0.03991,
+      "market_cap": 4642384000,
+      "volume_24h": 77467782
     },
     {
       "id": "bitcoin-cash",
       "symbol": "BCH",
       "name": "Bitcoin Cash",
       "rank": 23,
-      "price_usd": 215.71,
-      "change_24h_pct": -2.20098,
-      "market_cap": 4327971500,
-      "volume_24h": 71350781,
-      "ath": 3785.82,
-      "atl": 76.93
+      "price_usd": 214.5,
+      "change_24h_pct": -2.32959,
+      "market_cap": 4303599729,
+      "volume_24h": 73350967
     },
     {
       "id": "usd1-wlfi",
       "symbol": "USD1",
       "name": "USD1",
       "rank": 24,
-      "price_usd": 0.998958,
-      "change_24h_pct": -0.02821,
-      "market_cap": 4251357891,
-      "volume_24h": 408240015,
-      "ath": 1.025,
-      "atl": 0.989633
+      "price_usd": 0.999017,
+      "change_24h_pct": -0.00695,
+      "market_cap": 4251361701,
+      "volume_24h": 388827902
     },
     {
       "id": "ethena-usde",
       "symbol": "USDE",
       "name": "Ethena USDe",
       "rank": 25,
-      "price_usd": 0.999809,
-      "change_24h_pct": -0.00627,
-      "market_cap": 4014671427,
-      "volume_24h": 26378099,
-      "ath": 1.034,
-      "atl": 0.929486
+      "price_usd": 0.999856,
+      "change_24h_pct": -0.00519,
+      "market_cap": 4014559339,
+      "volume_24h": 25930696
     },
     {
       "id": "the-open-network",
       "symbol": "GRAM",
       "name": "Gram (prev. Toncoin)",
       "rank": 26,
-      "price_usd": 1.43,
-      "change_24h_pct": -2.59696,
-      "market_cap": 3913049515,
-      "volume_24h": 22161580,
-      "ath": 8.25,
-      "atl": 0.519364
+      "price_usd": 1.44,
+      "change_24h_pct": -2.07189,
+      "market_cap": 3927559421,
+      "volume_24h": 21820053
     },
     {
       "id": "litecoin",
       "symbol": "LTC",
       "name": "Litecoin",
       "rank": 27,
-      "price_usd": 47.22,
-      "change_24h_pct": 1.57347,
-      "market_cap": 3655238913,
-      "volume_24h": 292768156,
-      "ath": 410.26,
-      "atl": 1.15
+      "price_usd": 47.17,
+      "change_24h_pct": 1.71588,
+      "market_cap": 3651302175,
+      "volume_24h": 286624437
     },
     {
       "id": "global-dollar",
@@ -355,23 +292,19 @@
       "name": "Global Dollar",
       "rank": 28,
       "price_usd": 1.001,
-      "change_24h_pct": -0.0584,
-      "market_cap": 3202254112,
-      "volume_24h": 118003003,
-      "ath": 1.65,
-      "atl": 0.907561
+      "change_24h_pct": -0.12817,
+      "market_cap": 3199577968,
+      "volume_24h": 121243725
     },
     {
       "id": "sui",
       "symbol": "SUI",
       "name": "Sui",
       "rank": 29,
-      "price_usd": 0.752525,
-      "change_24h_pct": 2.37343,
-      "market_cap": 3049481718,
-      "volume_24h": 147313460,
-      "ath": 5.35,
-      "atl": 0.364846
+      "price_usd": 0.751175,
+      "change_24h_pct": 2.36092,
+      "market_cap": 3044359921,
+      "volume_24h": 145819788
     },
     {
       "id": "hashnote-usyc",
@@ -381,9 +314,89 @@
       "price_usd": 1.13,
       "change_24h_pct": null,
       "market_cap": 2960426371,
-      "volume_24h": 24998,
-      "ath": 1.13,
-      "atl": 1.026
+      "volume_24h": 24998
+    }
+  ],
+  "risk_movers": [
+    {
+      "id": "rain",
+      "symbol": "RAIN",
+      "name": "Rain",
+      "rank": 13,
+      "price_usd": 0.01442552,
+      "change_24h_pct": 4.48879,
+      "market_cap": 9547520927,
+      "volume_24h": 23163590
+    },
+    {
+      "id": "sui",
+      "symbol": "SUI",
+      "name": "Sui",
+      "rank": 29,
+      "price_usd": 0.751175,
+      "change_24h_pct": 2.36092,
+      "market_cap": 3044359921,
+      "volume_24h": 145819788
+    },
+    {
+      "id": "bitcoin-cash",
+      "symbol": "BCH",
+      "name": "Bitcoin Cash",
+      "rank": 23,
+      "price_usd": 214.5,
+      "change_24h_pct": -2.32959,
+      "market_cap": 4303599729,
+      "volume_24h": 73350967
+    },
+    {
+      "id": "the-open-network",
+      "symbol": "GRAM",
+      "name": "Gram (prev. Toncoin)",
+      "rank": 26,
+      "price_usd": 1.44,
+      "change_24h_pct": -2.07189,
+      "market_cap": 3927559421,
+      "volume_24h": 21820053
+    },
+    {
+      "id": "canton-network",
+      "symbol": "CC",
+      "name": "Canton",
+      "rank": 21,
+      "price_usd": 0.127388,
+      "change_24h_pct": 2.07149,
+      "market_cap": 4982744512,
+      "volume_24h": 6084398
+    },
+    {
+      "id": "stellar",
+      "symbol": "XLM",
+      "name": "Stellar",
+      "rank": 17,
+      "price_usd": 0.1902,
+      "change_24h_pct": 1.81727,
+      "market_cap": 6496579058,
+      "volume_24h": 111921857
+    },
+    {
+      "id": "litecoin",
+      "symbol": "LTC",
+      "name": "Litecoin",
+      "rank": 27,
+      "price_usd": 47.17,
+      "change_24h_pct": 1.71588,
+      "market_cap": 3651302175,
+      "volume_24h": 286624437
+    },
+    {
+      "id": "cardano",
+      "symbol": "ADA",
+      "name": "Cardano",
+      "rank": 20,
+      "price_usd": 0.166406,
+      "change_24h_pct": 1.28691,
+      "market_cap": 6204893317,
+      "volume_24h": 170403613
     }
   ],
   "trending": [
@@ -391,135 +404,766 @@
       "id": "lorenzo-protocol",
       "name": "Lorenzo Protocol",
       "symbol": "BANK",
-      "market_cap_rank": 292,
-      "score": 0,
-      "price_btc": 2.737007196036853e-06
+      "market_cap_rank": 348,
+      "score": 0
     },
     {
       "id": "pudgy-penguins",
       "name": "Pudgy Penguins",
       "symbol": "PENGU",
       "market_cap_rank": 118,
-      "score": 1,
-      "price_btc": 9.477268872680241e-08
-    },
-    {
-      "id": "pi-network",
-      "name": "Pi Network",
-      "symbol": "PI",
-      "market_cap_rank": 64,
-      "score": 2,
-      "price_btc": 1.5095157620912245e-06
+      "score": 1
     },
     {
       "id": "the-black-bull",
       "name": "The Black Bull",
       "symbol": "ANSEM",
-      "market_cap_rank": 297,
-      "score": 3,
-      "price_btc": 2.9781030445786945e-06
+      "market_cap_rank": 298,
+      "score": 2
     },
     {
-      "id": "solana",
-      "name": "Solana",
-      "symbol": "SOL",
-      "market_cap_rank": 7,
-      "score": 4,
-      "price_btc": 0.0011829058218263983
+      "id": "pi-network",
+      "name": "Pi Network",
+      "symbol": "PI",
+      "market_cap_rank": 65,
+      "score": 3
+    },
+    {
+      "id": "bitcoin",
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "market_cap_rank": 1,
+      "score": 4
     },
     {
       "id": "kaspa",
       "name": "Kaspa",
       "symbol": "KAS",
-      "market_cap_rank": 79,
-      "score": 5,
-      "price_btc": 4.328426962597768e-07
+      "market_cap_rank": 78,
+      "score": 5
+    },
+    {
+      "id": "kaito",
+      "name": "KAITO",
+      "symbol": "KAITO",
+      "market_cap_rank": 150,
+      "score": 6
+    },
+    {
+      "id": "cash-cat",
+      "name": "Cash Cat",
+      "symbol": "CASHCAT",
+      "market_cap_rank": 332,
+      "score": 7
+    },
+    {
+      "id": "lab",
+      "name": "LAB",
+      "symbol": "LAB",
+      "market_cap_rank": 425,
+      "score": 8
     },
     {
       "id": "ethereum",
       "name": "Ethereum",
       "symbol": "ETH",
       "market_cap_rank": 2,
-      "score": 6,
-      "price_btc": 0.029025443225033462
+      "score": 9
     },
     {
       "id": "pepe",
       "name": "Pepe",
       "symbol": "PEPE",
       "market_cap_rank": 60,
-      "score": 7,
-      "price_btc": 4.430731173027491e-11
-    },
-    {
-      "id": "aster-2",
-      "name": "Aster",
-      "symbol": "ASTER",
-      "market_cap_rank": 46,
-      "score": 8,
-      "price_btc": 9.615533587494829e-06
-    },
-    {
-      "id": "monad",
-      "name": "Monad",
-      "symbol": "MON",
-      "market_cap_rank": 143,
-      "score": 9,
-      "price_btc": 3.2896269859318543e-07
-    },
-    {
-      "id": "lab",
-      "name": "LAB",
-      "symbol": "LAB",
-      "market_cap_rank": 423,
-      "score": 10,
-      "price_btc": 2.4821351468219457e-06
-    },
-    {
-      "id": "sui",
-      "name": "Sui",
-      "symbol": "SUI",
-      "market_cap_rank": 29,
-      "score": 11,
-      "price_btc": 1.1640482938532811e-05
+      "score": 10
     },
     {
       "id": "bittensor",
       "name": "Bittensor",
       "symbol": "TAO",
       "market_cap_rank": 41,
-      "score": 12,
-      "price_btc": 0.0030650408939034454
+      "score": 11
     },
     {
-      "id": "aerodrome-finance",
-      "name": "Aerodrome Finance",
-      "symbol": "AERO",
-      "market_cap_rank": 109,
-      "score": 13,
-      "price_btc": 6.9891839291373646e-06
+      "id": "alien-worlds",
+      "name": "Alien Worlds",
+      "symbol": "TLM",
+      "market_cap_rank": 886,
+      "score": 12
     },
     {
-      "id": "linea",
-      "name": "Linea",
-      "symbol": "LINEA",
-      "market_cap_rank": 389,
-      "score": 14,
-      "price_btc": 3.724997806505848e-08
+      "id": "sui",
+      "name": "Sui",
+      "symbol": "SUI",
+      "market_cap_rank": 29,
+      "score": 13
+    },
+    {
+      "id": "solana",
+      "name": "Solana",
+      "symbol": "SOL",
+      "market_cap_rank": 7,
+      "score": 14
     }
+  ],
+  "defillama": {
+    "total_tvl": 75767147031.26715,
+    "top_protocols": [
+      {
+        "name": "Binance CEX",
+        "tvl": 137462023382.717,
+        "change_1d": 0.27603276043424785,
+        "category": "CEX"
+      },
+      {
+        "name": "OKX",
+        "tvl": 21981972927.7084,
+        "change_1d": 0.47636931179116004,
+        "category": "CEX"
+      },
+      {
+        "name": "Lido",
+        "tvl": 17172375209.35074,
+        "change_1d": 1.4287374090970815,
+        "category": "Liquid Staking"
+      },
+      {
+        "name": "Bitfinex",
+        "tvl": 16784396403.199343,
+        "change_1d": 0.40367066723716505,
+        "category": "CEX"
+      },
+      {
+        "name": "Aave V3",
+        "tvl": 13732108259.80267,
+        "change_1d": 0.9907956668828035,
+        "category": "Lending"
+      },
+      {
+        "name": "Bybit",
+        "tvl": 13329682700.968195,
+        "change_1d": 0.3042887251621522,
+        "category": "CEX"
+      },
+      {
+        "name": "Robinhood",
+        "tvl": 11612683344.517195,
+        "change_1d": 0.7920307392770525,
+        "category": "CEX"
+      },
+      {
+        "name": "SSV Network",
+        "tvl": 9089858278.528196,
+        "change_1d": 1.478148440848841,
+        "category": "Staking Pool"
+      },
+      {
+        "name": "Morpho Blue",
+        "tvl": 7422096634.409027,
+        "change_1d": 0.5677025920188328,
+        "category": "Lending"
+      },
+      {
+        "name": "WBTC",
+        "tvl": 7357899502.443819,
+        "change_1d": 0.5733891927816046,
+        "category": "Bridge"
+      }
+    ]
+  },
+  "polymarket": [
+    {
+      "title": "Bitcoin above ___ on February 23?",
+      "url": "https://polymarket.com/event/bitcoin-above-on-february-23",
+      "prices": null,
+      "endDate": "2026-02-23T17:00:00Z",
+      "query": "bitcoin"
+    },
+    {
+      "title": "Bitcoin Up or Down - April 2, 9:50PM-9:55PM ET",
+      "url": "https://polymarket.com/event/btc-updown-5m-1775181000",
+      "prices": null,
+      "endDate": "2026-04-03T01:55:00Z",
+      "query": "bitcoin"
+    },
+    {
+      "title": "What price will Bitcoin hit in July?",
+      "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-july-2026",
+      "prices": null,
+      "endDate": "2026-08-01T04:00:00Z",
+      "query": "bitcoin"
+    },
+    {
+      "title": "Bitcoin Up or Down - March 19, 11:10PM-11:15PM ET",
+      "url": "https://polymarket.com/event/btc-updown-5m-1773976200",
+      "prices": null,
+      "endDate": "2026-03-20T03:15:00Z",
+      "query": "bitcoin"
+    },
+    {
+      "title": "Bitcoin Up or Down - February 23, 11:25AM-11:30AM ET",
+      "url": "https://polymarket.com/event/btc-updown-5m-1771863900",
+      "prices": null,
+      "endDate": "2026-02-23T16:30:00Z",
+      "query": "bitcoin"
+    },
+    {
+      "title": "Ethereum Price - July 15, 5PM ET",
+      "url": "https://polymarket.com/event/ethereum-price-july-15-5pm-et",
+      "prices": null,
+      "endDate": "2025-07-15T21:00:00Z",
+      "query": "ethereum"
+    },
+    {
+      "title": "What price will Ethereum hit in July?",
+      "url": "https://polymarket.com/event/what-price-will-ethereum-hit-in-july-2026",
+      "prices": null,
+      "endDate": "2026-08-01T04:00:00Z",
+      "query": "ethereum"
+    },
+    {
+      "title": "Ethereum above ___ on February 23?",
+      "url": "https://polymarket.com/event/ethereum-above-on-february-23",
+      "prices": null,
+      "endDate": "2026-02-23T17:00:00Z",
+      "query": "ethereum"
+    },
+    {
+      "title": "What price will Ethereum hit in 2026?",
+      "url": "https://polymarket.com/event/what-price-will-ethereum-hit-before-2027",
+      "prices": null,
+      "endDate": "2027-01-01T05:00:00Z",
+      "query": "ethereum"
+    },
+    {
+      "title": "Ethereum Up or Down - March 16, 6:10PM-6:15PM ET",
+      "url": "https://polymarket.com/event/eth-updown-5m-1773699000",
+      "prices": null,
+      "endDate": "2026-03-16T22:15:00Z",
+      "query": "ethereum"
+    },
+    {
+      "title": "Top performing crypto for the week of March 23?",
+      "url": "https://polymarket.com/event/top-performing-crypto-for-the-week-of-march-23",
+      "prices": null,
+      "endDate": "2026-03-30T04:00:00Z",
+      "query": "crypto"
+    },
+    {
+      "title": "Total crypto hack value in 2026?",
+      "url": "https://polymarket.com/event/total-crypto-hack-value-in-2026",
+      "prices": null,
+      "endDate": "2027-01-01T05:00:00Z",
+      "query": "crypto"
+    }
+  ],
+  "rss_pool": [
+    {
+      "title": "Is there a deadline to claim the $1,000 ‘Trump account’ contribution for my kid?",
+      "url": "https://www.marketwatch.com/story/is-there-a-deadline-to-claim-the-1-000-trump-account-contribution-for-my-kid-1b70141c?mod=mw_rss_topstories",
+      "summary_raw": "Some children who don’t qualify for the government contribution may be eligible for an initial $250.",
+      "published": "2026-07-19T15:43:00+00:00",
+      "source": "MarketWatch",
+      "category_hint": "stocks_ai",
+      "category": "stocks_ai"
+    },
+    {
+      "title": "The World Cup winner will earn $51 million under expanded purse",
+      "url": "https://www.cnbc.com/2026/07/19/heres-what-to-know-about-the-world-cup-prize-money.html",
+      "summary_raw": "FIFA expanded the payout for the 2026 World Cup, setting a record with a combined $871 million paid to the 48 participating teams.",
+      "published": "2026-07-19T15:36:54+00:00",
+      "source": "CNBC",
+      "category_hint": "stocks_ai",
+      "category": "stocks_ai"
+    },
+    {
+      "title": "US and Iran trade fire after two US soldiers killed in Jordan",
+      "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
+      "summary_raw": "Kuwait says an electricity and water plant is on fire after the second such attack in two days. Iran says US strikes hit an under-construction nuclear power plant.",
+      "published": "2026-07-19T15:35:18+00:00",
+      "source": "BBC World",
+      "category_hint": "macro_geo",
+      "category": "macro_geo"
+    },
+    {
+      "title": "Warren Buffett Said He Personally Started Berkshire's $31 Billion Alphabet Position",
+      "url": "https://www.nasdaq.com/articles/warren-buffett-said-he-personally-started-berkshires-31-billion-alphabet-position",
+      "summary_raw": "Key PointsWarren Buffett confirmed he personally started Berkshire Hathaway's investment in Alphabet.",
+      "published": "2026-07-19T15:33:00+00:00",
+      "source": "Nasdaq AI",
+      "category_hint": "stocks_ai",
+      "category": "stocks_ai"
+    },
+    {
+      "title": "Stocks Finish Sharply Lower as Tech Stocks Slump",
+      "url": "https://www.nasdaq.com/articles/stocks-finish-sharply-lower-tech-stocks-slump",
+      "summary_raw": "The S&P 500 Index ($SPX ) (SPY ) on Friday closed down -1.01%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.77%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -1.49%. September E-mini S&P futures (ESU26 ) fell -1.02%, and September E-mini Nasdaq futures...",
+      "published": "2026-07-19T15:30:42+00:00",
+      "source": "Nasdaq AI",
+      "category_hint": "stocks_ai",
+      "category": "stocks_ai"
+    },
+    {
+      "title": "Kimi Antonelli wins Belgian Grand Prix to extend F1 championship lead",
+      "url": "https://www.aljazeera.com/sports/2026/7/19/kimi-antonelli-wins-belgian-grand-prix-to-extend-f1-championship-lead?traffic_source=rss",
+      "summary_raw": "Mercedes driver won his sixth GP of 2026 as championship rival and teammate George Russell crashes out on first lap.",
+      "published": "2026-07-19T15:26:45+00:00",
+      "source": "Al Jazeera",
+      "category_hint": "macro_geo",
+      "category": "macro_geo"
+    },
+    {
+      "title": "Designing cities for a hotter future",
+      "url": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/7/19/designing-cities-for-a-hotter-future?traffic_source=rss",
+      "summary_raw": "Climate advocate Mina Hasman’s vision of designing cities that behave like forests and buildings that act like trees.",
+      "published": "2026-07-19T15:25:01+00:00",
+      "source": "Al Jazeera",
+      "category_hint": "macro_geo",
+      "category": "macro_geo"
+    },
+    {
+      "title": "Tate brothers arrested in the US",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/tate-brothers-arrested-in-the-us?traffic_source=rss",
+      "summary_raw": "Video shows the moment controversial influencer brothers Andrew Tate and Tristan Tate were arrested in Miami, US.",
+      "published": "2026-07-19T15:23:49+00:00",
+      "source": "Al Jazeera",
+      "category_hint": "macro_geo",
+      "category": "macro_geo"
+    },
+    {
+      "title": "World Cup Final Drives Billions in Bets on Kalshi and Polymarket",
+      "url": "https://www.nytimes.com/2026/07/18/business/world-cup-kalshi-polymarket.html",
+      "summary_raw": "The soccer tournament has helped propel the prediction markets to new user records, creating what may be the largest gambling event in history.",
+      "published": "2026-07-19T15:22:46+00:00",
+      "source": "NYT Business",
+      "category_hint": "macro_geo",
+      "category": "macro_geo"
+    },
+    {
+      "title": "Why Warren Buffett Warns That the Market Is Headed for Trouble",
+      "url": "https://www.nasdaq.com/articles/why-warren-buffett-warns-market-headed-trouble",
+      "summary_raw": "Key PointsWarren Buffett called out the gambling behavior taking over the stock market.",
+      "published": "2026-07-19T15:20:00+00:00",
+      "source": "Nasdaq AI",
+      "category_hint": "stocks_ai",
+      "category": "macro_geo"
+    },
+    {
+      "title": "Bitcoin's biggest advocate, Michael Saylor, says new plan to clean up the blockchain is 'a bad idea'",
+      "url": "https://www.coindesk.com/tech/2026/07/19/bitcoin-s-biggest-advocate-michael-saylor-says-new-plan-to-clean-up-the-blockchain-is-a-bad-idea",
+      "summary_raw": "Michael Saylor argues that a new proposal, BIP-110, to temporarily block \"spam\" data from the Bitcoin blockchain would undermine the network's neutrality and create a dangerous precedent for censorship.",
+      "published": "2026-07-19T15:19:21+00:00",
+      "source": "CoinDesk",
+      "category_hint": "crypto_market",
+      "category": "bitcoin"
+    },
+    {
+      "title": "Health officials identify source of US explosive diarrhoea outbreak",
+      "url": "https://www.bbc.co.uk/news/articles/c4gw9n1kx9do?at_medium=RSS&at_campaign=rss",
+      "summary_raw": "The US Food and Drug Administration says iceberg lettuce supplied by Taylor Farms and sold at Taco Bell and Walmart locations was the source of cyclosporiasis infections.",
+      "published": "2026-07-19T15:17:23+00:00",
+      "source": "BBC World",
+      "category_hint": "macro_geo",
+      "category": "macro_geo"
+    },
+    {
+      "title": "Hedge Fund Star Ken Griffin Thought AI Was \"Garbage.\" Now He's Changing His Tune.",
+      "url": "https://www.nasdaq.com/articles/hedge-fund-star-ken-griffin-thought-ai-was-garbage-now-hes-changing-his-tune",
+      "summary_raw": "Key PointsKen Griffin's $70 billion hedge fund has a long and successful track record.",
+      "published": "2026-07-19T15:05:00+00:00",
+      "source": "Nasdaq AI",
+      "category_hint": "stocks_ai",
+      "category": "stocks_ai"
+    },
+    {
+      "title": "Constellation Invests in Blue Energy as Nuclear Demand From AI Data Centers Surges. Here's What CEG Investors Need to Know.",
+      "url": "https://www.nasdaq.com/articles/constellation-invests-blue-energy-nuclear-demand-ai-data-centers-surges-heres-what-ceg",
+      "summary_raw": "Key PointsConstellation Energy's massive hyperscale contracts are expected to drive a surge in cash flow.",
+      "published": "2026-07-19T15:04:08+00:00",
+      "source": "Nasdaq AI",
+      "category_hint": "stocks_ai",
+      "category": "stocks_ai"
+    },
+    {
+      "title": "Tesla Heads Into Its July 22 Earnings Down 22%, and One Firm Sees a 67% Plunge From Here. Who's Right?",
+      "url": "https://www.nasdaq.com/articles/tesla-heads-its-july-22-earnings-down-22-and-one-firm-sees-67-plunge-here-whos-right",
+      "summary_raw": "Key PointsTesla delivered 480,126 vehicles in the second quarter, up 25% year over year.",
+      "published": "2026-07-19T15:03:00+00:00",
+      "source": "Nasdaq AI",
+      "category_hint": "stocks_ai",
+      "category": "stocks_ai"
+    },
+    {
+      "title": "Spain vs Argentina LIVE: FIFA World Cup 2026 final",
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/7/19/spain-vs-argentina-live-2026-fifa-world-cup-final?traffic_source=rss",
+      "summary_raw": "Live coverage and text updates as Spain play Argentina in the final of the 2026 World Cup.",
+      "published": "2026-07-19T15:00:00+00:00",
+      "source": "Al Jazeera",
+      "category_hint": "macro_geo",
+      "category": "macro_geo"
+    },
+    {
+      "title": "Grab CFO Peter Oey Sells 50,000 Shares",
+      "url": "https://www.nasdaq.com/articles/grab-cfo-peter-oey-sells-50000-shares",
+      "summary_raw": "Key PointsThe CFO sold the shares, totaling about $191,500, on July 15,",
+      "published": "2026-07-19T14:55:01+00:00",
+      "source": "Nasdaq AI",
+      "category_hint": "stocks_ai",
+      "category": "stocks_ai"
+    },
+    {
+      "title": "AI is destroying the internet. Math is our only hope.",
+      "url": "https://www.coindesk.com/opinion/2026/07/17/ai-is-destroying-the-internet-math-is-our-only-hope",
+      "summary_raw": "The rise of autonomous AI agents necessitates the utilization of zero-knowledge proofs, argues Brian Trunzo, chief growth officer at Succinct Labs.",
+      "published": "2026-07-19T14:00:00+00:00",
+      "source": "CoinDesk",
+      "category_hint": "crypto_market",
+      "category": "crypto_market"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary_raw": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "published": "2026-07-19T13:20:25+00:00",
+      "source": "CoinTelegraph",
+      "category_hint": "crypto_market",
+      "category": "crypto_market"
+    },
+    {
+      "title": "Tether's USDT hits 2-year countdown threatening its position on U.S. crypto platforms",
+      "url": "https://www.coindesk.com/news-analysis/2026/07/17/tether-s-usdt-hits-2-year-countdown-threatening-its-position-on-u-s-crypto-platforms",
+      "summary_raw": "The GENIUS Act has hit its first anniversary without U.S. regulators yet meeting deadlines to write regulations, though rules will be in full effect by July 2028.",
+      "published": "2026-07-19T13:00:00+00:00",
+      "source": "CoinDesk",
+      "category_hint": "crypto_market",
+      "category": "crypto_market"
+    },
+    {
+      "title": "Kraken says simpler options can unlock crypto's next derivatives market",
+      "url": "https://www.coindesk.com/business/2026/07/19/kraken-says-simpler-options-can-unlock-crypto-s-next-derivatives-market",
+      "summary_raw": "The Wyoming-based firm launched USD-settled bitcoin and ether options, saying product design, not demand, has held back adoption.",
+      "published": "2026-07-19T13:00:00+00:00",
+      "source": "CoinDesk",
+      "category_hint": "crypto_market",
+      "category": "crypto_market"
+    },
+    {
+      "title": "US agencies miss GENIUS Act deadline for final stablecoin rules",
+      "url": "https://cointelegraph.com/news/federal-agencies-miss-genius-act-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary_raw": "US regulators failed to finalize implementing regulations by the GENIUS Act’s one-year deadline, issuing 10 proposed rules instead.",
+      "published": "2026-07-19T12:56:00+00:00",
+      "source": "CoinTelegraph",
+      "category_hint": "crypto_market",
+      "category": "crypto_market"
+    },
+    {
+      "title": "Bitcoin’s quantum problem gets a recovery tool, but not for Satoshi’s 1.1 million coins",
+      "url": "https://www.coindesk.com/tech/2026/07/19/bitcoin-s-quantum-problem-gets-a-recovery-tool-but-not-for-satoshi-s-1-1-million-coin",
+      "summary_raw": "Project Eleven says it has funded a proof that lets a wallet's own key-derivation path stand in as ownership after quantum computers can forge its signatures. It runs in 243 milliseconds on a laptop.",
+      "published": "2026-07-19T10:00:00+00:00",
+      "source": "CoinDesk",
+      "category_hint": "crypto_market",
+      "category": "bitcoin"
+    },
+    {
+      "title": "Electronic Transactions Association CEO Expecting More Partnerships with Bitcoin Startups",
+      "url": "https://cointelegraph.com/news/electronic-transactions-association-ceo-expecting-more-partnerships-with-bitcoin-startups?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary_raw": "Electronic Transactions Association (ETA) CEO, Jason Oxman, indicated that members of his organization might start recognizing Bitcoin’s disruptive potential, suggesting that this might lead to more partnerships between traditional electronic payment providers and Bitcoin startups.",
+      "published": "2026-07-19T09:16:42+00:00",
+      "source": "CoinTelegraph",
+      "category_hint": "crypto_market",
+      "category": "bitcoin"
+    },
+    {
+      "title": "Inside Zcash's new node that targets Visa-scale privacy at 50,000 transactions per second",
+      "url": "https://www.coindesk.com/tech/2026/07/16/inside-zcash-s-new-node-that-targets-visa-scale-privacy-at-50-000-transactions-per-second",
+      "summary_raw": "The new Zakura client is the first live piece of a plan to take Zcash from roughly one private transaction per second to payment-network scale.",
+      "published": "2026-07-19T05:37:34+00:00",
+      "source": "CoinDesk",
+      "category_hint": "crypto_market",
+      "category": "crypto_market"
+    },
+    {
+      "title": "US regulators miss GENIUS Act’s one-year deadline for final stablecoin rules",
+      "url": "https://www.theblock.co/post/408843/us-regulators-miss-genius-acts-one-year-deadline-for-final-stablecoin-rules?utm_source=rss&utm_medium=rss",
+      "summary_raw": "The delay does not postpone the law’s Jan. 18, 2027 effective date, leaving regulators and stablecoin issuers with a compressed implementation window.",
+      "published": "2026-07-18T22:04:40+00:00",
+      "source": "The Block",
+      "category_hint": "crypto_market",
+      "category": "crypto_market"
+    },
+    {
+      "title": "France orders country's internet service providers to block Polymarket",
+      "url": "https://www.coindesk.com/policy/2026/07/18/france-orders-country-s-internet-service-providers-to-block-polymarket",
+      "summary_raw": "The regulator cited concerns over addictive mechanics, a lack of self-exclusion tools, and a high volume of French users bypassing previous financial restrictions.",
+      "published": "2026-07-18T21:52:18+00:00",
+      "source": "CoinDesk",
+      "category_hint": "crypto_market",
+      "category": "crypto_market"
+    },
+    {
+      "title": "Bitcoin Japan, which holds no bitcoin, taps EVO Fund in planned $60 million raise to finally buy some",
+      "url": "https://www.theblock.co/post/408838/bitcoin-japan-which-holds-no-bitcoin-taps-evo-fund-in-planned-60-million-raise-to-finally-buy-some?utm_source=rss&utm_medium=rss",
+      "summary_raw": "A prior December raise instead funded stakes tied to SpaceX and Figure AI, which the company says are its two AI infrastructure investments to date.",
+      "published": "2026-07-18T18:47:49+00:00",
+      "source": "The Block",
+      "category_hint": "crypto_market",
+      "category": "bitcoin"
+    },
+    {
+      "title": "DOG Mode explains Bitcoin's next governance fight",
+      "url": "https://www.coindesk.com/tech/2026/07/18/dog-mode-explains-bitcoin-s-next-governance-fight",
+      "summary_raw": "Leonidas' DOG Mode client challenges Bitcoin's default relay policies, reopening a philosophical debate over censorship, free markets and who really governs the network.",
+      "published": "2026-07-18T17:00:00+00:00",
+      "source": "CoinDesk",
+      "category_hint": "crypto_market",
+      "category": "bitcoin"
+    },
+    {
+      "title": "Massive bitcoin call spreads target $72,000 by month end, right when the Fed meets",
+      "url": "https://www.coindesk.com/markets/2026/07/18/massive-bitcoin-call-spreads-target-usd72-000-by-month-end-right-when-the-fed-meets",
+      "summary_raw": "Large traders are betting on a BTC price rise to $72,000 by the end of the month, latest options market flow suggests.",
+      "published": "2026-07-18T14:15:15+00:00",
+      "source": "CoinDesk",
+      "category_hint": "crypto_market",
+      "category": "bitcoin"
+    },
+    {
+      "title": "CryptoQuant says Strategy still needs disciplined bitcoin buying and selling framework",
+      "url": "https://www.theblock.co/post/408825/cryptoquant-strategy-bitcoin-buying-selling-framework-mstr?utm_source=rss&utm_medium=rss",
+      "summary_raw": "CryptoQuant said Michael Saylor's Strategy still needs still needs clearer rules for when to buy and sell bitcoin.",
+      "published": "2026-07-17T20:01:43+00:00",
+      "source": "The Block",
+      "category_hint": "crypto_market",
+      "category": "bitcoin"
+    },
+    {
+      "title": "Bitcoin Sentiment Is Turning Bullish — But It’s Too Early to Celebrate: Report",
+      "url": "https://bitcoinmagazine.com/markets/bitcoin-sentiment-is-bullish-coinshares",
+      "summary_raw": "Bitcoin Magazine Bitcoin Sentiment Is Turning Bullish — But It’s Too Early to Celebrate: Report CoinShares has said that while investors have put money in crypto funds again, the Bitcoin price may still struggle. This post Bitcoin Sentiment Is Turning Bullish — But It’s Too Early to Celebrate: Report first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
+      "published": "2026-07-17T19:07:30+00:00",
+      "source": "Bitcoin Magazine",
+      "category_hint": "bitcoin",
+      "category": "bitcoin"
+    }
+  ],
+  "errors": {
+    "synthesis": "Expecting ',' delimiter: line 1 column 3535 (char 3534)"
+  },
+  "profile": "rem-crypto",
+  "mission": [
+    "bitcoin",
+    "top10",
+    "risk20",
+    "highrisk_trending"
+  ],
+  "categories": {
+    "bitcoin": {
+      "label_en": "Bitcoin",
+      "label_pl": "Bitcoin",
+      "section_analysis_en": "Section built from RSS without LLM. 4 items. BTC ref $64,522.00 (+0.69%).",
+      "section_analysis_pl": "Sekcja z RSS bez LLM. 4 pozycji. BTC $64,522.00.",
+      "items": [
+        {
+          "title": "Bitcoin's biggest advocate, Michael Saylor, says new plan to clean up the blockchain is 'a bad idea'",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/07/19/bitcoin-s-biggest-advocate-michael-saylor-says-new-plan-to-clean-up-the-blockchain-is-a-bad-idea",
+          "short_en": "Michael Saylor argues that a new proposal, BIP-110, to temporarily block \"spam\" data from the Bitcoin blockchain would undermine the network's neutrality and create a dangerous precedent for censorship.",
+          "short_pl": "Michael Saylor argues that a new proposal, BIP-110, to temporarily block \"spam\" data from the Bitcoin blockchain would undermine the network's neutrality and create a dangerous precedent for censorship.",
+          "long_en": "Analysis: Headline from CoinDesk. Michael Saylor argues that a new proposal, BIP-110, to temporarily block \"spam\" data from the Bitcoin blockchain would undermine the network's neutrality and create a dangerous precedent for censorship. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis.",
+          "long_pl": "Analiza: Headline from CoinDesk. Michael Saylor argues that a new proposal, BIP-110, to temporarily block \"spam\" data from the Bitcoin blockchain would undermine the network's neutrality and create a dangerous precedent for censorship. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis."
+        },
+        {
+          "title": "Bitcoin’s quantum problem gets a recovery tool, but not for Satoshi’s 1.1 million coins",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/07/19/bitcoin-s-quantum-problem-gets-a-recovery-tool-but-not-for-satoshi-s-1-1-million-coin",
+          "short_en": "Project Eleven says it has funded a proof that lets a wallet's own key-derivation path stand in as ownership after quantum computers can forge its signatures. It runs in 243 milliseconds on a laptop.",
+          "short_pl": "Project Eleven says it has funded a proof that lets a wallet's own key-derivation path stand in as ownership after quantum computers can forge its signatures. It runs in 243 milliseconds on a laptop.",
+          "long_en": "Analysis: Headline from CoinDesk. Project Eleven says it has funded a proof that lets a wallet's own key-derivation path stand in as ownership after quantum computers can forge its signatures. It runs in 243 milliseconds on a laptop. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis.",
+          "long_pl": "Analiza: Headline from CoinDesk. Project Eleven says it has funded a proof that lets a wallet's own key-derivation path stand in as ownership after quantum computers can forge its signatures. It runs in 243 milliseconds on a laptop. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis."
+        },
+        {
+          "title": "Electronic Transactions Association CEO Expecting More Partnerships with Bitcoin Startups",
+          "source": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/electronic-transactions-association-ceo-expecting-more-partnerships-with-bitcoin-startups?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "short_en": "Electronic Transactions Association (ETA) CEO, Jason Oxman, indicated that members of his organization might start recognizing Bitcoin’s disruptive potential, suggesting that this might lead to more partnerships between traditional electronic payment providers and Bitcoin startups.",
+          "short_pl": "Electronic Transactions Association (ETA) CEO, Jason Oxman, indicated that members of his organization might start recognizing Bitcoin’s disruptive potential, suggesting that this might lead to more partnerships between traditional electronic payment providers and Bitcoin startups.",
+          "long_en": "Analysis: Headline from CoinTelegraph. Electronic Transactions Association (ETA) CEO, Jason Oxman, indicated that members of his organization might start recognizing Bitcoin’s disruptive potential, suggesting that this might lead to more partnerships between traditional electronic payment providers and Bitcoin startups. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis.",
+          "long_pl": "Analiza: Headline from CoinTelegraph. Electronic Transactions Association (ETA) CEO, Jason Oxman, indicated that members of his organization might start recognizing Bitcoin’s disruptive potential, suggesting that this might lead to more partnerships between traditional electronic payment providers and Bitcoin startups. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis."
+        },
+        {
+          "title": "Bitcoin Japan, which holds no bitcoin, taps EVO Fund in planned $60 million raise to finally buy some",
+          "source": "The Block",
+          "url": "https://www.theblock.co/post/408838/bitcoin-japan-which-holds-no-bitcoin-taps-evo-fund-in-planned-60-million-raise-to-finally-buy-some?utm_source=rss&utm_medium=rss",
+          "short_en": "A prior December raise instead funded stakes tied to SpaceX and Figure AI, which the company says are its two AI infrastructure investments to date.",
+          "short_pl": "A prior December raise instead funded stakes tied to SpaceX and Figure AI, which the company says are its two AI infrastructure investments to date.",
+          "long_en": "Analysis: Headline from The Block. A prior December raise instead funded stakes tied to SpaceX and Figure AI, which the company says are its two AI infrastructure investments to date. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis.",
+          "long_pl": "Analiza: Headline from The Block. A prior December raise instead funded stakes tied to SpaceX and Figure AI, which the company says are its two AI infrastructure investments to date. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis."
+        }
+      ]
+    },
+    "crypto_market": {
+      "label_en": "Crypto market",
+      "label_pl": "Rynek krypto",
+      "section_analysis_en": "Section built from RSS without LLM. 4 items. BTC ref $64,522.00 (+0.69%).",
+      "section_analysis_pl": "Sekcja z RSS bez LLM. 4 pozycji. BTC $64,522.00.",
+      "items": [
+        {
+          "title": "AI is destroying the internet. Math is our only hope.",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/opinion/2026/07/17/ai-is-destroying-the-internet-math-is-our-only-hope",
+          "short_en": "The rise of autonomous AI agents necessitates the utilization of zero-knowledge proofs, argues Brian Trunzo, chief growth officer at Succinct Labs.",
+          "short_pl": "The rise of autonomous AI agents necessitates the utilization of zero-knowledge proofs, argues Brian Trunzo, chief growth officer at Succinct Labs.",
+          "long_en": "Analysis: Headline from CoinDesk. The rise of autonomous AI agents necessitates the utilization of zero-knowledge proofs, argues Brian Trunzo, chief growth officer at Succinct Labs. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis.",
+          "long_pl": "Analiza: Headline from CoinDesk. The rise of autonomous AI agents necessitates the utilization of zero-knowledge proofs, argues Brian Trunzo, chief growth officer at Succinct Labs. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis."
+        },
+        {
+          "title": "Here’s what happened in crypto today",
+          "source": "CoinTelegraph",
+          "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "short_en": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+          "short_pl": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+          "long_en": "Analysis: Headline from CoinTelegraph. Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis.",
+          "long_pl": "Analiza: Headline from CoinTelegraph. Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis."
+        },
+        {
+          "title": "Tether's USDT hits 2-year countdown threatening its position on U.S. crypto platforms",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/news-analysis/2026/07/17/tether-s-usdt-hits-2-year-countdown-threatening-its-position-on-u-s-crypto-platforms",
+          "short_en": "The GENIUS Act has hit its first anniversary without U.S. regulators yet meeting deadlines to write regulations, though rules will be in full effect by July 2028.",
+          "short_pl": "The GENIUS Act has hit its first anniversary without U.S. regulators yet meeting deadlines to write regulations, though rules will be in full effect by July 2028.",
+          "long_en": "Analysis: Headline from CoinDesk. The GENIUS Act has hit its first anniversary without U.S. regulators yet meeting deadlines to write regulations, though rules will be in full effect by July 2028. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis.",
+          "long_pl": "Analiza: Headline from CoinDesk. The GENIUS Act has hit its first anniversary without U.S. regulators yet meeting deadlines to write regulations, though rules will be in full effect by July 2028. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis."
+        },
+        {
+          "title": "Kraken says simpler options can unlock crypto's next derivatives market",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/07/19/kraken-says-simpler-options-can-unlock-crypto-s-next-derivatives-market",
+          "short_en": "The Wyoming-based firm launched USD-settled bitcoin and ether options, saying product design, not demand, has held back adoption.",
+          "short_pl": "The Wyoming-based firm launched USD-settled bitcoin and ether options, saying product design, not demand, has held back adoption.",
+          "long_en": "Analysis: Headline from CoinDesk. The Wyoming-based firm launched USD-settled bitcoin and ether options, saying product design, not demand, has held back adoption. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis.",
+          "long_pl": "Analiza: Headline from CoinDesk. The Wyoming-based firm launched USD-settled bitcoin and ether options, saying product design, not demand, has held back adoption. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis."
+        }
+      ]
+    },
+    "macro_geo": {
+      "label_en": "World economy & geopolitics",
+      "label_pl": "Gospodarka i geopolityka",
+      "section_analysis_en": "Section built from RSS without LLM. 4 items. BTC ref $64,522.00 (+0.69%).",
+      "section_analysis_pl": "Sekcja z RSS bez LLM. 4 pozycji. BTC $64,522.00.",
+      "items": [
+        {
+          "title": "US and Iran trade fire after two US soldiers killed in Jordan",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
+          "short_en": "Kuwait says an electricity and water plant is on fire after the second such attack in two days. Iran says US strikes hit an under-construction nuclear power plant.",
+          "short_pl": "Kuwait says an electricity and water plant is on fire after the second such attack in two days. Iran says US strikes hit an under-construction nuclear power plant.",
+          "long_en": "Analysis: Headline from BBC World. Kuwait says an electricity and water plant is on fire after the second such attack in two days. Iran says US strikes hit an under-construction nuclear power plant. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis.",
+          "long_pl": "Analiza: Headline from BBC World. Kuwait says an electricity and water plant is on fire after the second such attack in two days. Iran says US strikes hit an under-construction nuclear power plant. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis."
+        },
+        {
+          "title": "Kimi Antonelli wins Belgian Grand Prix to extend F1 championship lead",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/7/19/kimi-antonelli-wins-belgian-grand-prix-to-extend-f1-championship-lead?traffic_source=rss",
+          "short_en": "Mercedes driver won his sixth GP of 2026 as championship rival and teammate George Russell crashes out on first lap.",
+          "short_pl": "Mercedes driver won his sixth GP of 2026 as championship rival and teammate George Russell crashes out on first lap.",
+          "long_en": "Analysis: Headline from Al Jazeera. Mercedes driver won his sixth GP of 2026 as championship rival and teammate George Russell crashes out on first lap. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis.",
+          "long_pl": "Analiza: Headline from Al Jazeera. Mercedes driver won his sixth GP of 2026 as championship rival and teammate George Russell crashes out on first lap. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis."
+        },
+        {
+          "title": "Designing cities for a hotter future",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/7/19/designing-cities-for-a-hotter-future?traffic_source=rss",
+          "short_en": "Climate advocate Mina Hasman’s vision of designing cities that behave like forests and buildings that act like trees.",
+          "short_pl": "Climate advocate Mina Hasman’s vision of designing cities that behave like forests and buildings that act like trees.",
+          "long_en": "Analysis: Headline from Al Jazeera. Climate advocate Mina Hasman’s vision of designing cities that behave like forests and buildings that act like trees. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis.",
+          "long_pl": "Analiza: Headline from Al Jazeera. Climate advocate Mina Hasman’s vision of designing cities that behave like forests and buildings that act like trees. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis."
+        },
+        {
+          "title": "Tate brothers arrested in the US",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/tate-brothers-arrested-in-the-us?traffic_source=rss",
+          "short_en": "Video shows the moment controversial influencer brothers Andrew Tate and Tristan Tate were arrested in Miami, US.",
+          "short_pl": "Video shows the moment controversial influencer brothers Andrew Tate and Tristan Tate were arrested in Miami, US.",
+          "long_en": "Analysis: Headline from Al Jazeera. Video shows the moment controversial influencer brothers Andrew Tate and Tristan Tate were arrested in Miami, US. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis.",
+          "long_pl": "Analiza: Headline from Al Jazeera. Video shows the moment controversial influencer brothers Andrew Tate and Tristan Tate were arrested in Miami, US. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis."
+        }
+      ]
+    },
+    "stocks_ai": {
+      "label_en": "Stocks, AI & SpaceX",
+      "label_pl": "Akcje, AI i SpaceX",
+      "section_analysis_en": "Section built from RSS without LLM. 4 items. BTC ref $64,522.00 (+0.69%).",
+      "section_analysis_pl": "Sekcja z RSS bez LLM. 4 pozycji. BTC $64,522.00.",
+      "items": [
+        {
+          "title": "Is there a deadline to claim the $1,000 ‘Trump account’ contribution for my kid?",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/is-there-a-deadline-to-claim-the-1-000-trump-account-contribution-for-my-kid-1b70141c?mod=mw_rss_topstories",
+          "short_en": "Some children who don’t qualify for the government contribution may be eligible for an initial $250.",
+          "short_pl": "Some children who don’t qualify for the government contribution may be eligible for an initial $250.",
+          "long_en": "Analysis: Headline from MarketWatch. Some children who don’t qualify for the government contribution may be eligible for an initial $250. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis.",
+          "long_pl": "Analiza: Headline from MarketWatch. Some children who don’t qualify for the government contribution may be eligible for an initial $250. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis."
+        },
+        {
+          "title": "The World Cup winner will earn $51 million under expanded purse",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/19/heres-what-to-know-about-the-world-cup-prize-money.html",
+          "short_en": "FIFA expanded the payout for the 2026 World Cup, setting a record with a combined $871 million paid to the 48 participating teams.",
+          "short_pl": "FIFA expanded the payout for the 2026 World Cup, setting a record with a combined $871 million paid to the 48 participating teams.",
+          "long_en": "Analysis: Headline from CNBC. FIFA expanded the payout for the 2026 World Cup, setting a record with a combined $871 million paid to the 48 participating teams. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis.",
+          "long_pl": "Analiza: Headline from CNBC. FIFA expanded the payout for the 2026 World Cup, setting a record with a combined $871 million paid to the 48 participating teams. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis."
+        },
+        {
+          "title": "Warren Buffett Said He Personally Started Berkshire's $31 Billion Alphabet Position",
+          "source": "Nasdaq AI",
+          "url": "https://www.nasdaq.com/articles/warren-buffett-said-he-personally-started-berkshires-31-billion-alphabet-position",
+          "short_en": "Key PointsWarren Buffett confirmed he personally started Berkshire Hathaway's investment in Alphabet.",
+          "short_pl": "Key PointsWarren Buffett confirmed he personally started Berkshire Hathaway's investment in Alphabet.",
+          "long_en": "Analysis: Headline from Nasdaq AI. Key PointsWarren Buffett confirmed he personally started Berkshire Hathaway's investment in Alphabet. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis.",
+          "long_pl": "Analiza: Headline from Nasdaq AI. Key PointsWarren Buffett confirmed he personally started Berkshire Hathaway's investment in Alphabet. Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis."
+        },
+        {
+          "title": "Stocks Finish Sharply Lower as Tech Stocks Slump",
+          "source": "Nasdaq AI",
+          "url": "https://www.nasdaq.com/articles/stocks-finish-sharply-lower-tech-stocks-slump",
+          "short_en": "The S&P 500 Index ($SPX ) (SPY ) on Friday closed down -1.01%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.77%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -1.49%. September E-mini S&P futures (ESU26 ) fell -1.02%, and September E-mini Nasdaq futures...",
+          "short_pl": "The S&P 500 Index ($SPX ) (SPY ) on Friday closed down -1.01%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.77%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -1.49%. September E-mini S&P futures (ESU26 ) fell -1.02%, and September E-mini Nasdaq futures...",
+          "long_en": "Analysis: Headline from Nasdaq AI. The S&P 500 Index ($SPX ) (SPY ) on Friday closed down -1.01%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.77%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -1.49%. September E-mini S&P futures (ESU26 ) fell -1.02%, and September E-mini Nasdaq futures... Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis.",
+          "long_pl": "Analiza: Headline from Nasdaq AI. The S&P 500 Index ($SPX ) (SPY ) on Friday closed down -1.01%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.77%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -1.49%. September E-mini S&P futures (ESU26 ) fell -1.02%, and September E-mini Nasdaq futures... Implication: monitor vs our BTC-first stack; size only after confirming liquidity and thesis."
+        }
+      ]
+    }
+  },
+  "total_analysis_en": "Desk fallback mode. BTC $64,522.00 (+0.69%). Watch BTC structure before adding alt risk. Avoid sizing off headlines alone. Research top risk-sleeve movers and any regulation headlines.",
+  "total_analysis_pl": "Tryb awaryjny. BTC $64,522.00. Najpierw struktura BTC, potem alty. Nie graj pod same nagłówki.",
+  "social_narrative_en": "Social pulse unavailable (Bird/X scraper down; using RSS+markets only).",
+  "social_narrative_pl": "Brak pulsu social (skraper X nie działa; tylko RSS+rynki).",
+  "synthesis_mode": "fallback",
+  "news_headlines": [
+    "Is there a deadline to claim the $1,000 ‘Trump account’ contribution for my kid?",
+    "The World Cup winner will earn $51 million under expanded purse",
+    "US and Iran trade fire after two US soldiers killed in Jordan",
+    "Warren Buffett Said He Personally Started Berkshire's $31 Billion Alphabet Position",
+    "Stocks Finish Sharply Lower as Tech Stocks Slump",
+    "Kimi Antonelli wins Belgian Grand Prix to extend F1 championship lead",
+    "Designing cities for a hotter future",
+    "Tate brothers arrested in the US",
+    "World Cup Final Drives Billions in Bets on Kalshi and Polymarket",
+    "Why Warren Buffett Warns That the Market Is Headed for Trouble"
   ],
   "prices": {
     "bitcoin": {
-      "usd": 64538,
-      "usd_24h_change": 0.71544
+      "usd": 64522,
+      "usd_24h_change": 0.68716
     },
     "ethereum": {
-      "usd": 1873.39,
-      "usd_24h_change": 1.58532
+      "usd": 1871.04,
+      "usd_24h_change": 1.48012
     },
     "solana": {
-      "usd": 76.25,
-      "usd_24h_change": 1.8644
+      "usd": 76.17,
+      "usd_24h_change": 1.683
     }
   },
   "top_coins": [
@@ -528,240 +1172,240 @@
       "symbol": "btc",
       "name": "Bitcoin",
       "image": "https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400",
-      "current_price": 64538,
-      "market_cap": 1294499412464,
+      "current_price": 64522,
+      "market_cap": 1294223829915,
       "market_cap_rank": 1,
-      "fully_diluted_valuation": 1294499412464,
-      "total_volume": 16545190124,
+      "fully_diluted_valuation": 1294223829915,
+      "total_volume": 16474574432,
       "high_24h": 64866,
-      "low_24h": 64019,
-      "price_change_24h": 458.45,
-      "price_change_percentage_24h": 0.71544,
-      "market_cap_change_24h": 9365932803,
-      "market_cap_change_percentage_24h": 0.72879,
+      "low_24h": 64060,
+      "price_change_24h": 440.35,
+      "price_change_percentage_24h": 0.68716,
+      "market_cap_change_24h": 9207332890,
+      "market_cap_change_percentage_24h": 0.71651,
       "circulating_supply": 20058568.0,
       "total_supply": 20058568.0,
       "max_supply": 21000000.0,
       "ath": 126080,
-      "ath_change_percentage": -48.81217,
+      "ath_change_percentage": -48.82432,
       "ath_date": "2025-10-06T18:57:42.558Z",
       "atl": 67.81,
-      "atl_change_percentage": 95075.50051,
+      "atl_change_percentage": 95052.92152,
       "atl_date": "2013-07-06T00:00:00.000Z",
       "roi": null,
-      "last_updated": "2026-07-19T15:16:22.300Z",
-      "price_change_percentage_24h_in_currency": 0.7154417120482601
+      "last_updated": "2026-07-19T15:47:15.894Z",
+      "price_change_percentage_24h_in_currency": 0.6871597739448095
     },
     {
       "id": "ethereum",
       "symbol": "eth",
       "name": "Ethereum",
       "image": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
-      "current_price": 1873.39,
-      "market_cap": 226083771178,
+      "current_price": 1871.04,
+      "market_cap": 225802688754,
       "market_cap_rank": 2,
-      "fully_diluted_valuation": 226083771178,
-      "total_volume": 5923692987,
+      "fully_diluted_valuation": 225802688754,
+      "total_volume": 5922488957,
       "high_24h": 1875.53,
       "low_24h": 1841.22,
-      "price_change_24h": 29.24,
-      "price_change_percentage_24h": 1.58532,
-      "market_cap_change_24h": 3552250957,
-      "market_cap_change_percentage_24h": 1.59629,
+      "price_change_24h": 27.29,
+      "price_change_percentage_24h": 1.48012,
+      "market_cap_change_24h": 3368700331,
+      "market_cap_change_percentage_24h": 1.51447,
       "circulating_supply": 120682834.5476987,
       "total_supply": 120682834.5476987,
       "max_supply": null,
       "ath": 4946.05,
-      "ath_change_percentage": -62.12357,
+      "ath_change_percentage": -62.17094,
       "ath_date": "2025-08-24T19:21:03.333Z",
       "atl": 0.432979,
-      "atl_change_percentage": 432573.95321,
+      "atl_change_percentage": 432032.74461,
       "atl_date": "2015-10-20T00:00:00.000Z",
       "roi": {
-        "times": 37.81116292077886,
+        "times": 37.76995786185122,
         "currency": "btc",
-        "percentage": 3781.116292077886
+        "percentage": 3776.9957861851217
       },
-      "last_updated": "2026-07-19T15:16:21.938Z",
-      "price_change_percentage_24h_in_currency": 1.5853151701395538
+      "last_updated": "2026-07-19T15:47:18.574Z",
+      "price_change_percentage_24h_in_currency": 1.480120080523551
     },
     {
       "id": "tether",
       "symbol": "usdt",
       "name": "Tether",
       "image": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
-      "current_price": 0.999224,
-      "market_cap": 184080308527,
+      "current_price": 0.999213,
+      "market_cap": 184078329625,
       "market_cap_rank": 3,
-      "fully_diluted_valuation": 189543004094,
-      "total_volume": 26080899691,
+      "fully_diluted_valuation": 189540966467,
+      "total_volume": 26160291159,
       "high_24h": 0.999557,
       "low_24h": 0.999151,
-      "price_change_24h": -6.6546610476226e-05,
-      "price_change_percentage_24h": -0.00666,
-      "market_cap_change_24h": -20825843.855377197,
-      "market_cap_change_percentage_24h": -0.01131,
+      "price_change_24h": -0.000102797214431516,
+      "price_change_percentage_24h": -0.01029,
+      "market_cap_change_24h": -18148217.226623535,
+      "market_cap_change_percentage_24h": -0.00986,
       "circulating_supply": 184223396522.2514,
       "total_supply": 189690338312.5462,
       "max_supply": null,
       "ath": 1.32,
-      "ath_change_percentage": -24.48186,
+      "ath_change_percentage": -24.47746,
       "ath_date": "2018-07-24T00:00:00.000Z",
       "atl": 0.572521,
-      "atl_change_percentage": 74.52233,
+      "atl_change_percentage": 74.5325,
       "atl_date": "2015-03-02T00:00:00.000Z",
       "roi": null,
-      "last_updated": "2026-07-19T15:16:21.315Z",
-      "price_change_percentage_24h_in_currency": -0.006659382529679485
+      "last_updated": "2026-07-19T15:47:10.341Z",
+      "price_change_percentage_24h_in_currency": -0.010286764315226238
     },
     {
       "id": "binancecoin",
       "symbol": "bnb",
       "name": "BNB",
       "image": "https://coin-images.coingecko.com/coins/images/825/large/bnb-icon2_2x.png?1696501970",
-      "current_price": 569.47,
-      "market_cap": 75833402475,
+      "current_price": 570.26,
+      "market_cap": 75939866957,
       "market_cap_rank": 4,
-      "fully_diluted_valuation": 75833402475,
-      "total_volume": 386536807,
+      "fully_diluted_valuation": 75939865999,
+      "total_volume": 399272069,
       "high_24h": 571.84,
       "low_24h": 566.8,
-      "price_change_24h": -0.5853216328181361,
-      "price_change_percentage_24h": -0.10268,
-      "market_cap_change_24h": -73659887.01393127,
-      "market_cap_change_percentage_24h": -0.09704,
+      "price_change_24h": 0.409286,
+      "price_change_percentage_24h": 0.07182,
+      "market_cap_change_24h": 64787105,
+      "market_cap_change_percentage_24h": 0.08539,
       "circulating_supply": 133165967.93,
-      "total_supply": 133165967.93,
+      "total_supply": 133165966.25,
       "max_supply": 200000000.0,
       "ath": 1369.99,
-      "ath_change_percentage": -58.43262,
+      "ath_change_percentage": -58.37458,
       "ath_date": "2025-10-13T08:41:24.131Z",
       "atl": 0.0398177,
-      "atl_change_percentage": 1430092.08592,
+      "atl_change_percentage": 1432089.35813,
       "atl_date": "2017-10-19T00:00:00.000Z",
       "roi": null,
-      "last_updated": "2026-07-19T15:16:24.179Z",
-      "price_change_percentage_24h_in_currency": -0.10267812062689685
+      "last_updated": "2026-07-19T15:47:24.224Z",
+      "price_change_percentage_24h_in_currency": 0.07182282726945169
     },
     {
       "id": "usd-coin",
       "symbol": "usdc",
       "name": "USDC",
       "image": "https://coin-images.coingecko.com/coins/images/6319/large/USDC.png?1769615602",
-      "current_price": 0.999802,
-      "market_cap": 73282201133,
+      "current_price": 0.999851,
+      "market_cap": 73285962024,
       "market_cap_rank": 5,
-      "fully_diluted_valuation": 73282907685,
-      "total_volume": 4710913972,
+      "fully_diluted_valuation": 73285962024,
+      "total_volume": 4725790324,
       "high_24h": 1.005,
       "low_24h": 0.999707,
-      "price_change_24h": -0.000122174888652848,
-      "price_change_percentage_24h": -0.01222,
-      "market_cap_change_24h": 2490520,
-      "market_cap_change_percentage_24h": 0.0034,
-      "circulating_supply": 73296688438.36082,
-      "total_supply": 73297395130.00385,
+      "price_change_24h": 0.00014402,
+      "price_change_percentage_24h": 0.01441,
+      "market_cap_change_24h": 20773961,
+      "market_cap_change_percentage_24h": 0.02835,
+      "circulating_supply": 73296879470.02322,
+      "total_supply": 73296879470.02322,
       "max_supply": null,
       "ath": 1.043,
-      "ath_change_percentage": -4.18212,
+      "ath_change_percentage": -4.183,
       "ath_date": "2018-11-15T00:00:00.000Z",
       "atl": 0.877647,
-      "atl_change_percentage": 13.92121,
+      "atl_change_percentage": 13.92017,
       "atl_date": "2023-03-11T08:02:13.981Z",
       "roi": null,
-      "last_updated": "2026-07-19T15:16:06.518Z",
-      "price_change_percentage_24h_in_currency": -0.012218411087044667
+      "last_updated": "2026-07-19T15:47:16.795Z",
+      "price_change_percentage_24h_in_currency": 0.01440596998961401
     },
     {
       "id": "ripple",
       "symbol": "xrp",
       "name": "XRP",
       "image": "https://coin-images.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png?1696501442",
-      "current_price": 1.097,
-      "market_cap": 68545924732,
+      "current_price": 1.098,
+      "market_cap": 68588619389,
       "market_cap_rank": 6,
-      "fully_diluted_valuation": 109716531686,
-      "total_volume": 691427567,
+      "fully_diluted_valuation": 109784869952,
+      "total_volume": 693634009,
       "high_24h": 1.099,
       "low_24h": 1.086,
-      "price_change_24h": 0.00952248,
-      "price_change_percentage_24h": 0.87535,
-      "market_cap_change_24h": 588523717,
-      "market_cap_change_percentage_24h": 0.86602,
+      "price_change_24h": 0.01168417,
+      "price_change_percentage_24h": 1.07557,
+      "market_cap_change_24h": 734376935,
+      "market_cap_change_percentage_24h": 1.08229,
       "circulating_supply": 62466503703.0,
       "total_supply": 99985639695.0,
       "max_supply": 100000000000.0,
       "ath": 3.65,
-      "ath_change_percentage": -69.90527,
+      "ath_change_percentage": -69.88775,
       "ath_date": "2025-07-18T03:40:53.808Z",
       "atl": 0.00268621,
-      "atl_change_percentage": 40751.94546,
+      "atl_change_percentage": 40775.72234,
       "atl_date": "2014-05-22T00:00:00.000Z",
       "roi": null,
-      "last_updated": "2026-07-19T15:16:23.774Z",
-      "price_change_percentage_24h_in_currency": 0.8753524651494877
+      "last_updated": "2026-07-19T15:47:12.745Z",
+      "price_change_percentage_24h_in_currency": 1.075571439526053
     },
     {
       "id": "solana",
       "symbol": "sol",
       "name": "Solana",
       "image": "https://coin-images.coingecko.com/coins/images/4128/large/solana.png?1718769756",
-      "current_price": 76.25,
-      "market_cap": 44427742389,
+      "current_price": 76.17,
+      "market_cap": 44385837294,
       "market_cap_rank": 7,
-      "fully_diluted_valuation": 48086398844,
-      "total_volume": 1177364150,
+      "fully_diluted_valuation": 48041042516,
+      "total_volume": 1184042902,
       "high_24h": 76.49,
-      "low_24h": 74.84,
-      "price_change_24h": 1.4,
-      "price_change_percentage_24h": 1.8644,
-      "market_cap_change_24h": 811137861,
-      "market_cap_change_percentage_24h": 1.8597,
-      "circulating_supply": 582632889.1841872,
-      "total_supply": 630613125.5463649,
+      "low_24h": 74.85,
+      "price_change_24h": 1.26,
+      "price_change_percentage_24h": 1.683,
+      "market_cap_change_24h": 761549218,
+      "market_cap_change_percentage_24h": 1.7457,
+      "circulating_supply": 582632874.6094271,
+      "total_supply": 630613105.5954,
       "max_supply": null,
       "ath": 293.31,
-      "ath_change_percentage": -74.00242,
+      "ath_change_percentage": -74.02946,
       "ath_date": "2025-01-19T11:15:27.957Z",
       "atl": 0.500801,
-      "atl_change_percentage": 15126.40596,
+      "atl_change_percentage": 15110.56728,
       "atl_date": "2020-05-11T19:35:23.449Z",
       "roi": null,
-      "last_updated": "2026-07-19T15:16:23.758Z",
-      "price_change_percentage_24h_in_currency": 1.8644035566755712
+      "last_updated": "2026-07-19T15:47:22.693Z",
+      "price_change_percentage_24h_in_currency": 1.6830027067246591
     },
     {
       "id": "tron",
       "symbol": "trx",
       "name": "TRON",
       "image": "https://coin-images.coingecko.com/coins/images/1094/large/photo_2026-04-13_09-59-16.png?1776048311",
-      "current_price": 0.326987,
-      "market_cap": 31021500455,
+      "current_price": 0.326921,
+      "market_cap": 31015226978,
       "market_cap_rank": 8,
-      "fully_diluted_valuation": 31022212925,
-      "total_volume": 320613281,
+      "fully_diluted_valuation": 31015946165,
+      "total_volume": 310015727,
       "high_24h": 0.327309,
-      "low_24h": 0.32218,
-      "price_change_24h": 0.00461142,
-      "price_change_percentage_24h": 1.43045,
-      "market_cap_change_24h": 436091043,
-      "market_cap_change_percentage_24h": 1.42581,
+      "low_24h": 0.322338,
+      "price_change_24h": 0.00458302,
+      "price_change_percentage_24h": 1.42181,
+      "market_cap_change_24h": 436806681,
+      "market_cap_change_percentage_24h": 1.42848,
       "circulating_supply": 94870809978.77539,
-      "total_supply": 94872988873.8035,
+      "total_supply": 94873009860.1968,
       "max_supply": null,
       "ath": 0.431288,
-      "ath_change_percentage": -24.18366,
+      "ath_change_percentage": -24.19905,
       "ath_date": "2024-12-04T00:10:40.323Z",
       "atl": 0.00180434,
-      "atl_change_percentage": 18022.23613,
+      "atl_change_percentage": 18018.55609,
       "atl_date": "2017-11-12T00:00:00.000Z",
       "roi": {
-        "times": 171.09844825166294,
+        "times": 171.0635006299541,
         "currency": "usd",
-        "percentage": 17109.844825166296
+        "percentage": 17106.35006299541
       },
-      "last_updated": "2026-07-19T15:16:13.727Z",
-      "price_change_percentage_24h_in_currency": 1.4304481868086745
+      "last_updated": "2026-07-19T15:47:05.228Z",
+      "price_change_percentage_24h_in_currency": 1.4218062819626762
     },
     {
       "id": "figure-heloc",
@@ -797,273 +1441,174 @@
       "symbol": "hype",
       "name": "Hyperliquid",
       "image": "https://coin-images.coingecko.com/coins/images/50882/large/hyperliquid.jpg?1729431300",
-      "current_price": 60.95,
-      "market_cap": 13557222985,
+      "current_price": 60.89,
+      "market_cap": 13545848192,
       "market_cap_rank": 10,
-      "fully_diluted_valuation": 58222344939,
-      "total_volume": 252985259,
+      "fully_diluted_valuation": 58173495175,
+      "total_volume": 255160813,
       "high_24h": 61.3,
-      "low_24h": 59.12,
-      "price_change_24h": 1.68,
-      "price_change_percentage_24h": 2.83508,
-      "market_cap_change_24h": 373676775,
-      "market_cap_change_percentage_24h": 2.83442,
+      "low_24h": 59.15,
+      "price_change_24h": 1.53,
+      "price_change_percentage_24h": 2.58108,
+      "market_cap_change_24h": 341233915,
+      "market_cap_change_percentage_24h": 2.5842,
       "circulating_supply": 222445714.0741414,
       "total_supply": 955307079.4341414,
       "max_supply": 1000000000.0,
       "ath": 76.7,
-      "ath_change_percentage": -20.54239,
+      "ath_change_percentage": -20.61302,
       "ath_date": "2026-06-16T13:02:04.375Z",
       "atl": 3.81,
-      "atl_change_percentage": 1500.17282,
+      "atl_change_percentage": 1498.75041,
       "atl_date": "2024-11-29T09:30:30.871Z",
       "roi": null,
-      "last_updated": "2026-07-19T15:16:24.176Z",
-      "price_change_percentage_24h_in_currency": 2.835080321705868
+      "last_updated": "2026-07-19T15:47:21.518Z",
+      "price_change_percentage_24h_in_currency": 2.5810810304122382
     },
     {
       "id": "dogecoin",
       "symbol": "doge",
       "name": "Dogecoin",
       "image": "https://coin-images.coingecko.com/coins/images/5/large/dogecoin.png?1696501409",
-      "current_price": 0.072524,
-      "market_cap": 11251142481,
+      "current_price": 0.072425,
+      "market_cap": 11235501247,
       "market_cap_rank": 11,
-      "fully_diluted_valuation": 11251364410,
-      "total_volume": 272787346,
+      "fully_diluted_valuation": 12373688540,
+      "total_volume": 272802467,
       "high_24h": 0.072709,
       "low_24h": 0.072077,
-      "price_change_24h": 0.00029887,
-      "price_change_percentage_24h": 0.4138,
-      "market_cap_change_24h": 46741447,
-      "market_cap_change_percentage_24h": 0.41717,
+      "price_change_24h": 0.00030518,
+      "price_change_percentage_24h": 0.42316,
+      "market_cap_change_24h": 38552327,
+      "market_cap_change_percentage_24h": 0.34431,
       "circulating_supply": 155132956383.7052,
-      "total_supply": 155136016383.7052,
+      "total_supply": 170848353126.579,
       "max_supply": null,
       "ath": 0.731578,
-      "ath_change_percentage": -90.08663,
+      "ath_change_percentage": -90.10017,
       "ath_date": "2021-05-08T05:08:23.458Z",
       "atl": 8.69e-05,
-      "atl_change_percentage": 83353.26745,
+      "atl_change_percentage": 83239.29645,
       "atl_date": "2015-05-06T00:00:00.000Z",
       "roi": null,
-      "last_updated": "2026-07-19T15:16:23.949Z",
-      "price_change_percentage_24h_in_currency": 0.41380228172310923
+      "last_updated": "2026-07-19T15:47:13.401Z",
+      "price_change_percentage_24h_in_currency": 0.4231597886801158
     },
     {
       "id": "usds",
       "symbol": "usds",
       "name": "USDS",
       "image": "https://coin-images.coingecko.com/coins/images/39926/large/usds.webp?1726666683",
-      "current_price": 0.999841,
-      "market_cap": 9991516001,
+      "current_price": 0.999871,
+      "market_cap": 9991221242,
       "market_cap_rank": 12,
-      "fully_diluted_valuation": 9991516001,
-      "total_volume": 23134356,
+      "fully_diluted_valuation": 9991221242,
+      "total_volume": 23856459,
       "high_24h": 0.999927,
       "low_24h": 0.999773,
-      "price_change_24h": 2.04e-06,
-      "price_change_percentage_24h": 0.0002,
-      "market_cap_change_24h": -34468697.1276989,
-      "market_cap_change_percentage_24h": -0.34379,
-      "circulating_supply": 9993106211.112461,
-      "total_supply": 9993106211.112461,
+      "price_change_24h": 5.672e-05,
+      "price_change_percentage_24h": 0.00567,
+      "market_cap_change_24h": -34742544.391599655,
+      "market_cap_change_percentage_24h": -0.34653,
+      "circulating_supply": 9992899463.51217,
+      "total_supply": 9992899463.51217,
       "max_supply": null,
       "ath": 1.15,
-      "ath_change_percentage": -13.21562,
+      "ath_change_percentage": -13.21594,
       "ath_date": "2026-04-02T07:21:14.655Z",
       "atl": 0.948265,
-      "atl_change_percentage": 5.43812,
+      "atl_change_percentage": 5.43773,
       "atl_date": "2024-10-03T13:19:28.826Z",
       "roi": null,
-      "last_updated": "2026-07-19T15:16:23.340Z",
-      "price_change_percentage_24h_in_currency": 0.00020358708632958625
+      "last_updated": "2026-07-19T15:47:12.503Z",
+      "price_change_percentage_24h_in_currency": 0.005673081380352327
     },
     {
       "id": "rain",
       "symbol": "rain",
       "name": "Rain",
       "image": "https://coin-images.coingecko.com/coins/images/69134/large/Rain_logo_1_.png?1762952191",
-      "current_price": 0.01442322,
-      "market_cap": 9547188550,
+      "current_price": 0.01442552,
+      "market_cap": 9547520927,
       "market_cap_rank": 13,
-      "fully_diluted_valuation": 16586228297,
-      "total_volume": 26367629,
+      "fully_diluted_valuation": 16586805732,
+      "total_volume": 23163590,
       "high_24h": 0.01485881,
       "low_24h": 0.01377683,
-      "price_change_24h": 0.00061439,
-      "price_change_percentage_24h": 4.44923,
-      "market_cap_change_24h": 407941010,
-      "market_cap_change_percentage_24h": 4.46362,
+      "price_change_24h": 0.00061971,
+      "price_change_percentage_24h": 4.48879,
+      "market_cap_change_24h": 410076043,
+      "market_cap_change_percentage_24h": 4.48786,
       "circulating_supply": 661856689246.5378,
       "total_supply": 1149836529317.11,
       "max_supply": 1150000000000.0,
       "ath": 0.01614328,
-      "ath_change_percentage": -10.67063,
+      "ath_change_percentage": -10.64168,
       "ath_date": "2026-06-22T20:10:11.458Z",
       "atl": 0.00222126,
-      "atl_change_percentage": 549.21227,
+      "atl_change_percentage": 549.42268,
       "atl_date": "2025-09-14T08:56:57.416Z",
       "roi": null,
-      "last_updated": "2026-07-19T15:16:08.570Z",
-      "price_change_percentage_24h_in_currency": 4.449232045317276
+      "last_updated": "2026-07-19T15:47:18.147Z",
+      "price_change_percentage_24h_in_currency": 4.48878748508152
     },
     {
       "id": "zcash",
       "symbol": "zec",
       "name": "Zcash",
       "image": "https://coin-images.coingecko.com/coins/images/486/large/circle-zcash-color.png?1696501740",
-      "current_price": 554.84,
-      "market_cap": 9315460401,
+      "current_price": 554.23,
+      "market_cap": 9306176324,
       "market_cap_rank": 14,
-      "fully_diluted_valuation": 9316324655,
-      "total_volume": 213653382,
+      "fully_diluted_valuation": 9307039717,
+      "total_volume": 212966210,
       "high_24h": 563.73,
       "low_24h": 551.65,
-      "price_change_24h": -2.5513866335799094,
-      "price_change_percentage_24h": -0.45774,
-      "market_cap_change_24h": -38913283.12087059,
-      "market_cap_change_percentage_24h": -0.41599,
+      "price_change_24h": -0.24622540860605113,
+      "price_change_percentage_24h": -0.04441,
+      "market_cap_change_24h": -26989296.17767334,
+      "market_cap_change_percentage_24h": -0.28918,
       "circulating_supply": 16791065.7905448,
       "total_supply": 16792623.6030448,
       "max_supply": 21000000.0,
       "ath": 3191.93,
-      "ath_change_percentage": -82.61745,
+      "ath_change_percentage": -82.6364,
       "ath_date": "2016-10-29T00:00:00.000Z",
       "atl": 16.08,
-      "atl_change_percentage": 3350.46239,
+      "atl_change_percentage": 3346.6991,
       "atl_date": "2024-07-05T04:22:29.321Z",
       "roi": null,
-      "last_updated": "2026-07-19T15:16:24.098Z",
-      "price_change_percentage_24h_in_currency": -0.4577378674636539
+      "last_updated": "2026-07-19T15:47:12.718Z",
+      "price_change_percentage_24h_in_currency": -0.04440654198815952
     },
     {
       "id": "leo-token",
       "symbol": "leo",
       "name": "LEO Token",
       "image": "https://coin-images.coingecko.com/coins/images/8418/large/leo-token.png?1696508607",
-      "current_price": 9.8,
-      "market_cap": 9021257932,
+      "current_price": 9.79,
+      "market_cap": 9009733570,
       "market_cap_rank": 15,
-      "fully_diluted_valuation": 9659220714,
-      "total_volume": 322955,
+      "fully_diluted_valuation": 9646881375,
+      "total_volume": 483815,
       "high_24h": 9.83,
       "low_24h": 9.79,
-      "price_change_24h": 0.01306354,
-      "price_change_percentage_24h": 0.13343,
-      "market_cap_change_24h": 11949303,
-      "market_cap_change_percentage_24h": 0.13263,
+      "price_change_24h": 0.00567791,
+      "price_change_percentage_24h": 0.05802,
+      "market_cap_change_24h": 5151179,
+      "market_cap_change_percentage_24h": 0.05721,
       "circulating_supply": 920167366.9,
       "total_supply": 985239504.0,
       "max_supply": null,
       "ath": 10.57,
-      "ath_change_percentage": -7.25936,
+      "ath_change_percentage": -7.36359,
       "ath_date": "2026-05-04T09:45:26.809Z",
       "atl": 0.799859,
-      "atl_change_percentage": 1125.50766,
+      "atl_change_percentage": 1124.13035,
       "atl_date": "2019-12-24T15:14:35.376Z",
       "roi": null,
-      "last_updated": "2026-07-19T15:16:21.281Z",
-      "price_change_percentage_24h_in_currency": 0.1334257133688385
+      "last_updated": "2026-07-19T15:47:20.361Z",
+      "price_change_percentage_24h_in_currency": 0.05802239869420586
     }
-  ],
-  "news_headlines": [
-    "AI is destroying the internet. Math is our only hope.",
-    "Tether's USDT hits 2-year countdown threatening its position on U.S. crypto platforms",
-    "Kraken says simpler options can unlock crypto's next derivatives market",
-    "Bitcoin’s quantum problem gets a recovery tool, but not for Satoshi’s 1.1 million coins",
-    "Inside Zcash's new node that targets Visa-scale privacy at 50,000 transactions per second",
-    "Here’s what happened in crypto today",
-    "US agencies miss GENIUS Act deadline for final stablecoin rules",
-    "Upbit parent Dunamu faces South Korean regulator sanctions process: Report"
-  ],
-  "news_coindesk": [
-    "AI is destroying the internet. Math is our only hope.",
-    "Tether's USDT hits 2-year countdown threatening its position on U.S. crypto platforms",
-    "Kraken says simpler options can unlock crypto's next derivatives market",
-    "Bitcoin’s quantum problem gets a recovery tool, but not for Satoshi’s 1.1 million coins",
-    "Inside Zcash's new node that targets Visa-scale privacy at 50,000 transactions per second",
-    "France orders country's internet service providers to block Polymarket",
-    "Crypto executives say digital native generations may never need a bank account",
-    "DOG Mode explains Bitcoin's next governance fight"
-  ],
-  "news_cointelegraph": [
-    "Here’s what happened in crypto today",
-    "US agencies miss GENIUS Act deadline for final stablecoin rules",
-    "Upbit parent Dunamu faces South Korean regulator sanctions process: Report",
-    "Electronic Transactions Association CEO Expecting More Partnerships with Bitcoin Startups",
-    "Kaspersky identifies malware framework targeting crypto investors",
-    "French gambling regulator orders ISPs to block Polymarket",
-    "FTX to distribute $900M to creditors in fifth payment round",
-    "Galaxy lands 15-year Texas Tech stadium naming rights deal"
-  ],
-  "defillama": {
-    "total_tvl": 75754314342.28374,
-    "top_protocols": [
-      {
-        "name": "Binance CEX",
-        "tvl": 137363476982.52266,
-        "change_1d": 0.21439302727095821,
-        "category": "CEX",
-        "chain": "Multi-Chain"
-      },
-      {
-        "name": "OKX",
-        "tvl": 21981972927.7084,
-        "change_1d": 0.47636931179116004,
-        "category": "CEX",
-        "chain": "Multi-Chain"
-      },
-      {
-        "name": "Lido",
-        "tvl": 17163975537.07156,
-        "change_1d": 1.0751066962351388,
-        "category": "Liquid Staking",
-        "chain": "Multi-Chain"
-      },
-      {
-        "name": "Bitfinex",
-        "tvl": 16784396403.199343,
-        "change_1d": 0.40367066723716505,
-        "category": "CEX",
-        "chain": "Multi-Chain"
-      },
-      {
-        "name": "Aave V3",
-        "tvl": 13727884098.288252,
-        "change_1d": 0.980642071481526,
-        "category": "Lending",
-        "chain": "Multi-Chain"
-      },
-      {
-        "name": "Bybit",
-        "tvl": 13329353606.773085,
-        "change_1d": 0.17747820626230748,
-        "category": "CEX",
-        "chain": "Multi-Chain"
-      },
-      {
-        "name": "Robinhood",
-        "tvl": 11591994390.849209,
-        "change_1d": 0.7108113430813034,
-        "category": "CEX",
-        "chain": "Multi-Chain"
-      },
-      {
-        "name": "SSV Network",
-        "tvl": 9085437519.385532,
-        "change_1d": 1.5234582793563618,
-        "category": "Staking Pool",
-        "chain": "Ethereum"
-      }
-    ],
-    "note": "top protocols snapshot; total_tvl filled if available"
-  },
-  "social_last30days": {
-    "ok": true,
-    "error": null,
-    "text": "## Research Results: bitcoin ethereum crypto news today\n\n**⚠️ LIMITED RECENT DATA** - Few discussions from the last 30 days.\nOnly 0 item(s) confirmed from 2026-06-19 to 2026-07-19.\nResults below may include older/evergreen content. Be transparent with the user about this.\n\n**Date Range:** 2026-06-19 to 2026-07-19\n**Mode:** x-only\n**xAI Model:** grok-4-1-fast\n\n*💡 Tip: Add OPENAI_API_KEY for Reddit data and better triangulation.*\n\n### X Posts\n\n*No relevant X posts found for this topic.*",
-    "returncode": 0
-  },
-  "errors": {}
+  ]
 }

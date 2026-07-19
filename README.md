@@ -1,8 +1,7 @@
-# Rem Crypto Daily Briefing Site
+# Rem Crypto Daily Desk
 
-- `index.html` — English
-- `index.pl.html` — Polski
-- `data/latest.json` — machine feed
-- Language switcher top-right
+Zenith-glass EN/PL briefing.
 
-Publish: GitHub Pages from this folder, or `python scripts/crypto_briefing_publish.py --push`
+- https://remwayai.github.io/crypto-daily-briefing/
+- Tabs: Bitcoin · Crypto · Macro/Geo · Stocks/AI
+- Short → expand full Rem analysis
