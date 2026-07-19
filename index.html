@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Rem Crypto — Daily Desk · 2026-07-19</title>
-<meta name="description" content="Rem Crypto daily desk — Bitcoin-first analysis"/>
+<title>Rem Crypto — Trading Desk · 2026-07-19</title>
+<meta name="description" content="Rem Crypto trading desk — BTC-first analysis"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
 <style>
@@ -41,14 +41,13 @@ body::before {
     radial-gradient(900px 640px at 34% 112%, rgba(13,148,136,.16) 0%, transparent 62%);
 }
 body::after {
-  content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: .45;
+  content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: .35;
   background-image:
-    linear-gradient(rgba(255,255,255,.022) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,.022) 1px, transparent 1px);
-  background-size: 44px 44px;
-  mask-image: radial-gradient(900px 600px at 30% 0%, #000 0%, transparent 75%);
+    linear-gradient(rgba(255,255,255,.018) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.018) 1px, transparent 1px);
+  background-size: 38px 38px;
 }
-.shell { max-width: 1180px; margin: 0 auto; padding: 28px 20px 80px; }
+.shell { max-width: 1020px; margin: 0 auto; padding: 22px 18px 70px; }
 .glass {
   background: linear-gradient(158deg, var(--glass-2) 0%, var(--glass) 60%, rgba(255,255,255,.02) 100%);
   border: 1px solid var(--glass-border);
@@ -57,52 +56,49 @@ body::after {
 }
 .topbar {
   display: flex; align-items: center; justify-content: space-between; gap: 14px;
-  padding: 14px 22px; margin-bottom: 18px; border-radius: 18px;
+  padding: 12px 20px; margin-bottom: 14px; border-radius: 18px;
 }
-.brand { font-size: 20px; font-weight: 750; letter-spacing: .2px; }
+.brand { font-size: 18px; font-weight: 750; }
 .brand em { font-style: normal; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .top-actions { display: flex; align-items: center; gap: 10px; }
-.badge {
-  font-size: 12px; color: var(--ink-dim); border: 1px solid var(--glass-border);
-  border-radius: 999px; padding: 4px 12px;
-}
+.badge { font-size: 12px; color: var(--ink-dim); border: 1px solid var(--glass-border); border-radius: 999px; padding: 4px 12px; }
 .lang { display: flex; gap: 6px; }
 .lang a {
   text-decoration: none; color: var(--ink-dim); font-size: 12px; font-weight: 700;
   border: 1px solid var(--glass-border); border-radius: 999px; padding: 6px 12px;
 }
-.lang a.on {
-  color: #041018; background: var(--accent); border-color: transparent;
-  box-shadow: 0 0 18px rgba(110,231,255,.25);
-}
-.mission { color: var(--ink-dim); margin: 0 0 18px; font-size: 14px; padding-left: 2px; }
-.grid-3 { display: grid; gap: 16px; grid-template-columns: repeat(3, minmax(0,1fr)); }
-@media (max-width: 960px) { .grid-3 { grid-template-columns: 1fr; } }
-.card { border-radius: var(--radius); padding: 20px 22px; }
-.eyebrow {
-  font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
-  color: var(--accent-2); margin-bottom: 10px;
-}
-.btc-price { font-size: 34px; font-weight: 800; letter-spacing: -0.6px; }
-.btc-price.sm { font-size: 26px; }
-.btc-chg { font-size: 18px; font-weight: 700; margin: 4px 0 10px; }
-.up { color: var(--ok); } .down { color: var(--bad); }
+.lang a.on { color: #041018; background: var(--accent); border-color: transparent; box-shadow: 0 0 18px rgba(110,231,255,.25); }
+.card { border-radius: var(--radius); padding: 18px 20px; }
+.eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent-2); margin-bottom: 8px; }
 .muted { color: var(--ink-dim); }
-.meta-line { font-size: 13px; color: var(--ink-dim); margin-top: 4px; }
-.meta-line strong { color: var(--ink); font-weight: 650; }
-.accent-card {
+.up { color: var(--ok); } .down { color: var(--bad); }
+
+/* DESK POSTURE */
+.hero-posture { margin-bottom: 0; }
+.posture-card {
   border-color: rgba(110,231,255,.22);
   box-shadow: 0 14px 44px rgba(0,0,0,.35), 0 0 40px rgba(110,231,255,.06), inset 0 1px 0 rgba(255,255,255,.06);
 }
-.analysis-body { font-size: 14.5px; white-space: pre-wrap; color: #e7ecff; }
-.analysis-body.sm { font-size: 13.5px; }
-.news-shell { margin-top: 16px; padding: 18px 18px 22px; }
-.news-head h2 { margin: 0 0 14px; font-size: 15px; font-weight: 650; color: var(--ink); }
-.tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.posture-line { font-size: 15px; margin-bottom: 12px; color: #dfe6ff; }
+.posture-line strong { color: var(--ink); }
+.btc-inline { font-size: 17px; font-weight: 800; }
+.posture-body { font-size: 14.5px; white-space: pre-wrap; color: #e7ecff; line-height: 1.6; }
+.posture-body.sm { font-size: 13.5px; }
+.posture-body.xs { font-size: 12.5px; }
+
+/* GRID */
+.grid-2 { display: grid; gap: 14px; grid-template-columns: repeat(2, minmax(0,1fr)); }
+@media (max-width: 800px) { .grid-2 { grid-template-columns: 1fr; } }
+.lower { margin-top: 14px; }
+
+/* TABS */
+.news-shell { margin-top: 14px; padding: 16px 16px 20px; }
+.news-head h2 { margin: 0 0 12px; font-size: 14px; font-weight: 650; color: var(--ink); }
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
 .tab {
-  appearance: none; cursor: pointer; font: inherit; font-size: 13px; font-weight: 650;
+  appearance: none; cursor: pointer; font: inherit; font-size: 12.5px; font-weight: 650;
   color: var(--ink-dim); background: rgba(255,255,255,.03);
-  border: 1px solid var(--glass-border); border-radius: 999px; padding: 9px 14px;
+  border: 1px solid var(--glass-border); border-radius: 999px; padding: 8px 12px;
   transition: .15s ease;
 }
 .tab:hover { color: var(--ink); background: rgba(255,255,255,.06); }
@@ -112,63 +108,56 @@ body::after {
   border-color: rgba(110,231,255,.32);
   box-shadow: 0 0 22px rgba(110,231,255,.10);
 }
-.tab .count {
-  display: inline-block; margin-left: 8px; min-width: 18px; text-align: center;
-  font-size: 11px; border-radius: 999px; padding: 1px 6px;
-  background: rgba(255,255,255,.08); color: var(--ink-dim);
-}
-.section-take {
-  border-left: 3px solid var(--accent);
-  padding: 4px 0 4px 14px; margin-bottom: 16px;
-}
-.section-take p { margin: 6px 0 0; color: #e8edff; font-size: 14.5px; }
-.stories { display: grid; gap: 12px; }
-.story {
-  border-radius: 16px; padding: 14px 16px;
-  border: 1px solid var(--glass-border);
-  background: rgba(0,0,0,.18);
-}
-.story-title {
-  color: var(--ink); font-weight: 700; font-size: 15.5px; text-decoration: none;
-  background: linear-gradient(90deg, #fff, #c8d4f5); -webkit-background-clip: text; background-clip: text;
-}
+.tab .count { margin-left: 6px; min-width: 16px; text-align: center; font-size: 10px; border-radius: 999px; padding: 1px 5px; background: rgba(255,255,255,.08); color: var(--ink-dim); }
+
+/* STORIES */
+.stories { display: grid; gap: 10px; }
+.story { border-radius: 14px; padding: 12px 14px; border: 1px solid var(--glass-border); background: rgba(0,0,0,.18); }
+.story-title { color: var(--ink); font-weight: 700; font-size: 14.5px; text-decoration: none; background: linear-gradient(90deg, #fff, #c8d4f5); -webkit-background-clip: text; background-clip: text; }
 .story-title:hover { text-decoration: underline; text-decoration-color: rgba(110,231,255,.5); }
-.story-meta { font-size: 12px; color: var(--ink-dim); margin-top: 4px; word-break: break-all; }
-.story-meta a { color: var(--accent); }
-.story-short { margin: 10px 0 8px; font-size: 14.5px; color: #e6ebff; }
-.linkish {
-  appearance: none; border: 0; background: none; color: var(--accent); font: inherit;
-  font-size: 13px; font-weight: 700; cursor: pointer; padding: 0;
-}
+.story-source { font-size: 11.5px; color: var(--accent-2); margin-left: 8px; }
+.story-short { margin: 8px 0 6px; font-size: 13.5px; color: #e6ebff; }
+.linkish { appearance: none; border: 0; background: none; color: var(--accent); font: inherit; font-size: 12px; font-weight: 700; cursor: pointer; padding: 0; }
 .linkish:hover { color: #fff; }
-.story-long { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--glass-border); }
-.analysis {
-  white-space: pre-wrap; font-size: 14px; color: #dfe6ff;
-  background: rgba(110,231,255,.04); border: 1px solid rgba(110,231,255,.12);
-  border-radius: 12px; padding: 12px 14px;
+.story-long { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--glass-border); }
+.analysis { white-space: pre-wrap; font-size: 13px; color: #dfe6ff; background: rgba(110,231,255,.04); border: 1px solid rgba(110,231,255,.12); border-radius: 10px; padding: 10px 12px; }
+.story-meta { font-size: 11px; color: var(--ink-dim); margin-top: 6px; word-break: break-all; }
+.story-meta a { color: var(--accent); }
+.empty { color: var(--ink-dim); font-size: 13px; }
+.sources-note { font-size: 11px; color: var(--ink-dim); margin-top: 14px; margin-bottom: 0; }
+
+/* POLY */
+.poly-list { display: grid; gap: 6px; margin-top: 6px; }
+.poly-row { display: flex; justify-content: space-between; align-items: center; padding: 5px 0; border-bottom: 1px solid rgba(255,255,255,.05); font-size: 12.5px; }
+.poly-title { color: var(--ink); text-decoration: none; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.poly-odds { font-weight: 700; margin-left: 12px; font-size: 13px; }
+
+/* PICKS */
+.picks { display: grid; gap: 6px; margin-top: 8px; }
+.pick-row { display: grid; grid-template-columns: 60px 1fr auto auto; gap: 10px; align-items: center; padding: 6px 10px; border-radius: 10px; border: 1px solid var(--glass-border); background: rgba(0,0,0,.12); font-size: 13px; }
+.pick-sym { font-weight: 750; color: var(--accent); }
+.pick-chg { font-weight: 700; min-width: 55px; text-align: right; }
+.pick-reason { font-size: 11.5px; color: var(--ink-dim); min-width: 140px; }
+
+/* TOOLTIPS */
+.tip { position: relative; cursor: help; border-bottom: 1px dashed var(--accent); color: var(--accent); }
+.tip-text {
+  display: none; position: absolute; bottom: calc(100% + 8px); left: 50%; transform: translateX(-50%);
+  background: rgba(8,14,30,.95); border: 1px solid var(--glass-border-hi); border-radius: 10px;
+  padding: 10px 14px; font-size: 12.5px; color: #e8edff; width: 280px; line-height: 1.45;
+  z-index: 100; box-shadow: 0 8px 28px rgba(0,0,0,.5);
+  font-weight: 400; letter-spacing: 0; text-transform: none;
 }
-.empty { color: var(--ink-dim); font-size: 14px; }
-.lower { margin-top: 16px; }
-table.mkt { width: 100%; border-collapse: collapse; font-size: 13.5px; }
-table.mkt th, table.mkt td { padding: 7px 4px; border-bottom: 1px solid rgba(255,255,255,.06); text-align: left; }
-table.mkt th { color: var(--ink-dim); font-size: 11px; font-weight: 650; letter-spacing: .04em; text-transform: uppercase; }
-table.mkt .num { text-align: right; font-variant-numeric: tabular-nums; }
-.sym { font-weight: 750; }
-.name { font-size: 12px; }
-ul.compact { margin: 0; padding-left: 1.1rem; font-size: 13.5px; }
-ul.compact li { margin: 5px 0; }
-.stack { display: flex; flex-direction: column; gap: 18px; }
-.foot {
-  margin-top: 28px; padding-top: 16px; border-top: 1px solid var(--glass-border);
-  color: var(--ink-dim); font-size: 12.5px; display: grid; gap: 4px;
-}
+.tip:hover .tip-text, .tip:focus .tip-text { display: block; }
+
+.foot { margin-top: 22px; padding-top: 14px; border-top: 1px solid var(--glass-border); color: var(--ink-dim); font-size: 12px; display: grid; gap: 3px; }
 
 </style>
 </head>
 <body>
 <div class="shell">
   <header class="topbar glass">
-    <div class="brand">Rem Crypto <em>Daily Desk</em></div>
+    <div class="brand">Rem Crypto <em>Trading Desk</em></div>
     <div class="top-actions">
       <span class="badge">2026-07-19</span>
       <div class="lang">
@@ -178,369 +167,287 @@ ul.compact li { margin: 5px 0; }
     </div>
   </header>
 
-  <p class="mission">BTC-first desk · Top 10 · Risk sleeve · tactical high-risk</p>
-
-  <section class="hero grid-3">
-    <div class="card glass btc-card">
-      <div class="eyebrow">Bitcoin</div>
-      <div class="btc-price">$64,509.00</div>
-      <div class="btc-chg up">+0.68% 24h</div>
-      <div class="meta-line">BTC dominance: <strong>56.455843151703725</strong>%</div>
-      <div class="meta-line">Global mcap 24h: <strong class="up">+0.70%</strong></div>
+  <!-- DESK POSTURE — front and center -->
+  <section class="hero-posture card glass posture-card">
+    <div class="eyebrow">Our desk posture</div>
+    <div class="posture-line">BTC <span class="btc-inline">$64,509.00</span> <span class="up">+0.68%</span> · 
+      BTC dominance <strong>56.455843151703725%</strong> · 
+      Global mcap 24h <strong class="up">+0.70%</strong>
     </div>
-    <div class="card glass">
-      <div class="eyebrow">DeFi TVL</div>
-      <div class="btc-price sm">$75.77B</div>
-      <ul class="compact"><li>Binance CEX <span class='muted'>$137.46B</span></li>
-<li>OKX <span class='muted'>$21.98B</span></li>
-<li>Lido <span class='muted'>$17.17B</span></li>
-<li>Bitfinex <span class='muted'>$16.78B</span></li>
-<li>Aave V3 <span class='muted'>$13.73B</span></li>
-<li>Bybit <span class='muted'>$13.33B</span></li></ul>
-    </div>
-    <div class="card glass accent-card">
-      <div class="eyebrow">Desk synthesis</div>
-      <div class="analysis-body">BTC holds ~$64.5k (+0.68%) with dominance 56.5% and global mcap +0.7%; modest bid amid tech equity weakness (Nasdaq -1.49%) and fresh US-Iran escalation after soldier deaths. Options show call spreads toward $72k into Fed window; corporate accumulation chatter (Japan raise) offsets governance/spam-filter noise and incomplete quantum-recovery tooling. Risk movers mixed (RAIN/SUI/CC bid, BCH soft); DeFi TVL ~$75.8B. Desk neutral-to-cautious: geo and equity tone can pressure risk assets short-term while BTC relative strength and event markets stay active. Not financial advice.
+    <div class="posture-body">BTC holds ~$64.5k (+0.68%) with dominance 56.5% and global mcap +0.7%; modest bid amid tech equity weakness (Nasdaq -1.49%) and fresh US-Iran escalation after soldier deaths. Options show call spreads toward $72k into Fed window; corporate accumulation chatter (Japan raise) offsets governance/spam-filter noise and incomplete quantum-recovery tooling. Risk movers mixed (RAIN/SUI/CC bid, BCH soft); DeFi TVL ~$75.8B. Desk neutral-to-cautious: geo and equity tone can pressure risk assets short-term while BTC relative strength and event markets stay active. Not financial advice.
 Watch: Fed-meeting options expiry/$72k calls, oil/yield reaction to US-Iran, BTC dominance hold, SUI/TAO flow
 Avoid: chasing low-cap trending (BANK/ANSEM/KAITO) on score alone, oversized BCH weakness fades without catalyst
 Research: Japan EVO BTC raise structure, spam-filter/relay governance impact, Polymarket July BTC bands, nuclear/AI power demand spillover</div>
+  </section>
+
+  <!-- NARRATIVE + POLY — side by side -->
+  <section class="grid-2 lower">
+    <div class="card glass accent-card">
+      <div class="eyebrow">Sentiment &amp; narrative</div>
+      <div class="posture-body sm">BTC steadies near $64.5k with dominance still elevated while Nasdaq slips and US-Iran risk returns to the tape. Desk stays neutral: watch oil, yields, and whether $72k call overlays into the Fed window get real follow-through. Low-cap trending names and BCH weakness look secondary until liquidity breadth improves. Not financial advice.</div>
+    </div>
+    <div class="card glass">
+      <div class="eyebrow">Market odds that matter</div>
+      <div class="posture-body xs muted">What smart money is pricing in (not every market — just the ones that move BTC)</div>
+      <div class="poly-list"><p class="muted">No directly relevant BTC/ETH markets found.</p></div>
     </div>
   </section>
 
-  <section class="card glass news-shell">
+  <!-- NEWS TABS with section takes -->
+  <section class="card glass news-shell lower">
     <div class="news-head">
-      <h2>News buckets — short take; expand for Rem’s analysis</h2>
+      <h2>News that matters — click for Rem&#x27;s take</h2>
     </div>
-    <div class="tabs" role="tablist"><button type="button" class="tab on" data-tab="bitcoin" role="tab">Bitcoin<span class="count">4</span></button><button type="button" class="tab" data-tab="crypto_market" role="tab">Crypto market<span class="count">4</span></button><button type="button" class="tab" data-tab="macro_geo" role="tab">World economy &amp; geopolitics<span class="count">3</span></button><button type="button" class="tab" data-tab="stocks_ai" role="tab">Stocks, AI &amp; SpaceX<span class="count">4</span></button></div>
+    <div class="tabs" role="tablist"><button type="button" class="tab on" data-tab="bitcoin" role="tab">Bitcoin <span class="count">4</span></button><button type="button" class="tab" data-tab="crypto_market" role="tab">Crypto market <span class="count">4</span></button><button type="button" class="tab" data-tab="macro_geo" role="tab">World economy &amp; geopolitics <span class="count">3</span></button><button type="button" class="tab" data-tab="stocks_ai" role="tab">Stocks, AI &amp; SpaceX <span class="count">4</span></button></div>
     
 <section class="tab-panel" data-panel="bitcoin" role="tabpanel">
-  <div class="section-take">
-    <div class="eyebrow">Section take</div>
-    <p>Bitcoin trades near $64,509 with a modest 0.68% daily gain and dominance at 56.5% as global mcap edges higher. Options flow shows large call spreads targeting $72,000 by month-end around the Fed meeting, while governance debates over spam filters and relay policies resurface. Corporate interest appears via a planned Japan raise to accumulate BTC. Quantum-recovery tooling advances without covering early lost coins. Not financial advice.</p>
-  </div>
-  <div class="stories">
-    
+  
 <article class="story glass-in">
-  <header class="story-head">
+  <div class="story-head">
     <a class="story-title" href="https://www.coindesk.com/markets/2026/07/18/massive-bitcoin-call-spreads-target-usd72-000-by-month-end-right-when-the-fed-meets" target="_blank" rel="noopener noreferrer">Massive bitcoin call spreads target $72,000 by month end, right when the Fed meets</a>
-    <div class="story-meta"><span>CoinDesk</span></div>
-  </header>
+    <span class="story-source">CoinDesk</span>
+  </div>
   <p class="story-short">Large traders are positioning call spreads for a move toward $72,000 by month-end. The expiry aligns with the upcoming Fed meeting.</p>
-  <button type="button" class="linkish" data-toggle="item-4969258771" aria-expanded="false">
-    Full analysis
+  <button type="button" class="linkish" data-toggle="item-9825826846" aria-expanded="false">
+    Read our analysis
   </button>
-  <div class="story-long" id="item-4969258771" hidden>
+  <div class="story-long" id="item-9825826846" hidden>
     <div class="analysis">Analysis: Elevated call activity into a known macro catalyst can amplify short-term volatility if spot follows options open interest. Current price near $64.5k leaves roughly 12% upside to the cited strike, so positioning may reflect hedging or directional bets rather than consensus. Watch actual open interest changes and Fed guidance for confirmation; this is desk observation only, not advice.</div>
     <p class="story-meta"><a href="https://www.coindesk.com/markets/2026/07/18/massive-bitcoin-call-spreads-target-usd72-000-by-month-end-right-when-the-fed-meets" target="_blank" rel="noopener noreferrer">https://www.coindesk.com/markets/2026/07/18/massive-bitcoin-call-spreads-target-usd72-000-by-month-end-right-when-the-fed-meets</a></p>
   </div>
 </article>
 
 <article class="story glass-in">
-  <header class="story-head">
+  <div class="story-head">
     <a class="story-title" href="https://www.coindesk.com/tech/2026/07/19/bitcoin-s-biggest-advocate-michael-saylor-says-new-plan-to-clean-up-the-blockchain-is-a-bad-idea" target="_blank" rel="noopener noreferrer">Bitcoin&#x27;s biggest advocate, Michael Saylor, says new plan to clean up the blockchain is &#x27;a bad idea&#x27;</a>
-    <div class="story-meta"><span>CoinDesk</span></div>
-  </header>
+    <span class="story-source">CoinDesk</span>
+  </div>
   <p class="story-short">Michael Saylor criticizes BIP-110 as a temporary spam block that risks neutrality. He warns it sets a censorship precedent on Bitcoin.</p>
-  <button type="button" class="linkish" data-toggle="item-4502915470" aria-expanded="false">
-    Full analysis
+  <button type="button" class="linkish" data-toggle="item-4958277645" aria-expanded="false">
+    Read our analysis
   </button>
-  <div class="story-long" id="item-4502915470" hidden>
+  <div class="story-long" id="item-4958277645" hidden>
     <div class="analysis">Analysis: Protocol-level filter proposals often reopen the spam-versus-base-layer debate and can affect miner and node policy alignment. Saylor’s stance underscores preference for neutral relay rules over content-based restrictions. Market impact is typically limited unless a soft-fork path gains broad hash-rate support; monitor developer and miner reactions. Not financial advice.</div>
     <p class="story-meta"><a href="https://www.coindesk.com/tech/2026/07/19/bitcoin-s-biggest-advocate-michael-saylor-says-new-plan-to-clean-up-the-blockchain-is-a-bad-idea" target="_blank" rel="noopener noreferrer">https://www.coindesk.com/tech/2026/07/19/bitcoin-s-biggest-advocate-michael-saylor-says-new-plan-to-clean-up-the-blockchain-is-a-bad-idea</a></p>
   </div>
 </article>
 
 <article class="story glass-in">
-  <header class="story-head">
+  <div class="story-head">
     <a class="story-title" href="https://www.theblock.co/post/408838/bitcoin-japan-which-holds-no-bitcoin-taps-evo-fund-in-planned-60-million-raise-to-finally-buy-some?utm_source=rss&amp;utm_medium=rss" target="_blank" rel="noopener noreferrer">Bitcoin Japan, which holds no bitcoin, taps EVO Fund in planned $60 million raise to finally buy some</a>
-    <div class="story-meta"><span>The Block</span></div>
-  </header>
+    <span class="story-source">The Block</span>
+  </div>
   <p class="story-short">Bitcoin Japan plans a $60 million raise with EVO Fund to begin buying BTC. Prior capital went to SpaceX and Figure AI stakes instead.</p>
-  <button type="button" class="linkish" data-toggle="item-4348499387" aria-expanded="false">
-    Full analysis
+  <button type="button" class="linkish" data-toggle="item-6200828215" aria-expanded="false">
+    Read our analysis
   </button>
-  <div class="story-long" id="item-4348499387" hidden>
+  <div class="story-long" id="item-6200828215" hidden>
     <div class="analysis">Analysis: A listed vehicle shifting from AI-related holdings toward direct BTC accumulation adds a modest incremental bid if the raise closes and purchases execute. Size is small relative to global spot volume, so price effect would likely be marginal. Execution timing and any hedging remain key variables; desk note only.</div>
     <p class="story-meta"><a href="https://www.theblock.co/post/408838/bitcoin-japan-which-holds-no-bitcoin-taps-evo-fund-in-planned-60-million-raise-to-finally-buy-some?utm_source=rss&amp;utm_medium=rss" target="_blank" rel="noopener noreferrer">https://www.theblock.co/post/408838/bitcoin-japan-which-holds-no-bitcoin-taps-evo-fund-in-planned-60-million-raise-to-finally-buy-some?utm_source=rss&amp;utm_medium=rss</a></p>
   </div>
 </article>
 
 <article class="story glass-in">
-  <header class="story-head">
+  <div class="story-head">
     <a class="story-title" href="https://www.coindesk.com/tech/2026/07/19/bitcoin-s-quantum-problem-gets-a-recovery-tool-but-not-for-satoshi-s-1-1-million-coin" target="_blank" rel="noopener noreferrer">Bitcoin’s quantum problem gets a recovery tool, but not for Satoshi’s 1.1 million coins</a>
-    <div class="story-meta"><span>CoinDesk</span></div>
-  </header>
+    <span class="story-source">CoinDesk</span>
+  </div>
   <p class="story-short">Project Eleven funded a proof allowing key-derivation paths to prove ownership after quantum signature forgery. It runs in 243 ms on a laptop and excludes Satoshi-era coins.</p>
-  <button type="button" class="linkish" data-toggle="item-9177290752" aria-expanded="false">
-    Full analysis
+  <button type="button" class="linkish" data-toggle="item-4230726138" aria-expanded="false">
+    Read our analysis
   </button>
-  <div class="story-long" id="item-9177290752" hidden>
+  <div class="story-long" id="item-4230726138" hidden>
     <div class="analysis">Analysis: Practical post-quantum recovery paths reduce tail-risk narratives around exposed public keys without altering current consensus rules. Exclusion of dormant early coins keeps the supply overhang debate intact. Near-term price relevance is low absent a credible quantum timeline shift; treat as infrastructure progress, not a catalyst.</div>
     <p class="story-meta"><a href="https://www.coindesk.com/tech/2026/07/19/bitcoin-s-quantum-problem-gets-a-recovery-tool-but-not-for-satoshi-s-1-1-million-coin" target="_blank" rel="noopener noreferrer">https://www.coindesk.com/tech/2026/07/19/bitcoin-s-quantum-problem-gets-a-recovery-tool-but-not-for-satoshi-s-1-1-million-coin</a></p>
   </div>
 </article>
-  </div>
 </section>
 <section class="tab-panel" data-panel="crypto_market" hidden role="tabpanel">
-  <div class="section-take">
-    <div class="eyebrow">Section take</div>
-    <p>Synthesis failed for crypto_market: Expecting &#x27;,&#x27; delimiter: line 1 column 5509 (char 5508)</p>
-  </div>
-  <div class="stories">
-    
+  
 <article class="story glass-in">
-  <header class="story-head">
+  <div class="story-head">
     <a class="story-title" href="https://www.coindesk.com/opinion/2026/07/17/ai-is-destroying-the-internet-math-is-our-only-hope" target="_blank" rel="noopener noreferrer">AI is destroying the internet. Math is our only hope.</a>
-    <div class="story-meta"><span>CoinDesk</span></div>
-  </header>
+    <span class="story-source">CoinDesk</span>
+  </div>
   <p class="story-short">The rise of autonomous AI agents necessitates the utilization of zero-knowledge proofs, argues Brian Trunzo, chief growth officer at Succinct Labs.</p>
-  <button type="button" class="linkish" data-toggle="item-1970257549" aria-expanded="false">
-    Full analysis
+  <button type="button" class="linkish" data-toggle="item-6335924275" aria-expanded="false">
+    Read our analysis
   </button>
-  <div class="story-long" id="item-1970257549" hidden>
+  <div class="story-long" id="item-6335924275" hidden>
     <div class="analysis">Analysis: The rise of autonomous AI agents necessitates the utilization of zero-knowledge proofs, argues Brian Trunzo, chief growth officer at Succinct Labs.</div>
     <p class="story-meta"><a href="https://www.coindesk.com/opinion/2026/07/17/ai-is-destroying-the-internet-math-is-our-only-hope" target="_blank" rel="noopener noreferrer">https://www.coindesk.com/opinion/2026/07/17/ai-is-destroying-the-internet-math-is-our-only-hope</a></p>
   </div>
 </article>
 
 <article class="story glass-in">
-  <header class="story-head">
+  <div class="story-head">
     <a class="story-title" href="https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound" target="_blank" rel="noopener noreferrer">Here’s what happened in crypto today</a>
-    <div class="story-meta"><span>CoinTelegraph</span></div>
-  </header>
+    <span class="story-source">CoinTelegraph</span>
+  </div>
   <p class="story-short">Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.</p>
-  <button type="button" class="linkish" data-toggle="item-8569409790" aria-expanded="false">
-    Full analysis
+  <button type="button" class="linkish" data-toggle="item-2858447391" aria-expanded="false">
+    Read our analysis
   </button>
-  <div class="story-long" id="item-8569409790" hidden>
+  <div class="story-long" id="item-2858447391" hidden>
     <div class="analysis">Analysis: Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.</div>
     <p class="story-meta"><a href="https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound" target="_blank" rel="noopener noreferrer">https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound</a></p>
   </div>
 </article>
 
 <article class="story glass-in">
-  <header class="story-head">
+  <div class="story-head">
     <a class="story-title" href="https://www.coindesk.com/news-analysis/2026/07/17/tether-s-usdt-hits-2-year-countdown-threatening-its-position-on-u-s-crypto-platforms" target="_blank" rel="noopener noreferrer">Tether&#x27;s USDT hits 2-year countdown threatening its position on U.S. crypto platforms</a>
-    <div class="story-meta"><span>CoinDesk</span></div>
-  </header>
+    <span class="story-source">CoinDesk</span>
+  </div>
   <p class="story-short">The GENIUS Act has hit its first anniversary without U.S. regulators yet meeting deadlines to write regulations, though rules will be in full effect by July 2028.</p>
-  <button type="button" class="linkish" data-toggle="item-6130241701" aria-expanded="false">
-    Full analysis
+  <button type="button" class="linkish" data-toggle="item-3784536457" aria-expanded="false">
+    Read our analysis
   </button>
-  <div class="story-long" id="item-6130241701" hidden>
+  <div class="story-long" id="item-3784536457" hidden>
     <div class="analysis">Analysis: The GENIUS Act has hit its first anniversary without U.S. regulators yet meeting deadlines to write regulations, though rules will be in full effect by July 2028.</div>
     <p class="story-meta"><a href="https://www.coindesk.com/news-analysis/2026/07/17/tether-s-usdt-hits-2-year-countdown-threatening-its-position-on-u-s-crypto-platforms" target="_blank" rel="noopener noreferrer">https://www.coindesk.com/news-analysis/2026/07/17/tether-s-usdt-hits-2-year-countdown-threatening-its-position-on-u-s-crypto-platforms</a></p>
   </div>
 </article>
 
 <article class="story glass-in">
-  <header class="story-head">
+  <div class="story-head">
     <a class="story-title" href="https://www.coindesk.com/business/2026/07/19/kraken-says-simpler-options-can-unlock-crypto-s-next-derivatives-market" target="_blank" rel="noopener noreferrer">Kraken says simpler options can unlock crypto&#x27;s next derivatives market</a>
-    <div class="story-meta"><span>CoinDesk</span></div>
-  </header>
+    <span class="story-source">CoinDesk</span>
+  </div>
   <p class="story-short">The Wyoming-based firm launched USD-settled bitcoin and ether options, saying product design, not demand, has held back adoption.</p>
-  <button type="button" class="linkish" data-toggle="item-3060610385" aria-expanded="false">
-    Full analysis
+  <button type="button" class="linkish" data-toggle="item-5480971364" aria-expanded="false">
+    Read our analysis
   </button>
-  <div class="story-long" id="item-3060610385" hidden>
+  <div class="story-long" id="item-5480971364" hidden>
     <div class="analysis">Analysis: The Wyoming-based firm launched USD-settled bitcoin and ether options, saying product design, not demand, has held back adoption.</div>
     <p class="story-meta"><a href="https://www.coindesk.com/business/2026/07/19/kraken-says-simpler-options-can-unlock-crypto-s-next-derivatives-market" target="_blank" rel="noopener noreferrer">https://www.coindesk.com/business/2026/07/19/kraken-says-simpler-options-can-unlock-crypto-s-next-derivatives-market</a></p>
   </div>
 </article>
-  </div>
 </section>
 <section class="tab-panel" data-panel="macro_geo" hidden role="tabpanel">
-  <div class="section-take">
-    <div class="eyebrow">Section take</div>
-    <p>BTC holds near 64509 with a 0.68pct gain and dominance at 56.5pct as global mcap edges up 0.7pct. Escalating US-Iran strikes after soldier deaths introduce classic macro-geo risk that historically pressures risk assets short-term. Buffett flagging gambling-driven market excess adds caution on broader equity spillover. Polymarket BTC price contracts and World Cup betting volumes show elevated event-driven activity without clear directional edge. Desk stays neutral pending oil and yield reactions.</p>
-  </div>
-  <div class="stories">
-    
+  
 <article class="story glass-in">
-  <header class="story-head">
+  <div class="story-head">
     <a class="story-title" href="https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">US and Iran trade fire after two US soldiers killed in Jordan</a>
-    <div class="story-meta"><span>BBC World</span></div>
-  </header>
+    <span class="story-source">BBC World</span>
+  </div>
   <p class="story-short">US and Iran exchanged strikes after two American soldiers were killed in Jordan. Kuwait reported a plant fire and Iran claimed hits on a nuclear site under construction.</p>
-  <button type="button" class="linkish" data-toggle="item-5306502109" aria-expanded="false">
-    Full analysis
+  <button type="button" class="linkish" data-toggle="item-2686796199" aria-expanded="false">
+    Read our analysis
   </button>
-  <div class="story-long" id="item-5306502109" hidden>
+  <div class="story-long" id="item-2686796199" hidden>
     <div class="analysis">Analysis: Direct US-Iran kinetic exchange raises oil-spike and risk-off odds that typically weigh on BTC liquidity in the first 24-48h. Watch Strait of Hormuz premium and real yields; elevated BTC dominance may cushion relative drawdowns versus alts. No immediate positioning change warranted until confirmed supply disruption.</div>
     <p class="story-meta"><a href="https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&amp;at_campaign=rss</a></p>
   </div>
 </article>
 
 <article class="story glass-in">
-  <header class="story-head">
+  <div class="story-head">
     <a class="story-title" href="https://www.nasdaq.com/articles/why-warren-buffett-warns-market-headed-trouble" target="_blank" rel="noopener noreferrer">Why Warren Buffett Warns That the Market Is Headed for Trouble</a>
-    <div class="story-meta"><span>Nasdaq AI</span></div>
-  </header>
+    <span class="story-source">Nasdaq AI</span>
+  </div>
   <p class="story-short">Warren Buffett highlighted gambling behavior overtaking stock-market activity. He signaled caution on elevated valuations and speculative excess.</p>
-  <button type="button" class="linkish" data-toggle="item-5891359383" aria-expanded="false">
-    Full analysis
+  <button type="button" class="linkish" data-toggle="item-5896664949" aria-expanded="false">
+    Read our analysis
   </button>
-  <div class="story-long" id="item-5891359383" hidden>
+  <div class="story-long" id="item-5896664949" hidden>
     <div class="analysis">Analysis: Buffett’s warning on casino-like equity flows aligns with crowded retail positioning that can amplify correlated selloffs into crypto. BTC’s 56pct dominance and modest 24h volume leave it exposed to equity beta if risk appetite cracks. Desk monitors credit spreads and vol surface rather than narrative.</div>
     <p class="story-meta"><a href="https://www.nasdaq.com/articles/why-warren-buffett-warns-market-headed-trouble" target="_blank" rel="noopener noreferrer">https://www.nasdaq.com/articles/why-warren-buffett-warns-market-headed-trouble</a></p>
   </div>
 </article>
 
 <article class="story glass-in">
-  <header class="story-head">
+  <div class="story-head">
     <a class="story-title" href="https://www.nytimes.com/2026/07/18/business/world-cup-kalshi-polymarket.html" target="_blank" rel="noopener noreferrer">World Cup Final Drives Billions in Bets on Kalshi and Polymarket</a>
-    <div class="story-meta"><span>NYT Business</span></div>
-  </header>
+    <span class="story-source">NYT Business</span>
+  </div>
   <p class="story-short">World Cup final betting pushed Kalshi and Polymarket to record users and volumes. The event is described as potentially the largest gambling spectacle on record.</p>
-  <button type="button" class="linkish" data-toggle="item-1874354715" aria-expanded="false">
-    Full analysis
+  <button type="button" class="linkish" data-toggle="item-3610683276" aria-expanded="false">
+    Read our analysis
   </button>
-  <div class="story-long" id="item-1874354715" hidden>
+  <div class="story-long" id="item-3610683276" hidden>
     <div class="analysis">Analysis: Record prediction-market turnover underscores rising on-chain and hybrid event liquidity that can spill into BTC perpetual funding and options skew around macro prints. Polymarket’s own BTC price contracts remain active but showed null prices in the feed, limiting signal value. Treat as sentiment overlay only.</div>
     <p class="story-meta"><a href="https://www.nytimes.com/2026/07/18/business/world-cup-kalshi-polymarket.html" target="_blank" rel="noopener noreferrer">https://www.nytimes.com/2026/07/18/business/world-cup-kalshi-polymarket.html</a></p>
   </div>
 </article>
-  </div>
 </section>
 <section class="tab-panel" data-panel="stocks_ai" hidden role="tabpanel">
-  <div class="section-take">
-    <div class="eyebrow">Section take</div>
-    <p>BTC holds near 64509 with a 0.68% gain as global mcap rises 0.7% and dominance sits at 56.5%. Tech equities sold off hard, Nasdaq down 1.49%, a tone that often weighs on risk assets including crypto. AI themes stay active via Buffett&#x27;s Alphabet stake, Griffin&#x27;s shift, and nuclear demand for data centers. No direct BTC catalyst in the tape; correlations and liquidity remain the link. Desk stays BTC-first with equities as secondary signal.</p>
-  </div>
-  <div class="stories">
-    
+  
 <article class="story glass-in">
-  <header class="story-head">
+  <div class="story-head">
     <a class="story-title" href="https://www.nasdaq.com/articles/stocks-finish-sharply-lower-tech-stocks-slump" target="_blank" rel="noopener noreferrer">Stocks Finish Sharply Lower as Tech Stocks Slump</a>
-    <div class="story-meta"><span>Nasdaq AI</span></div>
-  </header>
+    <span class="story-source">Nasdaq AI</span>
+  </div>
   <p class="story-short">Major indices closed lower with the Nasdaq 100 off 1.49% on tech weakness. The S&amp;P 500 fell 1.01% and the Dow dropped 0.77%.</p>
-  <button type="button" class="linkish" data-toggle="item-2985799768" aria-expanded="false">
-    Full analysis
+  <button type="button" class="linkish" data-toggle="item-8008637705" aria-expanded="false">
+    Read our analysis
   </button>
-  <div class="story-long" id="item-2985799768" hidden>
+  <div class="story-long" id="item-8008637705" hidden>
     <div class="analysis">Analysis: Tech-led equity weakness typically compresses risk appetite that supports BTC beta. Monitor whether the selloff extends and lifts crypto vol or simply stays contained in software names. For the BTC-first book this is a macro tone check, not a directional signal.</div>
     <p class="story-meta"><a href="https://www.nasdaq.com/articles/stocks-finish-sharply-lower-tech-stocks-slump" target="_blank" rel="noopener noreferrer">https://www.nasdaq.com/articles/stocks-finish-sharply-lower-tech-stocks-slump</a></p>
   </div>
 </article>
 
 <article class="story glass-in">
-  <header class="story-head">
+  <div class="story-head">
     <a class="story-title" href="https://www.nasdaq.com/articles/warren-buffett-said-he-personally-started-berkshires-31-billion-alphabet-position" target="_blank" rel="noopener noreferrer">Warren Buffett Said He Personally Started Berkshire&#x27;s $31 Billion Alphabet Position</a>
-    <div class="story-meta"><span>Nasdaq AI</span></div>
-  </header>
+    <span class="story-source">Nasdaq AI</span>
+  </div>
   <p class="story-short">Buffett confirmed he personally initiated Berkshire Hathaway&#x27;s Alphabet investment. The stake is now valued near 31 billion dollars.</p>
-  <button type="button" class="linkish" data-toggle="item-6186188334" aria-expanded="false">
-    Full analysis
+  <button type="button" class="linkish" data-toggle="item-5360905599" aria-expanded="false">
+    Read our analysis
   </button>
-  <div class="story-long" id="item-6186188334" hidden>
+  <div class="story-long" id="item-5360905599" hidden>
     <div class="analysis">Analysis: A personal Buffett endorsement of an AI-exposed mega-cap can steady broader growth-equity sentiment after the session drop. Any stabilization in large-cap tech reduces spillover pressure on correlated risk assets. BTC desk treats it as a confidence marker, not a crypto catalyst.</div>
     <p class="story-meta"><a href="https://www.nasdaq.com/articles/warren-buffett-said-he-personally-started-berkshires-31-billion-alphabet-position" target="_blank" rel="noopener noreferrer">https://www.nasdaq.com/articles/warren-buffett-said-he-personally-started-berkshires-31-billion-alphabet-position</a></p>
   </div>
 </article>
 
 <article class="story glass-in">
-  <header class="story-head">
+  <div class="story-head">
     <a class="story-title" href="https://www.nasdaq.com/articles/hedge-fund-star-ken-griffin-thought-ai-was-garbage-now-hes-changing-his-tune" target="_blank" rel="noopener noreferrer">Hedge Fund Star Ken Griffin Thought AI Was &quot;Garbage.&quot; Now He&#x27;s Changing His Tune.</a>
-    <div class="story-meta"><span>Nasdaq AI</span></div>
-  </header>
+    <span class="story-source">Nasdaq AI</span>
+  </div>
   <p class="story-short">Ken Griffin earlier called AI garbage but is now revising that stance. His roughly 70 billion dollar fund carries a long successful record.</p>
-  <button type="button" class="linkish" data-toggle="item-1094511894" aria-expanded="false">
-    Full analysis
+  <button type="button" class="linkish" data-toggle="item-1043915516" aria-expanded="false">
+    Read our analysis
   </button>
-  <div class="story-long" id="item-1094511894" hidden>
+  <div class="story-long" id="item-1043915516" hidden>
     <div class="analysis">Analysis: Re-rating of AI by a major multi-strategy allocator can support incremental capital into AI infrastructure and related equities. That flow backdrop matters more for liquidity conditions than for any single token. BTC book notes the shift as incremental risk-on color only.</div>
     <p class="story-meta"><a href="https://www.nasdaq.com/articles/hedge-fund-star-ken-griffin-thought-ai-was-garbage-now-hes-changing-his-tune" target="_blank" rel="noopener noreferrer">https://www.nasdaq.com/articles/hedge-fund-star-ken-griffin-thought-ai-was-garbage-now-hes-changing-his-tune</a></p>
   </div>
 </article>
 
 <article class="story glass-in">
-  <header class="story-head">
+  <div class="story-head">
     <a class="story-title" href="https://www.nasdaq.com/articles/constellation-invests-blue-energy-nuclear-demand-ai-data-centers-surges-heres-what-ceg" target="_blank" rel="noopener noreferrer">Constellation Invests in Blue Energy as Nuclear Demand From AI Data Centers Surges. Here&#x27;s What CEG Investors Need to Know.</a>
-    <div class="story-meta"><span>Nasdaq AI</span></div>
-  </header>
+    <span class="story-source">Nasdaq AI</span>
+  </div>
   <p class="story-short">Constellation is investing in Blue Energy on surging nuclear demand from AI data centers. Hyperscale contracts are expected to lift cash flow.</p>
-  <button type="button" class="linkish" data-toggle="item-4324621176" aria-expanded="false">
-    Full analysis
+  <button type="button" class="linkish" data-toggle="item-631868912" aria-expanded="false">
+    Read our analysis
   </button>
-  <div class="story-long" id="item-4324621176" hidden>
+  <div class="story-long" id="item-631868912" hidden>
     <div class="analysis">Analysis: Power and nuclear equities tied to AI compute highlight real physical demand behind the AI trade. Strength here can partially offset pure software weakness seen in the broader tech slump. BTC desk watches the energy-AI link solely for secondary risk-sentiment cues.</div>
     <p class="story-meta"><a href="https://www.nasdaq.com/articles/constellation-invests-blue-energy-nuclear-demand-ai-data-centers-surges-heres-what-ceg" target="_blank" rel="noopener noreferrer">https://www.nasdaq.com/articles/constellation-invests-blue-energy-nuclear-demand-ai-data-centers-surges-heres-what-ceg</a></p>
   </div>
 </article>
-  </div>
 </section>
+    <p class="sources-note">Sources used: CoinDesk, CoinTelegraph, Bitcoin Magazine, The Block, BBC Business/World, Al Jazeera, MarketWatch, CNBC, Nasdaq AI, Hacker News · Polymarket · CoinGecko · DefiLlama</p>
   </section>
 
-  <section class="grid-3 lower">
-    <div class="card glass">
-      <div class="eyebrow">Top 10</div>
-      <table class="mkt"><thead><tr>
-        <th>#</th><th>Asset</th>
-        <th class="num">Price</th><th class="num">24h</th>
-      </tr></thead><tbody>
-      <tr><td class='muted'>1</td><td><span class='sym'>BTC</span> <span class='muted name'>Bitcoin</span></td><td class='num'>$64,509.00</td><td class='num up'>+0.68%</td></tr>
-<tr><td class='muted'>2</td><td><span class='sym'>ETH</span> <span class='muted name'>Ethereum</span></td><td class='num'>$1,869.79</td><td class='num up'>+1.44%</td></tr>
-<tr><td class='muted'>3</td><td><span class='sym'>USDT</span> <span class='muted name'>Tether</span></td><td class='num'>$0.999237</td><td class='num down'>-0.01%</td></tr>
-<tr><td class='muted'>4</td><td><span class='sym'>BNB</span> <span class='muted name'>BNB</span></td><td class='num'>$570.23</td><td class='num up'>+0.05%</td></tr>
-<tr><td class='muted'>5</td><td><span class='sym'>USDC</span> <span class='muted name'>USDC</span></td><td class='num'>$0.999855</td><td class='num up'>+0.01%</td></tr>
-<tr><td class='muted'>6</td><td><span class='sym'>XRP</span> <span class='muted name'>XRP</span></td><td class='num'>$1.10</td><td class='num up'>+1.06%</td></tr>
-<tr><td class='muted'>7</td><td><span class='sym'>SOL</span> <span class='muted name'>Solana</span></td><td class='num'>$76.19</td><td class='num up'>+1.70%</td></tr>
-<tr><td class='muted'>8</td><td><span class='sym'>TRX</span> <span class='muted name'>TRON</span></td><td class='num'>$0.326967</td><td class='num up'>+1.44%</td></tr>
-<tr><td class='muted'>9</td><td><span class='sym'>FIGR_HELOC</span> <span class='muted name'>Figure Heloc</span></td><td class='num'>$1.04</td><td class='num up'>+1.49%</td></tr>
-<tr><td class='muted'>10</td><td><span class='sym'>HYPE</span> <span class='muted name'>Hyperliquid</span></td><td class='num'>$60.92</td><td class='num up'>+2.62%</td></tr>
-      </tbody></table>
-    </div>
-    <div class="card glass">
-      <div class="eyebrow">Risk movers</div>
-      <table class="mkt"><thead><tr>
-        <th>#</th><th>Asset</th>
-        <th class="num">Price</th><th class="num">24h</th>
-      </tr></thead><tbody>
-      <tr><td class='muted'>13</td><td><span class='sym'>RAIN</span> <span class='muted name'>Rain</span></td><td class='num'>$0.014420</td><td class='num up'>+4.45%</td></tr>
-<tr><td class='muted'>29</td><td><span class='sym'>SUI</span> <span class='muted name'>Sui</span></td><td class='num'>$0.751053</td><td class='num up'>+2.20%</td></tr>
-<tr><td class='muted'>21</td><td><span class='sym'>CC</span> <span class='muted name'>Canton</span></td><td class='num'>$0.127415</td><td class='num up'>+2.17%</td></tr>
-<tr><td class='muted'>23</td><td><span class='sym'>BCH</span> <span class='muted name'>Bitcoin Cash</span></td><td class='num'>$214.94</td><td class='num down'>-2.13%</td></tr>
-<tr><td class='muted'>26</td><td><span class='sym'>GRAM</span> <span class='muted name'>Gram (prev. Toncoin)</span></td><td class='num'>$1.44</td><td class='num down'>-2.05%</td></tr>
-<tr><td class='muted'>17</td><td><span class='sym'>XLM</span> <span class='muted name'>Stellar</span></td><td class='num'>$0.190187</td><td class='num up'>+1.81%</td></tr>
-<tr><td class='muted'>27</td><td><span class='sym'>LTC</span> <span class='muted name'>Litecoin</span></td><td class='num'>$47.18</td><td class='num up'>+1.48%</td></tr>
-<tr><td class='muted'>20</td><td><span class='sym'>ADA</span> <span class='muted name'>Cardano</span></td><td class='num'>$0.166370</td><td class='num up'>+1.19%</td></tr>
-      </tbody></table>
-    </div>
-    <div class="card glass stack">
-      <div>
-        <div class="eyebrow">Trending heat</div>
-        <ul class="compact"><li><span class='sym'>BANK</span> Lorenzo Protocol <span class='muted'>#345</span></li>
-<li><span class='sym'>ANSEM</span> The Black Bull <span class='muted'>#298</span></li>
-<li><span class='sym'>BTC</span> Bitcoin <span class='muted'>#1</span></li>
-<li><span class='sym'>TAO</span> Bittensor <span class='muted'>#41</span></li>
-<li><span class='sym'>KAITO</span> KAITO <span class='muted'>#150</span></li>
-<li><span class='sym'>PI</span> Pi Network <span class='muted'>#65</span></li>
-<li><span class='sym'>CASHCAT</span> Cash Cat <span class='muted'>#322</span></li>
-<li><span class='sym'>KAS</span> Kaspa <span class='muted'>#78</span></li></ul>
-      </div>
-      <div>
-        <div class="eyebrow">Polymarket odds</div>
-        <ul class="compact"><li><strong>Bitcoin above ___ on February 23?</strong></li>
-<li><strong>Bitcoin Up or Down - April 2, 9:50PM-9:55PM ET</strong></li>
-<li><strong>What price will Bitcoin hit in July?</strong></li>
-<li><strong>Bitcoin Up or Down - March 19, 11:10PM-11:15PM ET</strong></li>
-<li><strong>Bitcoin Up or Down - February 23, 11:25AM-11:30AM ET</strong></li>
-<li><strong>Ethereum Price - July 15, 5PM ET</strong></li>
-<li><strong>What price will Ethereum hit in July?</strong></li>
-<li><strong>Ethereum above ___ on February 23?</strong></li></ul>
-      </div>
-      <div>
-        <div class="eyebrow">Narrative pulse</div>
-        <p class="analysis-body sm">BTC steadies near $64.5k with dominance still elevated while Nasdaq slips and US-Iran risk returns to the tape. Desk stays neutral: watch oil, yields, and whether $72k call overlays into the Fed window get real follow-through. Low-cap trending names and BCH weakness look secondary until liquidity breadth improves. Not financial advice.</p>
-      </div>
-    </div>
+  <!-- TODAY'S PICKS -->
+  <section class="card glass lower">
+    <div class="eyebrow">Today&#x27;s picks</div>
+    <div class="posture-body xs muted">Coins with a reason to move — based on news + on-chain + flow</div>
+    <div class="picks"><div class="pick-row"><span class="pick-sym">RAIN</span><span class="pick-name">Rain</span><span class="pick-chg up">+4.45%</span><span class="pick-reason">Risk mover — +4.45% in 24h</span></div><div class="pick-row"><span class="pick-sym">SUI</span><span class="pick-name">Sui</span><span class="pick-chg up">+2.20%</span><span class="pick-reason">Risk mover — +2.20% in 24h</span></div><div class="pick-row"><span class="pick-sym">CC</span><span class="pick-name">Canton</span><span class="pick-chg up">+2.17%</span><span class="pick-reason">Risk mover — +2.17% in 24h</span></div><div class="pick-row"><span class="pick-sym">BCH</span><span class="pick-name">Bitcoin Cash</span><span class="pick-chg down">-2.13%</span><span class="pick-reason">Risk mover — -2.13% in 24h</span></div><div class="pick-row"><span class="pick-sym">GRAM</span><span class="pick-name">Gram (prev. Toncoin)</span><span class="pick-chg down">-2.05%</span><span class="pick-reason">Risk mover — -2.05% in 24h</span></div><div class="pick-row"><span class="pick-sym">XLM</span><span class="pick-name">Stellar</span><span class="pick-chg up">+1.81%</span><span class="pick-reason">Risk mover — +1.81% in 24h</span></div></div>
+    <p class="muted xs">Trending = high search volume on CoinGecko. Risk movers = top 20–30 ranked coins with biggest 24h moves.</p>
   </section>
 
   <footer class="foot">
     <div>Updated: 2026-07-19T22:52:58</div>
-    <div>Not financial advice. Family research desk.</div>
-    <div class="muted">Rem Crypto · shared with family · mode=grok</div>
+    <div>Family trading desk. Every position carries risk.</div>
+    <div class="muted">hover/click to learn · mode=grok</div>
   </footer>
 </div>
 <script>
@@ -549,9 +456,7 @@ document.querySelectorAll('.tab').forEach(btn => {
   btn.addEventListener('click', () => {
     const id = btn.dataset.tab;
     document.querySelectorAll('.tab').forEach(b => b.classList.toggle('on', b === btn));
-    document.querySelectorAll('.tab-panel').forEach(p => {
-      p.hidden = p.dataset.panel !== id;
-    });
+    document.querySelectorAll('.tab-panel').forEach(p => { p.hidden = p.dataset.panel !== id; });
   });
 });
 document.querySelectorAll('[data-toggle]').forEach(btn => {
@@ -561,14 +466,8 @@ document.querySelectorAll('[data-toggle]').forEach(btn => {
     const open = el.hasAttribute('hidden');
     if (open) el.removeAttribute('hidden'); else el.setAttribute('hidden', '');
     btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-    const more = btn.textContent;
-    // bilingual labels embedded as data would be nicer; toggle text simply:
-    if (open) {
-      btn.dataset.prev = btn.textContent;
-      btn.textContent = btn.textContent.includes('Pełna') || btn.textContent.includes('Zwiń') ? 'Zwiń' : 'Show less';
-    } else if (btn.dataset.prev) {
-      btn.textContent = btn.dataset.prev;
-    }
+    if (open) { btn.dataset.prev = btn.textContent; btn.textContent = btn.textContent.includes('Zwiń') ? 'Zwiń' : 'Hide'; }
+    else if (btn.dataset.prev) btn.textContent = btn.dataset.prev;
   });
 });
 
