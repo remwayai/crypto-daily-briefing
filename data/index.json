@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-24",
+    "file": "archive/2026-07-24.json",
+    "btc": 65053,
+    "btc_change_24h": -1.7
+  },
+  {
     "date": "2026-07-22",
     "file": "archive/2026-07-22.json",
     "btc": 66100,
