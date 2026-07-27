@@ -1,488 +1,173 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Rem Crypto — Biurko tradingu · 2026-07-25</title>
-<meta name="description" content="Rem Crypto trading desk — BTC-first analysis"/>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rem Crypto Briefing PL — 27 lipca 2026</title>
 <style>
-
-:root {
-  --bg: #06080f;
-  --ink: #f0f4ff;
-  --ink-dim: #8e9ab8;
-  --accent: #6ee7ff;
-  --accent-2: #a78bfa;
-  --accent-3: #f472b6;
-  --ok: #5eead4;
-  --bad: #fb7185;
-  --glass: rgba(255,255,255,0.045);
-  --glass-2: rgba(255,255,255,0.075);
-  --glass-border: rgba(255,255,255,0.09);
-  --glass-border-hi: rgba(255,255,255,0.16);
-  --grad: linear-gradient(90deg, var(--accent), var(--accent-2) 55%, var(--accent-3));
-  --radius: 22px;
-  --font: Inter, "Segoe UI", system-ui, sans-serif;
-}
-* { box-sizing: border-box; }
-html { scrollbar-color: rgba(255,255,255,.18) transparent; }
-body {
-  margin: 0; min-height: 100vh; color: var(--ink); font-family: var(--font);
-  background: var(--bg); line-height: 1.55;
-}
-body::before {
-  content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
-  background:
-    radial-gradient(1100px 620px at 8% -12%, rgba(56,89,179,.42) 0%, transparent 60%),
-    radial-gradient(900px 560px at 104% 12%, rgba(124,58,237,.30) 0%, transparent 58%),
-    radial-gradient(760px 520px at 84% 96%, rgba(236,72,153,.14) 0%, transparent 60%),
-    radial-gradient(900px 640px at 34% 112%, rgba(13,148,136,.16) 0%, transparent 62%);
-}
-body::after {
-  content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: .35;
-  background-image:
-    linear-gradient(rgba(255,255,255,.018) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,.018) 1px, transparent 1px);
-  background-size: 38px 38px;
-}
-.shell { max-width: 1020px; margin: 0 auto; padding: 22px 18px 70px; }
-.glass {
-  background: linear-gradient(158deg, var(--glass-2) 0%, var(--glass) 60%, rgba(255,255,255,.02) 100%);
-  border: 1px solid var(--glass-border);
-  backdrop-filter: blur(22px) saturate(150%);
-  box-shadow: 0 14px 44px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.06);
-}
-.topbar {
-  display: flex; align-items: center; justify-content: space-between; gap: 14px;
-  padding: 12px 20px; margin-bottom: 14px; border-radius: 18px;
-}
-.brand { font-size: 18px; font-weight: 750; }
-.brand em { font-style: normal; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
-.top-actions { display: flex; align-items: center; gap: 10px; }
-.badge { font-size: 12px; color: var(--ink-dim); border: 1px solid var(--glass-border); border-radius: 999px; padding: 4px 12px; }
-.lang { display: flex; gap: 6px; }
-.lang a {
-  text-decoration: none; color: var(--ink-dim); font-size: 12px; font-weight: 700;
-  border: 1px solid var(--glass-border); border-radius: 999px; padding: 6px 12px;
-}
-.lang a.on { color: #041018; background: var(--accent); border-color: transparent; box-shadow: 0 0 18px rgba(110,231,255,.25); }
-.card { border-radius: var(--radius); padding: 18px 20px; }
-.eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent-2); margin-bottom: 8px; }
-.muted { color: var(--ink-dim); }
-.up { color: var(--ok); } .down { color: var(--bad); }
-
-/* DESK POSTURE */
-.hero-posture { margin-bottom: 0; }
-.posture-card {
-  border-color: rgba(110,231,255,.22);
-  box-shadow: 0 14px 44px rgba(0,0,0,.35), 0 0 40px rgba(110,231,255,.06), inset 0 1px 0 rgba(255,255,255,.06);
-}
-.posture-line { font-size: 15px; margin-bottom: 12px; color: #dfe6ff; }
-.posture-line strong { color: var(--ink); }
-.btc-inline { font-size: 17px; font-weight: 800; }
-.posture-body { font-size: 14.5px; white-space: pre-wrap; color: #e7ecff; line-height: 1.6; }
-.posture-body.sm { font-size: 13.5px; }
-.posture-body.xs { font-size: 12.5px; }
-
-/* GRID */
-.grid-2 { display: grid; gap: 14px; grid-template-columns: repeat(2, minmax(0,1fr)); }
-@media (max-width: 800px) { .grid-2 { grid-template-columns: 1fr; } }
-.lower { margin-top: 14px; }
-
-/* TABS */
-.news-shell { margin-top: 14px; padding: 16px 16px 20px; }
-.news-head h2 { margin: 0 0 12px; font-size: 14px; font-weight: 650; color: var(--ink); }
-.tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
-.tab {
-  appearance: none; cursor: pointer; font: inherit; font-size: 12.5px; font-weight: 650;
-  color: var(--ink-dim); background: rgba(255,255,255,.03);
-  border: 1px solid var(--glass-border); border-radius: 999px; padding: 8px 12px;
-  transition: .15s ease;
-}
-.tab:hover { color: var(--ink); background: rgba(255,255,255,.06); }
-.tab.on {
-  color: #fff;
-  background: linear-gradient(90deg, rgba(110,231,255,.16), rgba(167,139,250,.14));
-  border-color: rgba(110,231,255,.32);
-  box-shadow: 0 0 22px rgba(110,231,255,.10);
-}
-.tab .count { margin-left: 6px; min-width: 16px; text-align: center; font-size: 10px; border-radius: 999px; padding: 1px 5px; background: rgba(255,255,255,.08); color: var(--ink-dim); }
-
-/* STORIES */
-.stories { display: grid; gap: 10px; }
-.story { border-radius: 14px; padding: 12px 14px; border: 1px solid var(--glass-border); background: rgba(0,0,0,.18); }
-.story-title { color: var(--ink); font-weight: 700; font-size: 14.5px; text-decoration: none; background: linear-gradient(90deg, #fff, #c8d4f5); -webkit-background-clip: text; background-clip: text; }
-.story-title:hover { text-decoration: underline; text-decoration-color: rgba(110,231,255,.5); }
-.story-source { font-size: 11.5px; color: var(--accent-2); margin-left: 8px; }
-.story-short { margin: 8px 0 6px; font-size: 13.5px; color: #e6ebff; }
-.linkish { appearance: none; border: 0; background: none; color: var(--accent); font: inherit; font-size: 12px; font-weight: 700; cursor: pointer; padding: 0; }
-.linkish:hover { color: #fff; }
-.story-long { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--glass-border); }
-.analysis { white-space: pre-wrap; font-size: 13px; color: #dfe6ff; background: rgba(110,231,255,.04); border: 1px solid rgba(110,231,255,.12); border-radius: 10px; padding: 10px 12px; }
-.story-meta { font-size: 11px; color: var(--ink-dim); margin-top: 6px; word-break: break-all; }
-.story-meta a { color: var(--accent); }
-.empty { color: var(--ink-dim); font-size: 13px; }
-.sources-note { font-size: 11px; color: var(--ink-dim); margin-top: 14px; margin-bottom: 0; }
-
-/* POLY */
-.poly-list { display: grid; gap: 6px; margin-top: 6px; }
-.poly-row { display: flex; justify-content: space-between; align-items: center; padding: 5px 0; border-bottom: 1px solid rgba(255,255,255,.05); font-size: 12.5px; }
-.poly-title { color: var(--ink); text-decoration: none; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.poly-odds { font-weight: 700; margin-left: 12px; font-size: 13px; }
-
-/* PICKS */
-.picks { display: grid; gap: 6px; margin-top: 8px; }
-.pick-row { display: grid; grid-template-columns: 60px 1fr auto auto; gap: 10px; align-items: center; padding: 6px 10px; border-radius: 10px; border: 1px solid var(--glass-border); background: rgba(0,0,0,.12); font-size: 13px; }
-.pick-sym { font-weight: 750; color: var(--accent); }
-.pick-chg { font-weight: 700; min-width: 55px; text-align: right; }
-.pick-reason { font-size: 11.5px; color: var(--ink-dim); min-width: 140px; }
-
-/* TOOLTIPS */
-.tip { position: relative; cursor: help; border-bottom: 1px dashed var(--accent); color: var(--accent); }
-.tip-text {
-  display: none; position: absolute; bottom: calc(100% + 8px); left: 50%; transform: translateX(-50%);
-  background: rgba(8,14,30,.95); border: 1px solid var(--glass-border-hi); border-radius: 10px;
-  padding: 10px 14px; font-size: 12.5px; color: #e8edff; width: 280px; line-height: 1.45;
-  z-index: 100; box-shadow: 0 8px 28px rgba(0,0,0,.5);
-  font-weight: 400; letter-spacing: 0; text-transform: none;
-}
-.tip:hover .tip-text, .tip:focus .tip-text { display: block; }
-
-.foot { margin-top: 22px; padding-top: 14px; border-top: 1px solid var(--glass-border); color: var(--ink-dim); font-size: 12px; display: grid; gap: 3px; }
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0d0d14;--card:rgba(255,255,255,0.04);--border:rgba(255,255,255,0.08);--cyan:#00e5ff;--magenta:#e040fb;--green:#00e676;--red:#ff5252;--text:#e8e8f0;--muted:#8a8a9a}
+body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;line-height:1.6;min-height:100vh}
+.bg-glow{position:fixed;top:0;left:0;right:0;height:400px;background:radial-gradient(ellipse at 50% 0%,rgba(0,229,255,0.08),transparent 70%);pointer-events:none;z-index:0}
+.container{max-width:860px;margin:0 auto;padding:20px;position:relative;z-index:1}
+header{text-align:center;padding:32px 0 20px;border-bottom:1px solid var(--border);margin-bottom:24px}
+header h1{font-size:1.6rem;font-weight:700;background:linear-gradient(135deg,var(--cyan),var(--magenta));-webkit-background-clip:text;-webkit-text-fill-color:transparent;letter-spacing:-.5px}
+header .date{color:var(--muted);font-size:.85rem;margin-top:4px}
+.lang-toggle{display:flex;gap:8px;justify-content:center;margin-top:12px}
+.lang-toggle button{background:var(--card);border:1px solid var(--border);color:var(--muted);padding:6px 16px;border-radius:6px;cursor:pointer;font-size:.85rem;transition:all .2s}
+.lang-toggle button.active{background:rgba(0,229,255,0.12);border-color:var(--cyan);color:var(--cyan)}
+.section{margin-bottom:24px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;backdrop-filter:blur(12px);margin-bottom:16px}
+.section-title{font-size:.75rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--cyan);margin-bottom:12px;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.stat{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center}
+.stat .label{font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+.stat .value{font-size:1.2rem;font-weight:700;margin-top:4px}
+.stat .value.up{color:var(--green)}.stat .value.down{color:var(--red)}.stat .value.neutral{color:var(--text)}
+.price-card{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.price-card .name{font-weight:600;font-size:1rem}
+.price-card .price{text-align:right}
+.price-card .price .usd{font-size:1.2rem;font-weight:700}
+.price-card .price .chg{font-size:.85rem;margin-top:2px}
+.chg.up{color:var(--green)}.chg.down{color:var(--red)}
+.bullet-list{list-style:none;padding:0}
+.bullet-list li{padding:8px 0;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;gap:8px}
+.bullet-list li:last-child{border:none}
+.bullet-list li::before{content:"-";color:var(--cyan);font-weight:700;flex-shrink:0;margin-top:1px}
+.tag{display:inline-block;padding:3px 10px;border-radius:20px;font-size:.75rem;font-weight:600;margin:2px}
+.tag.green{background:rgba(0,230,118,0.12);color:var(--green)}
+.tag.red{background:rgba(255,82,82,0.12);color:var(--red)}
+.tag.yellow{background:rgba(255,193,7,0.12);color:#ffc107}
+.tag.cyan{background:rgba(0,229,255,0.12);color:var(--cyan)}
+.action-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.action-box{padding:16px;border-radius:10px;border:1px solid var(--border)}
+.action-box h3{font-size:.8rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px}
+.action-box.watch{border-color:rgba(0,229,255,0.3)}.action-box.watch h3{color:var(--cyan)}
+.action-box.avoid{border-color:rgba(255,82,82,0.3)}.action-box.avoid h3{color:var(--red)}
+.action-box.research{border-color:rgba(224,64,251,0.3)}.action-box.research h3{color:var(--magenta)}
+.action-box ul{list-style:none;padding:0;font-size:.85rem}
+.action-box li{padding:4px 0;color:var(--muted)}
+.action-box li::before{content:"• ";color:var(--muted)}
+table{width:100%;border-collapse:collapse}
+th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--border);font-size:.9rem}
+th{color:var(--muted);font-size:.75rem;text-transform:uppercase;letter-spacing:.5px;font-weight:600}
+.risk-badge{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px}
+.risk-badge.r{background:var(--red)}.risk-badge.y{background:#ffc107}.risk-badge.g{background:var(--green)}
+.note{font-size:.8rem;color:var(--muted);font-style:italic;padding:12px 0;border-top:1px solid var(--border);margin-top:8px}
+@media(max-width:640px){.action-grid{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}}
 </style>
 </head>
 <body>
-<div class="shell">
-  <header class="topbar glass">
-    <div class="brand">Rem Crypto <em>Biurko tradingu</em></div>
-    <div class="top-actions">
-      <span class="badge">2026-07-25</span>
-      <div class="lang">
-        <a class="" href="index.html">EN</a>
-        <a class="on" href="index.pl.html">PL</a>
-      </div>
-    </div>
-  </header>
-
-  <!-- DESK POSTURE — front and center -->
-  <section class="hero-posture card glass posture-card">
-    <div class="eyebrow">Nasza postawa</div>
-    <div class="posture-line">BTC <span class="btc-inline">$64,094.00</span> <span class="down">-2.00%</span> · 
-      Dominacja BTC <strong><strong>56.53687890836782%</strong> Dominacja BTC</strong> · 
-      Globalna kapitalizacja 24h <strong class="down"><span class="tip" tabindex="0"><strong class="tip-key">-1.25% globalna kapitalizacja 24h</strong><span class="tip-text">Łączna wartość WSZYSTKICH kryptowalut. +0.7% oznacza, że cały rynek nieco urosł — kupujący są nieco bardziej agresywni.</span></span></strong>
-    </div>
-    <div class="posture-body">Synteza niedostepna.</div>
-  </section>
-
-  <!-- NARRATIVE + POLY — side by side -->
-  <section class="grid-2 lower">
-    <div class="card glass accent-card">
-      <div class="eyebrow">Sentiment &amp; narracje</div>
-      <div class="posture-body sm">Ograniczony puls social.</div>
-    </div>
-    <div class="card glass">
-      <div class="eyebrow">Odds rynkowe, które mają znaczenie</div>
-      <div class="posture-body xs muted">Co smart money wycenia (nie każdy rynek — tylko te, co ruszają BTC)</div>
-      <div class="poly-list"><p class="muted">Polymarket data collected but no clean odds found — the public API structure changes often.</p></div>
-    </div>
-  </section>
-
-  <!-- NEWS TABS with section takes -->
-  <section class="card glass news-shell lower">
-    <div class="news-head">
-      <h2>Wiadomości, które mają znaczenie — kliknij aby zobaczyć analizę Rem</h2>
-    </div>
-    <div class="tabs" role="tablist"><button type="button" class="tab on" data-tab="bitcoin" role="tab">Bitcoin <span class="count">4</span></button><button type="button" class="tab" data-tab="crypto_market" role="tab">Rynek krypto <span class="count">4</span></button><button type="button" class="tab" data-tab="macro_geo" role="tab">Gospodarka i geopolityka <span class="count">4</span></button><button type="button" class="tab" data-tab="stocks_ai" role="tab">Akcje, AI i SpaceX <span class="count">4</span></button></div>
-    
-<section class="tab-panel" data-panel="bitcoin" role="tabpanel">
-  
-<article class="story glass-in">
-  <div class="story-head">
-    <a class="story-title" href="https://www.nasdaq.com/articles/bitcoin-still-millionaire-maker" target="_blank" rel="noopener noreferrer">Is Bitcoin Still a Millionaire Maker?</a>
-    <span class="story-source">Nasdaq AI</span>
-  </div>
-  <p class="story-short">Key PointsBitcoin has grown to over $1.3 trillion in value.</p>
-  <button type="button" class="linkish" data-toggle="item-6461921825" aria-expanded="false">
-    Przeczytaj analizę
-  </button>
-  <div class="story-long" id="item-6461921825" hidden>
-    <div class="analysis">Analiza: Key PointsBitcoin has grown to over $1.3 trillion in value.</div>
-    <p class="story-meta"><a href="https://www.nasdaq.com/articles/bitcoin-still-millionaire-maker" target="_blank" rel="noopener noreferrer">https://www.nasdaq.com/articles/bitcoin-still-millionaire-maker</a></p>
-  </div>
-</article>
-
-<article class="story glass-in">
-  <div class="story-head">
-    <a class="story-title" href="https://www.theblock.co/post/409652/bitcoin-policy-institute-palantir-anduril-us-state-departments-freedom-tech-excellence-program?utm_source=rss&amp;utm_medium=rss" target="_blank" rel="noopener noreferrer">Bitcoin Policy Institute, Palantir and Anduril join US State Department’s Freedom Tech Excellence Program</a>
-    <span class="story-source">The Block</span>
-  </div>
-  <p class="story-short">The Bitcoin Policy Institute, Palantir and Anduril are partners in the U.S. State Department&#x27;s Freedom Tech Excellence Program.</p>
-  <button type="button" class="linkish" data-toggle="item-586539723" aria-expanded="false">
-    Przeczytaj analizę
-  </button>
-  <div class="story-long" id="item-586539723" hidden>
-    <div class="analysis">Analiza: The Bitcoin Policy Institute, Palantir and Anduril are partners in the U.S. State Department&#x27;s Freedom Tech Excellence Program.</div>
-    <p class="story-meta"><a href="https://www.theblock.co/post/409652/bitcoin-policy-institute-palantir-anduril-us-state-departments-freedom-tech-excellence-program?utm_source=rss&amp;utm_medium=rss" target="_blank" rel="noopener noreferrer">https://www.theblock.co/post/409652/bitcoin-policy-institute-palantir-anduril-us-state-departments-freedom-tech-excellence-program?utm_source=rss&amp;utm_medium=rss</a></p>
-  </div>
-</article>
-
-<article class="story glass-in">
-  <div class="story-head">
-    <a class="story-title" href="https://bitcoinmagazine.com/news/morgan-stanley-bitcoin-etf-400-million" target="_blank" rel="noopener noreferrer">Morgan Stanley Bitcoin ETF Nearly Notches $400M in Assets</a>
-    <span class="story-source">Bitcoin Magazine</span>
-  </div>
-  <p class="story-short">Bitcoin Magazine Morgan Stanley Bitcoin ETF Nearly Notches $400M in Assets Investors were cashing out of Bitcoin ETFs this week — but Morgan Stanley&#x27;s product received fresh cash. This post Morgan Stanley Bitcoin ETF Nearly Notches $400M in Assets first appeared on Bitcoin Magazine and is written by</p>
-  <button type="button" class="linkish" data-toggle="item-2639596717" aria-expanded="false">
-    Przeczytaj analizę
-  </button>
-  <div class="story-long" id="item-2639596717" hidden>
-    <div class="analysis">Analiza: Bitcoin Magazine Morgan Stanley Bitcoin ETF Nearly Notches $400M in Assets Investors were cashing out of Bitcoin ETFs this week — but Morgan Stanley&#x27;s product received fresh cash. This post Morgan Stanley Bitcoin ETF Nearly Notches $400M in Assets first appeared on Bitcoin Magazine and is written by</div>
-    <p class="story-meta"><a href="https://bitcoinmagazine.com/news/morgan-stanley-bitcoin-etf-400-million" target="_blank" rel="noopener noreferrer">https://bitcoinmagazine.com/news/morgan-stanley-bitcoin-etf-400-million</a></p>
-  </div>
-</article>
-
-<article class="story glass-in">
-  <div class="story-head">
-    <a class="story-title" href="https://bitcoinmagazine.com/news/state-department-tech-program-with-bitcoin" target="_blank" rel="noopener noreferrer">State Department to Debut Freedom Tech Program with Bitcoin Policy Institute, Palantir as Founding Partners</a>
-    <span class="story-source">Bitcoin Magazine</span>
-  </div>
-  <p class="story-short">Bitcoin Magazine State Department to Debut Freedom Tech Program with Bitcoin Policy Institute, Palantir as Founding Partners The initiative wants to protect free expression online. This post State Department to Debut Freedom Tech Program with Bitcoin Policy Institute, Palantir as Founding Partners f</p>
-  <button type="button" class="linkish" data-toggle="item-4451147318" aria-expanded="false">
-    Przeczytaj analizę
-  </button>
-  <div class="story-long" id="item-4451147318" hidden>
-    <div class="analysis">Analiza: Bitcoin Magazine State Department to Debut Freedom Tech Program with Bitcoin Policy Institute, Palantir as Founding Partners The initiative wants to protect free expression online. This post State Department to Debut Freedom Tech Program with Bitcoin Policy Institute, Palantir as Founding Partners f</div>
-    <p class="story-meta"><a href="https://bitcoinmagazine.com/news/state-department-tech-program-with-bitcoin" target="_blank" rel="noopener noreferrer">https://bitcoinmagazine.com/news/state-department-tech-program-with-bitcoin</a></p>
-  </div>
-</article>
-</section>
-<section class="tab-panel" data-panel="crypto_market" hidden role="tabpanel">
-  
-<article class="story glass-in">
-  <div class="story-head">
-    <a class="story-title" href="https://www.marketwatch.com/story/i-will-claim-social-security-early-why-do-so-few-people-talk-about-the-elephant-in-the-room-64820675?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">I will definitely claim Social Security early. Why do so few people talk about the elephant in the room?</a>
-    <span class="story-source">MarketWatch</span>
-  </div>
-  <p class="story-short">“The strongest argument for claiming benefits earlier goes beyond the traditional break-even analyses.”</p>
-  <button type="button" class="linkish" data-toggle="item-7178142162" aria-expanded="false">
-    Przeczytaj analizę
-  </button>
-  <div class="story-long" id="item-7178142162" hidden>
-    <div class="analysis">Analiza: “The strongest argument for claiming benefits earlier goes beyond the traditional break-even analyses.”</div>
-    <p class="story-meta"><a href="https://www.marketwatch.com/story/i-will-claim-social-security-early-why-do-so-few-people-talk-about-the-elephant-in-the-room-64820675?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">https://www.marketwatch.com/story/i-will-claim-social-security-early-why-do-so-few-people-talk-about-the-elephant-in-the-room-64820675?mod=mw_rss_topstories</a></p>
-  </div>
-</article>
-
-<article class="story glass-in">
-  <div class="story-head">
-    <a class="story-title" href="https://cointelegraph.com/news/strives-sata-recovers-most-of-june-decline-trades-within-3-of-par?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound" target="_blank" rel="noopener noreferrer">Strive’s SATA recovers most of June decline, trades within 3% of par</a>
-    <span class="story-source">CoinTelegraph</span>
-  </div>
-  <p class="story-short">Jan3 CEO Samson Mow says the recovery could signal renewed confidence in preferred-share products used by Bitcoin treasury companies.</p>
-  <button type="button" class="linkish" data-toggle="item-6461291873" aria-expanded="false">
-    Przeczytaj analizę
-  </button>
-  <div class="story-long" id="item-6461291873" hidden>
-    <div class="analysis">Analiza: Jan3 CEO Samson Mow says the recovery could signal renewed confidence in preferred-share products used by Bitcoin treasury companies.</div>
-    <p class="story-meta"><a href="https://cointelegraph.com/news/strives-sata-recovers-most-of-june-decline-trades-within-3-of-par?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound" target="_blank" rel="noopener noreferrer">https://cointelegraph.com/news/strives-sata-recovers-most-of-june-decline-trades-within-3-of-par?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound</a></p>
-  </div>
-</article>
-
-<article class="story glass-in">
-  <div class="story-head">
-    <a class="story-title" href="https://bitcoinmagazine.com/news/fidelity-backs-crypto-clarity-act" target="_blank" rel="noopener noreferrer">$7 Trillion Investment Giant Fidelity Backs New Crypto Clarity Act</a>
-    <span class="story-source">Bitcoin Magazine</span>
-  </div>
-  <p class="story-short">Bitcoin Magazine $7 Trillion Investment Giant Fidelity Backs New Crypto Clarity Act The investment giant is the latest big player to back the bill. This post $7 Trillion Investment Giant Fidelity Backs New Crypto Clarity Act first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .</p>
-  <button type="button" class="linkish" data-toggle="item-7449231848" aria-expanded="false">
-    Przeczytaj analizę
-  </button>
-  <div class="story-long" id="item-7449231848" hidden>
-    <div class="analysis">Analiza: Bitcoin Magazine $7 Trillion Investment Giant Fidelity Backs New Crypto Clarity Act The investment giant is the latest big player to back the bill. This post $7 Trillion Investment Giant Fidelity Backs New Crypto Clarity Act first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .</div>
-    <p class="story-meta"><a href="https://bitcoinmagazine.com/news/fidelity-backs-crypto-clarity-act" target="_blank" rel="noopener noreferrer">https://bitcoinmagazine.com/news/fidelity-backs-crypto-clarity-act</a></p>
-  </div>
-</article>
-
-<article class="story glass-in">
-  <div class="story-head">
-    <a class="story-title" href="https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound" target="_blank" rel="noopener noreferrer">Here’s what happened in crypto today</a>
-    <span class="story-source">CoinTelegraph</span>
-  </div>
-  <p class="story-short">Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.</p>
-  <button type="button" class="linkish" data-toggle="item-8101358220" aria-expanded="false">
-    Przeczytaj analizę
-  </button>
-  <div class="story-long" id="item-8101358220" hidden>
-    <div class="analysis">Analiza: Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.</div>
-    <p class="story-meta"><a href="https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound" target="_blank" rel="noopener noreferrer">https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound</a></p>
-  </div>
-</article>
-</section>
-<section class="tab-panel" data-panel="macro_geo" hidden role="tabpanel">
-  
-<article class="story glass-in">
-  <div class="story-head">
-    <a class="story-title" href="https://www.bbc.co.uk/news/articles/cd7le4ylev2o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">Trump pokes fun at press during White House Correspondents&#x27; Dinner</a>
-    <span class="story-source">BBC World</span>
-  </div>
-  <p class="story-short">The event celebrated press freedom after the first dinner was cancelled by a shooting in April.</p>
-  <button type="button" class="linkish" data-toggle="item-9830975231" aria-expanded="false">
-    Przeczytaj analizę
-  </button>
-  <div class="story-long" id="item-9830975231" hidden>
-    <div class="analysis">Analiza: The event celebrated press freedom after the first dinner was cancelled by a shooting in April.</div>
-    <p class="story-meta"><a href="https://www.bbc.co.uk/news/articles/cd7le4ylev2o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">https://www.bbc.co.uk/news/articles/cd7le4ylev2o?at_medium=RSS&amp;at_campaign=rss</a></p>
-  </div>
-</article>
-
-<article class="story glass-in">
-  <div class="story-head">
-    <a class="story-title" href="https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">Saudi Arabia and Houthis exchange fire as US attacks tanker in Hormuz Strait</a>
-    <span class="story-source">BBC World</span>
-  </div>
-  <p class="story-short">US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.</p>
-  <button type="button" class="linkish" data-toggle="item-7030166441" aria-expanded="false">
-    Przeczytaj analizę
-  </button>
-  <div class="story-long" id="item-7030166441" hidden>
-    <div class="analysis">Analiza: US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.</div>
-    <p class="story-meta"><a href="https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&amp;at_campaign=rss</a></p>
-  </div>
-</article>
-
-<article class="story glass-in">
-  <div class="story-head">
-    <a class="story-title" href="https://www.aljazeera.com/video/newsfeed/2026/7/25/funerals-held-for-four-palestinians-killed-in-deadly-west-bank-shooting?traffic_source=rss" target="_blank" rel="noopener noreferrer">Funerals held for four Palestinians killed in deadly West Bank shooting</a>
-    <span class="story-source">Al Jazeera</span>
-  </div>
-  <p class="story-short">Overnight funerals were held for four Palestinians killed near Nablus.</p>
-  <button type="button" class="linkish" data-toggle="item-7921552066" aria-expanded="false">
-    Przeczytaj analizę
-  </button>
-  <div class="story-long" id="item-7921552066" hidden>
-    <div class="analysis">Analiza: Overnight funerals were held for four Palestinians killed near Nablus.</div>
-    <p class="story-meta"><a href="https://www.aljazeera.com/video/newsfeed/2026/7/25/funerals-held-for-four-palestinians-killed-in-deadly-west-bank-shooting?traffic_source=rss" target="_blank" rel="noopener noreferrer">https://www.aljazeera.com/video/newsfeed/2026/7/25/funerals-held-for-four-palestinians-killed-in-deadly-west-bank-shooting?traffic_source=rss</a></p>
-  </div>
-</article>
-
-<article class="story glass-in">
-  <div class="story-head">
-    <a class="story-title" href="https://www.nytimes.com/2026/07/25/business/economy/trump-tariffs-iran-war-inflation.html" target="_blank" rel="noopener noreferrer">A Global Economy Jolted by an Oil Shock Now Gets a Tariff Reminder</a>
-    <span class="story-source">NYT Business</span>
-  </div>
-  <p class="story-short">Tariffs are back, but this time there is a war in the Persian Gulf and oil has hit $100 a barrel.</p>
-  <button type="button" class="linkish" data-toggle="item-9846151351" aria-expanded="false">
-    Przeczytaj analizę
-  </button>
-  <div class="story-long" id="item-9846151351" hidden>
-    <div class="analysis">Analiza: Tariffs are back, but this time there is a war in the Persian Gulf and oil has hit $100 a barrel.</div>
-    <p class="story-meta"><a href="https://www.nytimes.com/2026/07/25/business/economy/trump-tariffs-iran-war-inflation.html" target="_blank" rel="noopener noreferrer">https://www.nytimes.com/2026/07/25/business/economy/trump-tariffs-iran-war-inflation.html</a></p>
-  </div>
-</article>
-</section>
-<section class="tab-panel" data-panel="stocks_ai" hidden role="tabpanel">
-  
-<article class="story glass-in">
-  <div class="story-head">
-    <a class="story-title" href="https://www.nasdaq.com/articles/zevra-appeal-emas-negative-opinion-arimoclomol-niemann-pick-disease-type-c" target="_blank" rel="noopener noreferrer">Zevra To Appeal EMA&#x27;s Negative Opinion On Arimoclomol For Niemann-Pick Disease Type C</a>
-    <span class="story-source">Nasdaq AI</span>
-  </div>
-  <p class="story-short">(RTTNews) - Zevra Therapeutics, Inc. (ZVRA) announced that the Committee for Medicinal Products for Human Use (CHMP) of the European Medicines Agency (EMA) has adopted a negative opinion on the company&#x27;s Marketing Authorization Application for Arimoclomol for the treatment of Nie</p>
-  <button type="button" class="linkish" data-toggle="item-6210001052" aria-expanded="false">
-    Przeczytaj analizę
-  </button>
-  <div class="story-long" id="item-6210001052" hidden>
-    <div class="analysis">Analiza: (RTTNews) - Zevra Therapeutics, Inc. (ZVRA) announced that the Committee for Medicinal Products for Human Use (CHMP) of the European Medicines Agency (EMA) has adopted a negative opinion on the company&#x27;s Marketing Authorization Application for Arimoclomol for the treatment of Nie</div>
-    <p class="story-meta"><a href="https://www.nasdaq.com/articles/zevra-appeal-emas-negative-opinion-arimoclomol-niemann-pick-disease-type-c" target="_blank" rel="noopener noreferrer">https://www.nasdaq.com/articles/zevra-appeal-emas-negative-opinion-arimoclomol-niemann-pick-disease-type-c</a></p>
-  </div>
-</article>
-
-<article class="story glass-in">
-  <div class="story-head">
-    <a class="story-title" href="https://www.nasdaq.com/articles/fda-clears-kenvues-tylenol-naproxen-first-otc-fixed-dose-combination" target="_blank" rel="noopener noreferrer">FDA Clears Kenvue&#x27;s TYLENOL With Naproxen, First OTC Fixed-Dose Combination</a>
-    <span class="story-source">Nasdaq AI</span>
-  </div>
-  <p class="story-short">(RTTNews) - Kenvue Inc. (KVUE) announced that the FDA has approved TYLENOL with Naproxen, the first and only over the counter fixed dose combination of acetaminophen (650 mg) and naproxen sodium (220 mg) for pain relief.</p>
-  <button type="button" class="linkish" data-toggle="item-9817840875" aria-expanded="false">
-    Przeczytaj analizę
-  </button>
-  <div class="story-long" id="item-9817840875" hidden>
-    <div class="analysis">Analiza: (RTTNews) - Kenvue Inc. (KVUE) announced that the FDA has approved TYLENOL with Naproxen, the first and only over the counter fixed dose combination of acetaminophen (650 mg) and naproxen sodium (220 mg) for pain relief.</div>
-    <p class="story-meta"><a href="https://www.nasdaq.com/articles/fda-clears-kenvues-tylenol-naproxen-first-otc-fixed-dose-combination" target="_blank" rel="noopener noreferrer">https://www.nasdaq.com/articles/fda-clears-kenvues-tylenol-naproxen-first-otc-fixed-dose-combination</a></p>
-  </div>
-</article>
-
-<article class="story glass-in">
-  <div class="story-head">
-    <a class="story-title" href="https://www.nasdaq.com/articles/why-apple-stock-today" target="_blank" rel="noopener noreferrer">Why Apple Stock Is Up Today</a>
-    <span class="story-source">Nasdaq AI</span>
-  </div>
-  <p class="story-short">Key PointsApple&#x27;s AI strategy has far less risk than those of its rivals.</p>
-  <button type="button" class="linkish" data-toggle="item-552154835" aria-expanded="false">
-    Przeczytaj analizę
-  </button>
-  <div class="story-long" id="item-552154835" hidden>
-    <div class="analysis">Analiza: Key PointsApple&#x27;s AI strategy has far less risk than those of its rivals.</div>
-    <p class="story-meta"><a href="https://www.nasdaq.com/articles/why-apple-stock-today" target="_blank" rel="noopener noreferrer">https://www.nasdaq.com/articles/why-apple-stock-today</a></p>
-  </div>
-</article>
-
-<article class="story glass-in">
-  <div class="story-head">
-    <a class="story-title" href="https://www.nasdaq.com/articles/outlook-therapeutics-wins-fda-nod-lytenava-after-three-setbacks" target="_blank" rel="noopener noreferrer">Outlook Therapeutics Wins FDA Nod For LYTENAVA After Three Setbacks</a>
-    <span class="story-source">Nasdaq AI</span>
-  </div>
-  <p class="story-short">(RTTNews) - Outlook Therapeutics (OTLK) announced that the FDA has approved LYTENAVA as the first and only FDA-approved ophthalmic formulation of bevacizumab for the treatment of neovascular age-related macular degeneration (wet AMD).</p>
-  <button type="button" class="linkish" data-toggle="item-992413135" aria-expanded="false">
-    Przeczytaj analizę
-  </button>
-  <div class="story-long" id="item-992413135" hidden>
-    <div class="analysis">Analiza: (RTTNews) - Outlook Therapeutics (OTLK) announced that the FDA has approved LYTENAVA as the first and only FDA-approved ophthalmic formulation of bevacizumab for the treatment of neovascular age-related macular degeneration (wet AMD).</div>
-    <p class="story-meta"><a href="https://www.nasdaq.com/articles/outlook-therapeutics-wins-fda-nod-lytenava-after-three-setbacks" target="_blank" rel="noopener noreferrer">https://www.nasdaq.com/articles/outlook-therapeutics-wins-fda-nod-lytenava-after-three-setbacks</a></p>
-  </div>
-</article>
-</section>
-    <p class="sources-note">Źródła użyte: CoinDesk, CoinTelegraph, Bitcoin Magazine, The Block, BBC Business/World, Al Jazeera, MarketWatch, CNBC, Nasdaq AI, Hacker News · Polymarket · CoinGecko · DefiLlama</p>
-  </section>
-
-  <!-- TODAY'S PICKS -->
-  <section class="card glass lower">
-    <div class="eyebrow">Dzisiejsze wybory</div>
-    <div class="posture-body xs muted">Mony z powodem do ruchu — na podstawie newsów + on-chain + flow</div>
-    <div class="picks"><div class="pick-row"><span class="pick-sym">XMR</span><span class="pick-name">Monero</span><span class="pick-chg up">+4.70%</span><span class="pick-reason">Risk mover — +4.70% in 24h</span></div><div class="pick-row"><span class="pick-sym">CC</span><span class="pick-name">Canton</span><span class="pick-chg down">-4.70%</span><span class="pick-reason">Risk mover — -4.70% in 24h</span></div><div class="pick-row"><span class="pick-sym">ZEC</span><span class="pick-name">Zcash</span><span class="pick-chg down">-4.40%</span><span class="pick-reason">Risk mover — -4.40% in 24h</span></div><div class="pick-row"><span class="pick-sym">XLM</span><span class="pick-name">Stellar</span><span class="pick-chg down">-2.40%</span><span class="pick-reason">Risk mover — -2.40% in 24h</span></div><div class="pick-row"><span class="pick-sym">ADA</span><span class="pick-name">Cardano</span><span class="pick-chg down">-2.10%</span><span class="pick-reason">Risk mover — -2.10% in 24h</span></div><div class="pick-row"><span class="pick-sym">HYPE</span><span class="pick-name">Hyperliquid</span><span class="pick-chg down">-1.30%</span><span class="pick-reason">Risk mover — -1.30% in 24h</span></div></div>
-    <p class="muted xs">Trending = high search volume on CoinGecko. Risk movers = top 20–30 ranked coins with biggest 24h moves.</p>
-  </section>
-
-  <footer class="foot">
-    <div>Aktualizacja: 2026-07-25T12:18:17</div>
-    <div>Biurko handlowe rodziny. Każda pozycja niesie ryzyko.</div>
-    <div class="muted">najedź/kliknij aby się nauczyć · tryb=grok</div>
-  </footer>
+<div class="bg-glow"></div>
+<div class="container">
+<header>
+<h1>⚡ REM CRYPTO BRIEFING — PL</h1>
+<div class="date">Poniedziałek, 27 lipca 2026 · 07:00 BKK</div>
+<div class="lang-toggle">
+<button onclick="window.location.href='index.html'">EN</button>
+<button class="active">PL</button>
 </div>
-<script>
+</header>
 
-document.querySelectorAll('.tab').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const id = btn.dataset.tab;
-    document.querySelectorAll('.tab').forEach(b => b.classList.toggle('on', b === btn));
-    document.querySelectorAll('.tab-panel').forEach(p => { p.hidden = p.dataset.panel !== id; });
-  });
-});
-document.querySelectorAll('[data-toggle]').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const el = document.getElementById(btn.dataset.toggle);
-    if (!el) return;
-    const open = el.hasAttribute('hidden');
-    if (open) el.removeAttribute('hidden'); else el.setAttribute('hidden', '');
-    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-    if (open) { btn.dataset.prev = btn.textContent; btn.textContent = btn.textContent.includes('Zwiń') ? 'Zwiń' : 'Hide'; }
-    else if (btn.dataset.prev) btn.textContent = btn.dataset.prev;
-  });
-});
+<div class="section">
+<div class="section-title">Puls Rynku</div>
+<div class="grid">
+<div class="stat"><div class="label">Całkowity MCap</div><div class="value neutral">$2.32T</div></div>
+<div class="stat"><div class="label">Wolumen 24h</div><div class="value up">$53.8B (+47%)</div></div>
+<div class="stat"><div class="label">Dominacja BTC</div><div class="value neutral">56.4%</div></div>
+<div class="stat"><div class="label">Dominacja ETH</div><div class="value up">10.2%</div></div>
+</div>
+</div>
 
-</script>
+<div class="section">
+<div class="section-title">Bitcoin</div>
+<div class="card">
+<div class="price-card">
+<div class="name">BTC</div>
+<div class="price">
+<div class="usd">$65 008</div>
+<div class="chg up">+0.90% (24h) · +1.30% (7d)</div>
+</div>
+</div>
+<ul class="bullet-list" style="margin-top:12px">
+<li>Zakres: $64 371 – $65 618 · ATH: $126 080 (-48.4%)</li>
+<li>Wolumen rośnie pod ceną — klasyczny wzorzec akumulacji</li>
+<li>Dojście powyżej $66K sygnalizuje ruch ku $70K</li>
+<li>Inwalidacja: zamknięcie poniżej $64K · wsparcie przy $62K</li>
+</ul>
+</div>
+</div>
+
+<div class="section">
+<div class="section-title">Największe Zmiany</div>
+<div class="card">
+<table>
+<tr><th>Symbol</th><th>Cena</th><th>24h</th><th>7d</th></tr>
+<tr><td><strong>ETH</strong></td><td>$1 950</td><td class="chg up">+3.90%</td><td class="chg up">+4.90%</td></tr>
+<tr><td><strong>SOL</strong></td><td>$76.48</td><td class="chg up">+1.90%</td><td>+0.20%</td></tr>
+<tr><td>FIGR_HELOC</td><td>$1.034</td><td class="chg up">+2.90%</td><td>-0.80%</td></tr>
+<tr><td>XRP</td><td>$1.10</td><td>+0.40%</td><td>+1.20%</td></tr>
+<tr><td>BNB</td><td>$571.81</td><td>+0.30%</td><td>+1.10%</td></tr>
+</table>
+<div style="margin-top:8px"><span class="tag green">📈 ETH wyprzedza BTC 4x — sygnał rotacji altów</span></div>
+</div>
+</div>
+
+<div class="section">
+<div class="section-title">Gorące Sektory</div>
+<div class="card">
+<ul class="bullet-list">
+<li><strong>Pons Launchpad</strong> +6.39% — nowy ekosystem (6 tokenów, $54.7M mcap)</li>
+<li><strong>Gaming/GameFi</strong> +5.44% — sektor $4.9B, wczesna odbudowa</li>
+<li><strong>Launchpad (ogólne)</strong> +5.28% — gorączka spekulacyjna</li>
+</ul>
+</div>
+</div>
+
+<div class="section">
+<div class="section-title">Wysokie Ryzyko / Trendy <span class="tag red">GROSZE NA GRY</span></div>
+<div class="card">
+<table>
+<tr><th>Token</th><th>Cena</th><th>24h</th><th>Ranga</th><th>Ryzyko</th></tr>
+<tr><td><span class="risk-badge r"></span>GEOD</td><td>$0.29</td><td class="chg up">+33.6%</td><td>#217</td><td><span class="tag red">Pump cienka likwidność</span></td></tr>
+<tr><td><span class="risk-badge r"></span>PUMP</td><td>$0.002</td><td class="chg up">+17.7%</td><td>#76</td><td><span class="tag red">Memecoin infra</span></td></tr>
+<tr><td><span class="risk-badge y"></span>LIT</td><td>$2.26</td><td class="chg up">+9.2%</td><td>#93</td><td><span class="tag yellow">BTC L2</span></td></tr>
+<tr><td><span class="risk-badge g"></span>PENGU</td><td>$0.006</td><td>+1.0%</td><td>#110</td><td><span class="tag cyan">Ikonka kulturowa</span></td></tr>
+</table>
+</div>
+</div>
+
+<div class="section">
+<div class="section-title">Co Robić</div>
+<div class="action-grid">
+<div class="action-box watch">
+<h3>👁 Obserwuj</h3>
+<ul>
+<li>BTC close >$66K → cel $70K</li>
+<li>ETH/BTC rośnie → rotacja altów</li>
+<li>Wolumen >$50B dziennie = potwierdzenie</li>
+</ul>
+</div>
+<div class="action-box avoid">
+<h3>🚫 Unikaj</h3>
+<ul>
+<li>GEOD przy +33% — wzorzec pump</li>
+<li>Przełamanie bez wolumenu</li>
+</ul>
+</div>
+<div class="action-box research">
+<h3>🔬 Badaj</h3>
+<ul>
+<li>Fundamentals ekosystemu Pons</li>
+<li>Rzeczywisty wolumen Lighter L2</li>
+<li>Długotrwałość przewagi ETH</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="note">Dane: CoinGecko API (live). Ekstrakcja wiadomości niedostępna — brak API Firecrawl. To nie jest porada finansowa.</div>
+</div>
 </body>
 </html>
