@@ -3,171 +3,153 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rem Crypto Briefing PL — 27 lipca 2026</title>
+<title>Rem Crypto Pulpit — 28 Lipca 2026</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-*{margin:0;padding:0;box-sizing:border-box}
-:root{--bg:#0d0d14;--card:rgba(255,255,255,0.04);--border:rgba(255,255,255,0.08);--cyan:#00e5ff;--magenta:#e040fb;--green:#00e676;--red:#ff5252;--text:#e8e8f0;--muted:#8a8a9a}
-body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;line-height:1.6;min-height:100vh}
-.bg-glow{position:fixed;top:0;left:0;right:0;height:400px;background:radial-gradient(ellipse at 50% 0%,rgba(0,229,255,0.08),transparent 70%);pointer-events:none;z-index:0}
-.container{max-width:860px;margin:0 auto;padding:20px;position:relative;z-index:1}
-header{text-align:center;padding:32px 0 20px;border-bottom:1px solid var(--border);margin-bottom:24px}
-header h1{font-size:1.6rem;font-weight:700;background:linear-gradient(135deg,var(--cyan),var(--magenta));-webkit-background-clip:text;-webkit-text-fill-color:transparent;letter-spacing:-.5px}
-header .date{color:var(--muted);font-size:.85rem;margin-top:4px}
-.lang-toggle{display:flex;gap:8px;justify-content:center;margin-top:12px}
-.lang-toggle button{background:var(--card);border:1px solid var(--border);color:var(--muted);padding:6px 16px;border-radius:6px;cursor:pointer;font-size:.85rem;transition:all .2s}
-.lang-toggle button.active{background:rgba(0,229,255,0.12);border-color:var(--cyan);color:var(--cyan)}
-.section{margin-bottom:24px}
-.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;backdrop-filter:blur(12px);margin-bottom:16px}
-.section-title{font-size:.75rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--cyan);margin-bottom:12px;font-weight:600}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
-.stat{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center}
-.stat .label{font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
-.stat .value{font-size:1.2rem;font-weight:700;margin-top:4px}
-.stat .value.up{color:var(--green)}.stat .value.down{color:var(--red)}.stat .value.neutral{color:var(--text)}
-.price-card{display:flex;align-items:center;justify-content:space-between;gap:16px}
-.price-card .name{font-weight:600;font-size:1rem}
-.price-card .price{text-align:right}
-.price-card .price .usd{font-size:1.2rem;font-weight:700}
-.price-card .price .chg{font-size:.85rem;margin-top:2px}
-.chg.up{color:var(--green)}.chg.down{color:var(--red)}
-.bullet-list{list-style:none;padding:0}
-.bullet-list li{padding:8px 0;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;gap:8px}
-.bullet-list li:last-child{border:none}
-.bullet-list li::before{content:"-";color:var(--cyan);font-weight:700;flex-shrink:0;margin-top:1px}
-.tag{display:inline-block;padding:3px 10px;border-radius:20px;font-size:.75rem;font-weight:600;margin:2px}
-.tag.green{background:rgba(0,230,118,0.12);color:var(--green)}
-.tag.red{background:rgba(255,82,82,0.12);color:var(--red)}
-.tag.yellow{background:rgba(255,193,7,0.12);color:#ffc107}
-.tag.cyan{background:rgba(0,229,255,0.12);color:var(--cyan)}
-.action-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
-.action-box{padding:16px;border-radius:10px;border:1px solid var(--border)}
-.action-box h3{font-size:.8rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px}
-.action-box.watch{border-color:rgba(0,229,255,0.3)}.action-box.watch h3{color:var(--cyan)}
-.action-box.avoid{border-color:rgba(255,82,82,0.3)}.action-box.avoid h3{color:var(--red)}
-.action-box.research{border-color:rgba(224,64,251,0.3)}.action-box.research h3{color:var(--magenta)}
-.action-box ul{list-style:none;padding:0;font-size:.85rem}
-.action-box li{padding:4px 0;color:var(--muted)}
-.action-box li::before{content:"• ";color:var(--muted)}
-table{width:100%;border-collapse:collapse}
-th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--border);font-size:.9rem}
-th{color:var(--muted);font-size:.75rem;text-transform:uppercase;letter-spacing:.5px;font-weight:600}
-.risk-badge{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px}
-.risk-badge.r{background:var(--red)}.risk-badge.y{background:#ffc107}.risk-badge.g{background:var(--green)}
-.note{font-size:.8rem;color:var(--muted);font-style:italic;padding:12px 0;border-top:1px solid var(--border);margin-top:8px}
-@media(max-width:640px){.action-grid{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}}
+  *{margin:0;padding:0;box-sizing:border-box}
+  :root{--bg:#06080f;--surface:rgba(255,255,255,.04);--border:rgba(255,255,255,.08);--cyan:#00e5ff;--violet:#b388ff;--pink:#ff80ab;--text:#e0e0e0;--muted:#888;--green:#69f0ae;--red:#ff5252}
+  body{background:var(--bg);color:var(--text);font-family:Inter,-apple-system,sans-serif;line-height:1.6;min-height:100vh}
+  body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellipse at 20% 0%,rgba(0,229,255,.06),transparent 50%),radial-gradient(ellipse at 80% 100%,rgba(179,136,255,.06),transparent 50%);pointer-events:none;z-index:0}
+  .container{max-width:800px;margin:0 auto;padding:24px 16px;position:relative;z-index:1}
+  header{display:flex;justify-content:space-between;align-items:center;margin-bottom:32px;padding-bottom:16px;border-bottom:1px solid var(--border)}
+  header h1{font-size:1.1rem;font-weight:600;letter-spacing:.05em}
+  header h1 span{color:var(--cyan)}
+  .lang{display:flex;gap:8px;font-size:.8rem}
+  .lang a{color:var(--muted);text-decoration:none;padding:4px 10px;border:1px solid var(--border);border-radius:6px;transition:.2s}
+  .lang a.active{color:var(--cyan);border-color:var(--cyan)}
+  .posture{background:linear-gradient(135deg,rgba(0,229,255,.08),rgba(179,136,255,.08));border:1px solid rgba(0,229,255,.15);border-radius:12px;padding:20px;margin-bottom:28px;backdrop-filter:blur(8px)}
+  .posture h2{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:var(--cyan);margin-bottom:8px}
+  .posture p{font-size:.95rem;color:var(--text)}
+  .ticker{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:28px}
+  .ticker-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px;backdrop-filter:blur(4px)}
+  .ticker-card .sym{font-size:.7rem;text-transform:uppercase;color:var(--muted);letter-spacing:.08em}
+  .ticker-card .price{font-size:1.15rem;font-weight:700;margin:4px 0}
+  .ticker-card .chg{font-size:.8rem}
+  .up{color:var(--green)}.down{color:var(--red)}.flat{color:var(--muted)}
+  .section{margin-bottom:28px}
+  .section h2{font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;color:var(--violet);margin-bottom:12px;padding-bottom:6px;border-bottom:1px solid var(--border)}
+  .pick{display:flex;gap:12px;align-items:flex-start;padding:12px;margin-bottom:8px;background:var(--surface);border:1px solid var(--border);border-radius:8px}
+  .pick .badge{padding:2px 10px;border-radius:20px;font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap}
+  .pick .badge.watch{background:rgba(0,229,255,.15);color:var(--cyan)}
+  .pick .badge.avoid{background:rgba(255,82,82,.15);color:var(--red)}
+  .pick .badge.research{background:rgba(179,136,255,.15);color:var(--violet)}
+  .pick .info{flex:1}
+  .pick .sym{font-weight:700;font-size:.9rem}
+  .pick .reason{font-size:.85rem;color:var(--muted);margin-top:2px}
+  .news-item{padding:10px 0;border-bottom:1px solid var(--border);font-size:.9rem}
+  .news-item:last-child{border:none}
+  .news-item a{color:var(--text);text-decoration:none}
+  .news-item a:hover{color:var(--cyan)}
+  .news-item .src{font-size:.7rem;color:var(--muted);margin-top:4px}
+  .narrative{display:flex;align-items:center;gap:10px;padding:8px 12px;background:var(--surface);border:1px solid var(--border);border-radius:8px;margin-bottom:6px;font-size:.9rem}
+  .narrative .arrow{font-size:1.2rem}
+  .narrative .rank{color:var(--muted);font-size:.7rem;min-width:20px}
+  .movers{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:8px}
+  .mover-col h3{font-size:.75rem;color:var(--muted);text-transform:uppercase;margin-bottom:6px}
+  .mover-row{display:flex;justify-content:space-between;padding:4px 0;font-size:.85rem;border-bottom:1px solid rgba(255,255,255,.03)}
+  .mover-row .s{font-weight:600}.mover-row .v{font-weight:700}
+  .global{display:flex;gap:16px;flex-wrap:wrap;font-size:.8rem;color:var(--muted);margin-bottom:28px;padding:12px;background:var(--surface);border-radius:8px;border:1px solid var(--border)}
+  .global strong{color:var(--text)}
+  .tip{position:relative;cursor:help;border-bottom:1px dashed var(--cyan)}
+  .tip:hover::after{content:attr(data-tip);position:absolute;bottom:100%;left:50%;transform:translateX(-50%);background:rgba(0,229,255,.1);border:1px solid rgba(0,229,255,.2);border-radius:6px;padding:8px 12px;font-size:.75rem;color:var(--text);width:220px;z-index:10;line-height:1.4;white-space:normal;pointer-events:none}
+  footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--border);font-size:.7rem;color:var(--muted);text-align:center}
 </style>
 </head>
 <body>
-<div class="bg-glow"></div>
 <div class="container">
-<header>
-<h1>⚡ REM CRYPTO BRIEFING — PL</h1>
-<div class="date">Poniedziałek, 27 lipca 2026 · 07:00 BKK</div>
-<div class="lang-toggle">
-<button onclick="window.location.href='index.html'">EN</button>
-<button class="active">PL</button>
-</div>
-</header>
+  <header>
+    <h1><span>◈</span> REM CRYPTO PULPIT</h1>
+    <div class="lang">
+      <a href="index.html">EN</a>
+      <a href="index.pl.html" class="active">PL</a>
+    </div>
+  </header>
 
-<div class="section">
-<div class="section-title">Puls Rynku</div>
-<div class="grid">
-<div class="stat"><div class="label">Całkowity MCap</div><div class="value neutral">$2.32T</div></div>
-<div class="stat"><div class="label">Wolumen 24h</div><div class="value up">$53.8B (+47%)</div></div>
-<div class="stat"><div class="label">Dominacja BTC</div><div class="value neutral">56.4%</div></div>
-<div class="stat"><div class="label">Dominacja ETH</div><div class="value up">10.2%</div></div>
-</div>
-</div>
+  <div class="posture">
+    <h2>Status Pulpitu — Tonacja Risk-Off</h2>
+    <p>BTC spada poniżej $65k ze stratą -1,4%, podczas gdy ETH wykazuje lepszą formę na poziomie +1,4%. Dywergencja sugeruje, że ETH absorbuje zlecenia inteligentnych pieniędzy, podczas gdy alty są sprzedawane. <span class="tip" data-tip="Dominacja BTC = jaki % całkowitej kapitalizacji krypto stanowi Bitcoin. Wyższa = kapitał płynie do BTC, nie do altów.">Dominacja 56,5%</span> stabilna — kapitał krąży między BTC a ETH, nie przepływa do altów. Płaski wolumen ($66 mld) potwierdza niską konwinkcję. Obserwuj $64k jako krótkoterminową podłogę BTC; przełamanie otwiera $62,5k.</p>
+  </div>
 
-<div class="section">
-<div class="section-title">Bitcoin</div>
-<div class="card">
-<div class="price-card">
-<div class="name">BTC</div>
-<div class="price">
-<div class="usd">$65 008</div>
-<div class="chg up">+0.90% (24h) · +1.30% (7d)</div>
-</div>
-</div>
-<ul class="bullet-list" style="margin-top:12px">
-<li>Zakres: $64 371 – $65 618 · ATH: $126 080 (-48.4%)</li>
-<li>Wolumen rośnie pod ceną — klasyczny wzorzec akumulacji</li>
-<li>Dojście powyżej $66K sygnalizuje ruch ku $70K</li>
-<li>Inwalidacja: zamknięcie poniżej $64K · wsparcie przy $62K</li>
-</ul>
-</div>
-</div>
+  <div class="ticker">
+    <div class="ticker-card">
+      <div class="sym">BTC</div>
+      <div class="price">$64 481</div>
+      <div class="chg down">−1,4%</div>
+    </div>
+    <div class="ticker-card">
+      <div class="sym">ETH</div>
+      <div class="price">$1 927</div>
+      <div class="chg up">+1,4%</div>
+    </div>
+    <div class="ticker-card">
+      <div class="sym">Dominacja BTC</div>
+      <div class="price">56,5%</div>
+      <div class="chg flat">—</div>
+    </div>
+    <div class="ticker-card">
+      <div class="sym">Kapitalizacja</div>
+      <div class="price">$2,29T</div>
+      <div class="chg flat">—</div>
+    </div>
+  </div>
 
-<div class="section">
-<div class="section-title">Największe Zmiany</div>
-<div class="card">
-<table>
-<tr><th>Symbol</th><th>Cena</th><th>24h</th><th>7d</th></tr>
-<tr><td><strong>ETH</strong></td><td>$1 950</td><td class="chg up">+3.90%</td><td class="chg up">+4.90%</td></tr>
-<tr><td><strong>SOL</strong></td><td>$76.48</td><td class="chg up">+1.90%</td><td>+0.20%</td></tr>
-<tr><td>FIGR_HELOC</td><td>$1.034</td><td class="chg up">+2.90%</td><td>-0.80%</td></tr>
-<tr><td>XRP</td><td>$1.10</td><td>+0.40%</td><td>+1.20%</td></tr>
-<tr><td>BNB</td><td>$571.81</td><td>+0.30%</td><td>+1.10%</td></tr>
-</table>
-<div style="margin-top:8px"><span class="tag green">📈 ETH wyprzedza BTC 4x — sygnał rotacji altów</span></div>
-</div>
-</div>
+  <div class="section">
+    <h2>🔴 Unikaj / 🟢 Obserwuj / 🟣 Badać</h2>
+    <div class="pick"><span class="badge watch">Obserwuj</span><div class="info"><div class="sym">ETH</div><div class="reason">Lepsza forma niż BTC o 2,8 pkt proc. Bitmine kupuje 10 tys. ETH/tydzień — realny sygnał popytu. Obserwuj przebicie $2k.</div></div></div>
+    <div class="pick"><span class="badge watch">Obserwuj</span><div class="info"><div class="sym">BTC</div><div class="reason">Test wsparcia $64k. Utrzymanie = gra na odскоk. Przełamanie = spadek do $62,5k. Brak nowych nabywców.</div></div></div>
+    <div class="pick"><span class="badge research">Badać</span><div class="info"><div class="sym">ONDO</div><div class="reason">+0,7% w warunkach risk-off. Narratywa tokenizacji RWA się utrzymuje. Rejestracja Securitize Capital w SEC jako wiatr w plecy.</div></div></div>
+    <div class="pick"><span class="badge avoid">Unikaj</span><div class="info"><div class="sym">SHIB</div><div class="reason">Największy spadkobiorca (-4,6%). Pęd złamany, teza się nie zmieniła. Ryzyko portfela memowego.</div></div></div>
+    <div class="pick"><span class="badge avoid">Unikaj</span><div class="info"><div class="sym">HYPE</div><div class="reason">Spada -3,8% bez katalizatora. Hyperliquid słabnie, gdy płynność dźwigniowa wysycha.</div></div></div>
+  </div>
 
-<div class="section">
-<div class="section-title">Gorące Sektory</div>
-<div class="card">
-<ul class="bullet-list">
-<li><strong>Pons Launchpad</strong> +6.39% — nowy ekosystem (6 tokenów, $54.7M mcap)</li>
-<li><strong>Gaming/GameFi</strong> +5.44% — sektor $4.9B, wczesna odbudowa</li>
-<li><strong>Launchpad (ogólne)</strong> +5.28% — gorączka spekulacyjna</li>
-</ul>
-</div>
-</div>
+  <div class="section">
+    <h2>📰 Największe Ruchy 24h</h2>
+    <div class="movers">
+      <div class="mover-col">
+        <h3 style="color:var(--green)">↑ Wzrosty</h3>
+        <div class="mover-row"><span class="s">OKB</span><span class="v up">+1,7%</span></div>
+        <div class="mover-row"><span class="s">ETH</span><span class="v up">+1,4%</span></div>
+        <div class="mover-row"><span class="s">ONDO</span><span class="v up">+0,7%</span></div>
+        <div class="mover-row"><span class="s">FIGR</span><span class="v up">+0,5%</span></div>
+        <div class="mover-row"><span class="s">WBT</span><span class="v up">+0,4%</span></div>
+      </div>
+      <div class="mover-col">
+        <h3 style="color:var(--red)">↓ Spadki</h3>
+        <div class="mover-row"><span class="s">SHIB</span><span class="v down">-4,6%</span></div>
+        <div class="mover-row"><span class="s">HYPE</span><span class="v down">-3,8%</span></div>
+        <div class="mover-row"><span class="s">ADA</span><span class="v down">-3,4%</span></div>
+        <div class="mover-row"><span class="s">NEAR</span><span class="v down">-3,3%</span></div>
+        <div class="mover-row"><span class="s">RAIN</span><span class="v down">-2,6%</span></div>
+      </div>
+    </div>
+  </div>
 
-<div class="section">
-<div class="section-title">Wysokie Ryzyko / Trendy <span class="tag red">GROSZE NA GRY</span></div>
-<div class="card">
-<table>
-<tr><th>Token</th><th>Cena</th><th>24h</th><th>Ranga</th><th>Ryzyko</th></tr>
-<tr><td><span class="risk-badge r"></span>GEOD</td><td>$0.29</td><td class="chg up">+33.6%</td><td>#217</td><td><span class="tag red">Pump cienka likwidność</span></td></tr>
-<tr><td><span class="risk-badge r"></span>PUMP</td><td>$0.002</td><td class="chg up">+17.7%</td><td>#76</td><td><span class="tag red">Memecoin infra</span></td></tr>
-<tr><td><span class="risk-badge y"></span>LIT</td><td>$2.26</td><td class="chg up">+9.2%</td><td>#93</td><td><span class="tag yellow">BTC L2</span></td></tr>
-<tr><td><span class="risk-badge g"></span>PENGU</td><td>$0.006</td><td>+1.0%</td><td>#110</td><td><span class="tag cyan">Ikonka kulturowa</span></td></tr>
-</table>
-</div>
-</div>
+  <div class="section">
+    <h2>🔮 Narratywy</h2>
+    <div class="narrative"><span class="rank">1</span><span class="arrow" style="color:var(--green)">▲</span><strong>Tokenizacja RWA</strong><span style="color:var(--muted);margin-left:auto">Wiatry pleców SEC</span></div>
+    <div class="narrative"><span class="rank">2</span><span class="arrow" style="color:var(--green)">▲</span><strong>Popyt na Staking ETH</strong><span style="color:var(--muted);margin-left:auto">Squeej podażowy Bitmine</span></div>
+    <div class="narrative"><span class="rank">3</span><span class="arrow" style="color:var(--red)">▼</span><strong>Słabość Memów</strong><span style="color:var(--muted);margin-left:auto">SHIB krwawi, spekulacyjny popyt zniknął</span></div>
+    <div class="narrative"><span class="rank">4</span><span class="arrow" style="color:var(--green)">▲</span><strong>Rosnące Tokeny Złota</strong><span style="color:var(--muted);margin-left:auto">Ekspansja finansów islamskich</span></div>
+  </div>
 
-<div class="section">
-<div class="section-title">Co Robić</div>
-<div class="action-grid">
-<div class="action-box watch">
-<h3>👁 Obserwuj</h3>
-<ul>
-<li>BTC close >$66K → cel $70K</li>
-<li>ETH/BTC rośnie → rotacja altów</li>
-<li>Wolumen >$50B dziennie = potwierdzenie</li>
-</ul>
-</div>
-<div class="action-box avoid">
-<h3>🚫 Unikaj</h3>
-<ul>
-<li>GEOD przy +33% — wzorzec pump</li>
-<li>Przełamanie bez wolumenu</li>
-</ul>
-</div>
-<div class="action-box research">
-<h3>🔬 Badaj</h3>
-<ul>
-<li>Fundamentals ekosystemu Pons</li>
-<li>Rzeczywisty wolumen Lighter L2</li>
-<li>Długotrwałość przewagi ETH</li>
-</ul>
-</div>
-</div>
-</div>
+  <div class="section">
+    <h2>📡 Wiadomości</h2>
+    <div class="news-item"><a href="https://cointelegraph.com/news/bitmine-keeps-buying-ether-as-eth-outperforms-bitcoin">Bitmine nadal kupuje Ether, gdy ETH ma lepszą formę niż Bitcoin</a><div class="src">CoinTelegraph — Kupił ~10 tys. ETH/tydzień, posiada 5,79 mln ETH (85% staked)</div></div>
+    <div class="news-item"><a href="https://cointelegraph.com/news/securitize-becomes-sec-registered-investment-adviser-through-capital-unit">Securitize Capital zostaje zarejestrowanym doradcą inwestycyjnym SEC</a><div class="src">CoinTelegraph — Rozszerza regulowaną platformę dla tokenizowanych aktywów</div></div>
+    <div class="news-item"><a href="https://cointelegraph.com/news/x-money-cross-river-embedded-banking-p2p-payments">Cross River wdroży płatności P2P i bankowość dla X Money</a><div class="src">CoinTelegraph — Dostawca BaaS zasilający krypto P2P i karty Visa</div></div>
+    <div class="news-item"><a href="https://cointelegraph.com/news/tether-xaut-gold-token-receives-shariah-certification-islamic-finance-access">Token złota XAUt Tether uzyskuje certyfikat Shariah</a><div class="src">CoinTelegraph — Otwiera segment finansów islamskich dla tokenów złota</div></div>
+  </div>
 
-<div class="note">Dane: CoinGecko API (live). Ekstrakcja wiadomości niedostępna — brak API Firecrawl. To nie jest porada finansowa.</div>
+  <div class="global">
+    <div><strong>Dominacja BTC:</strong> 56,5%</div>
+    <div><strong>Kapitalizacja:</strong> $2,29T</div>
+    <div><strong>Vol 24h:</strong> $66 mld</div>
+    <div><strong>Status:</strong> <span class="down" style="font-weight:700">Risk-Off</span></div>
+  </div>
+
+  <footer>
+    Dane: CoinGecko API · CoinTelegraph RSS · Nie porada inwestycyjna · Pulpit Rem Crypto 2026-07-28<br>
+    <a href="https://github.com/remwayai/crypto-daily-briefing" style="color:var(--cyan)">GitHub</a>
+  </footer>
 </div>
 </body>
 </html>
