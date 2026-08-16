@@ -1,0 +1,12 @@
+{
+  "name": "Rem Crypto — Trading Desk",
+  "short_name": "Rem Crypto",
+  "description": "Daily crypto trading desk: live prices, Fear & Greed, movers, Rem analysis, archive.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#06080f",
+  "theme_color": "#06080f",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

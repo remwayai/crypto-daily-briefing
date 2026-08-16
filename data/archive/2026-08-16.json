@@ -3282,56 +3282,5 @@
     }
    ]
   }
- },
- "__archives": [
-  {
-   "date": "2026-07-19",
-   "prices": {
-    "bitcoin": 64509,
-    "ethereum": 1869.79,
-    "solana": 76.19
-   }
-  },
-  {
-   "date": "2026-07-20",
-   "prices": {
-    "bitcoin": 64718,
-    "ethereum": 1870.29,
-    "solana": 76.1
-   }
-  },
-  {
-   "date": "2026-07-21",
-   "prices": {
-    "bitcoin": 65169,
-    "ethereum": 1895.93,
-    "solana": 77.61
-   }
-  },
-  {
-   "date": "2026-07-22",
-   "prices": {
-    "bitcoin": 66100,
-    "ethereum": 1944.32,
-    "solana": 78.44
-   }
-  },
-  {
-   "date": "2026-07-24",
-   "prices": {
-    "bitcoin": 65053,
-    "ethereum": 1874.17,
-    "solana": 75.74
-   }
-  },
-  {
-   "date": "2026-07-25",
-   "prices": {
-    "bitcoin": 64094,
-    "ethereum": 1859.26,
-    "solana": 74.17
-   }
-  }
- ],
- "built_at": "2026-08-16 14:39"
+ }
 }
