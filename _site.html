@@ -258,7 +258,7 @@ function renderMood(fngData){
   if(fngData && fngData.length){
     var now=fngData[0]; var v=+now.value;
     var col=v<25?'#fb7185':v<45?'#f5c518':v<55?'#facc15':'#5eead4';
-    var bars=fngData.slice(0,8).map(function(d,i){ return '<i class="'+(i===0?'fng-now':'')+'" style="height:'+Math.max(12,(+d.value/100)*100)+'%;background:'+(i===0?col:'rgba(255,255,255,.18)')+'"></i>'; }).join('');
+    var bars=fngData.slice(0,8).map(function(d,i){ return '<i class="'+(i===0?'fng-now':'')+'" style="height:'+Math.max(12,(+d.value/100)*100)+'%;'+(i===0?'background:'+col:'')+'"></i>'; }).join('');
     html+='<div class="card glass"><div class="eyebrow" data-l="fng">'+esc(t('fng'))+'</div><div class="val" style="color:'+col+'">'+v+' · '+esc(now.value_classification)+'</div><div class="sub">'+esc(t('live'))+'</div><div class="fng-bars">'+bars+'</div></div>';
   } else {
     html+='<div class="card glass"><div class="eyebrow">'+esc(t('fng'))+'</div><div class="val muted">'+esc(t('loading'))+'</div></div>';
