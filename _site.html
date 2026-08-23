@@ -177,6 +177,7 @@ footer{margin-top:26px;font-size:11.5px;color:var(--ink-dim);text-align:center;l
 'use strict';
 var DATA = JSON.parse(document.getElementById('data').textContent);
 var ARCHIVES = DATA.__archives || [];
+window.__EMBED_ARCH__ = DATA.__embed_arch || {};
 var currentData = DATA;
 var lang = 'en';
 var activeDay = DATA.date;
@@ -395,11 +396,10 @@ function renderArchive(){
       if(d===currentData.date){ loadToday(); return; }
       el.querySelectorAll('button').forEach(function(x){x.classList.remove('on');});
       b.classList.add('on');
-      fetch('data/archive/'+d+'.json').then(function(r){
-        if(!r.ok) throw 0;
-        return r.json();
-      }).then(function(j){ currentData=j; activeDay=d; renderAll([]); })
-      .catch(function(){ b.textContent='✕'; });
+      var embedded=(window.__EMBED_ARCH__||{})[d];
+      var promise = embedded ? Promise.resolve(embedded) : fetch('data/archive/'+d+'.json').then(function(r){ if(!r.ok) throw 0; return r.json(); });
+      promise.then(function(j){ currentData=j; activeDay=d; renderAll([]); })
+        .catch(function(){ b.textContent='✕'; });
     });
   });
 }
