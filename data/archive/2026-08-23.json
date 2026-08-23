@@ -1,0 +1,593 @@
+{
+ "timestamp": "2026-08-23T11:26:01.812655",
+ "btc": {
+  "usd": 76863,
+  "usd_market_cap": 1542668577110.0583,
+  "usd_24h_vol": 33261756080.51792,
+  "usd_24h_change": -2.040389381021296
+ },
+ "eth": {
+  "usd": 2407.55,
+  "usd_market_cap": 290523399576.94995,
+  "usd_24h_vol": 18388200516.505047,
+  "usd_24h_change": -4.137143951227885
+ },
+ "top10": [
+  {
+   "rank": 1,
+   "symbol": "btc",
+   "name": "Bitcoin",
+   "price": 76846,
+   "change_24h": -2.0,
+   "market_cap": 1542248621238,
+   "volume_24h": 33511289972
+  },
+  {
+   "rank": 2,
+   "symbol": "eth",
+   "name": "Ethereum",
+   "price": 2406.56,
+   "change_24h": -4.0,
+   "market_cap": 290394395570,
+   "volume_24h": 18447463602
+  },
+  {
+   "rank": 3,
+   "symbol": "usdt",
+   "name": "Tether",
+   "price": 0.999796,
+   "change_24h": 0.0,
+   "market_cap": 183201590545,
+   "volume_24h": 74321974819
+  },
+  {
+   "rank": 4,
+   "symbol": "xrp",
+   "name": "XRP",
+   "price": 1.47,
+   "change_24h": -4.7,
+   "market_cap": 92110196500,
+   "volume_24h": 11449636346
+  },
+  {
+   "rank": 5,
+   "symbol": "bnb",
+   "name": "BNB",
+   "price": 687.33,
+   "change_24h": -3.3,
+   "market_cap": 91529097754,
+   "volume_24h": 1798557496
+  },
+  {
+   "rank": 6,
+   "symbol": "usdc",
+   "name": "USDC",
+   "price": 0.999849,
+   "change_24h": 0.0,
+   "market_cap": 73510716211,
+   "volume_24h": 17586520050
+  },
+  {
+   "rank": 7,
+   "symbol": "sol",
+   "name": "Solana",
+   "price": 93.32,
+   "change_24h": -2.0,
+   "market_cap": 54429725860,
+   "volume_24h": 7440562516
+  },
+  {
+   "rank": 8,
+   "symbol": "trx",
+   "name": "TRON",
+   "price": 0.342794,
+   "change_24h": -0.7,
+   "market_cap": 32536446927,
+   "volume_24h": 662765228
+  },
+  {
+   "rank": 9,
+   "symbol": "figr_heloc",
+   "name": "Figure Heloc",
+   "price": 1.0,
+   "change_24h": -2.4,
+   "market_cap": 21693263485,
+   "volume_24h": 2421096
+  },
+  {
+   "rank": 10,
+   "symbol": "hype",
+   "name": "Hyperliquid",
+   "price": 77.88,
+   "change_24h": -3.4,
+   "market_cap": 17334151817,
+   "volume_24h": 1230170217
+  }
+ ],
+ "risk20": [
+  {
+   "rank": 11,
+   "symbol": "doge",
+   "name": "Dogecoin",
+   "price": 0.090972,
+   "change_24h": -2.7,
+   "market_cap": 14158251664,
+   "volume_24h": 2459307758
+  },
+  {
+   "rank": 12,
+   "symbol": "zec",
+   "name": "Zcash",
+   "price": 779.7,
+   "change_24h": -5.0,
+   "market_cap": 13154379511,
+   "volume_24h": 1764990035
+  },
+  {
+   "rank": 13,
+   "symbol": "rain",
+   "name": "Rain",
+   "price": 0.01398874,
+   "change_24h": -6.3,
+   "market_cap": 10020788988,
+   "volume_24h": 31134546
+  },
+  {
+   "rank": 14,
+   "symbol": "usds",
+   "name": "USDS",
+   "price": 1.0,
+   "change_24h": 0.0,
+   "market_cap": 9758264240,
+   "volume_24h": 109644616
+  },
+  {
+   "rank": 15,
+   "symbol": "leo",
+   "name": "LEO Token",
+   "price": 9.47,
+   "change_24h": 1.3,
+   "market_cap": 8712176660,
+   "volume_24h": 191416
+  },
+  {
+   "rank": 16,
+   "symbol": "link",
+   "name": "Chainlink",
+   "price": 11.44,
+   "change_24h": -6.2,
+   "market_cap": 8559384814,
+   "volume_24h": 796776188
+  },
+  {
+   "rank": 17,
+   "symbol": "wbt",
+   "name": "WhiteBIT Coin",
+   "price": 71.6,
+   "change_24h": -1.4,
+   "market_cap": 8447874041,
+   "volume_24h": 188029533
+  },
+  {
+   "rank": 18,
+   "symbol": "ada",
+   "name": "Cardano",
+   "price": 0.219124,
+   "change_24h": -9.2,
+   "market_cap": 8211386745,
+   "volume_24h": 976294545
+  },
+  {
+   "rank": 19,
+   "symbol": "xmr",
+   "name": "Monero",
+   "price": 426.03,
+   "change_24h": -3.8,
+   "market_cap": 8020962328,
+   "volume_24h": 137371709
+  },
+  {
+   "rank": 20,
+   "symbol": "xlm",
+   "name": "Stellar",
+   "price": 0.192496,
+   "change_24h": -8.2,
+   "market_cap": 6659715913,
+   "volume_24h": 583092631
+  },
+  {
+   "rank": 21,
+   "symbol": "bch",
+   "name": "Bitcoin Cash",
+   "price": 271.83,
+   "change_24h": -8.9,
+   "market_cap": 5460915584,
+   "volume_24h": 315606380
+  },
+  {
+   "rank": 22,
+   "symbol": "cc",
+   "name": "Canton",
+   "price": 0.11705,
+   "change_24h": -1.9,
+   "market_cap": 4615543659,
+   "volume_24h": 24737053
+  },
+  {
+   "rank": 23,
+   "symbol": "dai",
+   "name": "Dai",
+   "price": 1.0,
+   "change_24h": 0.0,
+   "market_cap": 4586617710,
+   "volume_24h": 260941548
+  },
+  {
+   "rank": 24,
+   "symbol": "usde",
+   "name": "Ethena USDe",
+   "price": 0.999829,
+   "change_24h": 0.0,
+   "market_cap": 4091129558,
+   "volume_24h": 63924536
+  },
+  {
+   "rank": 25,
+   "symbol": "usd1",
+   "name": "USD1",
+   "price": 0.999705,
+   "change_24h": 0.0,
+   "market_cap": 3992644147,
+   "volume_24h": 1333716194
+  },
+  {
+   "rank": 26,
+   "symbol": "gram",
+   "name": "Gram (prev. Toncoin)",
+   "price": 1.44,
+   "change_24h": -6.0,
+   "market_cap": 3985326074,
+   "volume_24h": 79339252
+  },
+  {
+   "rank": 27,
+   "symbol": "ltc",
+   "name": "Litecoin",
+   "price": 51.2,
+   "change_24h": -5.9,
+   "market_cap": 3969729383,
+   "volume_24h": 511898864
+  },
+  {
+   "rank": 28,
+   "symbol": "usdg",
+   "name": "Global Dollar",
+   "price": 0.99999,
+   "change_24h": 0.0,
+   "market_cap": 3387307320,
+   "volume_24h": 281218949
+  },
+  {
+   "rank": 29,
+   "symbol": "hbar",
+   "name": "Hedera",
+   "price": 0.076929,
+   "change_24h": -6.0,
+   "market_cap": 3373799484,
+   "volume_24h": 161701928
+  },
+  {
+   "rank": 30,
+   "symbol": "sui",
+   "name": "Sui",
+   "price": 0.793982,
+   "change_24h": -12.8,
+   "market_cap": 3234777549,
+   "volume_24h": 1047227469
+  },
+  {
+   "rank": 31,
+   "symbol": "avax",
+   "name": "Avalanche",
+   "price": 7.39,
+   "change_24h": -8.1,
+   "market_cap": 3189515222,
+   "volume_24h": 445310903
+  },
+  {
+   "rank": 32,
+   "symbol": "shib",
+   "name": "Shiba Inu",
+   "price": 5.31e-06,
+   "change_24h": -12.0,
+   "market_cap": 3127601472,
+   "volume_24h": 199324034
+  },
+  {
+   "rank": 33,
+   "symbol": "usyc",
+   "name": "Circle USYC",
+   "price": 1.14,
+   "change_24h": 0.0,
+   "market_cap": 2924943519,
+   "volume_24h": 0.0
+  },
+  {
+   "rank": 34,
+   "symbol": "pyusd",
+   "name": "PayPal USD",
+   "price": 0.9999,
+   "change_24h": 0.0,
+   "market_cap": 2895350370,
+   "volume_24h": 71347411
+  },
+  {
+   "rank": 35,
+   "symbol": "xaut",
+   "name": "Tether Gold",
+   "price": 4580.92,
+   "change_24h": 0.0,
+   "market_cap": 2807793650,
+   "volume_24h": 118671070
+  },
+  {
+   "rank": 36,
+   "symbol": "cro",
+   "name": "Cronos",
+   "price": 0.056712,
+   "change_24h": -11.1,
+   "market_cap": 2750729975,
+   "volume_24h": 25206727
+  },
+  {
+   "rank": 37,
+   "symbol": "buidl",
+   "name": "BlackRock USD Institutional Digital Liquidity Fund",
+   "price": 1.0,
+   "change_24h": 0.0,
+   "market_cap": 2605208255,
+   "volume_24h": 0.0
+  },
+  {
+   "rank": 38,
+   "symbol": "uni",
+   "name": "Uniswap",
+   "price": 4.11,
+   "change_24h": -5.5,
+   "market_cap": 2565237826,
+   "volume_24h": 592461615
+  },
+  {
+   "rank": 39,
+   "symbol": "m",
+   "name": "MemeCore",
+   "price": 1.11,
+   "change_24h": 0.1,
+   "market_cap": 2515908646,
+   "volume_24h": 4027932
+  },
+  {
+   "rank": 40,
+   "symbol": "near",
+   "name": "NEAR Protocol",
+   "price": 1.83,
+   "change_24h": -11.7,
+   "market_cap": 2386536401,
+   "volume_24h": 517083368
+  },
+  {
+   "rank": 41,
+   "symbol": "okb",
+   "name": "OKB",
+   "price": 109.4,
+   "change_24h": -5.9,
+   "market_cap": 2298360915,
+   "volume_24h": 64524320
+  },
+  {
+   "rank": 42,
+   "symbol": "usdy",
+   "name": "Ondo US Dollar Yield",
+   "price": 1.14,
+   "change_24h": -0.2,
+   "market_cap": 2152557563,
+   "volume_24h": 6227658
+  },
+  {
+   "rank": 43,
+   "symbol": "tao",
+   "name": "Bittensor",
+   "price": 217.29,
+   "change_24h": -10.7,
+   "market_cap": 2088187355,
+   "volume_24h": 246277842
+  },
+  {
+   "rank": 44,
+   "symbol": "rlusd",
+   "name": "Ripple USD",
+   "price": 1.0,
+   "change_24h": 0.0,
+   "market_cap": 2073833671,
+   "volume_24h": 745082473
+  },
+  {
+   "rank": 45,
+   "symbol": "paxg",
+   "name": "PAX Gold",
+   "price": 4588.36,
+   "change_24h": -0.1,
+   "market_cap": 1988220973,
+   "volume_24h": 89284138
+  },
+  {
+   "rank": 46,
+   "symbol": "aave",
+   "name": "Aave",
+   "price": 123.19,
+   "change_24h": -1.8,
+   "market_cap": 1901116878,
+   "volume_24h": 615251848
+  },
+  {
+   "rank": 47,
+   "symbol": "wlfi",
+   "name": "World Liberty Financial",
+   "price": 0.057317,
+   "change_24h": -10.8,
+   "market_cap": 1823834851,
+   "volume_24h": 211756180
+  },
+  {
+   "rank": 48,
+   "symbol": "pump",
+   "name": "Pump.fun",
+   "price": 0.00466823,
+   "change_24h": 10.3,
+   "market_cap": 1822395064,
+   "volume_24h": 739330122
+  },
+  {
+   "rank": 49,
+   "symbol": "ondo",
+   "name": "Ondo",
+   "price": 0.355247,
+   "change_24h": -13.8,
+   "market_cap": 1729456597,
+   "volume_24h": 292894233
+  },
+  {
+   "rank": 50,
+   "symbol": "aster",
+   "name": "Aster",
+   "price": 0.631252,
+   "change_24h": -15.3,
+   "market_cap": 1701186963,
+   "volume_24h": 215964035
+  }
+ ],
+ "trending": [],
+ "global": {
+  "btc_dominance": 59.35031125867683,
+  "total_mcap": 2602291683784.884,
+  "total_volume": 117630987295.77838
+ },
+ "gainers_24h": [
+  {
+   "symbol": "pump",
+   "change": 10.3
+  },
+  {
+   "symbol": "leo",
+   "change": 1.3
+  },
+  {
+   "symbol": "m",
+   "change": 0.1
+  },
+  {
+   "symbol": "usdt",
+   "change": 0.0
+  },
+  {
+   "symbol": "usdc",
+   "change": 0.0
+  }
+ ],
+ "losers_24h": [
+  {
+   "symbol": "aster",
+   "change": -15.3
+  },
+  {
+   "symbol": "ondo",
+   "change": -13.8
+  },
+  {
+   "symbol": "sui",
+   "change": -12.8
+  },
+  {
+   "symbol": "shib",
+   "change": -12.0
+  },
+  {
+   "symbol": "near",
+   "change": -11.7
+  }
+ ],
+ "news": [
+  {
+   "source": "cointelegraph",
+   "title": "MiCA is coming for DeFi vaults, but regulation will be difficult",
+   "link": "https://cointelegraph.com/magazine/mica-is-coming-for-defi-vaults-but-regulation-will-be-difficult?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "snippet": "Brussels is reviewing whether crypto lending should fall under MiCA, but DeFi lending vaults are making it harder to determine who, exactly, should be regulated."
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "snippet": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation."
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitget CEO sees Bitcoin near current levels at year-end, doubts US will buy BTC",
+   "link": "https://cointelegraph.com/markets/bitget-ceo-sees-bitcoin-near-current-levels-at-year-end-doubts-us-will-buy-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "snippet": "Gracy Chen says macroeconomic uncertainty could keep Bitcoin within $10,000 to $20,000 of current levels, while US government purchases remain unlikely within the next two years."
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Ray Dalio says to buy ‘a bit’ of Bitcoin amid potential debt crisis",
+   "link": "https://cointelegraph.com/news/ray-dalio-buy-bitcoin-debt-crisis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "snippet": "The hedge fund founder with an estimated net worth of $15 billion recommended that investors overweight Bitcoin and gold rather than bonds."
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Onchain, in court: What happened in crypto legal news this week",
+   "link": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news5?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "snippet": "The CFTC ordered a trading ban for former Alameda and FTX executives, and US prosecutors opposed a motion from a US soldier accused of profiting from the removal of Nicolas Maduro."
+  }
+ ],
+ "date": "2026-08-23",
+ "btc_dominance_pct": 59.442050873471985,
+ "global_mcap_usd": 2583976586058.44,
+ "global_mcap_change_24h_pct": -6.108490913293362,
+ "polymarket": [
+  {
+   "title": "What price will Bitcoin hit in August?",
+   "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-august-2026",
+   "outcomes": "Yes 0% · No 1% · Yes 0% · No 1%",
+   "vol24h": 1241667.714584
+  },
+  {
+   "title": "Fed Decision in September?",
+   "url": "https://polymarket.com/event/fed-decision-in-september-762",
+   "outcomes": "Yes 0% · No 1% · Yes 0% · No 1%",
+   "vol24h": 1124352.2025930001
+  },
+  {
+   "title": "What price will Ethereum hit in 2026?",
+   "url": "https://polymarket.com/event/what-price-will-ethereum-hit-before-2027",
+   "outcomes": "Yes 0% · No 1% · Yes 1% · No 0%",
+   "vol24h": 833739.1809469999
+  },
+  {
+   "title": "What price will Bitcoin hit in 2026?",
+   "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027",
+   "outcomes": "Yes 1% · No 0%",
+   "vol24h": 409091.036708
+  },
+  {
+   "title": "What price will Ethereum hit in August?",
+   "url": "https://polymarket.com/event/what-price-will-ethereum-hit-in-august-2026",
+   "outcomes": "Yes 0% · No 1% · Yes 0% · No 1%",
+   "vol24h": 262836.852055
+  },
+  {
+   "title": "Bitcoin above ___ on August 23?",
+   "url": "https://polymarket.com/event/bitcoin-above-on-august-23-2026",
+   "outcomes": "Yes 1% · No 0% · Yes 1% · No 0%",
+   "vol24h": 211488.782565
+  }
+ ]
+}
