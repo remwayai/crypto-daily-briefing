@@ -1,129 +1,129 @@
 {
  "date": "2026-09-16",
- "collected_at": "2026-09-16T05:33:20.754380",
- "generated_at": "2026-09-16T05:59:05",
+ "collected_at": "2026-09-16T06:01:28.735104",
+ "generated_at": "2026-09-16T06:01:29",
  "synthesis_mode": "deterministic-rss",
  "bitcoin": {
-  "price_usd": 75496,
-  "change_24h_pct": -3.862908297553137
+  "price_usd": 75688,
+  "change_24h_pct": -3.63076365400619
  },
  "ethereum": {
-  "price_usd": 2395.45,
-  "change_24h_pct": -5.66630735793815
+  "price_usd": 2398.24,
+  "change_24h_pct": -5.293032197947075
  },
- "btc_dominance_pct": 58.44,
- "global_mcap_usd": 2576752159951.2744,
+ "btc_dominance_pct": 58.49,
+ "global_mcap_usd": 2594152672136.8916,
  "global_mcap_change_24h_pct": -6.6241765377592285,
  "top10": [
   {
    "symbol": "BTC",
    "name": "Bitcoin",
-   "price_usd": 75489,
-   "change_24h_pct": -3.87169
+   "price_usd": 75677,
+   "change_24h_pct": -3.63871
   },
   {
    "symbol": "ETH",
    "name": "Ethereum",
-   "price_usd": 2394.79,
-   "change_24h_pct": -5.68364
+   "price_usd": 2398.52,
+   "change_24h_pct": -5.28776
   },
   {
    "symbol": "USDT",
    "name": "Tether",
-   "price_usd": 0.999368,
-   "change_24h_pct": -0.0472
+   "price_usd": 0.999403,
+   "change_24h_pct": -0.04571
   },
   {
    "symbol": "BNB",
    "name": "BNB",
-   "price_usd": 711.57,
-   "change_24h_pct": -1.58563
+   "price_usd": 713.41,
+   "change_24h_pct": -1.24545
   },
   {
    "symbol": "XRP",
    "name": "XRP",
-   "price_usd": 1.28,
-   "change_24h_pct": -11.0472
+   "price_usd": 1.29,
+   "change_24h_pct": -10.18685
   },
   {
    "symbol": "USDC",
    "name": "USDC",
-   "price_usd": 0.999654,
-   "change_24h_pct": -0.02092
+   "price_usd": 0.999678,
+   "change_24h_pct": -0.02097
   },
   {
    "symbol": "SOL",
    "name": "Solana",
-   "price_usd": 96.79,
-   "change_24h_pct": -6.06115
+   "price_usd": 97.2,
+   "change_24h_pct": -5.48839
   },
   {
    "symbol": "TRX",
    "name": "TRON",
-   "price_usd": 0.332519,
-   "change_24h_pct": -1.81115
+   "price_usd": 0.332922,
+   "change_24h_pct": -1.70346
   },
   {
    "symbol": "FIGR_HELOC",
    "name": "Figure Heloc",
    "price_usd": 1.005,
-   "change_24h_pct": -3.4543
+   "change_24h_pct": -3.45605
   },
   {
    "symbol": "ZEC",
    "name": "Zcash",
-   "price_usd": 1107.86,
-   "change_24h_pct": -5.54369
+   "price_usd": 1123.21,
+   "change_24h_pct": -4.01437
   }
  ],
  "risk_movers": [
   {
    "symbol": "XLM",
    "name": "Stellar",
-   "price_usd": 0.175675,
-   "change_24h_pct": -9.19734
-  },
-  {
-   "symbol": "CC",
-   "name": "Canton",
-   "price_usd": 0.090715,
-   "change_24h_pct": -7.24627
+   "price_usd": 0.176735,
+   "change_24h_pct": -8.73164
   },
   {
    "symbol": "ADA",
    "name": "Cardano",
-   "price_usd": 0.194724,
-   "change_24h_pct": -7.12897
+   "price_usd": 0.195452,
+   "change_24h_pct": -6.80515
+  },
+  {
+   "symbol": "CC",
+   "name": "Canton",
+   "price_usd": 0.091136,
+   "change_24h_pct": -6.65783
   },
   {
    "symbol": "LINK",
    "name": "Chainlink",
-   "price_usd": 10.88,
-   "change_24h_pct": -6.22384
+   "price_usd": 10.91,
+   "change_24h_pct": -5.63455
   },
   {
    "symbol": "DOGE",
    "name": "Dogecoin",
-   "price_usd": 0.079893,
-   "change_24h_pct": -5.04616
+   "price_usd": 0.080241,
+   "change_24h_pct": -4.55331
   },
   {
    "symbol": "WBT",
    "name": "WhiteBIT Coin",
-   "price_usd": 77.65,
-   "change_24h_pct": -4.47411
+   "price_usd": 77.78,
+   "change_24h_pct": -4.32787
+  },
+  {
+   "symbol": "HBAR",
+   "name": "Hedera",
+   "price_usd": 0.074422,
+   "change_24h_pct": -4.2535
   },
   {
    "symbol": "HYPE",
    "name": "Hyperliquid",
-   "price_usd": 76.66,
-   "change_24h_pct": -4.38408
-  },
-  {
-   "symbol": "BCH",
-   "name": "Bitcoin Cash",
-   "price_usd": 215.21,
-   "change_24h_pct": -4.28333
+   "price_usd": 76.86,
+   "change_24h_pct": -3.99494
   }
  ],
  "trending": [
@@ -140,24 +140,24 @@
    "symbol": "PONS"
   },
   {
-   "name": "Zcash",
-   "symbol": "ZEC"
-  },
-  {
    "name": "XRP",
    "symbol": "XRP"
-  },
-  {
-   "name": "Bitcoin",
-   "symbol": "BTC"
   },
   {
    "name": "Pudgy Penguins",
    "symbol": "PENGU"
   },
   {
-   "name": "Hyperliquid",
-   "symbol": "HYPE"
+   "name": "Zcash",
+   "symbol": "ZEC"
+  },
+  {
+   "name": "Bitcoin",
+   "symbol": "BTC"
+  },
+  {
+   "name": "STONK",
+   "symbol": "STONK"
   }
  ],
  "polymarket": [
@@ -202,8 +202,8 @@
   "bitcoin": {
    "label_en": "Bitcoin",
    "label_pl": "Bitcoin",
-   "section_analysis_en": "- BTC $75,496 at -3.9% — risk-off tape; dominance 58.4% keeps pressure on alts.\n- Watch BTC $74k support; no clean trend until it reclaims higher.",
-   "section_analysis_pl": "- BTC $75,496 (-3.9%) — rynk podaz; dominacja 58.4% ciszy na alty.\n- Obserwuj wsparcie BTC $74k; brak czystego trendu do jego odzyskania.",
+   "section_analysis_en": "- BTC $75,688 at -3.6% — risk-off tape; dominance 58.5% keeps pressure on alts.\n- Watch BTC $74k support; no clean trend until it reclaims higher.",
+   "section_analysis_pl": "- BTC $75,688 (-3.6%) — rynk podaz; dominacja 58.5% ciszy na alty.\n- Obserwuj wsparcie BTC $74k; brak czystego trendu do jego odzyskania.",
    "items": [
     {
      "title": "Major Bitcoin Core update changes default wallet protocols, risking temporary disruption across popular apps",
@@ -219,8 +219,8 @@
   "crypto_market": {
    "label_en": "Crypto market",
    "label_pl": "Rynek krypto",
-   "section_analysis_en": "- ETH -5.7% vs BTC -3.9% — ETH is underperforming; no leadership.\n- Biggest alt movers: XLM -9.2%, CC -7.2%, ADA -7.1%, LINK -6.2%.",
-   "section_analysis_pl": "- ETH (-5.7%) vs BTC (-3.9%) — ETH nie prowadzi.\n- Najwiksze ruchy altow: XLM -9.2%, CC -7.2%, ADA -7.1%, LINK -6.2%.",
+   "section_analysis_en": "- ETH -5.3% vs BTC -3.6% — ETH is underperforming; no leadership.\n- Biggest alt movers: XLM -8.7%, ADA -6.8%, CC -6.7%, LINK -5.6%.",
+   "section_analysis_pl": "- ETH (-5.3%) vs BTC (-3.6%) — ETH nie prowadzi.\n- Najwiksze ruchy altow: XLM -8.7%, ADA -6.8%, CC -6.7%, LINK -5.6%.",
    "items": [
     {
      "title": "Here’s what happened in crypto today",
@@ -230,15 +230,6 @@
      "short_pl": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
      "long_en": "Analysis: Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
      "long_pl": "Analiza: Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation."
-    },
-    {
-     "title": "Did crypto’s $20 Billion DeFi surge just get stolen by price inflation?",
-     "url": "https://cryptoslate.com/did-cryptos-20-billion-defi-surge-just-get-stolen-by-price-inflation/",
-     "source": "CRYPTOSLATE",
-     "short_en": "Stablecoin growth stayed below 6% while ETH and SOL gained more than 32%, leaving the inflow picture unresolved. The post Did crypto’s $20 Billion DeFi surge just get stolen by pri",
-     "short_pl": "Stablecoin growth stayed below 6% while ETH and SOL gained more than 32%, leaving the inflow picture unresolved. The post Did crypto’s $20 Billion DeFi surge just get stolen by pri",
-     "long_en": "Analysis: Stablecoin growth stayed below 6% while ETH and SOL gained more than 32%, leaving the inflow picture unresolved. The post Did crypto’s $20 Billion DeFi surge just get stolen by price inflation? appear",
-     "long_pl": "Analiza: Stablecoin growth stayed below 6% while ETH and SOL gained more than 32%, leaving the inflow picture unresolved. The post Did crypto’s $20 Billion DeFi surge just get stolen by price inflation? appear"
     }
    ]
   },
@@ -322,8 +313,8 @@
    ]
   }
  },
- "total_analysis_en": "- BTC $75,496 (-3.9%) after the CLARITY Act failed its Senate vote — risk-off.\n- Alts bleed harder (top losers: XRP -11.0%, XLM -9.2%, CRO -7.7%) — BTC dominance 58.4%.\n- Global mcap $2.58T (-6.6% 24h) — sellers in control.\n- Watch: Fed outcome + BTC $74k. Avoid leveraged longs into the print. Not financial advice.",
- "total_analysis_pl": "- BTC $75,496 (-3.9%) po upadku CLARITY w Senacie — podaz.\n- Alty tracą mocniej — dominacja BTC 58.4%.\n- Globalna kapitalizacja $2.58T (-6.6% 24h) — sprzedający maj przedy.\n- Obserwuj: wynik Fed + BTC $74k. Nie goniy dźwigni w rynku bez pokrycia.",
- "social_narrative_en": "Trending heat: FIRO, TRUMP, PONS, ZEC, XRP — meme-coin churn while BTC trades at $75,496; retail attention is chasing, price risk-off.",
- "social_narrative_pl": "Puls social: FIRO, TRUMP, PONS, ZEC, XRP — gorączka memecoinow przy BTC $75,496; ceny podaz, detaliści czekają w kolejce."
+ "total_analysis_en": "- BTC $75,688 (-3.6%) after the CLARITY Act failed its Senate vote — risk-off.\n- Alts bleed harder (top losers: XRP -10.2%, XLM -8.7%, CRO -7.0%) — BTC dominance 58.5%.\n- Global mcap $2.59T (-6.6% 24h) — sellers in control.\n- Watch: Fed outcome + BTC $74k. Avoid leveraged longs into the print. Not financial advice.",
+ "total_analysis_pl": "- BTC $75,688 (-3.6%) po upadku CLARITY w Senacie — podaz.\n- Alty tracą mocniej — dominacja BTC 58.5%.\n- Globalna kapitalizacja $2.59T (-6.6% 24h) — sprzedający maj przedy.\n- Obserwuj: wynik Fed + BTC $74k. Nie goniy dźwigni w rynku bez pokrycia.",
+ "social_narrative_en": "Trending heat: FIRO, TRUMP, PONS, XRP, PENGU — meme-coin churn while BTC trades at $75,688; retail attention is chasing, price risk-off.",
+ "social_narrative_pl": "Puls social: FIRO, TRUMP, PONS, XRP, PENGU — gorączka memecoinow przy BTC $75,688; ceny podaz, detaliści czekają w kolejce."
 }
