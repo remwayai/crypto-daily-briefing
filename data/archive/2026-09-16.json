@@ -1,0 +1,694 @@
+{
+ "timestamp": "2026-09-16T05:33:20.754380",
+ "btc": {
+  "usd": 75496,
+  "usd_market_cap": 1516340688677.1748,
+  "usd_24h_vol": 39627665953.36602,
+  "usd_24h_change": -3.862908297553137
+ },
+ "eth": {
+  "usd": 2395.45,
+  "usd_market_cap": 292341492764.12585,
+  "usd_24h_vol": 19386492575.69844,
+  "usd_24h_change": -5.66630735793815
+ },
+ "top10": [
+  {
+   "rank": 1,
+   "symbol": "btc",
+   "name": "Bitcoin",
+   "price": 75489,
+   "change_24h": -3.87169,
+   "market_cap": 1515534661206,
+   "volume_24h": 39598211025
+  },
+  {
+   "rank": 2,
+   "symbol": "eth",
+   "name": "Ethereum",
+   "price": 2394.79,
+   "change_24h": -5.68364,
+   "market_cap": 292095173332,
+   "volume_24h": 19384882781
+  },
+  {
+   "rank": 3,
+   "symbol": "usdt",
+   "name": "Tether",
+   "price": 0.999368,
+   "change_24h": -0.0472,
+   "market_cap": 183319726922,
+   "volume_24h": 67882707070
+  },
+  {
+   "rank": 4,
+   "symbol": "bnb",
+   "name": "BNB",
+   "price": 711.57,
+   "change_24h": -1.58563,
+   "market_cap": 94734615872,
+   "volume_24h": 990219299
+  },
+  {
+   "rank": 5,
+   "symbol": "xrp",
+   "name": "XRP",
+   "price": 1.28,
+   "change_24h": -11.0472,
+   "market_cap": 80533822829,
+   "volume_24h": 5661669925
+  },
+  {
+   "rank": 6,
+   "symbol": "usdc",
+   "name": "USDC",
+   "price": 0.999654,
+   "change_24h": -0.02092,
+   "market_cap": 73733770080,
+   "volume_24h": 19742575406
+  },
+  {
+   "rank": 7,
+   "symbol": "sol",
+   "name": "Solana",
+   "price": 96.79,
+   "change_24h": -6.06115,
+   "market_cap": 56800111962,
+   "volume_24h": 3782562657
+  },
+  {
+   "rank": 8,
+   "symbol": "trx",
+   "name": "TRON",
+   "price": 0.332519,
+   "change_24h": -1.81115,
+   "market_cap": 31575192133,
+   "volume_24h": 474908857
+  },
+  {
+   "rank": 9,
+   "symbol": "figr_heloc",
+   "name": "Figure Heloc",
+   "price": 1.005,
+   "change_24h": -3.4543,
+   "market_cap": 22744518957,
+   "volume_24h": 414752376
+  },
+  {
+   "rank": 10,
+   "symbol": "zec",
+   "name": "Zcash",
+   "price": 1107.86,
+   "change_24h": -5.54369,
+   "market_cap": 18735434177,
+   "volume_24h": 942552162
+  }
+ ],
+ "risk20": [
+  {
+   "rank": 11,
+   "symbol": "hype",
+   "name": "Hyperliquid",
+   "price": 76.66,
+   "change_24h": -4.38408,
+   "market_cap": 17042374180,
+   "volume_24h": 874899076
+  },
+  {
+   "rank": 12,
+   "symbol": "doge",
+   "name": "Dogecoin",
+   "price": 0.079893,
+   "change_24h": -5.04616,
+   "market_cap": 12452102538,
+   "volume_24h": 797512439
+  },
+  {
+   "rank": 13,
+   "symbol": "rain",
+   "name": "Rain",
+   "price": 0.01406759,
+   "change_24h": -1.76172,
+   "market_cap": 9976166272,
+   "volume_24h": 26844354
+  },
+  {
+   "rank": 14,
+   "symbol": "usds",
+   "name": "USDS",
+   "price": 0.999456,
+   "change_24h": -0.03243,
+   "market_cap": 9818205019,
+   "volume_24h": 205200185
+  },
+  {
+   "rank": 15,
+   "symbol": "xmr",
+   "name": "Monero",
+   "price": 502.88,
+   "change_24h": -2.09023,
+   "market_cap": 9462446310,
+   "volume_24h": 120707704
+  },
+  {
+   "rank": 16,
+   "symbol": "wbt",
+   "name": "WhiteBIT Coin",
+   "price": 77.65,
+   "change_24h": -4.47411,
+   "market_cap": 9144961527,
+   "volume_24h": 164046859
+  },
+  {
+   "rank": 17,
+   "symbol": "leo",
+   "name": "LEO Token",
+   "price": 8.88,
+   "change_24h": -1.30427,
+   "market_cap": 8167761639,
+   "volume_24h": 441539
+  },
+  {
+   "rank": 18,
+   "symbol": "link",
+   "name": "Chainlink",
+   "price": 10.88,
+   "change_24h": -6.22384,
+   "market_cap": 8128993443,
+   "volume_24h": 402717268
+  },
+  {
+   "rank": 19,
+   "symbol": "ada",
+   "name": "Cardano",
+   "price": 0.194724,
+   "change_24h": -7.12897,
+   "market_cap": 7300124416,
+   "volume_24h": 445386054
+  },
+  {
+   "rank": 20,
+   "symbol": "xlm",
+   "name": "Stellar",
+   "price": 0.175675,
+   "change_24h": -9.19734,
+   "market_cap": 6117730043,
+   "volume_24h": 447593799
+  },
+  {
+   "rank": 21,
+   "symbol": "usde",
+   "name": "Ethena USDe",
+   "price": 0.999108,
+   "change_24h": -0.07085,
+   "market_cap": 4708589424,
+   "volume_24h": 58481769
+  },
+  {
+   "rank": 22,
+   "symbol": "dai",
+   "name": "Dai",
+   "price": 1.0,
+   "change_24h": 0.00075,
+   "market_cap": 4592937263,
+   "volume_24h": 332766425
+  },
+  {
+   "rank": 23,
+   "symbol": "usd1",
+   "name": "USD1",
+   "price": 0.999214,
+   "change_24h": -0.04359,
+   "market_cap": 4343383826,
+   "volume_24h": 1171338375
+  },
+  {
+   "rank": 24,
+   "symbol": "bch",
+   "name": "Bitcoin Cash",
+   "price": 215.21,
+   "change_24h": -4.28333,
+   "market_cap": 4321031876,
+   "volume_24h": 138176819
+  },
+  {
+   "rank": 25,
+   "symbol": "ltc",
+   "name": "Litecoin",
+   "price": 51.09,
+   "change_24h": -4.16736,
+   "market_cap": 3963128789,
+   "volume_24h": 231659997
+  },
+  {
+   "rank": 26,
+   "symbol": "uni",
+   "name": "Uniswap",
+   "price": 6.28,
+   "change_24h": -3.78534,
+   "market_cap": 3906460218,
+   "volume_24h": 739190245
+  },
+  {
+   "rank": 27,
+   "symbol": "gram",
+   "name": "Gram (prev. Toncoin)",
+   "price": 1.32,
+   "change_24h": -2.5675,
+   "market_cap": 3681760789,
+   "volume_24h": 26729651
+  },
+  {
+   "rank": 28,
+   "symbol": "cc",
+   "name": "Canton",
+   "price": 0.090715,
+   "change_24h": -7.24627,
+   "market_cap": 3589404970,
+   "volume_24h": 9345104
+  },
+  {
+   "rank": 29,
+   "symbol": "usdg",
+   "name": "Global Dollar",
+   "price": 0.999879,
+   "change_24h": -0.0114,
+   "market_cap": 3288693011,
+   "volume_24h": 1243549511
+  },
+  {
+   "rank": 30,
+   "symbol": "hbar",
+   "name": "Hedera",
+   "price": 0.074425,
+   "change_24h": -3.89598,
+   "market_cap": 3259697409,
+   "volume_24h": 99711569
+  },
+  {
+   "rank": 31,
+   "symbol": "avax",
+   "name": "Avalanche",
+   "price": 7.25,
+   "change_24h": -5.00319,
+   "market_cap": 3208767942,
+   "volume_24h": 302235212
+  },
+  {
+   "rank": 32,
+   "symbol": "near",
+   "name": "NEAR Protocol",
+   "price": 2.33,
+   "change_24h": -6.77902,
+   "market_cap": 3034382841,
+   "volume_24h": 349532387
+  },
+  {
+   "rank": 33,
+   "symbol": "shib",
+   "name": "Shiba Inu",
+   "price": 4.94e-06,
+   "change_24h": -6.37551,
+   "market_cap": 2907271485,
+   "volume_24h": 83479118
+  },
+  {
+   "rank": 34,
+   "symbol": "pyusd",
+   "name": "PayPal USD",
+   "price": 0.999524,
+   "change_24h": -0.04076,
+   "market_cap": 2844843322,
+   "volume_24h": 117666956
+  },
+  {
+   "rank": 35,
+   "symbol": "sui",
+   "name": "Sui",
+   "price": 0.682067,
+   "change_24h": -6.0806,
+   "market_cap": 2791221833,
+   "volume_24h": 508621762
+  },
+  {
+   "rank": 36,
+   "symbol": "buidl",
+   "name": "BlackRock USD Institutional Digital Liquidity Fund",
+   "price": 1.0,
+   "change_24h": 0.0,
+   "market_cap": 2701488574,
+   "volume_24h": 0.0
+  },
+  {
+   "rank": 37,
+   "symbol": "xaut",
+   "name": "Tether Gold",
+   "price": 4294.36,
+   "change_24h": -0.08586,
+   "market_cap": 2674832121,
+   "volume_24h": 156052965
+  },
+  {
+   "rank": 38,
+   "symbol": "cro",
+   "name": "Cronos",
+   "price": 0.054964,
+   "change_24h": -7.70363,
+   "market_cap": 2667175552,
+   "volume_24h": 9720126
+  },
+  {
+   "rank": 39,
+   "symbol": "usyc",
+   "name": "Circle USYC",
+   "price": 1.14,
+   "change_24h": 0.00862,
+   "market_cap": 2605983780,
+   "volume_24h": 0.0
+  },
+  {
+   "rank": 40,
+   "symbol": "m",
+   "name": "MemeCore",
+   "price": 1.12,
+   "change_24h": 2.42675,
+   "market_cap": 2549474450,
+   "volume_24h": 659278
+  },
+  {
+   "rank": 41,
+   "symbol": "tao",
+   "name": "Bittensor",
+   "price": 217.27,
+   "change_24h": -6.93068,
+   "market_cap": 2462076511,
+   "volume_24h": 170694865
+  },
+  {
+   "rank": 42,
+   "symbol": "rlusd",
+   "name": "Ripple USD",
+   "price": 0.999875,
+   "change_24h": -0.02432,
+   "market_cap": 2344298223,
+   "volume_24h": 352819090
+  },
+  {
+   "rank": 43,
+   "symbol": "okb",
+   "name": "OKB",
+   "price": 109.67,
+   "change_24h": -3.41305,
+   "market_cap": 2302962696,
+   "volume_24h": 21771641
+  },
+  {
+   "rank": 44,
+   "symbol": "usdy",
+   "name": "Ondo US Dollar Yield",
+   "price": 1.14,
+   "change_24h": -0.08364,
+   "market_cap": 2234138979,
+   "volume_24h": 6249817
+  },
+  {
+   "rank": 45,
+   "symbol": "aave",
+   "name": "Aave",
+   "price": 121.33,
+   "change_24h": -5.83031,
+   "market_cap": 1870904613,
+   "volume_24h": 242398726
+  },
+  {
+   "rank": 46,
+   "symbol": "paxg",
+   "name": "PAX Gold",
+   "price": 4296.97,
+   "change_24h": -0.10715,
+   "market_cap": 1867118421,
+   "volume_24h": 156520372
+  },
+  {
+   "rank": 47,
+   "symbol": "btw",
+   "name": "Bitway",
+   "price": 0.685248,
+   "change_24h": 11.87663,
+   "market_cap": 1854480007,
+   "volume_24h": 28345301
+  },
+  {
+   "rank": 48,
+   "symbol": "aster",
+   "name": "Aster",
+   "price": 0.678085,
+   "change_24h": -3.81228,
+   "market_cap": 1832342101,
+   "volume_24h": 93326069
+  },
+  {
+   "rank": 49,
+   "symbol": "wlfi",
+   "name": "World Liberty Financial",
+   "price": 0.056894,
+   "change_24h": -1.16172,
+   "market_cap": 1808111685,
+   "volume_24h": 35618339
+  },
+  {
+   "rank": 50,
+   "symbol": "mnt",
+   "name": "Mantle",
+   "price": 0.540113,
+   "change_24h": -6.07712,
+   "market_cap": 1783216323,
+   "volume_24h": 25838644
+  }
+ ],
+ "trending": [
+  {
+   "name": "Firo",
+   "symbol": "FIRO"
+  },
+  {
+   "name": "Official Trump",
+   "symbol": "TRUMP"
+  },
+  {
+   "name": "Pons",
+   "symbol": "PONS"
+  },
+  {
+   "name": "Zcash",
+   "symbol": "ZEC"
+  },
+  {
+   "name": "XRP",
+   "symbol": "XRP"
+  },
+  {
+   "name": "Bitcoin",
+   "symbol": "BTC"
+  },
+  {
+   "name": "Pudgy Penguins",
+   "symbol": "PENGU"
+  },
+  {
+   "name": "Hyperliquid",
+   "symbol": "HYPE"
+  },
+  {
+   "name": "Lighter",
+   "symbol": "LIT"
+  },
+  {
+   "name": "NEAR Protocol",
+   "symbol": "NEAR"
+  }
+ ],
+ "global": {
+  "btc_dominance": 58.442864910356754,
+  "total_mcap": 2576752159951.2744,
+  "total_volume": 103730239580.40543
+ },
+ "gainers_24h": [
+  {
+   "symbol": "btw",
+   "change": 11.87663
+  },
+  {
+   "symbol": "m",
+   "change": 2.42675
+  },
+  {
+   "symbol": "usyc",
+   "change": 0.00862
+  },
+  {
+   "symbol": "dai",
+   "change": 0.00075
+  },
+  {
+   "symbol": "buidl",
+   "change": 0.0
+  }
+ ],
+ "losers_24h": [
+  {
+   "symbol": "xrp",
+   "change": -11.0472
+  },
+  {
+   "symbol": "xlm",
+   "change": -9.19734
+  },
+  {
+   "symbol": "cro",
+   "change": -7.70363
+  },
+  {
+   "symbol": "cc",
+   "change": -7.24627
+  },
+  {
+   "symbol": "ada",
+   "change": -7.12897
+  }
+ ],
+ "news": [
+  {
+   "source": "cointelegraph",
+   "title": "BIS paper finds major gap in Bitcoin onchain transfer estimates",
+   "link": "https://cointelegraph.com/news/bis-paper-finds-major-gap-in-bitcoin-onchain-transfer-estimates?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "snippet": "A BIS study found widely used crypto metrics can obscure economic activity, with measurement challenges spanning Bitcoin, Ethereum and stablecoins.\n"
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Crypto stocks slide after CLARITY Act fails to advance in Senate",
+   "link": "https://cointelegraph.com/markets/crypto-stocks-slide-after-clarity-act-fails-to-advance-in-senate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "snippet": "Circle and Coinbase shares fell about 10% as the failed Senate vote weighed on crypto-linked equities, with Bitcoin miners and treasury companies also declining."
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "snippet": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation."
+  },
+  {
+   "source": "cointelegraph",
+   "title": "US Senate fails to advance CLARITY Act",
+   "link": "https://cointelegraph.com/news/us-senate-fails-to-advance-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "snippet": "The failed procedural vote leaves the CLARITY Act facing an uncertain future after months of negotiations over crypto oversight and ethics provisions."
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Stablecoin growth could boost dollar dominance, US Treasury demand: BoE official",
+   "link": "https://cointelegraph.com/news/stablecoins-us-dollar-dominance-treasury-demand-boe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "snippet": "A Bank of England policy maker said digital dollars could expand access to the US currency while turning stablecoin issuers into bigger buyers of government debt."
+  },
+  {
+   "source": "decrypt",
+   "title": "Wall Street Bets on Fed Rate Hike: Here's What It Means for Bitcoin, Bonds and Trump",
+   "link": "https://decrypt.co/378306/wall-street-fed-rate-hike-bitcoin-bonds-trump",
+   "snippet": "Nearly every major bank now expects the Fed to raise rates for the first time in three years. Markets have mostly priced it in, but the political fallout could run deeper than one hike."
+  },
+  {
+   "source": "decrypt",
+   "title": "Coinbase-Backed Crypto Group Warns of Midterms Payback After Clarity Act Fails",
+   "link": "https://decrypt.co/378303/coinbase-crypto-group-midterms-vote-clarity-act",
+   "snippet": "The Coinbase-backed Stand With Crypto will add senators’ votes to its scorecards as it rallies crypto voters ahead of November’s elections."
+  },
+  {
+   "source": "decrypt",
+   "title": "OpenAI's Brockman Says Safety Concerns Have Already Slowed Its Most Advanced AI Work",
+   "link": "https://decrypt.co/378300/openai-safety-concerns-slowed-most-advanced-ai-work",
+   "snippet": "Greg Brockman says OpenAI delayed launches and reworked its processes after a pre-release model broke out of a sandbox and hacked into Hugging Face."
+  },
+  {
+   "source": "decrypt",
+   "title": "Crypto Reacts: Bitcoin Slides as Clarity Act Fails to Clear Senate Vote",
+   "link": "https://decrypt.co/378286/crypto-clarity-act-fails-clear-senate-bitcoin-slides",
+   "snippet": "The Senate fell short of the 60 votes needed to advance the crypto industry's marquee bill Tuesday. Bitcoin dropped as the no tally mounted, but the move stopped well short of panic."
+  },
+  {
+   "source": "decrypt",
+   "title": "Clarity Act Stalls in Senate as Crypto Bill Fails to Clear Key Vote",
+   "link": "https://decrypt.co/378283/clarity-act-fails-senate-hurdle",
+   "snippet": "The crypto market structure bill failed to receive enough votes to advance in the Senate."
+  },
+  {
+   "source": "cryptoslate",
+   "title": "CoinEx quits after 9 years as crypto trading activity concentrates at biggest exchanges",
+   "link": "https://cryptoslate.com/coinex-quits-after-9-years-as-crypto-trading-activity-concentrates-at-biggest-exchanges/",
+   "snippet": "Trading rebounded in August, but the largest platforms kept an outsized grip on activity as CoinEx chose to exit.\nThe post CoinEx quits after 9 years as crypto trading activity concentrates at biggest"
+  },
+  {
+   "source": "cryptoslate",
+   "title": "7-day blockchain outage wipes out a full week of staking rewards after emergency aelf shutdown",
+   "link": "https://cryptoslate.com/aelf-restores-core-services-but-exchange-access-still-depends-on-venue/",
+   "snippet": "Public nodes and key dapps are back after an August security incident, while a final review and uniform exchange transfers remain outstanding.\nThe post 7-day blockchain outage wipes out a full week of"
+  },
+  {
+   "source": "cryptoslate",
+   "title": "Major Bitcoin Core update changes default wallet protocols, risking temporary disruption across popular apps",
+   "link": "https://cryptoslate.com/a-major-bitcoin-core-update-changes-default-wallet-protocols-risking-temporary-disruption-across-popular-apps/",
+   "snippet": "The Oct. 10 final-tag aim compresses checks across PSBTs, fee estimation, HTTP clients, indexes and private broadcast.\nThe post Major Bitcoin Core update changes default wallet protocols, risking temp"
+  },
+  {
+   "source": "cryptoslate",
+   "title": "Trump ethics fight sinks CLARITY Act in dramatic Senate defeat",
+   "link": "https://cryptoslate.com/trump-ethics-fight-sinks-clarity-act-in-dramatic-senate-defeat/",
+   "snippet": "The CLARITY Act stalled in the Senate after a final round of bipartisan negotiations broke down and several Democrats who helped shape the bill refused to advance it. The measure failed to secure the "
+  },
+  {
+   "source": "cryptoslate",
+   "title": "Did crypto’s $20 Billion DeFi surge just get stolen by price inflation?",
+   "link": "https://cryptoslate.com/did-cryptos-20-billion-defi-surge-just-get-stolen-by-price-inflation/",
+   "snippet": "Stablecoin growth stayed below 6% while ETH and SOL gained more than 32%, leaving the inflow picture unresolved.\nThe post Did crypto’s $20 Billion DeFi surge just get stolen by price inflation? appear"
+  }
+ ],
+ "date": "2026-09-16",
+ "btc_dominance_pct": 58.4827888143978,
+ "global_mcap_usd": 2590074267420.067,
+ "global_mcap_change_24h_pct": -6.6241765377592285,
+ "polymarket": [
+  {
+   "title": "Fed Decision in September?",
+   "url": "https://polymarket.com/event/fed-decision-in-september-762",
+   "outcomes": "Yes 0% · No 1% · Yes 0% · No 1%",
+   "vol24h": 17231448.505382977
+  },
+  {
+   "title": "What price will Bitcoin hit in September?",
+   "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-september-2026",
+   "outcomes": "Yes 0% · No 1% · Yes 0% · No 1%",
+   "vol24h": 660928.9588970001
+  },
+  {
+   "title": "Bitcoin above ___ on September 16?",
+   "url": "https://polymarket.com/event/bitcoin-above-on-september-16-2026",
+   "outcomes": "Yes 1% · No 0% · Yes 1% · No 0%",
+   "vol24h": 648070.367376
+  },
+  {
+   "title": "What price will Ethereum hit in September?",
+   "url": "https://polymarket.com/event/what-price-will-ethereum-hit-in-september-2026",
+   "outcomes": "Yes 0% · No 1% · Yes 0% · No 1%",
+   "vol24h": 552967.630181
+  },
+  {
+   "title": "What price will Bitcoin hit on September 15?",
+   "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-on-september-15-2026",
+   "outcomes": "Yes 0% · No 1% · Yes 0% · No 1%",
+   "vol24h": 448116.00171700004
+  },
+  {
+   "title": "Fed rate hike in 2026?",
+   "url": "https://polymarket.com/event/fed-rate-hike-in-2026",
+   "outcomes": "Yes 1% · No 0%",
+   "vol24h": 361727.21349
+  }
+ ]
+}
