@@ -1,163 +1,163 @@
 {
- "date": "2026-09-22",
- "collected_at": "2026-09-22T05:30:15.764386",
- "generated_at": "2026-09-22T05:30:16",
+ "date": "2026-09-25",
+ "collected_at": "2026-09-25T12:09:14.157613",
+ "generated_at": "2026-09-25T12:09:14",
  "synthesis_mode": "deterministic-rss",
  "bitcoin": {
-  "price_usd": 86484,
-  "change_24h_pct": 6.628146409995306
+  "price_usd": 84183,
+  "change_24h_pct": -0.15229947196620847
  },
  "ethereum": {
-  "price_usd": 2772.05,
-  "change_24h_pct": 5.032364094159425
+  "price_usd": 2679.21,
+  "change_24h_pct": -0.5864286900045924
  },
- "btc_dominance_pct": 58.87,
- "global_mcap_usd": 2941478511074.5103,
+ "btc_dominance_pct": 58.56,
+ "global_mcap_usd": 2885668446342.8086,
  "global_mcap_change_24h_pct": null,
  "top10": [
   {
    "symbol": "BTC",
    "name": "Bitcoin",
-   "price_usd": 86481,
-   "change_24h_pct": 6.54901
+   "price_usd": 84183,
+   "change_24h_pct": -0.1523
   },
   {
    "symbol": "ETH",
    "name": "Ethereum",
-   "price_usd": 2772.05,
-   "change_24h_pct": 4.96619
+   "price_usd": 2679.53,
+   "change_24h_pct": -0.63957
   },
   {
    "symbol": "USDT",
    "name": "Tether",
-   "price_usd": 0.999794,
-   "change_24h_pct": 0.00722
+   "price_usd": 0.999759,
+   "change_24h_pct": -0.00516
   },
   {
    "symbol": "BNB",
    "name": "BNB",
-   "price_usd": 801.84,
-   "change_24h_pct": 4.11817
+   "price_usd": 773.02,
+   "change_24h_pct": -0.20421
   },
   {
    "symbol": "XRP",
    "name": "XRP",
-   "price_usd": 1.55,
-   "change_24h_pct": 9.89337
+   "price_usd": 1.53,
+   "change_24h_pct": 1.05426
   },
   {
    "symbol": "USDC",
    "name": "USDC",
-   "price_usd": 0.999868,
-   "change_24h_pct": 0.01307
+   "price_usd": 0.999823,
+   "change_24h_pct": -0.0054
   },
   {
    "symbol": "SOL",
    "name": "Solana",
-   "price_usd": 119.3,
-   "change_24h_pct": 7.96294
+   "price_usd": 116.39,
+   "change_24h_pct": 0.3771
   },
   {
    "symbol": "TRX",
    "name": "TRON",
-   "price_usd": 0.344146,
-   "change_24h_pct": 0.42358
+   "price_usd": 0.338716,
+   "change_24h_pct": -1.38458
   },
   {
    "symbol": "ZEC",
    "name": "Zcash",
-   "price_usd": 1463.76,
-   "change_24h_pct": -3.67062
+   "price_usd": 1546.85,
+   "change_24h_pct": 0.87361
   },
   {
    "symbol": "FIGR_HELOC",
    "name": "Figure Heloc",
-   "price_usd": 1.013,
-   "change_24h_pct": null
+   "price_usd": 1.027,
+   "change_24h_pct": -0.74347
   }
  ],
  "risk_movers": [
   {
-   "symbol": "DOGE",
-   "name": "Dogecoin",
-   "price_usd": 0.099815,
-   "change_24h_pct": 14.29528
-  },
-  {
    "symbol": "XLM",
    "name": "Stellar",
-   "price_usd": 0.216276,
-   "change_24h_pct": 9.46907
-  },
-  {
-   "symbol": "BCH",
-   "name": "Bitcoin Cash",
-   "price_usd": 270.82,
-   "change_24h_pct": 8.0672
-  },
-  {
-   "symbol": "ADA",
-   "name": "Cardano",
-   "price_usd": 0.245293,
-   "change_24h_pct": 7.19566
-  },
-  {
-   "symbol": "CC",
-   "name": "Canton",
-   "price_usd": 0.115979,
-   "change_24h_pct": 6.86529
-  },
-  {
-   "symbol": "XMR",
-   "name": "Monero",
-   "price_usd": 594.24,
-   "change_24h_pct": 5.70594
-  },
-  {
-   "symbol": "WBT",
-   "name": "WhiteBIT Coin",
-   "price_usd": 87.02,
-   "change_24h_pct": 5.07783
+   "price_usd": 0.220371,
+   "change_24h_pct": 8.06278
   },
   {
    "symbol": "LINK",
    "name": "Chainlink",
-   "price_usd": 13.12,
-   "change_24h_pct": 4.77951
+   "price_usd": 13.36,
+   "change_24h_pct": 7.24011
+  },
+  {
+   "symbol": "CC",
+   "name": "Canton",
+   "price_usd": 0.11484,
+   "change_24h_pct": 4.72503
+  },
+  {
+   "symbol": "UNI",
+   "name": "Uniswap",
+   "price_usd": 9.11,
+   "change_24h_pct": -3.22065
+  },
+  {
+   "symbol": "LTC",
+   "name": "Litecoin",
+   "price_usd": 70.88,
+   "change_24h_pct": 3.1017
+  },
+  {
+   "symbol": "BCH",
+   "name": "Bitcoin Cash",
+   "price_usd": 334.23,
+   "change_24h_pct": -2.91603
+  },
+  {
+   "symbol": "LEO",
+   "name": "LEO Token",
+   "price_usd": 8.81,
+   "change_24h_pct": -2.27158
+  },
+  {
+   "symbol": "RAIN",
+   "name": "Rain",
+   "price_usd": 0.01196986,
+   "change_24h_pct": -2.05886
   }
  ],
  "trending": [
   {
-   "name": "Firo",
-   "symbol": "FIRO"
+   "name": "Ondo",
+   "symbol": "ONDO"
   },
   {
-   "name": "Official Trump",
-   "symbol": "TRUMP"
+   "name": "Quant",
+   "symbol": "QNT"
   },
   {
-   "name": "Zano",
-   "symbol": "ZANO"
+   "name": "Plasma",
+   "symbol": "XPL"
   },
   {
-   "name": "Pudgy Penguins",
-   "symbol": "PENGU"
+   "name": "Backpack",
+   "symbol": "BP"
   },
   {
-   "name": "Edel",
-   "symbol": "EDEL"
+   "name": "Bitget Token",
+   "symbol": "BGB"
   },
   {
-   "name": "Bittensor",
-   "symbol": "TAO"
+   "name": "STONK",
+   "symbol": "STONK"
   },
   {
    "name": "NEAR Protocol",
    "symbol": "NEAR"
   },
   {
-   "name": "Bitcoin",
-   "symbol": "BTC"
+   "name": "Pudgy Penguins",
+   "symbol": "PENGU"
   }
  ],
  "polymarket": [],
@@ -165,88 +165,70 @@
   "bitcoin": {
    "label_en": "Bitcoin",
    "label_pl": "Bitcoin",
-   "section_analysis_en": "- BTC $86,484 at +6.6% — risk-on tape; dominance 58.9% keeps pressure on alts.\n- Watch BTC $74k support; no clean trend until it reclaims higher.",
-   "section_analysis_pl": "- BTC $86,484 (+6.6%) — rynk sprzyj; dominacja 58.9% ciszy na alty.\n- Obserwuj wsparcie BTC $74k; brak czystego trendu do jego odzyskania.",
+   "section_analysis_en": "- BTC $84,183 at -0.2% — choppy tape; dominance 58.6% keeps pressure on alts.\n- Watch BTC $74k support; no clean trend until it reclaims higher.",
+   "section_analysis_pl": "- BTC $84,183 (-0.2%) — rynk zmienno; dominacja 58.6% ciszy na alty.\n- Obserwuj wsparcie BTC $74k; brak czystego trendu do jego odzyskania.",
    "items": [
     {
-     "title": "Circle launches Bitcoin-backed USDC borrowing for institutional clients",
-     "url": "https://cointelegraph.com/news/circle-launches-bitcoin-backed-usdc-borrowing-for-institutional-clients?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "title": "Researchers propose Zcash-style private Bitcoin transfers without a soft fork ",
+     "url": "https://cointelegraph.com/news/shielded-bitcoin-zcash-style-privacy-no-soft-fork?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
      "source": "COINTELEGRAPH",
-     "short_en": "Circle is bringing Bitcoin-backed borrowing to institutional clients, allowing them to tap BTC holdings for USDC liquidity without selling their Bitcoin.",
-     "short_pl": "Circle is bringing Bitcoin-backed borrowing to institutional clients, allowing them to tap BTC holdings for USDC liquidity without selling their Bitcoin.",
-     "long_en": "Analysis: Circle is bringing Bitcoin-backed borrowing to institutional clients, allowing them to tap BTC holdings for USDC liquidity without selling their Bitcoin.",
-     "long_pl": "Analiza: Circle is bringing Bitcoin-backed borrowing to institutional clients, allowing them to tap BTC holdings for USDC liquidity without selling their Bitcoin."
+     "short_en": "Shielded Bitcoin would use zero-knowledge proofs and encrypted notes to hide transaction details without changing Bitcoin consensus, but researchers have raised questions about ano",
+     "short_pl": "Shielded Bitcoin would use zero-knowledge proofs and encrypted notes to hide transaction details without changing Bitcoin consensus, but researchers have raised questions about ano",
+     "long_en": "Analysis: Shielded Bitcoin would use zero-knowledge proofs and encrypted notes to hide transaction details without changing Bitcoin consensus, but researchers have raised questions about anonymity and quantum r",
+     "long_pl": "Analiza: Shielded Bitcoin would use zero-knowledge proofs and encrypted notes to hide transaction details without changing Bitcoin consensus, but researchers have raised questions about anonymity and quantum r"
     },
     {
-     "title": "X Sues Two Bitcoin Influencers Over Bot Army That Milked Creator Payouts",
-     "url": "https://decrypt.co/378877/x-sues-bitcoin-influencers-bot-army-creator-payout",
-     "source": "DECRYPT",
-     "short_en": "A lawsuit accuses UK users of running six coordinated accounts to pull at least $278,000 from X's now-defunct Creator Revenue Sharing Program.",
-     "short_pl": "A lawsuit accuses UK users of running six coordinated accounts to pull at least $278,000 from X's now-defunct Creator Revenue Sharing Program.",
-     "long_en": "Analysis: A lawsuit accuses UK users of running six coordinated accounts to pull at least $278,000 from X's now-defunct Creator Revenue Sharing Program.",
-     "long_pl": "Analiza: A lawsuit accuses UK users of running six coordinated accounts to pull at least $278,000 from X's now-defunct Creator Revenue Sharing Program."
-    },
-    {
-     "title": "How cutting power to Bitcoin miners can actually burn more energy",
-     "url": "https://cryptoslate.com/why-cutting-power-to-bitcoin-miners-can-actually-burn-more-energy/",
+     "title": "Bitcoin researchers target privacy coins with Zcash-style shielded transfers",
+     "url": "https://cryptoslate.com/bitcoin-researchers-target-privacy-coins-with-zcash-style-shielded-transfers/",
      "source": "CRYPTOSLATE",
-     "short_en": "A share-triggered controller can leave slowed machines hashing through a finite window with few or no accepted shares. The post How cutting power to Bitcoin miners can actually bur",
-     "short_pl": "A share-triggered controller can leave slowed machines hashing through a finite window with few or no accepted shares. The post How cutting power to Bitcoin miners can actually bur",
-     "long_en": "Analysis: A share-triggered controller can leave slowed machines hashing through a finite window with few or no accepted shares. The post How cutting power to Bitcoin miners can actually burn more energy appear",
-     "long_pl": "Analiza: A share-triggered controller can leave slowed machines hashing through a finite window with few or no accepted shares. The post How cutting power to Bitcoin miners can actually burn more energy appear"
-    },
-    {
-     "title": "Bitcoin hits $86,000 putting ETF investors back in profit after $86 billion wipeout",
-     "url": "https://cryptoslate.com/bitcoin-hits-86000-putting-etf-investors-back-in-profit-after-86-billion-wipeout/",
-     "source": "CRYPTOSLATE",
-     "short_en": "Bitcoin’s rally toward $86,000 has pushed US spot exchange-traded fund (ETF) investors back into profit after months underwater. Data from CryptoSlate showed Bitcoin gained about 6",
-     "short_pl": "Bitcoin’s rally toward $86,000 has pushed US spot exchange-traded fund (ETF) investors back into profit after months underwater. Data from CryptoSlate showed Bitcoin gained about 6",
-     "long_en": "Analysis: Bitcoin’s rally toward $86,000 has pushed US spot exchange-traded fund (ETF) investors back into profit after months underwater. Data from CryptoSlate showed Bitcoin gained about 6% over the past 24 h",
-     "long_pl": "Analiza: Bitcoin’s rally toward $86,000 has pushed US spot exchange-traded fund (ETF) investors back into profit after months underwater. Data from CryptoSlate showed Bitcoin gained about 6% over the past 24 h"
+     "short_en": "Bitcoin researchers have proposed a system for private transfers directly on the network without requiring a soft fork or changes to its consensus rules. The Sept. 24 paper from [[",
+     "short_pl": "Bitcoin researchers have proposed a system for private transfers directly on the network without requiring a soft fork or changes to its consensus rules. The Sept. 24 paper from [[",
+     "long_en": "Analysis: Bitcoin researchers have proposed a system for private transfers directly on the network without requiring a soft fork or changes to its consensus rules. The Sept. 24 paper from [[alloc] init] researc",
+     "long_pl": "Analiza: Bitcoin researchers have proposed a system for private transfers directly on the network without requiring a soft fork or changes to its consensus rules. The Sept. 24 paper from [[alloc] init] researc"
     }
    ]
   },
   "crypto_market": {
    "label_en": "Crypto market",
    "label_pl": "Rynek krypto",
-   "section_analysis_en": "- ETH +5.0% vs BTC +6.6% — ETH is underperforming; no leadership.\n- Biggest alt movers: DOGE +14.3%, XLM +9.5%, BCH +8.1%, ADA +7.2%.",
-   "section_analysis_pl": "- ETH (+5.0%) vs BTC (+6.6%) — ETH nie prowadzi.\n- Najwiksze ruchy altow: DOGE +14.3%, XLM +9.5%, BCH +8.1%, ADA +7.2%.",
+   "section_analysis_en": "- ETH -0.6% vs BTC -0.2% — ETH is underperforming; no leadership.\n- Biggest alt movers: XLM +8.1%, LINK +7.2%, CC +4.7%, UNI -3.2%.",
+   "section_analysis_pl": "- ETH (-0.6%) vs BTC (-0.2%) — ETH nie prowadzi.\n- Najwiksze ruchy altow: XLM +8.1%, LINK +7.2%, CC +4.7%, UNI -3.2%.",
    "items": [
     {
-     "title": "Saudi Arabia exits China-backed mBridge CBDC project: FT",
-     "url": "https://cointelegraph.com/news/saudi-arabia-exits-china-backed-mbridge-cbdc-project-ft?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "title": "Bitget CEO suspects North Korea behind $352M hack, citing IP clues",
+     "url": "https://cointelegraph.com/news/bitget-ceo-suspects-north-korea-behind-352m-hack-citing-ip-clues?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
      "source": "COINTELEGRAPH",
-     "short_en": "Saudi Arabia has left mBridge, a cross-border CBDC platform that has drawn scrutiny from US policymakers, according to the Financial Times.",
-     "short_pl": "Saudi Arabia has left mBridge, a cross-border CBDC platform that has drawn scrutiny from US policymakers, according to the Financial Times.",
-     "long_en": "Analysis: Saudi Arabia has left mBridge, a cross-border CBDC platform that has drawn scrutiny from US policymakers, according to the Financial Times.",
-     "long_pl": "Analiza: Saudi Arabia has left mBridge, a cross-border CBDC platform that has drawn scrutiny from US policymakers, according to the Financial Times."
+     "short_en": "Bitget CEO Gracy Chen said a preliminary investigation found IP addresses matching VPN choices associated with a DPRK hacking group.",
+     "short_pl": "Bitget CEO Gracy Chen said a preliminary investigation found IP addresses matching VPN choices associated with a DPRK hacking group.",
+     "long_en": "Analysis: Bitget CEO Gracy Chen said a preliminary investigation found IP addresses matching VPN choices associated with a DPRK hacking group.",
+     "long_pl": "Analiza: Bitget CEO Gracy Chen said a preliminary investigation found IP addresses matching VPN choices associated with a DPRK hacking group."
     },
     {
-     "title": "Here’s what happened in crypto today",
-     "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "title": "Asia dominates Crypto Adoption Index, Bitget’s $352M hack: Asia Express",
+     "url": "https://cointelegraph.com/magazine/asia-dominates-crypto-adoption-index-bitgets-356m-hack-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
      "source": "COINTELEGRAPH",
-     "short_en": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-     "short_pl": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-     "long_en": "Analysis: Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-     "long_pl": "Analiza: Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation."
+     "short_en": "The APAC region accounts for half of the Global Crypto Adoption Index. Bitget suffers massive $352M loss and OpenAI forgets to mention its agents hacked the Australian Government.",
+     "short_pl": "The APAC region accounts for half of the Global Crypto Adoption Index. Bitget suffers massive $352M loss and OpenAI forgets to mention its agents hacked the Australian Government.",
+     "long_en": "Analysis: The APAC region accounts for half of the Global Crypto Adoption Index. Bitget suffers massive $352M loss and OpenAI forgets to mention its agents hacked the Australian Government.",
+     "long_pl": "Analiza: The APAC region accounts for half of the Global Crypto Adoption Index. Bitget suffers massive $352M loss and OpenAI forgets to mention its agents hacked the Australian Government."
     },
     {
-     "title": "Robinhood CEO Says Crypto Will Beat Sports at Prediction Markets' Own Game",
-     "url": "https://decrypt.co/378889/robinhood-ceo-crypto-will-beat-sports-prediction-markets",
+     "title": "Bitget Hacked as $350 Million Vanishes From Crypto Exchange Wallets",
+     "url": "https://decrypt.co/379275/bitget-hack-183-million-crypto-exchange-wallets",
      "source": "DECRYPT",
-     "short_en": "Robinhood CEO Vlad Tenev says crypto event contracts are already outpacing sports bets, and could become the platform's dominant category within a few years.",
-     "short_pl": "Robinhood CEO Vlad Tenev says crypto event contracts are already outpacing sports bets, and could become the platform's dominant category within a few years.",
-     "long_en": "Analysis: Robinhood CEO Vlad Tenev says crypto event contracts are already outpacing sports bets, and could become the platform's dominant category within a few years.",
-     "long_pl": "Analiza: Robinhood CEO Vlad Tenev says crypto event contracts are already outpacing sports bets, and could become the platform's dominant category within a few years."
+     "short_en": "A newly created wallet drained hot and cold reserves labeled as belonging to Bitget across multiple blockchains in under an hour.",
+     "short_pl": "A newly created wallet drained hot and cold reserves labeled as belonging to Bitget across multiple blockchains in under an hour.",
+     "long_en": "Analysis: A newly created wallet drained hot and cold reserves labeled as belonging to Bitget across multiple blockchains in under an hour.",
+     "long_pl": "Analiza: A newly created wallet drained hot and cold reserves labeled as belonging to Bitget across multiple blockchains in under an hour."
     },
     {
-     "title": "Europe’s Central Bank Prepares to Invest Own Funds in Tokenized Securities",
-     "url": "https://decrypt.co/378872/europe-central-bank-invest-funds-tokenized-securities",
-     "source": "DECRYPT",
-     "short_en": "The central bank plans to buy euro-denominated public-sector debt and settle the transactions through its new Pontes service.",
-     "short_pl": "The central bank plans to buy euro-denominated public-sector debt and settle the transactions through its new Pontes service.",
-     "long_en": "Analysis: The central bank plans to buy euro-denominated public-sector debt and settle the transactions through its new Pontes service.",
-     "long_pl": "Analiza: The central bank plans to buy euro-denominated public-sector debt and settle the transactions through its new Pontes service."
+     "title": "Two obscure pools fuel 2.8B XRPL volume, but only 185 trades caused it",
+     "url": "https://cryptoslate.com/two-obscure-pools-fuel-2-8b-xrpl-volume-but-only-185-trades-caused-it/",
+     "source": "CRYPTOSLATE",
+     "short_en": "Both pools trade issued tokens, and the feed does not reveal how it values each fill. The post Two obscure pools fuel 2.8B XRPL volume, but only 185 trades caused it appeared first",
+     "short_pl": "Both pools trade issued tokens, and the feed does not reveal how it values each fill. The post Two obscure pools fuel 2.8B XRPL volume, but only 185 trades caused it appeared first",
+     "long_en": "Analysis: Both pools trade issued tokens, and the feed does not reveal how it values each fill. The post Two obscure pools fuel 2.8B XRPL volume, but only 185 trades caused it appeared first on CryptoSlate.",
+     "long_pl": "Analiza: Both pools trade issued tokens, and the feed does not reveal how it values each fill. The post Two obscure pools fuel 2.8B XRPL volume, but only 185 trades caused it appeared first on CryptoSlate."
     }
    ]
   },
@@ -257,13 +239,22 @@
    "section_analysis_pl": "- Decyzja Fed + upadek CLARITY Act napywaja taśmą; ryzyko regulacyjne jest wysokie.\n- Mały rozmiar pozycji do komunikatu Fed; nastpny katalizator to stopy.",
    "items": [
     {
-     "title": "After Clarity Act Fails, Crypto Super PAC Fairshake Targets Sherrod Brown With $30 Million",
-     "url": "https://decrypt.co/378891/clarity-act-crypto-super-pac-fairshake-sherrod-brown-30-million",
+     "title": "Fed proposes new capital, redemption rules for stablecoin issuers",
+     "url": "https://cointelegraph.com/news/fed-proposes-new-capital-redemption-rules-for-stablecoin-issuers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "source": "COINTELEGRAPH",
+     "short_en": "The Fed’s proposal would set capital requirements, a two-day redemption window and new reserve disclosures as regulators implement the GENIUS Act.",
+     "short_pl": "The Fed’s proposal would set capital requirements, a two-day redemption window and new reserve disclosures as regulators implement the GENIUS Act.",
+     "long_en": "Analysis: The Fed’s proposal would set capital requirements, a two-day redemption window and new reserve disclosures as regulators implement the GENIUS Act.",
+     "long_pl": "Analiza: The Fed’s proposal would set capital requirements, a two-day redemption window and new reserve disclosures as regulators implement the GENIUS Act."
+    },
+    {
+     "title": "Federal Reserve Unveils Stablecoin Rules on Reserves and Capital",
+     "url": "https://decrypt.co/379274/federal-reserve-unveils-stablecoin-rules-on-reserves-and-capital",
      "source": "DECRYPT",
-     "short_en": "The Ohio spending comes days after the Senate blocked the crypto industry’s Clarity Act.",
-     "short_pl": "The Ohio spending comes days after the Senate blocked the crypto industry’s Clarity Act.",
-     "long_en": "Analysis: The Ohio spending comes days after the Senate blocked the crypto industry’s Clarity Act.",
-     "long_pl": "Analiza: The Ohio spending comes days after the Senate blocked the crypto industry’s Clarity Act."
+     "short_en": "The central bank opened two proposals for comment under the GENIUS Act, requiring issuers it supervises to back tokens fully with safe assets and creating an application process fo",
+     "short_pl": "The central bank opened two proposals for comment under the GENIUS Act, requiring issuers it supervises to back tokens fully with safe assets and creating an application process fo",
+     "long_en": "Analysis: The central bank opened two proposals for comment under the GENIUS Act, requiring issuers it supervises to back tokens fully with safe assets and creating an application process for banks seeking to i",
+     "long_pl": "Analiza: The central bank opened two proposals for comment under the GENIUS Act, requiring issuers it supervises to back tokens fully with safe assets and creating an application process for banks seeking to i"
     }
    ]
   },
@@ -274,46 +265,46 @@
    "section_analysis_pl": "- Przeply AI/akcji konkuruje z pynnością krypto; obserwuj rotacj z powrotem do BTC.",
    "items": [
     {
-     "title": "Ondo lets institutions convert stocks directly into tokenized shares",
-     "url": "https://cointelegraph.com/news/ondo-lets-institutions-convert-stocks-directly-into-tokenized-shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "title": "Block brings Bitcoin Lightning payments to x402 for AI agents",
+     "url": "https://cointelegraph.com/news/block-brings-bitcoin-lightning-payments-to-x402-for-ai-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
      "source": "COINTELEGRAPH",
-     "short_en": "Ondo’s new in-kind conversion system allows approved institutions to mint and redeem tokenized stocks and ETFs using the underlying securities instead of cash.",
-     "short_pl": "Ondo’s new in-kind conversion system allows approved institutions to mint and redeem tokenized stocks and ETFs using the underlying securities instead of cash.",
-     "long_en": "Analysis: Ondo’s new in-kind conversion system allows approved institutions to mint and redeem tokenized stocks and ETFs using the underlying securities instead of cash.",
-     "long_pl": "Analiza: Ondo’s new in-kind conversion system allows approved institutions to mint and redeem tokenized stocks and ETFs using the underlying securities instead of cash."
+     "short_en": "Block joins Google, Microsoft, AWS and Coinbase in backing x402, an open payment standard enabling agentic AI commerce.",
+     "short_pl": "Block joins Google, Microsoft, AWS and Coinbase in backing x402, an open payment standard enabling agentic AI commerce.",
+     "long_en": "Analysis: Block joins Google, Microsoft, AWS and Coinbase in backing x402, an open payment standard enabling agentic AI commerce.",
+     "long_pl": "Analiza: Block joins Google, Microsoft, AWS and Coinbase in backing x402, an open payment standard enabling agentic AI commerce."
     },
     {
-     "title": "Crypto PAC to spend $30M opposing Sherrod Brown in Ohio, again",
-     "url": "https://cointelegraph.com/news/crypto-pac-fairshake-spending-sherrod-brown-ohio-senate-race?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-     "source": "COINTELEGRAPH",
-     "short_en": "The digital asset-aligned PAC joined other groups to spend more than a combined $300 million in the 2024 Ohio Senate race, resulting in Sherrod Brown’s loss to Bernie Moreno.",
-     "short_pl": "The digital asset-aligned PAC joined other groups to spend more than a combined $300 million in the 2024 Ohio Senate race, resulting in Sherrod Brown’s loss to Bernie Moreno.",
-     "long_en": "Analysis: The digital asset-aligned PAC joined other groups to spend more than a combined $300 million in the 2024 Ohio Senate race, resulting in Sherrod Brown’s loss to Bernie Moreno.",
-     "long_pl": "Analiza: The digital asset-aligned PAC joined other groups to spend more than a combined $300 million in the 2024 Ohio Senate race, resulting in Sherrod Brown’s loss to Bernie Moreno."
-    },
-    {
-     "title": "Coinbase Brings IPO Shares to US Retail Traders, With Oura Up First",
-     "url": "https://decrypt.co/378874/coinbase-ipo-shares-us-traders-oura",
+     "title": "Humans Are Reading Your ChatGPT Chats, New Lawsuit Claims",
+     "url": "https://decrypt.co/379272/humans-reading-chatgpt-chats-lawsuit",
      "source": "DECRYPT",
-     "short_en": "Eligible customers can request shares at the offering price, but allocations are not guaranteed.",
-     "short_pl": "Eligible customers can request shares at the offering price, but allocations are not guaranteed.",
-     "long_en": "Analysis: Eligible customers can request shares at the offering price, but allocations are not guaranteed.",
-     "long_pl": "Analiza: Eligible customers can request shares at the offering price, but allocations are not guaranteed."
+     "short_en": "A proposed class action accuses OpenAI of quietly routing real conversations to outside contractors through a program called Project Lily—without telling users first.",
+     "short_pl": "A proposed class action accuses OpenAI of quietly routing real conversations to outside contractors through a program called Project Lily—without telling users first.",
+     "long_en": "Analysis: A proposed class action accuses OpenAI of quietly routing real conversations to outside contractors through a program called Project Lily—without telling users first.",
+     "long_pl": "Analiza: A proposed class action accuses OpenAI of quietly routing real conversations to outside contractors through a program called Project Lily—without telling users first."
     },
     {
-     "title": "One wallet links $1.55 million FetchAI theft to massive 408.5 million NTX mint",
-     "url": "https://cryptoslate.com/one-wallet-links-1-55-million-fetchai-theft-to-massive-408-5-million-ntx-mint/",
-     "source": "CRYPTOSLATE",
-     "short_en": "Fetch.ai says its own contracts were unaffected, while shared bridge routes leave an unresolved NTX supply question. The post One wallet links $1.55 million FetchAI theft to massiv",
-     "short_pl": "Fetch.ai says its own contracts were unaffected, while shared bridge routes leave an unresolved NTX supply question. The post One wallet links $1.55 million FetchAI theft to massiv",
-     "long_en": "Analysis: Fetch.ai says its own contracts were unaffected, while shared bridge routes leave an unresolved NTX supply question. The post One wallet links $1.55 million FetchAI theft to massive 408.5 million NTX",
-     "long_pl": "Analiza: Fetch.ai says its own contracts were unaffected, while shared bridge routes leave an unresolved NTX supply question. The post One wallet links $1.55 million FetchAI theft to massive 408.5 million NTX"
+     "title": "Meta's New AI Toy Is a Keychain That Watches, Listens, and Never Blinks",
+     "url": "https://decrypt.co/379253/meta-ai-toy-muse-charm-keychain-watches-listens",
+     "source": "DECRYPT",
+     "short_en": "Muse Charm is Meta's palm-sized gadget for talking to its Muse AI agent on the go. It has cameras, a fingerprint sensor, and its own cell connection.",
+     "short_pl": "Muse Charm is Meta's palm-sized gadget for talking to its Muse AI agent on the go. It has cameras, a fingerprint sensor, and its own cell connection.",
+     "long_en": "Analysis: Muse Charm is Meta's palm-sized gadget for talking to its Muse AI agent on the go. It has cameras, a fingerprint sensor, and its own cell connection.",
+     "long_pl": "Analiza: Muse Charm is Meta's palm-sized gadget for talking to its Muse AI agent on the go. It has cameras, a fingerprint sensor, and its own cell connection."
+    },
+    {
+     "title": "AI Can Now Doxx Your Anonymous Accounts? Here's What’s Going On",
+     "url": "https://decrypt.co/379228/ai-can-now-doxx-your-anonymous-accounts-heres-whats-going-on",
+     "source": "DECRYPT",
+     "short_en": "A February research paper showing AI can unmask pseudonymous internet users is freaking everyone out again this week. Here's what the paper actually says.",
+     "short_pl": "A February research paper showing AI can unmask pseudonymous internet users is freaking everyone out again this week. Here's what the paper actually says.",
+     "long_en": "Analysis: A February research paper showing AI can unmask pseudonymous internet users is freaking everyone out again this week. Here's what the paper actually says.",
+     "long_pl": "Analiza: A February research paper showing AI can unmask pseudonymous internet users is freaking everyone out again this week. Here's what the paper actually says."
     }
    ]
   }
  },
- "total_analysis_en": "- BTC $86,484 (+6.6%) after the CLARITY Act failed its Senate vote — risk-on.\n- Alts bleed harder (top losers: ENA -6.0%, ZEC -3.7%, NEAR -1.8%) — BTC dominance 58.9%.\n- Global mcap $2.94T (+0.0% 24h) — sellers in control.\n- Watch: Fed outcome + BTC $74k. Avoid leveraged longs into the print. Not financial advice.",
- "total_analysis_pl": "- BTC $86,484 (+6.6%) po upadku CLARITY w Senacie — sprzyj.\n- Alty tracą mocniej — dominacja BTC 58.9%.\n- Globalna kapitalizacja $2.94T (+0.0% 24h) — sprzedający maj przedy.\n- Obserwuj: wynik Fed + BTC $74k. Nie goniy dźwigni w rynku bez pokrycia.",
- "social_narrative_en": "Trending heat: FIRO, TRUMP, ZANO, PENGU, EDEL — meme-coin churn while BTC trades at $86,484; retail attention is chasing, price risk-on.",
- "social_narrative_pl": "Puls social: FIRO, TRUMP, ZANO, PENGU, EDEL — gorączka memecoinow przy BTC $86,484; ceny sprzyj, detaliści czekają w kolejce."
+ "total_analysis_en": "- BTC $84,183 (-0.2%) after the CLARITY Act failed its Senate vote — choppy.\n- Alts bleed harder (top losers: BTW -15.4%, UNI -3.2%, BCH -2.9%) — BTC dominance 58.6%.\n- Global mcap $2.89T (+0.0% 24h) — sellers in control.\n- Watch: Fed outcome + BTC $74k. Avoid leveraged longs into the print. Not financial advice.",
+ "total_analysis_pl": "- BTC $84,183 (-0.2%) po upadku CLARITY w Senacie — zmienno.\n- Alty tracą mocniej — dominacja BTC 58.6%.\n- Globalna kapitalizacja $2.89T (+0.0% 24h) — sprzedający maj przedy.\n- Obserwuj: wynik Fed + BTC $74k. Nie goniy dźwigni w rynku bez pokrycia.",
+ "social_narrative_en": "Trending heat: ONDO, QNT, XPL, BP, BGB — meme-coin churn while BTC trades at $84,183; retail attention is chasing, price choppy.",
+ "social_narrative_pl": "Puls social: ONDO, QNT, XPL, BP, BGB — gorączka memecoinow przy BTC $84,183; ceny zmienno, detaliści czekają w kolejce."
 }
