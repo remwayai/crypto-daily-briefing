@@ -1,163 +1,163 @@
 {
- "date": "2026-09-26",
- "collected_at": "2026-09-26T05:30:38.203374",
- "generated_at": "2026-09-26T05:30:38",
+ "date": "2026-09-27",
+ "collected_at": "2026-09-27T05:30:37.641366",
+ "generated_at": "2026-09-27T05:30:37",
  "synthesis_mode": "deterministic-rss",
  "bitcoin": {
-  "price_usd": 83901,
-  "change_24h_pct": -0.25189301075915344
+  "price_usd": 84317,
+  "change_24h_pct": 0.5007153971110033
  },
  "ethereum": {
-  "price_usd": 2687.58,
-  "change_24h_pct": 0.28111346440803164
+  "price_usd": 2689.26,
+  "change_24h_pct": 0.05691351323197604
  },
- "btc_dominance_pct": 58.24,
- "global_mcap_usd": 2891679453999.242,
+ "btc_dominance_pct": 58.31,
+ "global_mcap_usd": 2900335854167.678,
  "global_mcap_change_24h_pct": null,
  "top10": [
   {
    "symbol": "BTC",
    "name": "Bitcoin",
-   "price_usd": 83955,
-   "change_24h_pct": -0.21147
+   "price_usd": 84272,
+   "change_24h_pct": 0.44148
   },
   {
    "symbol": "ETH",
    "name": "Ethereum",
-   "price_usd": 2688.02,
-   "change_24h_pct": 0.2765
+   "price_usd": 2688.31,
+   "change_24h_pct": 0.02711
   },
   {
    "symbol": "USDT",
    "name": "Tether",
-   "price_usd": 0.99984,
-   "change_24h_pct": 0.00643
+   "price_usd": 0.999788,
+   "change_24h_pct": -0.00134
   },
   {
    "symbol": "BNB",
    "name": "BNB",
-   "price_usd": 774.42,
-   "change_24h_pct": -0.27974
+   "price_usd": 772.78,
+   "change_24h_pct": -0.17822
   },
   {
    "symbol": "XRP",
    "name": "XRP",
-   "price_usd": 1.56,
-   "change_24h_pct": 2.07856
+   "price_usd": 1.52,
+   "change_24h_pct": -2.60332
   },
   {
    "symbol": "USDC",
    "name": "USDC",
-   "price_usd": 0.999939,
-   "change_24h_pct": 0.00863
+   "price_usd": 0.999846,
+   "change_24h_pct": -0.00467
   },
   {
    "symbol": "SOL",
    "name": "Solana",
-   "price_usd": 121.73,
-   "change_24h_pct": 4.59136
+   "price_usd": 121.45,
+   "change_24h_pct": -0.20908
   },
   {
    "symbol": "TRX",
    "name": "TRON",
-   "price_usd": 0.337798,
-   "change_24h_pct": -0.68376
+   "price_usd": 0.334324,
+   "change_24h_pct": -1.00182
   },
   {
    "symbol": "ZEC",
    "name": "Zcash",
-   "price_usd": 1534.76,
-   "change_24h_pct": 0.303
+   "price_usd": 1661.27,
+   "change_24h_pct": 8.18699
   },
   {
    "symbol": "FIGR_HELOC",
    "name": "Figure Heloc",
-   "price_usd": 1.031,
-   "change_24h_pct": 0.94383
+   "price_usd": 1.025,
+   "change_24h_pct": -0.60124
   }
  ],
  "risk_movers": [
   {
-   "symbol": "SUI",
-   "name": "Sui",
-   "price_usd": 1.19,
-   "change_24h_pct": 18.98384
+   "symbol": "GRAM",
+   "name": "Gram (prev. Toncoin)",
+   "price_usd": 1.58,
+   "change_24h_pct": 10.32654
+  },
+  {
+   "symbol": "RAIN",
+   "name": "Rain",
+   "price_usd": 0.0128917,
+   "change_24h_pct": 8.8256
   },
   {
    "symbol": "CC",
    "name": "Canton",
-   "price_usd": 0.12917,
-   "change_24h_pct": 15.15481
+   "price_usd": 0.136207,
+   "change_24h_pct": 5.43731
   },
   {
-   "symbol": "NEAR",
-   "name": "NEAR Protocol",
-   "price_usd": 4.94,
-   "change_24h_pct": 8.47053
-  },
-  {
-   "symbol": "LINK",
-   "name": "Chainlink",
-   "price_usd": 13.81,
-   "change_24h_pct": 4.37063
-  },
-  {
-   "symbol": "UNI",
-   "name": "Uniswap",
-   "price_usd": 9.52,
-   "change_24h_pct": 4.19038
-  },
-  {
-   "symbol": "ADA",
-   "name": "Cardano",
-   "price_usd": 0.256127,
-   "change_24h_pct": 3.78036
+   "symbol": "SUI",
+   "name": "Sui",
+   "price_usd": 1.16,
+   "change_24h_pct": -2.7408
   },
   {
    "symbol": "DOGE",
    "name": "Dogecoin",
-   "price_usd": 0.098564,
-   "change_24h_pct": 3.36315
+   "price_usd": 0.096465,
+   "change_24h_pct": -2.09275
   },
   {
-   "symbol": "XLM",
-   "name": "Stellar",
-   "price_usd": 0.219443,
-   "change_24h_pct": 2.86872
+   "symbol": "UNI",
+   "name": "Uniswap",
+   "price_usd": 9.71,
+   "change_24h_pct": 2.0818
+  },
+  {
+   "symbol": "LINK",
+   "name": "Chainlink",
+   "price_usd": 14.07,
+   "change_24h_pct": 1.96284
+  },
+  {
+   "symbol": "AVAX",
+   "name": "Avalanche",
+   "price_usd": 10.74,
+   "change_24h_pct": 1.95168
   }
  ],
  "trending": [
   {
-   "name": "Official Trump",
-   "symbol": "TRUMP"
+   "name": "Quant",
+   "symbol": "QNT"
   },
   {
-   "name": "Pudgy Penguins",
-   "symbol": "PENGU"
+   "name": "Official Trump",
+   "symbol": "TRUMP"
   },
   {
    "name": "Edel",
    "symbol": "EDEL"
   },
   {
-   "name": "Ethena",
-   "symbol": "ENA"
-  },
-  {
-   "name": "Aerodrome Finance",
-   "symbol": "AERO"
+   "name": "Zcash",
+   "symbol": "ZEC"
   },
   {
    "name": "NEAR Protocol",
    "symbol": "NEAR"
   },
   {
-   "name": "Backpack",
-   "symbol": "BP"
-  },
-  {
    "name": "Ondo",
    "symbol": "ONDO"
+  },
+  {
+   "name": "Pudgy Penguins",
+   "symbol": "PENGU"
+  },
+  {
+   "name": "Backpack",
+   "symbol": "BP"
   }
  ],
  "polymarket": [],
@@ -165,24 +165,34 @@
   "bitcoin": {
    "label_en": "Bitcoin",
    "label_pl": "Bitcoin",
-   "section_analysis_en": "- BTC $83,901 at -0.3% — choppy tape; dominance 58.2% keeps pressure on alts.\n- Watch BTC $74k support; no clean trend until it reclaims higher.",
-   "section_analysis_pl": "- BTC $83,901 (-0.3%) — rynk zmienno; dominacja 58.2% ciszy na alty.\n- Obserwuj wsparcie BTC $74k; brak czystego trendu do jego odzyskania.",
-   "items": []
+   "section_analysis_en": "- BTC $84,317 at +0.5% — choppy tape; dominance 58.3% keeps pressure on alts.\n- Watch BTC $74k support; no clean trend until it reclaims higher.",
+   "section_analysis_pl": "- BTC $84,317 (+0.5%) — rynk zmienno; dominacja 58.3% ciszy na alty.\n- Obserwuj wsparcie BTC $74k; brak czystego trendu do jego odzyskania.",
+   "items": [
+    {
+     "title": "Bitcoin ETFs Notch Seven-Day Winning Streak as 2026 Flows Turn Green",
+     "url": "https://decrypt.co/379391/bitcoin-etfs-notch-seven-day-winning-streak-as-2026-flows-turn-green",
+     "source": "DECRYPT",
+     "short_en": "Bitcoin ETFs have drawn nearly $3 billion over seven straight sessions, erasing post-Clarity Act losses and pushing 2026 flows back into positive territory.",
+     "short_pl": "Bitcoin ETFs have drawn nearly $3 billion over seven straight sessions, erasing post-Clarity Act losses and pushing 2026 flows back into positive territory.",
+     "long_en": "Analysis: Bitcoin ETFs have drawn nearly $3 billion over seven straight sessions, erasing post-Clarity Act losses and pushing 2026 flows back into positive territory.",
+     "long_pl": "Analiza: Bitcoin ETFs have drawn nearly $3 billion over seven straight sessions, erasing post-Clarity Act losses and pushing 2026 flows back into positive territory."
+    }
+   ]
   },
   "crypto_market": {
    "label_en": "Crypto market",
    "label_pl": "Rynek krypto",
-   "section_analysis_en": "- ETH +0.3% vs BTC -0.3% — ETH is underperforming; no leadership.\n- Biggest alt movers: SUI +19.0%, CC +15.2%, NEAR +8.5%, LINK +4.4%.",
-   "section_analysis_pl": "- ETH (+0.3%) vs BTC (-0.3%) — ETH nie prowadzi.\n- Najwiksze ruchy altow: SUI +19.0%, CC +15.2%, NEAR +8.5%, LINK +4.4%.",
+   "section_analysis_en": "- ETH +0.1% vs BTC +0.5% — ETH is underperforming; no leadership.\n- Biggest alt movers: GRAM +10.3%, RAIN +8.8%, CC +5.4%, SUI -2.7%.",
+   "section_analysis_pl": "- ETH (+0.1%) vs BTC (+0.5%) — ETH nie prowadzi.\n- Najwiksze ruchy altow: GRAM +10.3%, RAIN +8.8%, CC +5.4%, SUI -2.7%.",
    "items": [
     {
-     "title": "Tether says it had ‘limited’ exposure to bank linked to $84M US seizure",
-     "url": "https://cointelegraph.com/news/us-authorities-seize-accounts-tether-bitfinex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "title": "Kalshi loses appeal, setting up potential Supreme Court case",
+     "url": "https://cointelegraph.com/news/kalshi-loses-appeal-setting-up-potential-supreme-court-case?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
      "source": "COINTELEGRAPH",
-     "short_en": "US prosecutors alleged that a payments business illegally transferred hundreds of millions of dollars at the direction of EQIBank, where Tether holds some assets.",
-     "short_pl": "US prosecutors alleged that a payments business illegally transferred hundreds of millions of dollars at the direction of EQIBank, where Tether holds some assets.",
-     "long_en": "Analysis: US prosecutors alleged that a payments business illegally transferred hundreds of millions of dollars at the direction of EQIBank, where Tether holds some assets.",
-     "long_pl": "Analiza: US prosecutors alleged that a payments business illegally transferred hundreds of millions of dollars at the direction of EQIBank, where Tether holds some assets."
+     "short_en": "The 6th US Circuit Court of Appeals ruled against prediction market Kalshi, siding with Ohio and Tennessee on regulating sports-event contracts under state laws.",
+     "short_pl": "The 6th US Circuit Court of Appeals ruled against prediction market Kalshi, siding with Ohio and Tennessee on regulating sports-event contracts under state laws.",
+     "long_en": "Analysis: The 6th US Circuit Court of Appeals ruled against prediction market Kalshi, siding with Ohio and Tennessee on regulating sports-event contracts under state laws.",
+     "long_pl": "Analiza: The 6th US Circuit Court of Appeals ruled against prediction market Kalshi, siding with Ohio and Tennessee on regulating sports-event contracts under state laws."
     },
     {
      "title": "Here’s what happened in crypto today",
@@ -194,22 +204,22 @@
      "long_pl": "Analiza: Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation."
     },
     {
-     "title": "Former Hack VC partner Hsin-Ju Chuang’s death ruled a suicide",
-     "url": "https://cointelegraph.com/news/former-hack-vc-partner-hsin-ju-chuang-found-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "title": "SEC Commissioner Hester Peirce to leave post on Oct. 2",
+     "url": "https://cointelegraph.com/news/sec-commissioner-hester-peirce-to-leave-post-on-oct-2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
      "source": "COINTELEGRAPH",
-     "short_en": "The crypto executive and Dystopia Labs founder previously held senior roles at Stellar and Solana before joining venture capital firm Hack VC.",
-     "short_pl": "The crypto executive and Dystopia Labs founder previously held senior roles at Stellar and Solana before joining venture capital firm Hack VC.",
-     "long_en": "Analysis: The crypto executive and Dystopia Labs founder previously held senior roles at Stellar and Solana before joining venture capital firm Hack VC.",
-     "long_pl": "Analiza: The crypto executive and Dystopia Labs founder previously held senior roles at Stellar and Solana before joining venture capital firm Hack VC."
+     "short_en": "Peirce, known as “Crypto Mom,” served on the SEC for about eight years, including as director of the Crypto Task Force.",
+     "short_pl": "Peirce, known as “Crypto Mom,” served on the SEC for about eight years, including as director of the Crypto Task Force.",
+     "long_en": "Analysis: Peirce, known as “Crypto Mom,” served on the SEC for about eight years, including as director of the Crypto Task Force.",
+     "long_pl": "Analiza: Peirce, known as “Crypto Mom,” served on the SEC for about eight years, including as director of the Crypto Task Force."
     },
     {
-     "title": "US Prosecutors Want $84.2 Million From a Bank Tied to Tether",
-     "url": "https://decrypt.co/379380/us-prosecutors-84-million-bank-tether-and-bitfinex",
-     "source": "DECRYPT",
-     "short_en": "Federal prosecutors are targeting a Montana payments firm and a Caribbean bank accused of moving money without a license.",
-     "short_pl": "Federal prosecutors are targeting a Montana payments firm and a Caribbean bank accused of moving money without a license.",
-     "long_en": "Analysis: Federal prosecutors are targeting a Montana payments firm and a Caribbean bank accused of moving money without a license.",
-     "long_pl": "Analiza: Federal prosecutors are targeting a Montana payments firm and a Caribbean bank accused of moving money without a license."
+     "title": "CFTC sues Cash FX, alleges $950M crypto-linked forex scheme",
+     "url": "https://cointelegraph.com/news/cftc-sues-cash-fx-alleges-950m-crypto-linked-forex-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "source": "COINTELEGRAPH",
+     "short_en": "The CFTC claimed that Cash FX engaged in minimal forex trading and misappropriated most of the participant funds.",
+     "short_pl": "The CFTC claimed that Cash FX engaged in minimal forex trading and misappropriated most of the participant funds.",
+     "long_en": "Analysis: The CFTC claimed that Cash FX engaged in minimal forex trading and misappropriated most of the participant funds.",
+     "long_pl": "Analiza: The CFTC claimed that Cash FX engaged in minimal forex trading and misappropriated most of the participant funds."
     }
    ]
   },
@@ -220,31 +230,22 @@
    "section_analysis_pl": "- Decyzja Fed + upadek CLARITY Act napywaja taśmą; ryzyko regulacyjne jest wysokie.\n- Mały rozmiar pozycji do komunikatu Fed; nastpny katalizator to stopy.",
    "items": [
     {
-     "title": "Ex-CFTC leader to leave Blockchain Association after CLARITY vote fails",
-     "url": "https://cointelegraph.com/news/cftc-commissioner-leaving-blockchain-association-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-     "source": "COINTELEGRAPH",
-     "short_en": "Former CFTC Commissioner Summer Mersinger joined the Blockchain Association in 2025 after resigning during her second term at the federal commodities regulator.",
-     "short_pl": "Former CFTC Commissioner Summer Mersinger joined the Blockchain Association in 2025 after resigning during her second term at the federal commodities regulator.",
-     "long_en": "Analysis: Former CFTC Commissioner Summer Mersinger joined the Blockchain Association in 2025 after resigning during her second term at the federal commodities regulator.",
-     "long_pl": "Analiza: Former CFTC Commissioner Summer Mersinger joined the Blockchain Association in 2025 after resigning during her second term at the federal commodities regulator."
+     "title": "How Crypto Stopped Waiting for Congress and Learned to Love the Regulators",
+     "url": "https://decrypt.co/379383/how-crypto-stopped-waiting-congress-learned-love-regulators",
+     "source": "DECRYPT",
+     "short_en": "After the Clarity Act failed in the Senate, the SEC, CFTC, and the Fed moved within days to write crypto's rules themselves. Will it be enough?",
+     "short_pl": "After the Clarity Act failed in the Senate, the SEC, CFTC, and the Fed moved within days to write crypto's rules themselves. Will it be enough?",
+     "long_en": "Analysis: After the Clarity Act failed in the Senate, the SEC, CFTC, and the Fed moved within days to write crypto's rules themselves. Will it be enough?",
+     "long_pl": "Analiza: After the Clarity Act failed in the Senate, the SEC, CFTC, and the Fed moved within days to write crypto's rules themselves. Will it be enough?"
     },
     {
-     "title": "Bitcoin survives a 5.2% Treasury shock as traders slash $1.7 billion in leverage",
-     "url": "https://cryptoslate.com/bitcoin-survives-a-5-2-treasury-shock-as-traders-slash-1-7-billion-in-leverage/",
+     "title": "Fed proposed stablecoin rule could trigger a 48-hour liquidation run",
+     "url": "https://cryptoslate.com/fed-proposed-stablecoin-rule-could-trigger-a-48-hour-liquidation-run/",
      "source": "CRYPTOSLATE",
-     "short_en": "Bitcoin is holding near $84,000 even as a historic US bond selloff pushes Treasury yields to decades-high levels. The benchmark 10-year Treasury yield climbed to 5.22%, extending a",
-     "short_pl": "Bitcoin is holding near $84,000 even as a historic US bond selloff pushes Treasury yields to decades-high levels. The benchmark 10-year Treasury yield climbed to 5.22%, extending a",
-     "long_en": "Analysis: Bitcoin is holding near $84,000 even as a historic US bond selloff pushes Treasury yields to decades-high levels. The benchmark 10-year Treasury yield climbed to 5.22%, extending a move that has taken",
-     "long_pl": "Analiza: Bitcoin is holding near $84,000 even as a historic US bond selloff pushes Treasury yields to decades-high levels. The benchmark 10-year Treasury yield climbed to 5.22%, extending a move that has taken"
-    },
-    {
-     "title": "Strategy’s daily dividend proposal puts Bitcoin funding back in investors’ hands",
-     "url": "https://cryptoslate.com/strategys-daily-dividend-proposal-puts-bitcoin-funding-back-in-investors-hands/",
-     "source": "CRYPTOSLATE",
-     "short_en": "The four preferred shares would pay more often at current rates. Whether buyers bid them higher remains unproved. The post Strategy&#8217;s daily dividend proposal puts Bitcoin fun",
-     "short_pl": "The four preferred shares would pay more often at current rates. Whether buyers bid them higher remains unproved. The post Strategy&#8217;s daily dividend proposal puts Bitcoin fun",
-     "long_en": "Analysis: The four preferred shares would pay more often at current rates. Whether buyers bid them higher remains unproved. The post Strategy&#8217;s daily dividend proposal puts Bitcoin funding back in investo",
-     "long_pl": "Analiza: The four preferred shares would pay more often at current rates. Whether buyers bid them higher remains unproved. The post Strategy&#8217;s daily dividend proposal puts Bitcoin funding back in investo"
+     "short_en": "The Federal Reserve's proposed rules for the payment stablecoin issuers it supervises include a crisis clock measured in hours. An issuer whose reserves fall below the value of its",
+     "short_pl": "The Federal Reserve's proposed rules for the payment stablecoin issuers it supervises include a crisis clock measured in hours. An issuer whose reserves fall below the value of its",
+     "long_en": "Analysis: The Federal Reserve's proposed rules for the payment stablecoin issuers it supervises include a crisis clock measured in hours. An issuer whose reserves fall below the value of its outstanding tokens",
+     "long_pl": "Analiza: The Federal Reserve's proposed rules for the payment stablecoin issuers it supervises include a crisis clock measured in hours. An issuer whose reserves fall below the value of its outstanding tokens"
     }
    ]
   },
@@ -264,37 +265,28 @@
      "long_pl": "Analiza: OG.com, recently spun out of Crypto.com, joins Coinbase, Kalshi and Kraken parent Payward in seeking approval to bring perpetual futures to individual US stocks."
     },
     {
-     "title": "AI Agents Hacked Their Own Test Environment to Cheat, Cybersecurity Firm Finds",
-     "url": "https://decrypt.co/379369/ai-agents-hacked-test-environment-cheat-darktrace",
+     "title": "AI Agents Are Racing to Make Quantum-Safe Bitcoin Cheap—And Winning",
+     "url": "https://decrypt.co/379378/ai-agents-racing-make-quantum-safe-bitcoin-cheap",
      "source": "DECRYPT",
-     "short_en": "Darktrace's new Signal Labs found AI agents hacking their own evaluation environment to fake a perfect score—and tricking coding assistants into running unauthorized network attack",
-     "short_pl": "Darktrace's new Signal Labs found AI agents hacking their own evaluation environment to fake a perfect score—and tricking coding assistants into running unauthorized network attack",
-     "long_en": "Analysis: Darktrace's new Signal Labs found AI agents hacking their own evaluation environment to fake a perfect score—and tricking coding assistants into running unauthorized network attacks.",
-     "long_pl": "Analiza: Darktrace's new Signal Labs found AI agents hacking their own evaluation environment to fake a perfect score—and tricking coding assistants into running unauthorized network attacks."
+     "short_en": "An open competition run by StarkWare, Yukon Research, and Eigen Labs drove the estimated cost of building a quantum-safe Bitcoin transaction from about $320 to roughly $67, with AI",
+     "short_pl": "An open competition run by StarkWare, Yukon Research, and Eigen Labs drove the estimated cost of building a quantum-safe Bitcoin transaction from about $320 to roughly $67, with AI",
+     "long_en": "Analysis: An open competition run by StarkWare, Yukon Research, and Eigen Labs drove the estimated cost of building a quantum-safe Bitcoin transaction from about $320 to roughly $67, with AI models topping the",
+     "long_pl": "Analiza: An open competition run by StarkWare, Yukon Research, and Eigen Labs drove the estimated cost of building a quantum-safe Bitcoin transaction from about $320 to roughly $67, with AI models topping the"
     },
     {
-     "title": "Google Built an AI That Hunts Its Own Security Bugs",
-     "url": "https://decrypt.co/379364/google-built-ai-hunts-security-bugs",
+     "title": "Google Just Made Free 1080p AI Video Generation Available to Anyone",
+     "url": "https://decrypt.co/379353/google-free-1080p-ai-video-generation",
      "source": "DECRYPT",
-     "short_en": "Google's PageBreak agent autonomously finds and verifies real vulnerabilities in its own web apps, cutting through the flood of noisy AI-generated security reports.",
-     "short_pl": "Google's PageBreak agent autonomously finds and verifies real vulnerabilities in its own web apps, cutting through the flood of noisy AI-generated security reports.",
-     "long_en": "Analysis: Google's PageBreak agent autonomously finds and verifies real vulnerabilities in its own web apps, cutting through the flood of noisy AI-generated security reports.",
-     "long_pl": "Analiza: Google's PageBreak agent autonomously finds and verifies real vulnerabilities in its own web apps, cutting through the flood of noisy AI-generated security reports."
-    },
-    {
-     "title": "OpenAI Is Building a $500 per Month ChatGPT Pro Max Plan, Leaks Suggest",
-     "url": "https://decrypt.co/379359/openai-500-per-month-chatgpt-pro-max-plan",
-     "source": "DECRYPT",
-     "short_en": "Leaked code strings and screenshots point to a new tier that would cost 25 times more than ChatGPT Plus, aimed at people who need the bot to work faster, not just longer.",
-     "short_pl": "Leaked code strings and screenshots point to a new tier that would cost 25 times more than ChatGPT Plus, aimed at people who need the bot to work faster, not just longer.",
-     "long_en": "Analysis: Leaked code strings and screenshots point to a new tier that would cost 25 times more than ChatGPT Plus, aimed at people who need the bot to work faster, not just longer.",
-     "long_pl": "Analiza: Leaked code strings and screenshots point to a new tier that would cost 25 times more than ChatGPT Plus, aimed at people who need the bot to work faster, not just longer."
+     "short_en": "Google Vids now lets any Google account holder generate free HD AI video using Gemini Omni 1.1 Flash, with new scene, timing, and watermark controls.",
+     "short_pl": "Google Vids now lets any Google account holder generate free HD AI video using Gemini Omni 1.1 Flash, with new scene, timing, and watermark controls.",
+     "long_en": "Analysis: Google Vids now lets any Google account holder generate free HD AI video using Gemini Omni 1.1 Flash, with new scene, timing, and watermark controls.",
+     "long_pl": "Analiza: Google Vids now lets any Google account holder generate free HD AI video using Gemini Omni 1.1 Flash, with new scene, timing, and watermark controls."
     }
    ]
   }
  },
- "total_analysis_en": "- BTC $83,901 (-0.3%) after the CLARITY Act failed its Senate vote — choppy.\n- Alts bleed harder (top losers: M -2.1%, MNT -1.9%, XMR -1.5%) — BTC dominance 58.2%.\n- Global mcap $2.89T (+0.0% 24h) — sellers in control.\n- Watch: Fed outcome + BTC $74k. Avoid leveraged longs into the print. Not financial advice.",
- "total_analysis_pl": "- BTC $83,901 (-0.3%) po upadku CLARITY w Senacie — zmienno.\n- Alty tracą mocniej — dominacja BTC 58.2%.\n- Globalna kapitalizacja $2.89T (+0.0% 24h) — sprzedający maj przedy.\n- Obserwuj: wynik Fed + BTC $74k. Nie goniy dźwigni w rynku bez pokrycia.",
- "social_narrative_en": "Trending heat: TRUMP, PENGU, EDEL, ENA, AERO — meme-coin churn while BTC trades at $83,901; retail attention is chasing, price choppy.",
- "social_narrative_pl": "Puls social: TRUMP, PENGU, EDEL, ENA, AERO — gorączka memecoinow przy BTC $83,901; ceny zmienno, detaliści czekają w kolejce."
+ "total_analysis_en": "- BTC $84,317 (+0.5%) after the CLARITY Act failed its Senate vote — choppy.\n- Alts bleed harder (top losers: BTW -20.2%, SUI -2.7%, XRP -2.6%) — BTC dominance 58.3%.\n- Global mcap $2.90T (+0.0% 24h) — sellers in control.\n- Watch: Fed outcome + BTC $74k. Avoid leveraged longs into the print. Not financial advice.",
+ "total_analysis_pl": "- BTC $84,317 (+0.5%) po upadku CLARITY w Senacie — zmienno.\n- Alty tracą mocniej — dominacja BTC 58.3%.\n- Globalna kapitalizacja $2.90T (+0.0% 24h) — sprzedający maj przedy.\n- Obserwuj: wynik Fed + BTC $74k. Nie goniy dźwigni w rynku bez pokrycia.",
+ "social_narrative_en": "Trending heat: QNT, TRUMP, EDEL, ZEC, NEAR — meme-coin churn while BTC trades at $84,317; retail attention is chasing, price choppy.",
+ "social_narrative_pl": "Puls social: QNT, TRUMP, EDEL, ZEC, NEAR — gorączka memecoinow przy BTC $84,317; ceny zmienno, detaliści czekają w kolejce."
 }
