@@ -1,163 +1,163 @@
 {
- "date": "2026-09-29",
- "collected_at": "2026-09-29T09:18:04.527914",
- "generated_at": "2026-09-29T09:18:04",
+ "date": "2026-09-30",
+ "collected_at": "2026-09-30T12:14:42.980794",
+ "generated_at": "2026-09-30T12:14:43",
  "synthesis_mode": "deterministic-rss",
  "bitcoin": {
-  "price_usd": 83012,
-  "change_24h_pct": -0.8213609747041727
+  "price_usd": 83259,
+  "change_24h_pct": 0.049535018723767664
  },
  "ethereum": {
-  "price_usd": 2660.85,
-  "change_24h_pct": 0.07149846879888659
+  "price_usd": 2669.17,
+  "change_24h_pct": 0.08205918117551922
  },
- "btc_dominance_pct": 58.38,
- "global_mcap_usd": 2850247620568.1387,
+ "btc_dominance_pct": 58.27,
+ "global_mcap_usd": 2864897344826.036,
  "global_mcap_change_24h_pct": null,
  "top10": [
   {
    "symbol": "BTC",
    "name": "Bitcoin",
-   "price_usd": 83021,
-   "change_24h_pct": -0.78759
+   "price_usd": 83259,
+   "change_24h_pct": 0.04954
   },
   {
    "symbol": "ETH",
    "name": "Ethereum",
-   "price_usd": 2660.85,
-   "change_24h_pct": 0.10149
+   "price_usd": 2669.17,
+   "change_24h_pct": 0.08206
   },
   {
    "symbol": "USDT",
    "name": "Tether",
-   "price_usd": 0.999737,
-   "change_24h_pct": -0.00699
+   "price_usd": 0.999648,
+   "change_24h_pct": -0.00303
   },
   {
    "symbol": "BNB",
    "name": "BNB",
-   "price_usd": 756.39,
-   "change_24h_pct": -2.36914
+   "price_usd": 763.22,
+   "change_24h_pct": 0.82349
   },
   {
    "symbol": "XRP",
    "name": "XRP",
-   "price_usd": 1.48,
-   "change_24h_pct": -2.19529
+   "price_usd": 1.5,
+   "change_24h_pct": 0.64234
   },
   {
    "symbol": "USDC",
    "name": "USDC",
-   "price_usd": 0.999927,
-   "change_24h_pct": 0.00671
+   "price_usd": 0.999844,
+   "change_24h_pct": -0.0006
   },
   {
    "symbol": "SOL",
    "name": "Solana",
-   "price_usd": 116.99,
-   "change_24h_pct": -3.23793
+   "price_usd": 118.65,
+   "change_24h_pct": 0.74266
   },
   {
    "symbol": "TRX",
    "name": "TRON",
-   "price_usd": 0.33484,
-   "change_24h_pct": 0.18209
-  },
-  {
-   "symbol": "ZEC",
-   "name": "Zcash",
-   "price_usd": 1398.28,
-   "change_24h_pct": -11.56916
+   "price_usd": 0.336845,
+   "change_24h_pct": 0.80722
   },
   {
    "symbol": "FIGR_HELOC",
    "name": "Figure Heloc",
-   "price_usd": 1.002,
-   "change_24h_pct": null
+   "price_usd": 1.03,
+   "change_24h_pct": 2.75181
+  },
+  {
+   "symbol": "ZEC",
+   "name": "Zcash",
+   "price_usd": 1402.97,
+   "change_24h_pct": 2.51673
   }
  ],
  "risk_movers": [
   {
    "symbol": "HBAR",
    "name": "Hedera",
-   "price_usd": 0.119203,
-   "change_24h_pct": 23.21442
+   "price_usd": 0.104374,
+   "change_24h_pct": -12.053
   },
   {
-   "symbol": "NEAR",
-   "name": "NEAR Protocol",
-   "price_usd": 4.64,
-   "change_24h_pct": -12.98237
-  },
-  {
-   "symbol": "SUI",
-   "name": "Sui",
-   "price_usd": 1.12,
-   "change_24h_pct": -11.9738
-  },
-  {
-   "symbol": "UNI",
-   "name": "Uniswap",
-   "price_usd": 8.55,
-   "change_24h_pct": -10.53234
-  },
-  {
-   "symbol": "LINK",
-   "name": "Chainlink",
-   "price_usd": 15.18,
-   "change_24h_pct": 7.94648
+   "symbol": "AVAX",
+   "name": "Avalanche",
+   "price_usd": 11.27,
+   "change_24h_pct": 7.39726
   },
   {
    "symbol": "CC",
    "name": "Canton",
-   "price_usd": 0.130302,
-   "change_24h_pct": -6.85323
+   "price_usd": 0.125378,
+   "change_24h_pct": -6.63083
   },
   {
-   "symbol": "BCH",
-   "name": "Bitcoin Cash",
-   "price_usd": 304.87,
-   "change_24h_pct": -6.73695
+   "symbol": "NEAR",
+   "name": "NEAR Protocol",
+   "price_usd": 4.91,
+   "change_24h_pct": 5.5111
   },
   {
-   "symbol": "ADA",
-   "name": "Cardano",
-   "price_usd": 0.241622,
-   "change_24h_pct": -5.38311
+   "symbol": "SUI",
+   "name": "Sui",
+   "price_usd": 1.16,
+   "change_24h_pct": 3.4427
+  },
+  {
+   "symbol": "LINK",
+   "name": "Chainlink",
+   "price_usd": 14.37,
+   "change_24h_pct": -3.04461
+  },
+  {
+   "symbol": "UNI",
+   "name": "Uniswap",
+   "price_usd": 8.83,
+   "change_24h_pct": 2.91276
+  },
+  {
+   "symbol": "HYPE",
+   "name": "Hyperliquid",
+   "price_usd": 85.69,
+   "change_24h_pct": -1.78693
   }
  ],
  "trending": [
-  {
-   "name": "Firo",
-   "symbol": "FIRO"
-  },
   {
    "name": "Quant",
    "symbol": "QNT"
   },
   {
-   "name": "Official Trump",
-   "symbol": "TRUMP"
+   "name": "Concordium",
+   "symbol": "CCD"
   },
   {
    "name": "NEAR Protocol",
    "symbol": "NEAR"
   },
   {
+   "name": "Pudgy Penguins",
+   "symbol": "PENGU"
+  },
+  {
+   "name": "Lighter",
+   "symbol": "LIT"
+  },
+  {
+   "name": "Pump.fun",
+   "symbol": "PUMP"
+  },
+  {
    "name": "Hedera",
    "symbol": "HBAR"
   },
   {
-   "name": "Chainlink",
-   "symbol": "LINK"
-  },
-  {
-   "name": "Ondo",
-   "symbol": "ONDO"
-  },
-  {
-   "name": "Zcash",
-   "symbol": "ZEC"
+   "name": "Pons",
+   "symbol": "PONS"
   }
  ],
  "polymarket": [],
@@ -165,61 +165,61 @@
   "bitcoin": {
    "label_en": "Bitcoin",
    "label_pl": "Bitcoin",
-   "section_analysis_en": "- BTC $83,012 at -0.8% — choppy tape; dominance 58.4% keeps pressure on alts.\n- Watch BTC $74k support; no clean trend until it reclaims higher.",
-   "section_analysis_pl": "- BTC $83,012 (-0.8%) — rynk zmienno; dominacja 58.4% ciszy na alty.\n- Obserwuj wsparcie BTC $74k; brak czystego trendu do jego odzyskania.",
+   "section_analysis_en": "- BTC $83,259 at +0.0% — choppy tape; dominance 58.3% keeps pressure on alts.\n- Watch BTC $74k support; no clean trend until it reclaims higher.",
+   "section_analysis_pl": "- BTC $83,259 (+0.0%) — rynk zmienno; dominacja 58.3% ciszy na alty.\n- Obserwuj wsparcie BTC $74k; brak czystego trendu do jego odzyskania.",
    "items": [
     {
-     "title": "Nearly 5,000 BTC leaves Bitget as hackers begin laundering $387 million haul",
-     "url": "https://cryptoslate.com/nearly-5000-btc-leaves-bitget-as-hackers-begin-laundering-387-million-haul/",
+     "title": "Bitcoin drops to $82,000 on US data, and inflation fear is blamed",
+     "url": "https://cryptoslate.com/bitcoin-drops-to-82000-on-us-data-and-inflation-fear-is-blamed/",
      "source": "CRYPTOSLATE",
-     "short_en": "Nearly 5,000 Bitcoin has left Bitget’s tracked reserves after the crypto exchange reopened withdrawals following its $387.5 million hack. On Sept. 28, Bitget Chief Executive Office",
-     "short_pl": "Nearly 5,000 Bitcoin has left Bitget’s tracked reserves after the crypto exchange reopened withdrawals following its $387.5 million hack. On Sept. 28, Bitget Chief Executive Office",
-     "long_en": "Analysis: Nearly 5,000 Bitcoin has left Bitget’s tracked reserves after the crypto exchange reopened withdrawals following its $387.5 million hack. On Sept. 28, Bitget Chief Executive Officer Gracy Chen said th",
-     "long_pl": "Analiza: Nearly 5,000 Bitcoin has left Bitget’s tracked reserves after the crypto exchange reopened withdrawals following its $387.5 million hack. On Sept. 28, Bitget Chief Executive Officer Gracy Chen said th"
+     "short_en": "August job openings eased modestly, while households' inflation views kept the path to lower yields uncertain. The post Bitcoin drops to $82,000 on US data, and inflation fear is b",
+     "short_pl": "August job openings eased modestly, while households' inflation views kept the path to lower yields uncertain. The post Bitcoin drops to $82,000 on US data, and inflation fear is b",
+     "long_en": "Analysis: August job openings eased modestly, while households' inflation views kept the path to lower yields uncertain. The post Bitcoin drops to $82,000 on US data, and inflation fear is blamed appeared first",
+     "long_pl": "Analiza: August job openings eased modestly, while households' inflation views kept the path to lower yields uncertain. The post Bitcoin drops to $82,000 on US data, and inflation fear is blamed appeared first"
     }
    ]
   },
   "crypto_market": {
    "label_en": "Crypto market",
    "label_pl": "Rynek krypto",
-   "section_analysis_en": "- ETH +0.1% vs BTC -0.8% — ETH is underperforming; no leadership.\n- Biggest alt movers: HBAR +23.2%, NEAR -13.0%, SUI -12.0%, UNI -10.5%.",
-   "section_analysis_pl": "- ETH (+0.1%) vs BTC (-0.8%) — ETH nie prowadzi.\n- Najwiksze ruchy altow: HBAR +23.2%, NEAR -13.0%, SUI -12.0%, UNI -10.5%.",
+   "section_analysis_en": "- ETH +0.1% vs BTC +0.0% — ETH is underperforming; no leadership.\n- Biggest alt movers: HBAR -12.1%, AVAX +7.4%, CC -6.6%, NEAR +5.5%.",
+   "section_analysis_pl": "- ETH (+0.1%) vs BTC (+0.0%) — ETH nie prowadzi.\n- Najwiksze ruchy altow: HBAR -12.1%, AVAX +7.4%, CC -6.6%, NEAR +5.5%.",
    "items": [
     {
-     "title": "NEAR Intents says it blocked $50M tied to Bitget hackers ",
-     "url": "https://cointelegraph.com/news/near-intents-says-it-blocked-50m-tied-to-bitget-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "title": "Binance Pay lets visitors spend USDT at PayPay merchants in Japan",
+     "url": "https://cointelegraph.com/news/binance-pay-usdt-paypay-merchants-japan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
      "source": "COINTELEGRAPH",
-     "short_en": "The cross-chain protocol said it actively prevents stolen funds from being laundered, drawing a contrast with THORChain’s position that it does not selectively censor transactions.",
-     "short_pl": "The cross-chain protocol said it actively prevents stolen funds from being laundered, drawing a contrast with THORChain’s position that it does not selectively censor transactions.",
-     "long_en": "Analysis: The cross-chain protocol said it actively prevents stolen funds from being laundered, drawing a contrast with THORChain’s position that it does not selectively censor transactions.",
-     "long_pl": "Analiza: The cross-chain protocol said it actively prevents stolen funds from being laundered, drawing a contrast with THORChain’s position that it does not selectively censor transactions."
+     "short_en": "Binance Pay will let overseas users spend USDT at most PayPay-supported merchants in Japan through HIVEX, while stores receive yen.",
+     "short_pl": "Binance Pay will let overseas users spend USDT at most PayPay-supported merchants in Japan through HIVEX, while stores receive yen.",
+     "long_en": "Analysis: Binance Pay will let overseas users spend USDT at most PayPay-supported merchants in Japan through HIVEX, while stores receive yen.",
+     "long_pl": "Analiza: Binance Pay will let overseas users spend USDT at most PayPay-supported merchants in Japan through HIVEX, while stores receive yen."
     },
     {
-     "title": "Canadian ‘crypto king’ set to represent himself at fraud trial",
-     "url": "https://cointelegraph.com/news/canada-aiden-pleterski-fraud-trial-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "title": "Crypto regulation at SEC, CFTC to come down to 3 commissioners following key resignation",
+     "url": "https://cointelegraph.com/news/us-sec-cftc-crypto-regulation-few-commissioners?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
      "source": "COINTELEGRAPH",
-     "short_en": "Aiden Pleterski was allegedly behind a crypto Ponzi scheme between 2021 and 2022 that resulted in a kidnapping and related criminal charges.",
-     "short_pl": "Aiden Pleterski was allegedly behind a crypto Ponzi scheme between 2021 and 2022 that resulted in a kidnapping and related criminal charges.",
-     "long_en": "Analysis: Aiden Pleterski was allegedly behind a crypto Ponzi scheme between 2021 and 2022 that resulted in a kidnapping and related criminal charges.",
-     "long_pl": "Analiza: Aiden Pleterski was allegedly behind a crypto Ponzi scheme between 2021 and 2022 that resulted in a kidnapping and related criminal charges."
+     "short_en": "Seven commissioner seats at the SEC and CFTC will be empty after Friday, leaving only a few leaders at financial regulators to oversee aspects of the $3 trillion crypto industry.",
+     "short_pl": "Seven commissioner seats at the SEC and CFTC will be empty after Friday, leaving only a few leaders at financial regulators to oversee aspects of the $3 trillion crypto industry.",
+     "long_en": "Analysis: Seven commissioner seats at the SEC and CFTC will be empty after Friday, leaving only a few leaders at financial regulators to oversee aspects of the $3 trillion crypto industry.",
+     "long_pl": "Analiza: Seven commissioner seats at the SEC and CFTC will be empty after Friday, leaving only a few leaders at financial regulators to oversee aspects of the $3 trillion crypto industry."
     },
     {
-     "title": "Here’s what happened in crypto today",
-     "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-     "source": "COINTELEGRAPH",
-     "short_en": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-     "short_pl": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-     "long_en": "Analysis: Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-     "long_pl": "Analiza: Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation."
+     "title": "Ethereum Gets Another Privacy Boost as Aztec Brings Back zk.money",
+     "url": "https://decrypt.co/379621/ethereum-privacy-aztec-brings-back-zk-money",
+     "source": "DECRYPT",
+     "short_en": "Aztec Labs relaunched its self-custodial zk.money wallet on Aztec Network, letting users make private stablecoin payments using readable tags.",
+     "short_pl": "Aztec Labs relaunched its self-custodial zk.money wallet on Aztec Network, letting users make private stablecoin payments using readable tags.",
+     "long_en": "Analysis: Aztec Labs relaunched its self-custodial zk.money wallet on Aztec Network, letting users make private stablecoin payments using readable tags.",
+     "long_pl": "Analiza: Aztec Labs relaunched its self-custodial zk.money wallet on Aztec Network, letting users make private stablecoin payments using readable tags."
     },
     {
-     "title": "US SEC follows CFTC in staff guidance for crypto",
-     "url": "https://cointelegraph.com/news/sec-cftc-staff-guidance-crypto-clarity-fail?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-     "source": "COINTELEGRAPH",
-     "short_en": "With the failed cloture vote on the CLARITY Act, the SEC announced updates on how federal securities laws could apply to token issuers, following similar guidance from the CFTC.",
-     "short_pl": "With the failed cloture vote on the CLARITY Act, the SEC announced updates on how federal securities laws could apply to token issuers, following similar guidance from the CFTC.",
-     "long_en": "Analysis: With the failed cloture vote on the CLARITY Act, the SEC announced updates on how federal securities laws could apply to token issuers, following similar guidance from the CFTC.",
-     "long_pl": "Analiza: With the failed cloture vote on the CLARITY Act, the SEC announced updates on how federal securities laws could apply to token issuers, following similar guidance from the CFTC."
+     "title": "Bitwise Launches First US Spot Near ETF After Token Nearly Triples Since August",
+     "url": "https://decrypt.co/379612/bitwise-launches-first-spot-near-etf",
+     "source": "DECRYPT",
+     "short_en": "Bitwise's NRR began trading on NYSE Arca Tuesday, giving brokerage accounts NEAR exposure and staking rewards as the AI-focused token soars.",
+     "short_pl": "Bitwise's NRR began trading on NYSE Arca Tuesday, giving brokerage accounts NEAR exposure and staking rewards as the AI-focused token soars.",
+     "long_en": "Analysis: Bitwise's NRR began trading on NYSE Arca Tuesday, giving brokerage accounts NEAR exposure and staking rewards as the AI-focused token soars.",
+     "long_pl": "Analiza: Bitwise's NRR began trading on NYSE Arca Tuesday, giving brokerage accounts NEAR exposure and staking rewards as the AI-focused token soars."
     }
    ]
   },
@@ -230,13 +230,31 @@
    "section_analysis_pl": "- Decyzja Fed + upadek CLARITY Act napywaja taśmą; ryzyko regulacyjne jest wysokie.\n- Mały rozmiar pozycji do komunikatu Fed; nastpny katalizator to stopy.",
    "items": [
     {
-     "title": "Strategy makes first back-to-back Bitcoin buys since June as accumulation picks up",
-     "url": "https://cryptoslate.com/strategy-makes-first-back-to-back-bitcoin-buys-since-june-as-accumulation-picks-up/",
+     "title": "Trump accord calls for tech firms to ‘self police’ their own frontier AI",
+     "url": "https://cointelegraph.com/news/trump-accord-calls-for-tech-firms-to-self-police-their-own-frontier-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "source": "COINTELEGRAPH",
+     "short_en": "The voluntary accord puts much of the responsibility for managing frontier AI risks on developers.",
+     "short_pl": "The voluntary accord puts much of the responsibility for managing frontier AI risks on developers.",
+     "long_en": "Analysis: The voluntary accord puts much of the responsibility for managing frontier AI risks on developers.",
+     "long_pl": "Analiza: The voluntary accord puts much of the responsibility for managing frontier AI risks on developers."
+    },
+    {
+     "title": "Cboe's New S&amp;P Deal Opens the Door to Tokenized Options",
+     "url": "https://decrypt.co/379619/cboes-sp-deal-tokenized-options",
+     "source": "DECRYPT",
+     "short_en": "The renewed agreement preserves Cboe's exclusive rights to S&amp;P 500 index options through 2051 while opening the door to pairing the flagship benchmark with blockchain infrastru",
+     "short_pl": "The renewed agreement preserves Cboe's exclusive rights to S&amp;P 500 index options through 2051 while opening the door to pairing the flagship benchmark with blockchain infrastru",
+     "long_en": "Analysis: The renewed agreement preserves Cboe's exclusive rights to S&amp;P 500 index options through 2051 while opening the door to pairing the flagship benchmark with blockchain infrastructure.",
+     "long_pl": "Analiza: The renewed agreement preserves Cboe's exclusive rights to S&amp;P 500 index options through 2051 while opening the door to pairing the flagship benchmark with blockchain infrastructure."
+    },
+    {
+     "title": "Fed guarantees 2-day stablecoin payouts, but $76B remains blocked",
+     "url": "https://cryptoslate.com/fed-guarantees-2-day-stablecoin-payouts-but-76b-remains-blocked/",
      "source": "CRYPTOSLATE",
-     "short_en": "Michael Saylor-led Strategy (formerly MicroStrategy) has made back-to-back weekly Bitcoin purchases for the first time since June, rebuilding its holdings after selling some of the",
-     "short_pl": "Michael Saylor-led Strategy (formerly MicroStrategy) has made back-to-back weekly Bitcoin purchases for the first time since June, rebuilding its holdings after selling some of the",
-     "long_en": "Analysis: Michael Saylor-led Strategy (formerly MicroStrategy) has made back-to-back weekly Bitcoin purchases for the first time since June, rebuilding its holdings after selling some of the cryptocurrency earl",
-     "long_pl": "Analiza: Michael Saylor-led Strategy (formerly MicroStrategy) has made back-to-back weekly Bitcoin purchases for the first time since June, rebuilding its holdings after selling some of the cryptocurrency earl"
+     "short_en": "A July 28 venue snapshot shows why an exchange customer’s exit is separate from the Fed’s proposed two-business-day issuer redemption clock. The post Fed guarantees 2-day stablecoi",
+     "short_pl": "A July 28 venue snapshot shows why an exchange customer’s exit is separate from the Fed’s proposed two-business-day issuer redemption clock. The post Fed guarantees 2-day stablecoi",
+     "long_en": "Analysis: A July 28 venue snapshot shows why an exchange customer’s exit is separate from the Fed’s proposed two-business-day issuer redemption clock. The post Fed guarantees 2-day stablecoin payouts, but $76B",
+     "long_pl": "Analiza: A July 28 venue snapshot shows why an exchange customer’s exit is separate from the Fed’s proposed two-business-day issuer redemption clock. The post Fed guarantees 2-day stablecoin payouts, but $76B"
     }
    ]
   },
@@ -247,46 +265,37 @@
    "section_analysis_pl": "- Przeply AI/akcji konkuruje z pynnością krypto; obserwuj rotacj z powrotem do BTC.",
    "items": [
     {
-     "title": "Blockchain.com eyes $500M IPO as crypto capital markets thaw: Report",
-     "url": "https://cointelegraph.com/news/blockchain-com-500m-ipo-bloomberg-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "title": "Illinois draft crypto tax rules detail DeFi, stablecoin treatment",
+     "url": "https://cointelegraph.com/news/illinois-crypto-tax-rules-defi-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
      "source": "COINTELEGRAPH",
-     "short_en": "The crypto company is seeking a valuation of up to $6 billion, well below its 2022 peak, as recently listed crypto stocks struggle to hold their gains.",
-     "short_pl": "The crypto company is seeking a valuation of up to $6 billion, well below its 2022 peak, as recently listed crypto stocks struggle to hold their gains.",
-     "long_en": "Analysis: The crypto company is seeking a valuation of up to $6 billion, well below its 2022 peak, as recently listed crypto stocks struggle to hold their gains.",
-     "long_pl": "Analiza: The crypto company is seeking a valuation of up to $6 billion, well below its 2022 peak, as recently listed crypto stocks struggle to hold their gains."
+     "short_en": "Illinois’ draft rules spell out how its 0.2% digital asset transaction tax would apply to stablecoins, DeFi platforms, crypto bridges and self-custody transfers.",
+     "short_pl": "Illinois’ draft rules spell out how its 0.2% digital asset transaction tax would apply to stablecoins, DeFi platforms, crypto bridges and self-custody transfers.",
+     "long_en": "Analysis: Illinois’ draft rules spell out how its 0.2% digital asset transaction tax would apply to stablecoins, DeFi platforms, crypto bridges and self-custody transfers.",
+     "long_pl": "Analiza: Illinois’ draft rules spell out how its 0.2% digital asset transaction tax would apply to stablecoins, DeFi platforms, crypto bridges and self-custody transfers."
     },
     {
-     "title": "OpenAI Halts Model Training as Rogue Agents Target US Government Sites",
-     "url": "https://decrypt.co/379508/openai-ai-agents-target-us-government-sites",
+     "title": "Crypto.com AI agent still in ‘stealth mode’ nearly 8 months after Super Bowl debut",
+     "url": "https://cointelegraph.com/news/cryptocom-ai-agent-stealth-mode-nearly-8-months-after-super-bowl-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "source": "COINTELEGRAPH",
+     "short_en": "In February, ai.com drew enough traffic to crash its website after a $15 million Super Bowl ad, but months later, users are still wondering what’s happened to their promised AI age",
+     "short_pl": "In February, ai.com drew enough traffic to crash its website after a $15 million Super Bowl ad, but months later, users are still wondering what’s happened to their promised AI age",
+     "long_en": "Analysis: In February, ai.com drew enough traffic to crash its website after a $15 million Super Bowl ad, but months later, users are still wondering what’s happened to their promised AI agent.",
+     "long_pl": "Analiza: In February, ai.com drew enough traffic to crash its website after a $15 million Super Bowl ad, but months later, users are still wondering what’s happened to their promised AI agent."
+    },
+    {
+     "title": "Someone Finally Jailbroke the PS5—Just After Sony Said Players Don’t Own Their Games",
+     "url": "https://decrypt.co/379583/sony-ps5-jailbreak-digital-games-ownership",
      "source": "DECRYPT",
-     "short_en": "OpenAI says its agents keep landing on government websites because they treat them as reliable sources, but it's pausing training while it adds safeguards.",
-     "short_pl": "OpenAI says its agents keep landing on government websites because they treat them as reliable sources, but it's pausing training while it adds safeguards.",
-     "long_en": "Analysis: OpenAI says its agents keep landing on government websites because they treat them as reliable sources, but it's pausing training while it adds safeguards.",
-     "long_pl": "Analiza: OpenAI says its agents keep landing on government websites because they treat them as reliable sources, but it's pausing training while it adds safeguards."
-    },
-    {
-     "title": "After AI Agent Hacked Its Government, Australia Calls Altman and Amodei to Testify",
-     "url": "https://decrypt.co/379481/australia-sam-altman-dario-amodei-ai-hack",
-     "source": "DECRYPT",
-     "short_en": "Senator Sarah Hanson-Young has invited the OpenAI and Anthropic CEOs to a Canberra hearing on October 1, after an OpenAI agent quietly accessed Australia's Medicare data and nobody",
-     "short_pl": "Senator Sarah Hanson-Young has invited the OpenAI and Anthropic CEOs to a Canberra hearing on October 1, after an OpenAI agent quietly accessed Australia's Medicare data and nobody",
-     "long_en": "Analysis: Senator Sarah Hanson-Young has invited the OpenAI and Anthropic CEOs to a Canberra hearing on October 1, after an OpenAI agent quietly accessed Australia's Medicare data and nobody said a word for mon",
-     "long_pl": "Analiza: Senator Sarah Hanson-Young has invited the OpenAI and Anthropic CEOs to a Canberra hearing on October 1, after an OpenAI agent quietly accessed Australia's Medicare data and nobody said a word for mon"
-    },
-    {
-     "title": "Robinhood Chain’s $1.5 billion boom is attracting memecoin rug factories",
-     "url": "https://cryptoslate.com/robinhood-chains-1-5-billion-boom-is-attracting-memecoin-rug-factories/",
-     "source": "CRYPTOSLATE",
-     "short_en": "A second suspected memecoin rug factory has surfaced on Robinhood Chain as the fast-growing network attracts increasingly coordinated scam activity. On Sept. 28, blockchain securit",
-     "short_pl": "A second suspected memecoin rug factory has surfaced on Robinhood Chain as the fast-growing network attracts increasingly coordinated scam activity. On Sept. 28, blockchain securit",
-     "long_en": "Analysis: A second suspected memecoin rug factory has surfaced on Robinhood Chain as the fast-growing network attracts increasingly coordinated scam activity. On Sept. 28, blockchain security firm GoPlus said i",
-     "long_pl": "Analiza: A second suspected memecoin rug factory has surfaced on Robinhood Chain as the fast-growing network attracts increasingly coordinated scam activity. On Sept. 28, blockchain security firm GoPlus said i"
+     "short_en": "Linear Fox founder Nathan Fargo released a public jailbreak for the PS5, dubbed Relapse, while Sony argues in court that players don't own their digital games.",
+     "short_pl": "Linear Fox founder Nathan Fargo released a public jailbreak for the PS5, dubbed Relapse, while Sony argues in court that players don't own their digital games.",
+     "long_en": "Analysis: Linear Fox founder Nathan Fargo released a public jailbreak for the PS5, dubbed Relapse, while Sony argues in court that players don't own their digital games.",
+     "long_pl": "Analiza: Linear Fox founder Nathan Fargo released a public jailbreak for the PS5, dubbed Relapse, while Sony argues in court that players don't own their digital games."
     }
    ]
   }
  },
- "total_analysis_en": "- BTC $83,012 (-0.8%) after the CLARITY Act failed its Senate vote — choppy.\n- Alts bleed harder (top losers: QNT -21.5%, ONDO -14.2%, NEAR -13.0%) — BTC dominance 58.4%.\n- Global mcap $2.85T (+0.0% 24h) — sellers in control.\n- Watch: Fed outcome + BTC $74k. Avoid leveraged longs into the print. Not financial advice.",
- "total_analysis_pl": "- BTC $83,012 (-0.8%) po upadku CLARITY w Senacie — zmienno.\n- Alty tracą mocniej — dominacja BTC 58.4%.\n- Globalna kapitalizacja $2.85T (+0.0% 24h) — sprzedający maj przedy.\n- Obserwuj: wynik Fed + BTC $74k. Nie goniy dźwigni w rynku bez pokrycia.",
- "social_narrative_en": "Trending heat: FIRO, QNT, TRUMP, NEAR, HBAR — meme-coin churn while BTC trades at $83,012; retail attention is chasing, price choppy.",
- "social_narrative_pl": "Puls social: FIRO, QNT, TRUMP, NEAR, HBAR — gorączka memecoinow przy BTC $83,012; ceny zmienno, detaliści czekają w kolejce."
+ "total_analysis_en": "- BTC $83,259 (+0.0%) after the CLARITY Act failed its Senate vote — choppy.\n- Alts bleed harder (top losers: HBAR -12.1%, CC -6.6%, M -4.4%) — BTC dominance 58.3%.\n- Global mcap $2.86T (+0.0% 24h) — sellers in control.\n- Watch: Fed outcome + BTC $74k. Avoid leveraged longs into the print. Not financial advice.",
+ "total_analysis_pl": "- BTC $83,259 (+0.0%) po upadku CLARITY w Senacie — zmienno.\n- Alty tracą mocniej — dominacja BTC 58.3%.\n- Globalna kapitalizacja $2.86T (+0.0% 24h) — sprzedający maj przedy.\n- Obserwuj: wynik Fed + BTC $74k. Nie goniy dźwigni w rynku bez pokrycia.",
+ "social_narrative_en": "Trending heat: QNT, CCD, NEAR, PENGU, LIT — meme-coin churn while BTC trades at $83,259; retail attention is chasing, price choppy.",
+ "social_narrative_pl": "Puls social: QNT, CCD, NEAR, PENGU, LIT — gorączka memecoinow przy BTC $83,259; ceny zmienno, detaliści czekają w kolejce."
 }
