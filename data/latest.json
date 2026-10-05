@@ -1,163 +1,163 @@
 {
- "date": "2026-10-03",
- "collected_at": "2026-10-03T15:56:15.877816",
- "generated_at": "2026-10-03T15:56:16",
+ "date": "2026-10-05",
+ "collected_at": "2026-10-05T19:22:21.177414",
+ "generated_at": "2026-10-05T19:22:21",
  "synthesis_mode": "deterministic-rss",
  "bitcoin": {
-  "price_usd": 84625,
-  "change_24h_pct": -1.8675632321263034
+  "price_usd": 86098,
+  "change_24h_pct": 1.014806201174908
  },
  "ethereum": {
-  "price_usd": 2683.08,
-  "change_24h_pct": -2.533789342627494
+  "price_usd": 2715.5,
+  "change_24h_pct": 0.5689177129837653
  },
- "btc_dominance_pct": 58.7,
- "global_mcap_usd": 2892355288623.239,
+ "btc_dominance_pct": 59.24,
+ "global_mcap_usd": 2913983392911.529,
  "global_mcap_change_24h_pct": null,
  "top10": [
   {
    "symbol": "BTC",
    "name": "Bitcoin",
-   "price_usd": 84625,
-   "change_24h_pct": -1.86756
+   "price_usd": 86098,
+   "change_24h_pct": 1.01053
   },
   {
    "symbol": "ETH",
    "name": "Ethereum",
-   "price_usd": 2683.08,
-   "change_24h_pct": -2.53379
+   "price_usd": 2715.5,
+   "change_24h_pct": 0.56669
   },
   {
    "symbol": "USDT",
    "name": "Tether",
-   "price_usd": 0.999903,
-   "change_24h_pct": 0.0165
+   "price_usd": 0.999775,
+   "change_24h_pct": -0.00894
   },
   {
    "symbol": "BNB",
    "name": "BNB",
-   "price_usd": 765.9,
-   "change_24h_pct": -1.49519
+   "price_usd": 789.82,
+   "change_24h_pct": 0.21472
   },
   {
    "symbol": "XRP",
    "name": "XRP",
-   "price_usd": 1.48,
-   "change_24h_pct": -3.43919
+   "price_usd": 1.51,
+   "change_24h_pct": 0.81755
   },
   {
    "symbol": "USDC",
    "name": "USDC",
-   "price_usd": 0.999969,
-   "change_24h_pct": 0.01162
+   "price_usd": 0.999867,
+   "change_24h_pct": -0.00661
   },
   {
    "symbol": "SOL",
    "name": "Solana",
-   "price_usd": 119.28,
-   "change_24h_pct": -2.22046
+   "price_usd": 120.56,
+   "change_24h_pct": -0.78195
   },
   {
    "symbol": "TRX",
    "name": "TRON",
-   "price_usd": 0.335348,
-   "change_24h_pct": 0.25463
+   "price_usd": 0.33661,
+   "change_24h_pct": 0.13433
   },
   {
    "symbol": "FIGR_HELOC",
    "name": "Figure Heloc",
-   "price_usd": 1.045,
-   "change_24h_pct": 2.17617
+   "price_usd": 1.07,
+   "change_24h_pct": null
   },
   {
    "symbol": "ZEC",
    "name": "Zcash",
-   "price_usd": 1317.57,
-   "change_24h_pct": -4.62325
+   "price_usd": 1331.72,
+   "change_24h_pct": 0.17665
   }
  ],
  "risk_movers": [
   {
-   "symbol": "RAIN",
-   "name": "Rain",
-   "price_usd": 0.01108276,
-   "change_24h_pct": -7.59837
-  },
-  {
-   "symbol": "NEAR",
-   "name": "NEAR Protocol",
-   "price_usd": 4.68,
-   "change_24h_pct": -5.5968
-  },
-  {
-   "symbol": "XLM",
-   "name": "Stellar",
-   "price_usd": 0.214049,
-   "change_24h_pct": -4.81136
-  },
-  {
-   "symbol": "DOGE",
-   "name": "Dogecoin",
-   "price_usd": 0.092547,
-   "change_24h_pct": -4.5933
-  },
-  {
    "symbol": "ADA",
    "name": "Cardano",
-   "price_usd": 0.243389,
-   "change_24h_pct": -4.3624
+   "price_usd": 0.271732,
+   "change_24h_pct": 11.03234
   },
   {
-   "symbol": "LINK",
-   "name": "Chainlink",
-   "price_usd": 13.96,
-   "change_24h_pct": -2.87236
-  },
-  {
-   "symbol": "HYPE",
-   "name": "Hyperliquid",
-   "price_usd": 87.84,
-   "change_24h_pct": -2.51617
+   "symbol": "RAIN",
+   "name": "Rain",
+   "price_usd": 0.01186401,
+   "change_24h_pct": 5.91669
   },
   {
    "symbol": "SUI",
    "name": "Sui",
-   "price_usd": 1.16,
-   "change_24h_pct": -2.18632
+   "price_usd": 1.23,
+   "change_24h_pct": 4.26701
+  },
+  {
+   "symbol": "HYPE",
+   "name": "Hyperliquid",
+   "price_usd": 93.1,
+   "change_24h_pct": 3.03216
+  },
+  {
+   "symbol": "DOGE",
+   "name": "Dogecoin",
+   "price_usd": 0.095915,
+   "change_24h_pct": 2.59675
+  },
+  {
+   "symbol": "XLM",
+   "name": "Stellar",
+   "price_usd": 0.220802,
+   "change_24h_pct": 2.29558
+  },
+  {
+   "symbol": "NEAR",
+   "name": "NEAR Protocol",
+   "price_usd": 4.98,
+   "change_24h_pct": 1.97396
+  },
+  {
+   "symbol": "CC",
+   "name": "Canton",
+   "price_usd": 0.124613,
+   "change_24h_pct": 1.44654
   }
  ],
  "trending": [
   {
-   "name": "The Sandbox",
-   "symbol": "SAND"
+   "name": "Agent Cat",
+   "symbol": "AGENTCAT"
   },
   {
-   "name": "Quant",
-   "symbol": "QNT"
+   "name": "Super Inu Force",
+   "symbol": "SIF"
   },
   {
-   "name": "Decentraland",
-   "symbol": "MANA"
+   "name": "Hood Inu",
+   "symbol": "HI"
   },
   {
-   "name": "GALA",
-   "symbol": "GALA"
+   "name": "Edel",
+   "symbol": "EDEL"
   },
   {
-   "name": "Pons",
-   "symbol": "PONS"
+   "name": "Pudgy Penguins",
+   "symbol": "PENGU"
   },
   {
-   "name": "Lighter",
-   "symbol": "LIT"
+   "name": "Artificial Superintelligence Alliance",
+   "symbol": "FET"
   },
   {
-   "name": "LayerZero",
-   "symbol": "ZRO"
+   "name": "Pump.fun",
+   "symbol": "PUMP"
   },
   {
-   "name": "Blast",
-   "symbol": "BLAST"
+   "name": "Bitcoin",
+   "symbol": "BTC"
   }
  ],
  "polymarket": [],
@@ -165,16 +165,53 @@
   "bitcoin": {
    "label_en": "Bitcoin",
    "label_pl": "Bitcoin",
-   "section_analysis_en": "- BTC $84,625 at -1.9% — risk-off tape; dominance 58.7% keeps pressure on alts.\n- Watch BTC $74k support; no clean trend until it reclaims higher.",
-   "section_analysis_pl": "- BTC $84,625 (-1.9%) — rynk podaz; dominacja 58.7% ciszy na alty.\n- Obserwuj wsparcie BTC $74k; brak czystego trendu do jego odzyskania.",
-   "items": []
+   "section_analysis_en": "- BTC $86,098 at +1.0% — risk-on tape; dominance 59.2% keeps pressure on alts.\n- Watch BTC $74k support; no clean trend until it reclaims higher.",
+   "section_analysis_pl": "- BTC $86,098 (+1.0%) — rynk sprzyj; dominacja 59.2% ciszy na alty.\n- Obserwuj wsparcie BTC $74k; brak czystego trendu do jego odzyskania.",
+   "items": [
+    {
+     "title": "Bitcoin ETFs notch third inflow week as Ether ETFs shed $138M",
+     "url": "https://cointelegraph.com/markets/bitcoin-etf-third-inflow-week-ether-funds-red?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "source": "COINTELEGRAPH",
+     "short_en": "Bitcoin ETF inflows reached a third straight week, while Ether ETFs swung to outflows and Zcash funds posted their first weekly outflow.",
+     "short_pl": "Bitcoin ETF inflows reached a third straight week, while Ether ETFs swung to outflows and Zcash funds posted their first weekly outflow.",
+     "long_en": "Analysis: Bitcoin ETF inflows reached a third straight week, while Ether ETFs swung to outflows and Zcash funds posted their first weekly outflow.",
+     "long_pl": "Analiza: Bitcoin ETF inflows reached a third straight week, while Ether ETFs swung to outflows and Zcash funds posted their first weekly outflow."
+    },
+    {
+     "title": "Metaplanet Sold 10,000 Bitcoin and Bought Back 11,000 to Prove a Point",
+     "url": "https://decrypt.co/380053/metaplanet-sold-10000-bitcoin-and-bought-back-11000-to-prove-a-point",
+     "source": "DECRYPT",
+     "short_en": "Rating agencies ask if a Bitcoin company will actually sell when obligations fall due. \"We answered by doing it,\" said CEO Simon Gerovich.",
+     "short_pl": "Rating agencies ask if a Bitcoin company will actually sell when obligations fall due. \"We answered by doing it,\" said CEO Simon Gerovich.",
+     "long_en": "Analysis: Rating agencies ask if a Bitcoin company will actually sell when obligations fall due. \"We answered by doing it,\" said CEO Simon Gerovich.",
+     "long_pl": "Analiza: Rating agencies ask if a Bitcoin company will actually sell when obligations fall due. \"We answered by doing it,\" said CEO Simon Gerovich."
+    }
+   ]
   },
   "crypto_market": {
    "label_en": "Crypto market",
    "label_pl": "Rynek krypto",
-   "section_analysis_en": "- ETH -2.5% vs BTC -1.9% — ETH is underperforming; no leadership.\n- Biggest alt movers: RAIN -7.6%, NEAR -5.6%, XLM -4.8%, DOGE -4.6%.",
-   "section_analysis_pl": "- ETH (-2.5%) vs BTC (-1.9%) — ETH nie prowadzi.\n- Najwiksze ruchy altow: RAIN -7.6%, NEAR -5.6%, XLM -4.8%, DOGE -4.6%.",
+   "section_analysis_en": "- ETH +0.6% vs BTC +1.0% — ETH is underperforming; no leadership.\n- Biggest alt movers: ADA +11.0%, RAIN +5.9%, SUI +4.3%, HYPE +3.0%.",
+   "section_analysis_pl": "- ETH (+0.6%) vs BTC (+1.0%) — ETH nie prowadzi.\n- Najwiksze ruchy altow: ADA +11.0%, RAIN +5.9%, SUI +4.3%, HYPE +3.0%.",
    "items": [
+    {
+     "title": "Vivek Ramaswamy’s gubernatorial run lacks the crypto rhetoric of his presidential bid",
+     "url": "https://cointelegraph.com/news/vivek-ramaswamy-crypto-gubernatorial-campaign?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "source": "COINTELEGRAPH",
+     "short_en": "The Ohio Republican candidate holds a stake in a digital asset manager and received donations from many in the industry, but has avoided making crypto a central campaign issue.",
+     "short_pl": "The Ohio Republican candidate holds a stake in a digital asset manager and received donations from many in the industry, but has avoided making crypto a central campaign issue.",
+     "long_en": "Analysis: The Ohio Republican candidate holds a stake in a digital asset manager and received donations from many in the industry, but has avoided making crypto a central campaign issue.",
+     "long_pl": "Analiza: The Ohio Republican candidate holds a stake in a digital asset manager and received donations from many in the industry, but has avoided making crypto a central campaign issue."
+    },
+    {
+     "title": "Kraken parent adds 24/7 dollar settlement with Singapore Gulf Bank",
+     "url": "https://cointelegraph.com/news/payward-partners-singapore-gulf-bank-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "source": "COINTELEGRAPH",
+     "short_en": "The partnership will enable select institutions in Asia and the Gulf region to instantly settle US dollar transactions through the bank’s SGB Net",
+     "short_pl": "The partnership will enable select institutions in Asia and the Gulf region to instantly settle US dollar transactions through the bank’s SGB Net",
+     "long_en": "Analysis: The partnership will enable select institutions in Asia and the Gulf region to instantly settle US dollar transactions through the bank’s SGB Net",
+     "long_pl": "Analiza: The partnership will enable select institutions in Asia and the Gulf region to instantly settle US dollar transactions through the bank’s SGB Net"
+    },
     {
      "title": "Here’s what happened in crypto today",
      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -185,31 +222,13 @@
      "long_pl": "Analiza: Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation."
     },
     {
-     "title": "$4.2B crypto bank Anchorage Digital cuts 17% of workforce: Report",
-     "url": "https://cointelegraph.com/news/anchorage-digital-cuts-workforce-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-     "source": "COINTELEGRAPH",
-     "short_en": "The reported cuts come as Anchorage expands its institutional footprint, including stablecoin issuance and a $100 million investment from Tether.",
-     "short_pl": "The reported cuts come as Anchorage expands its institutional footprint, including stablecoin issuance and a $100 million investment from Tether.",
-     "long_en": "Analysis: The reported cuts come as Anchorage expands its institutional footprint, including stablecoin issuance and a $100 million investment from Tether.",
-     "long_pl": "Analiza: The reported cuts come as Anchorage expands its institutional footprint, including stablecoin issuance and a $100 million investment from Tether."
-    },
-    {
-     "title": "Blast to wind down Ethereum L2 after costs outpace revenue",
-     "url": "https://cointelegraph.com/news/blast-to-wind-down-ethereum-l2-after-costs-outpace-revenue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-     "source": "COINTELEGRAPH",
-     "short_en": "Once among Ethereum’s largest layer-2 networks by total value locked, Blast is urging users to move their assets to mainnet ahead of the shutdown.",
-     "short_pl": "Once among Ethereum’s largest layer-2 networks by total value locked, Blast is urging users to move their assets to mainnet ahead of the shutdown.",
-     "long_en": "Analysis: Once among Ethereum’s largest layer-2 networks by total value locked, Blast is urging users to move their assets to mainnet ahead of the shutdown.",
-     "long_pl": "Analiza: Once among Ethereum’s largest layer-2 networks by total value locked, Blast is urging users to move their assets to mainnet ahead of the shutdown."
-    },
-    {
-     "title": "Circle Pushes Back on MiCA's Bank-Deposit Mandate for Stablecoins",
-     "url": "https://decrypt.co/379984/circle-pushes-back-on-micas-bank-deposit-mandate-for-stablecoins",
+     "title": "Morning Minute: Uptober Off to a Green Start",
+     "url": "https://decrypt.co/380050/morning-minute-uptober-off-to-a-green-start",
      "source": "DECRYPT",
-     "short_en": "The USDC issuer told the European Commission that MiCA's reserve mandates and concentration caps keep the largest global stablecoins outside Europe's perimeter—siding with the ECB ",
-     "short_pl": "The USDC issuer told the European Commission that MiCA's reserve mandates and concentration caps keep the largest global stablecoins outside Europe's perimeter—siding with the ECB ",
-     "long_en": "Analysis: The USDC issuer told the European Commission that MiCA's reserve mandates and concentration caps keep the largest global stablecoins outside Europe's perimeter—siding with the ECB in calling for more",
-     "long_pl": "Analiza: The USDC issuer told the European Commission that MiCA's reserve mandates and concentration caps keep the largest global stablecoins outside Europe's perimeter—siding with the ECB in calling for more"
+     "short_en": "Crypto majors and alts are rallying to start October. What’s driving the early action and will it continue?",
+     "short_pl": "Crypto majors and alts are rallying to start October. What’s driving the early action and will it continue?",
+     "long_en": "Analysis: Crypto majors and alts are rallying to start October. What’s driving the early action and will it continue?",
+     "long_pl": "Analiza: Crypto majors and alts are rallying to start October. What’s driving the early action and will it continue?"
     }
    ]
   },
@@ -220,22 +239,13 @@
    "section_analysis_pl": "- Decyzja Fed + upadek CLARITY Act napywaja taśmą; ryzyko regulacyjne jest wysokie.\n- Mały rozmiar pozycji do komunikatu Fed; nastpny katalizator to stopy.",
    "items": [
     {
-     "title": "Trump is expected to appoint Jay Clayton as new AI czar: Reports",
-     "url": "https://cointelegraph.com/news/trump-is-expected-to-appoint-jay-clayton-as-new-ai-czar-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-     "source": "COINTELEGRAPH",
-     "short_en": "US intel chief Clayton may be asked to also oversee AI innovation and development along with “self policing” tech CEOs.",
-     "short_pl": "US intel chief Clayton may be asked to also oversee AI innovation and development along with “self policing” tech CEOs.",
-     "long_en": "Analysis: US intel chief Clayton may be asked to also oversee AI innovation and development along with “self policing” tech CEOs.",
-     "long_pl": "Analiza: US intel chief Clayton may be asked to also oversee AI innovation and development along with “self policing” tech CEOs."
-    },
-    {
-     "title": "Stablecoin issuers have replaced 40% of China’s lost US Treasury demand",
-     "url": "https://cryptoslate.com/stablecoin-issuers-have-replaced-40-of-chinas-lost-us-treasury-demand/",
-     "source": "CRYPTOSLATE",
-     "short_en": "Stablecoin issuers are emerging as a new source of demand for US government debt as foreign official holdings lose ground. Tether and Circle have increased their Treasury securitie",
-     "short_pl": "Stablecoin issuers are emerging as a new source of demand for US government debt as foreign official holdings lose ground. Tether and Circle have increased their Treasury securitie",
-     "long_en": "Analysis: Stablecoin issuers are emerging as a new source of demand for US government debt as foreign official holdings lose ground. Tether and Circle have increased their Treasury securities and repurchase-agr",
-     "long_pl": "Analiza: Stablecoin issuers are emerging as a new source of demand for US government debt as foreign official holdings lose ground. Tether and Circle have increased their Treasury securities and repurchase-agr"
+     "title": "Trump Taps Jay Clayton, the SEC Chair Who Sued Ripple, to Lead AI Push",
+     "url": "https://decrypt.co/380019/trump-jay-clayton-sec-ripple-ai-push-super-intelligence",
+     "source": "DECRYPT",
+     "short_en": "President Trump named a new \"Super Intelligence Force\" to coordinate federal AI policy, with Director of National Intelligence Jay Clayton at the helm. As SEC chair, Clayton launch",
+     "short_pl": "President Trump named a new \"Super Intelligence Force\" to coordinate federal AI policy, with Director of National Intelligence Jay Clayton at the helm. As SEC chair, Clayton launch",
+     "long_en": "Analysis: President Trump named a new \"Super Intelligence Force\" to coordinate federal AI policy, with Director of National Intelligence Jay Clayton at the helm. As SEC chair, Clayton launched crypto lawsuits i",
+     "long_pl": "Analiza: President Trump named a new \"Super Intelligence Force\" to coordinate federal AI policy, with Director of National Intelligence Jay Clayton at the helm. As SEC chair, Clayton launched crypto lawsuits i"
     }
    ]
   },
@@ -246,46 +256,46 @@
    "section_analysis_pl": "- Przeply AI/akcji konkuruje z pynnością krypto; obserwuj rotacj z powrotem do BTC.",
    "items": [
     {
-     "title": "European crypto users have ‘more faith’ in regulated firms under MiCA: Bitpanda co-CEO",
-     "url": "https://cointelegraph.com/news/mica-strengthened-retail-trust-regulated-crypto-exchanges-bitpanda-ceo-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "title": "BTC price fights to reclaim 2026 open: Three things to know in Bitcoin this week ",
+     "url": "https://cointelegraph.com/markets/btc-price-fights-to-reclaim-2026-open-three-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
      "source": "COINTELEGRAPH",
-     "short_en": "Speaking on Cointelegraph’s Chain Reaction, Christian Trummer said MiCA has increased trust in regulated platforms and called for stricter enforcement against noncompliant firms.",
-     "short_pl": "Speaking on Cointelegraph’s Chain Reaction, Christian Trummer said MiCA has increased trust in regulated platforms and called for stricter enforcement against noncompliant firms.",
-     "long_en": "Analysis: Speaking on Cointelegraph’s Chain Reaction, Christian Trummer said MiCA has increased trust in regulated platforms and called for stricter enforcement against noncompliant firms.",
-     "long_pl": "Analiza: Speaking on Cointelegraph’s Chain Reaction, Christian Trummer said MiCA has increased trust in regulated platforms and called for stricter enforcement against noncompliant firms."
+     "short_en": "Bitcoin bulls renewed pressure on range highs with the 2026 yearly open forming the next key resistance to break through.",
+     "short_pl": "Bitcoin bulls renewed pressure on range highs with the 2026 yearly open forming the next key resistance to break through.",
+     "long_en": "Analysis: Bitcoin bulls renewed pressure on range highs with the 2026 yearly open forming the next key resistance to break through.",
+     "long_pl": "Analiza: Bitcoin bulls renewed pressure on range highs with the 2026 yearly open forming the next key resistance to break through."
     },
     {
-     "title": "California Subpoenas OpenAI Over AI Models That Hacked Their Way Out of a Test",
-     "url": "https://decrypt.co/379998/california-subpoena-openai-ai-models-hack",
+     "title": "OKX and NYSE Owner ICE Plan 24/7 Tokenized Stock Trading Under SEC Exemption",
+     "url": "https://decrypt.co/380032/okx-and-nyse-owner-ice-plan-24-7-tokenized-stock-trading-under-sec-exemption",
      "source": "DECRYPT",
-     "short_en": "California's attorney general wants answers from OpenAI about AI models that escaped a locked test environment and hacked Hugging Face—and whether the company can be held legally a",
-     "short_pl": "California's attorney general wants answers from OpenAI about AI models that escaped a locked test environment and hacked Hugging Face—and whether the company can be held legally a",
-     "long_en": "Analysis: California's attorney general wants answers from OpenAI about AI models that escaped a locked test environment and hacked Hugging Face—and whether the company can be held legally accountable.",
-     "long_pl": "Analiza: California's attorney general wants answers from OpenAI about AI models that escaped a locked test environment and hacked Hugging Face—and whether the company can be held legally accountable."
+     "short_en": "Filed under the SEC's new Innovation Exemption, the notice lists more than 60 stocks, including Nvidia and SpaceX, paired with stablecoins.",
+     "short_pl": "Filed under the SEC's new Innovation Exemption, the notice lists more than 60 stocks, including Nvidia and SpaceX, paired with stablecoins.",
+     "long_en": "Analysis: Filed under the SEC's new Innovation Exemption, the notice lists more than 60 stocks, including Nvidia and SpaceX, paired with stablecoins.",
+     "long_pl": "Analiza: Filed under the SEC's new Innovation Exemption, the notice lists more than 60 stocks, including Nvidia and SpaceX, paired with stablecoins."
     },
     {
-     "title": "Ethereum Now Lets You Pay for AI Without Revealing Who You Are",
-     "url": "https://decrypt.co/379991/ethereum-now-pay-for-ai-without-revealing-identity",
-     "source": "DECRYPT",
-     "short_en": "Ethereum's zkAPI lets users prepay in USDC and query AI models through cryptographic proofs, so no single party sees both who they are and what they ask.",
-     "short_pl": "Ethereum's zkAPI lets users prepay in USDC and query AI models through cryptographic proofs, so no single party sees both who they are and what they ask.",
-     "long_en": "Analysis: Ethereum's zkAPI lets users prepay in USDC and query AI models through cryptographic proofs, so no single party sees both who they are and what they ask.",
-     "long_pl": "Analiza: Ethereum's zkAPI lets users prepay in USDC and query AI models through cryptographic proofs, so no single party sees both who they are and what they ask."
+     "title": "US jobs revision turns July’s 21,000 gain into a 10,000 loss",
+     "url": "https://cryptoslate.com/us-jobs-revision-turns-julys-21000-gain-into-a-10000-loss/",
+     "source": "CRYPTOSLATE",
+     "short_en": "Softer hiring and slower wages weaken the labor case for another Fed hike, while inflation and household employment complicate the outlook. The post US jobs revision turns July’s 2",
+     "short_pl": "Softer hiring and slower wages weaken the labor case for another Fed hike, while inflation and household employment complicate the outlook. The post US jobs revision turns July’s 2",
+     "long_en": "Analysis: Softer hiring and slower wages weaken the labor case for another Fed hike, while inflation and household employment complicate the outlook. The post US jobs revision turns July’s 21,000 gain into a 10",
+     "long_pl": "Analiza: Softer hiring and slower wages weaken the labor case for another Fed hike, while inflation and household employment complicate the outlook. The post US jobs revision turns July’s 21,000 gain into a 10"
     },
     {
-     "title": "This AI Is Already Fooling People on Video Calls Into Thinking It's Human, Company Says",
-     "url": "https://decrypt.co/379975/tavus-griffin-ai-fools-people-video-thinking-human",
-     "source": "DECRYPT",
-     "short_en": "Tavus says 26 of 54 people on a one-minute video call thought its new Griffin model was human. The results are the company's own, and the model isn't going to retail customers yet.",
-     "short_pl": "Tavus says 26 of 54 people on a one-minute video call thought its new Griffin model was human. The results are the company's own, and the model isn't going to retail customers yet.",
-     "long_en": "Analysis: Tavus says 26 of 54 people on a one-minute video call thought its new Griffin model was human. The results are the company's own, and the model isn't going to retail customers yet.",
-     "long_pl": "Analiza: Tavus says 26 of 54 people on a one-minute video call thought its new Griffin model was human. The results are the company's own, and the model isn't going to retail customers yet."
+     "title": "Circle and Tether find common ground against MiCA’s bank reserve rules",
+     "url": "https://cryptoslate.com/circle-and-tether-find-common-ground-against-micas-bank-reserve-rules/",
+     "source": "CRYPTOSLATE",
+     "short_en": "Its longer-term proposal would require Commission equivalence and EBA issuer recognition before distribution through a locally licensed institution. The post Circle and Tether find",
+     "short_pl": "Its longer-term proposal would require Commission equivalence and EBA issuer recognition before distribution through a locally licensed institution. The post Circle and Tether find",
+     "long_en": "Analysis: Its longer-term proposal would require Commission equivalence and EBA issuer recognition before distribution through a locally licensed institution. The post Circle and Tether find common ground again",
+     "long_pl": "Analiza: Its longer-term proposal would require Commission equivalence and EBA issuer recognition before distribution through a locally licensed institution. The post Circle and Tether find common ground again"
     }
    ]
   }
  },
- "total_analysis_en": "- BTC $84,625 (-1.9%) after the CLARITY Act failed its Senate vote — risk-off.\n- Alts bleed harder (top losers: TAO -7.7%, RAIN -7.6%, PUMP -6.6%) — BTC dominance 58.7%.\n- Global mcap $2.89T (+0.0% 24h) — sellers in control.\n- Watch: Fed outcome + BTC $74k. Avoid leveraged longs into the print. Not financial advice.",
- "total_analysis_pl": "- BTC $84,625 (-1.9%) po upadku CLARITY w Senacie — podaz.\n- Alty tracą mocniej — dominacja BTC 58.7%.\n- Globalna kapitalizacja $2.89T (+0.0% 24h) — sprzedający maj przedy.\n- Obserwuj: wynik Fed + BTC $74k. Nie goniy dźwigni w rynku bez pokrycia.",
- "social_narrative_en": "Trending heat: SAND, QNT, MANA, GALA, PONS — meme-coin churn while BTC trades at $84,625; retail attention is chasing, price risk-off.",
- "social_narrative_pl": "Puls social: SAND, QNT, MANA, GALA, PONS — gorączka memecoinow przy BTC $84,625; ceny podaz, detaliści czekają w kolejce."
+ "total_analysis_en": "- BTC $86,098 (+1.0%) after the CLARITY Act failed its Senate vote — risk-on.\n- Alts bleed harder (top losers: QNT -1.3%, SOL -0.8%, BCH -0.5%) — BTC dominance 59.2%.\n- Global mcap $2.91T (+0.0% 24h) — sellers in control.\n- Watch: Fed outcome + BTC $74k. Avoid leveraged longs into the print. Not financial advice.",
+ "total_analysis_pl": "- BTC $86,098 (+1.0%) po upadku CLARITY w Senacie — sprzyj.\n- Alty tracą mocniej — dominacja BTC 59.2%.\n- Globalna kapitalizacja $2.91T (+0.0% 24h) — sprzedający maj przedy.\n- Obserwuj: wynik Fed + BTC $74k. Nie goniy dźwigni w rynku bez pokrycia.",
+ "social_narrative_en": "Trending heat: AGENTCAT, SIF, HI, EDEL, PENGU — meme-coin churn while BTC trades at $86,098; retail attention is chasing, price risk-on.",
+ "social_narrative_pl": "Puls social: AGENTCAT, SIF, HI, EDEL, PENGU — gorączka memecoinow przy BTC $86,098; ceny sprzyj, detaliści czekają w kolejce."
 }
