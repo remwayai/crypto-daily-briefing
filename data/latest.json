@@ -1,163 +1,163 @@
 {
- "date": "2026-10-06",
- "collected_at": "2026-10-06T13:37:46.538913",
- "generated_at": "2026-10-06T13:37:46",
+ "date": "2026-10-09",
+ "collected_at": "2026-10-09T01:35:17.212231",
+ "generated_at": "2026-10-09T01:35:17",
  "synthesis_mode": "deterministic-rss",
  "bitcoin": {
-  "price_usd": 85294,
-  "change_24h_pct": -0.6360135146110881
+  "price_usd": 81339,
+  "change_24h_pct": -2.3469472311673436
  },
  "ethereum": {
-  "price_usd": 2694.49,
-  "change_24h_pct": -0.6403141456154133
+  "price_usd": 2437.42,
+  "change_24h_pct": -4.63612720495989
  },
- "btc_dominance_pct": 58.67,
- "global_mcap_usd": 2914134135495.5703,
+ "btc_dominance_pct": 59.21,
+ "global_mcap_usd": 2757003662834.7793,
  "global_mcap_change_24h_pct": null,
  "top10": [
   {
    "symbol": "BTC",
    "name": "Bitcoin",
-   "price_usd": 85294,
-   "change_24h_pct": -0.6266
+   "price_usd": 81339,
+   "change_24h_pct": -2.34695
   },
   {
    "symbol": "ETH",
    "name": "Ethereum",
-   "price_usd": 2694.09,
-   "change_24h_pct": -0.64031
+   "price_usd": 2437.42,
+   "change_24h_pct": -4.63613
   },
   {
    "symbol": "USDT",
    "name": "Tether",
-   "price_usd": 0.99976,
-   "change_24h_pct": -0.00855
+   "price_usd": 0.999331,
+   "change_24h_pct": -0.02202
   },
   {
    "symbol": "BNB",
    "name": "BNB",
-   "price_usd": 779.38,
-   "change_24h_pct": -1.60522
+   "price_usd": 725.74,
+   "change_24h_pct": -5.8018
   },
   {
    "symbol": "XRP",
    "name": "XRP",
-   "price_usd": 1.5,
-   "change_24h_pct": -1.00712
+   "price_usd": 1.35,
+   "change_24h_pct": -4.80542
   },
   {
    "symbol": "USDC",
    "name": "USDC",
-   "price_usd": 0.999912,
-   "change_24h_pct": -0.00677
+   "price_usd": 0.999647,
+   "change_24h_pct": -0.00539
   },
   {
    "symbol": "SOL",
    "name": "Solana",
-   "price_usd": 119.66,
-   "change_24h_pct": -0.95922
+   "price_usd": 107.61,
+   "change_24h_pct": -7.55958
   },
   {
    "symbol": "TRX",
    "name": "TRON",
-   "price_usd": 0.336473,
-   "change_24h_pct": 0.44678
+   "price_usd": 0.333503,
+   "change_24h_pct": -0.52466
   },
   {
    "symbol": "FIGR_HELOC",
    "name": "Figure Heloc",
-   "price_usd": 1.033,
-   "change_24h_pct": null
+   "price_usd": 1.024,
+   "change_24h_pct": 0.756
   },
   {
    "symbol": "ZEC",
    "name": "Zcash",
-   "price_usd": 1324.59,
-   "change_24h_pct": 0.26705
+   "price_usd": 1147.14,
+   "change_24h_pct": -12.83036
   }
  ],
  "risk_movers": [
   {
    "symbol": "NEAR",
    "name": "NEAR Protocol",
-   "price_usd": 5.18,
-   "change_24h_pct": 4.19479
-  },
-  {
-   "symbol": "XMR",
-   "name": "Monero",
-   "price_usd": 559.25,
-   "change_24h_pct": 3.90127
+   "price_usd": 4.5,
+   "change_24h_pct": -14.14001
   },
   {
    "symbol": "AVAX",
    "name": "Avalanche",
-   "price_usd": 11.33,
-   "change_24h_pct": 3.71999
+   "price_usd": 10.0,
+   "change_24h_pct": -11.33153
   },
   {
-   "symbol": "XLM",
-   "name": "Stellar",
-   "price_usd": 0.215061,
-   "change_24h_pct": -3.57017
-  },
-  {
-   "symbol": "SUI",
-   "name": "Sui",
-   "price_usd": 1.19,
-   "change_24h_pct": -2.73236
-  },
-  {
-   "symbol": "RAIN",
-   "name": "Rain",
-   "price_usd": 0.01136901,
-   "change_24h_pct": -2.50947
+   "symbol": "ADA",
+   "name": "Cardano",
+   "price_usd": 0.228508,
+   "change_24h_pct": -10.80844
   },
   {
    "symbol": "UNI",
    "name": "Uniswap",
-   "price_usd": 8.8,
-   "change_24h_pct": -2.47204
+   "price_usd": 7.15,
+   "change_24h_pct": -8.26518
+  },
+  {
+   "symbol": "BCH",
+   "name": "Bitcoin Cash",
+   "price_usd": 278.2,
+   "change_24h_pct": -7.37054
   },
   {
    "symbol": "LINK",
    "name": "Chainlink",
-   "price_usd": 13.8,
-   "change_24h_pct": -2.3379
+   "price_usd": 12.37,
+   "change_24h_pct": -7.31851
+  },
+  {
+   "symbol": "RAIN",
+   "name": "Rain",
+   "price_usd": 0.0101878,
+   "change_24h_pct": -6.83396
+  },
+  {
+   "symbol": "DOGE",
+   "name": "Dogecoin",
+   "price_usd": 0.08277,
+   "change_24h_pct": -6.39878
   }
  ],
  "trending": [
+  {
+   "name": "Super Intelligent Identity",
+   "symbol": "SIMD"
+  },
+  {
+   "name": "Official Trump",
+   "symbol": "TRUMP"
+  },
+  {
+   "name": "Quantus",
+   "symbol": "QTC"
+  },
+  {
+   "name": "Derive",
+   "symbol": "DRV"
+  },
   {
    "name": "NEAR Protocol",
    "symbol": "NEAR"
   },
   {
-   "name": "LayerZero",
-   "symbol": "ZRO"
+   "name": "Pearl",
+   "symbol": "PRL"
   },
   {
-   "name": "iExec RLC",
-   "symbol": "RLC"
+   "name": "Quant",
+   "symbol": "QNT"
   },
   {
    "name": "Bitcoin",
    "symbol": "BTC"
-  },
-  {
-   "name": "Solana",
-   "symbol": "SOL"
-  },
-  {
-   "name": "Pons",
-   "symbol": "PONS"
-  },
-  {
-   "name": "Artificial Superintelligence Alliance",
-   "symbol": "FET"
-  },
-  {
-   "name": "Pearl",
-   "symbol": "PRL"
   }
  ],
  "polymarket": [],
@@ -165,43 +165,52 @@
   "bitcoin": {
    "label_en": "Bitcoin",
    "label_pl": "Bitcoin",
-   "section_analysis_en": "- BTC $85,294 at -0.6% — choppy tape; dominance 58.7% keeps pressure on alts.\n- Watch BTC $74k support; no clean trend until it reclaims higher.",
-   "section_analysis_pl": "- BTC $85,294 (-0.6%) — rynk zmienno; dominacja 58.7% ciszy na alty.\n- Obserwuj wsparcie BTC $74k; brak czystego trendu do jego odzyskania.",
+   "section_analysis_en": "- BTC $81,339 at -2.3% — risk-off tape; dominance 59.2% keeps pressure on alts.\n- Watch BTC $74k support; no clean trend until it reclaims higher.",
+   "section_analysis_pl": "- BTC $81,339 (-2.3%) — rynk podaz; dominacja 59.2% ciszy na alty.\n- Obserwuj wsparcie BTC $74k; brak czystego trendu do jego odzyskania.",
    "items": [
     {
-     "title": "Strive Adds $169M Bitcoin in Its Biggest Buy in Four Months",
-     "url": "https://decrypt.co/380129/strive-adds-169m-bitcoin-biggest-buy-four-months",
-     "source": "DECRYPT",
-     "short_en": "The Nasdaq-listed bitcoin treasury company, co-founded by Vivek Ramaswamy, paid roughly $169 million for 2,000 coins last week and now holds 29,462 BTC.",
-     "short_pl": "The Nasdaq-listed bitcoin treasury company, co-founded by Vivek Ramaswamy, paid roughly $169 million for 2,000 coins last week and now holds 29,462 BTC.",
-     "long_en": "Analysis: The Nasdaq-listed bitcoin treasury company, co-founded by Vivek Ramaswamy, paid roughly $169 million for 2,000 coins last week and now holds 29,462 BTC.",
-     "long_pl": "Analiza: The Nasdaq-listed bitcoin treasury company, co-founded by Vivek Ramaswamy, paid roughly $169 million for 2,000 coins last week and now holds 29,462 BTC."
+     "title": "US government moves $1B in seized Bitcoin after $770M transfers",
+     "url": "https://cointelegraph.com/news/us-government-seized-bitcoin-moved-one-transaction?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "source": "COINTELEGRAPH",
+     "short_en": "Blockchain analysts identified the US government wallet tied to the recovery of funds from the Bitfinex hack.",
+     "short_pl": "Blockchain analysts identified the US government wallet tied to the recovery of funds from the Bitfinex hack.",
+     "long_en": "Analysis: Blockchain analysts identified the US government wallet tied to the recovery of funds from the Bitfinex hack.",
+     "long_pl": "Analiza: Blockchain analysts identified the US government wallet tied to the recovery of funds from the Bitfinex hack."
     },
     {
-     "title": "Why a 4chan Bitcoin Prophecy Says Today Is the End of Crypto Winter",
-     "url": "https://decrypt.co/380113/4chan-bitcoin-prophecy-end-crypto-winter",
+     "title": "Bitcoin ETFs Suffer Worst Loss Since June as Uptober Turns Red",
+     "url": "https://decrypt.co/380490/bitcoin-etfs-worst-outflow-since-june-uptober-red",
      "source": "DECRYPT",
-     "short_en": "An anonymous 4chan user called Bitcoin's October 2025 peak to the day way back in 2023. Could they be right again?",
-     "short_pl": "An anonymous 4chan user called Bitcoin's October 2025 peak to the day way back in 2023. Could they be right again?",
-     "long_en": "Analysis: An anonymous 4chan user called Bitcoin's October 2025 peak to the day way back in 2023. Could they be right again?",
-     "long_pl": "Analiza: An anonymous 4chan user called Bitcoin's October 2025 peak to the day way back in 2023. Could they be right again?"
+     "short_en": "Investors yanked $484.9 million out of spot Bitcoin ETFs in a single day. Oil is near $100, bond yields are at their highest since 2002, and the Fed isn't done hiking.",
+     "short_pl": "Investors yanked $484.9 million out of spot Bitcoin ETFs in a single day. Oil is near $100, bond yields are at their highest since 2002, and the Fed isn't done hiking.",
+     "long_en": "Analysis: Investors yanked $484.9 million out of spot Bitcoin ETFs in a single day. Oil is near $100, bond yields are at their highest since 2002, and the Fed isn't done hiking.",
+     "long_pl": "Analiza: Investors yanked $484.9 million out of spot Bitcoin ETFs in a single day. Oil is near $100, bond yields are at their highest since 2002, and the Fed isn't done hiking."
     },
     {
-     "title": "Bitcoin futures drop $1.4B, but spot buyers step in to help",
-     "url": "https://cryptoslate.com/bitcoin-futures-drop-1-4b-but-spot-buyers-step-in-to-help/",
+     "title": "US Government Moves $1 Billion in Bitcoin Seized From Bitfinex Hacker",
+     "url": "https://decrypt.co/380504/us-government-moves-1-billion-bitcoin-bitfinex",
+     "source": "DECRYPT",
+     "short_en": "A government wallet holding Bitcoin seized from the Bitfinex hacker sent 12,267 BTC to a new, unlabeled address, according to Arkham data.",
+     "short_pl": "A government wallet holding Bitcoin seized from the Bitfinex hacker sent 12,267 BTC to a new, unlabeled address, according to Arkham data.",
+     "long_en": "Analysis: A government wallet holding Bitcoin seized from the Bitfinex hacker sent 12,267 BTC to a new, unlabeled address, according to Arkham data.",
+     "long_pl": "Analiza: A government wallet holding Bitcoin seized from the Bitfinex hacker sent 12,267 BTC to a new, unlabeled address, according to Arkham data."
+    },
+    {
+     "title": "US government moves another $1 billion in Bitcoin as BTC slides $4,000",
+     "url": "https://cryptoslate.com/us-government-moves-another-1-billion-in-bitcoin-as-btc-slides-4000/",
      "source": "CRYPTOSLATE",
-     "short_en": "Glassnode’s weekly snapshot pairs a smaller derivatives footprint with rising holder activity, while spot buying supplies a counterweight. The post Bitcoin futures drop $1.4B, but ",
-     "short_pl": "Glassnode’s weekly snapshot pairs a smaller derivatives footprint with rising holder activity, while spot buying supplies a counterweight. The post Bitcoin futures drop $1.4B, but ",
-     "long_en": "Analysis: Glassnode’s weekly snapshot pairs a smaller derivatives footprint with rising holder activity, while spot buying supplies a counterweight. The post Bitcoin futures drop $1.4B, but spot buyers step in",
-     "long_pl": "Analiza: Glassnode’s weekly snapshot pairs a smaller derivatives footprint with rising holder activity, while spot buying supplies a counterweight. The post Bitcoin futures drop $1.4B, but spot buyers step in"
+     "short_en": "US government-linked wallets moved over $1 billion in Bitcoin on Oct. 8 as BTC prices fell and more coins reached Coinbase Prime. On Oct. 8, Galaxy Research flagged the transfer of",
+     "short_pl": "US government-linked wallets moved over $1 billion in Bitcoin on Oct. 8 as BTC prices fell and more coins reached Coinbase Prime. On Oct. 8, Galaxy Research flagged the transfer of",
+     "long_en": "Analysis: US government-linked wallets moved over $1 billion in Bitcoin on Oct. 8 as BTC prices fell and more coins reached Coinbase Prime. On Oct. 8, Galaxy Research flagged the transfer of 12,267 BTC, valued",
+     "long_pl": "Analiza: US government-linked wallets moved over $1 billion in Bitcoin on Oct. 8 as BTC prices fell and more coins reached Coinbase Prime. On Oct. 8, Galaxy Research flagged the transfer of 12,267 BTC, valued"
     }
    ]
   },
   "crypto_market": {
    "label_en": "Crypto market",
    "label_pl": "Rynek krypto",
-   "section_analysis_en": "- ETH -0.6% vs BTC -0.6% — ETH is underperforming; no leadership.\n- Biggest alt movers: NEAR +4.2%, XMR +3.9%, AVAX +3.7%, XLM -3.6%.",
-   "section_analysis_pl": "- ETH (-0.6%) vs BTC (-0.6%) — ETH nie prowadzi.\n- Najwiksze ruchy altow: NEAR +4.2%, XMR +3.9%, AVAX +3.7%, XLM -3.6%.",
+   "section_analysis_en": "- ETH -4.6% vs BTC -2.3% — ETH is underperforming; no leadership.\n- Biggest alt movers: NEAR -14.1%, AVAX -11.3%, ADA -10.8%, UNI -8.3%.",
+   "section_analysis_pl": "- ETH (-4.6%) vs BTC (-2.3%) — ETH nie prowadzi.\n- Najwiksze ruchy altow: NEAR -14.1%, AVAX -11.3%, ADA -10.8%, UNI -8.3%.",
    "items": [
     {
      "title": "Here’s what happened in crypto today",
@@ -213,31 +222,31 @@
      "long_pl": "Analiza: Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation."
     },
     {
-     "title": "OKX eyes emerging markets with yield-offering stablecoin savings and payments app",
-     "url": "https://cointelegraph.com/news/okx-money-stablecoin-savings-payments-emerging-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "title": "IMF warns tokenized markets could amplify financial risks",
+     "url": "https://cointelegraph.com/news/imf-flags-volatility-liquidity-risks-tokenized-markets-grow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
      "source": "COINTELEGRAPH",
-     "short_en": "OKX Money lets users hold, send and spend dollar-backed stablecoins, with qualifying USDG balances earning up to 10% APY.",
-     "short_pl": "OKX Money lets users hold, send and spend dollar-backed stablecoins, with qualifying USDG balances earning up to 10% APY.",
-     "long_en": "Analysis: OKX Money lets users hold, send and spend dollar-backed stablecoins, with qualifying USDG balances earning up to 10% APY.",
-     "long_pl": "Analiza: OKX Money lets users hold, send and spend dollar-backed stablecoins, with qualifying USDG balances earning up to 10% APY."
+     "short_en": "The global financial institution found tokenized equity markets less liquid and more volatile than traditional markets, despite growing demand for 24/7 trading.",
+     "short_pl": "The global financial institution found tokenized equity markets less liquid and more volatile than traditional markets, despite growing demand for 24/7 trading.",
+     "long_en": "Analysis: The global financial institution found tokenized equity markets less liquid and more volatile than traditional markets, despite growing demand for 24/7 trading.",
+     "long_pl": "Analiza: The global financial institution found tokenized equity markets less liquid and more volatile than traditional markets, despite growing demand for 24/7 trading."
     },
     {
-     "title": "Chinese crime network laundered over $1B for Lazarus: ZachXBT",
-     "url": "https://cointelegraph.com/news/chinese-crime-network-laundered-over-1b-for-lazarus-zachxbt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-     "source": "COINTELEGRAPH",
-     "short_en": "ZachXBT says he infiltrated the network by posing as a customer, gaining information that helped trace funds from the $1.5 billion Bybit hack.",
-     "short_pl": "ZachXBT says he infiltrated the network by posing as a customer, gaining information that helped trace funds from the $1.5 billion Bybit hack.",
-     "long_en": "Analysis: ZachXBT says he infiltrated the network by posing as a customer, gaining information that helped trace funds from the $1.5 billion Bybit hack.",
-     "long_pl": "Analiza: ZachXBT says he infiltrated the network by posing as a customer, gaining information that helped trace funds from the $1.5 billion Bybit hack."
-    },
-    {
-     "title": "Solana Debuts Institutional Settlement Standard With J.P. Morgan Input",
-     "url": "https://decrypt.co/380126/solana-institutional-settlement-standard-jp-morgan",
+     "title": "Solana DeFi Firms Orca and Loopscale Merge Under New Formation Brand",
+     "url": "https://decrypt.co/380522/solana-defi-firms-orca-and-loopscale-merge-under-new-formation-brand",
      "source": "DECRYPT",
-     "short_en": "Built with input from J.P. Morgan, the open-source \"DvP\" program lets institutions settle trades atomically on Solana with finality in seconds instead of days.",
-     "short_pl": "Built with input from J.P. Morgan, the open-source \"DvP\" program lets institutions settle trades atomically on Solana with finality in seconds instead of days.",
-     "long_en": "Analysis: Built with input from J.P. Morgan, the open-source \"DvP\" program lets institutions settle trades atomically on Solana with finality in seconds instead of days.",
-     "long_pl": "Analiza: Built with input from J.P. Morgan, the open-source \"DvP\" program lets institutions settle trades atomically on Solana with finality in seconds instead of days."
+     "short_en": "Solana DEX Orca and lending platform Loopscale will operate as Formation, a New York company aiming to finance AI, energy, robotics and defense assets and eventually reach regulate",
+     "short_pl": "Solana DEX Orca and lending platform Loopscale will operate as Formation, a New York company aiming to finance AI, energy, robotics and defense assets and eventually reach regulate",
+     "long_en": "Analysis: Solana DEX Orca and lending platform Loopscale will operate as Formation, a New York company aiming to finance AI, energy, robotics and defense assets and eventually reach regulated U.S. markets.",
+     "long_pl": "Analiza: Solana DEX Orca and lending platform Loopscale will operate as Formation, a New York company aiming to finance AI, energy, robotics and defense assets and eventually reach regulated U.S. markets."
+    },
+    {
+     "title": "MiCA rejection forces German crypto platform into operational overhaul",
+     "url": "https://cryptoslate.com/mica-rejection-forces-german-crypto-platform-into-operational-overhaul/",
+     "source": "CRYPTOSLATE",
+     "short_en": "BaFin rejected operator futurum bank AG's application, and a proposed restart depends on unfinished arrangements with regulated partners. The post MiCA rejection forces German cryp",
+     "short_pl": "BaFin rejected operator futurum bank AG's application, and a proposed restart depends on unfinished arrangements with regulated partners. The post MiCA rejection forces German cryp",
+     "long_en": "Analysis: BaFin rejected operator futurum bank AG's application, and a proposed restart depends on unfinished arrangements with regulated partners. The post MiCA rejection forces German crypto platform into ope",
+     "long_pl": "Analiza: BaFin rejected operator futurum bank AG's application, and a proposed restart depends on unfinished arrangements with regulated partners. The post MiCA rejection forces German crypto platform into ope"
     }
    ]
   },
@@ -248,13 +257,22 @@
    "section_analysis_pl": "- Decyzja Fed + upadek CLARITY Act napywaja taśmą; ryzyko regulacyjne jest wysokie.\n- Mały rozmiar pozycji do komunikatu Fed; nastpny katalizator to stopy.",
    "items": [
     {
-     "title": "Bitcoin treasury Strive risks cash reserve to fund $500M buyback and trim dividends",
-     "url": "https://cryptoslate.com/bitcoin-treasury-strive-risks-cash-reserve-to-fund-500m-buyback-and-trim-dividends/",
+     "title": "Bitcoin nears 3-week low as oil heads higher on Iran strike woes ",
+     "url": "https://cointelegraph.com/markets/bitcoin-nears-3-week-low-as-oil-heads-higher-on-iran-strike-woes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "source": "COINTELEGRAPH",
+     "short_en": "Bitcoin dipped below $81,000 and oil prices gained after reports that military confrontation between the US and Iran could return.",
+     "short_pl": "Bitcoin dipped below $81,000 and oil prices gained after reports that military confrontation between the US and Iran could return.",
+     "long_en": "Analysis: Bitcoin dipped below $81,000 and oil prices gained after reports that military confrontation between the US and Iran could return.",
+     "long_pl": "Analiza: Bitcoin dipped below $81,000 and oil prices gained after reports that military confrontation between the US and Iran could return."
+    },
+    {
+     "title": "Bitcoin’s slide below $81,000 exposes why a Fed pause may not save the crypto market",
+     "url": "https://cryptoslate.com/bitcoins-slide-below-81000-exposes-why-a-fed-pause-may-not-save-the-crypto-market/",
      "source": "CRYPTOSLATE",
-     "short_en": "The optional SATA ceiling is $215.3 million above October 2 cash, with no completed repurchases or dedicated funding source disclosed. The post Bitcoin treasury Strive risks cash r",
-     "short_pl": "The optional SATA ceiling is $215.3 million above October 2 cash, with no completed repurchases or dedicated funding source disclosed. The post Bitcoin treasury Strive risks cash r",
-     "long_en": "Analysis: The optional SATA ceiling is $215.3 million above October 2 cash, with no completed repurchases or dedicated funding source disclosed. The post Bitcoin treasury Strive risks cash reserve to fund $500M",
-     "long_pl": "Analiza: The optional SATA ceiling is $215.3 million above October 2 cash, with no completed repurchases or dedicated funding source disclosed. The post Bitcoin treasury Strive risks cash reserve to fund $500M"
+     "short_en": "Bitcoin slid below $81,000 on Oct. 8, with an intraday low near $80,800, even as traders expect the Fed to hold in October. The September FOMC minutes, released Oct. 7, said most p",
+     "short_pl": "Bitcoin slid below $81,000 on Oct. 8, with an intraday low near $80,800, even as traders expect the Fed to hold in October. The September FOMC minutes, released Oct. 7, said most p",
+     "long_en": "Analysis: Bitcoin slid below $81,000 on Oct. 8, with an intraday low near $80,800, even as traders expect the Fed to hold in October. The September FOMC minutes, released Oct. 7, said most participants viewed a",
+     "long_pl": "Analiza: Bitcoin slid below $81,000 on Oct. 8, with an intraday low near $80,800, even as traders expect the Fed to hold in October. The September FOMC minutes, released Oct. 7, said most participants viewed a"
     }
    ]
   },
@@ -265,37 +283,37 @@
    "section_analysis_pl": "- Przeply AI/akcji konkuruje z pynnością krypto; obserwuj rotacj z powrotem do BTC.",
    "items": [
     {
-     "title": "Better Markets says CFTC is ‘wrong agency’ to regulate retail crypto",
-     "url": "https://cointelegraph.com/news/better-markets-criticize-cftc-regulate-retail-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "title": "Netflix drops trailer for series based on FTX’s SBF and Caroline Ellison",
+     "url": "https://cointelegraph.com/news/netflix-series-ftx-sam-bankman-fried-caroline-ellison?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
      "source": "COINTELEGRAPH",
-     "short_en": "Better Markets said the CFTC’s proposed framework to bring certain cryptocurrency transactions and exchanges under its oversight will leave investors less protected than under the ",
-     "short_pl": "Better Markets said the CFTC’s proposed framework to bring certain cryptocurrency transactions and exchanges under its oversight will leave investors less protected than under the ",
-     "long_en": "Analysis: Better Markets said the CFTC’s proposed framework to bring certain cryptocurrency transactions and exchanges under its oversight will leave investors less protected than under the SEC.",
-     "long_pl": "Analiza: Better Markets said the CFTC’s proposed framework to bring certain cryptocurrency transactions and exchanges under its oversight will leave investors less protected than under the SEC."
+     "short_en": "Sam Bankman-Fried remains in federal prison following his 2023 conviction, while Caroline Ellison was released in January.",
+     "short_pl": "Sam Bankman-Fried remains in federal prison following his 2023 conviction, while Caroline Ellison was released in January.",
+     "long_en": "Analysis: Sam Bankman-Fried remains in federal prison following his 2023 conviction, while Caroline Ellison was released in January.",
+     "long_pl": "Analiza: Sam Bankman-Fried remains in federal prison following his 2023 conviction, while Caroline Ellison was released in January."
     },
     {
-     "title": "Rain seeks US trust bank charter days after OCC sued over crypto charters ",
-     "url": "https://cointelegraph.com/news/rain-seeks-us-trust-bank-charter-days-after-occ-sued-over-crypto-charters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-     "source": "COINTELEGRAPH",
-     "short_en": "Rain joins a growing queue of crypto firms seeking federal trust charters, while community banks have just asked a court to overturn the OCC rules underpinning them.",
-     "short_pl": "Rain joins a growing queue of crypto firms seeking federal trust charters, while community banks have just asked a court to overturn the OCC rules underpinning them.",
-     "long_en": "Analysis: Rain joins a growing queue of crypto firms seeking federal trust charters, while community banks have just asked a court to overturn the OCC rules underpinning them.",
-     "long_pl": "Analiza: Rain joins a growing queue of crypto firms seeking federal trust charters, while community banks have just asked a court to overturn the OCC rules underpinning them."
+     "title": "Will AI Break Crypto Encryption? Ethereum’s Vitalik Buterin Weighs In on 'Bunker Mode' Shift",
+     "url": "https://decrypt.co/380503/ai-break-crypto-encryption-ethereum-vitalik-buterin-bunker-mode",
+     "source": "DECRYPT",
+     "short_en": "Ethereum co-founder Vitalik Buterin thinks the crypto industry needs to make sure encryption is both quantum and AI-resistant.",
+     "short_pl": "Ethereum co-founder Vitalik Buterin thinks the crypto industry needs to make sure encryption is both quantum and AI-resistant.",
+     "long_en": "Analysis: Ethereum co-founder Vitalik Buterin thinks the crypto industry needs to make sure encryption is both quantum and AI-resistant.",
+     "long_pl": "Analiza: Ethereum co-founder Vitalik Buterin thinks the crypto industry needs to make sure encryption is both quantum and AI-resistant."
     },
     {
-     "title": "Kraken parent joins Singapore Gulf Bank, opening 24/7 institutional dollar rails",
-     "url": "https://cryptoslate.com/kraken-parent-joins-singapore-gulf-bank-opening-24-7-institutional-dollar-rails/",
-     "source": "CRYPTOSLATE",
-     "short_en": "Payward's SGB Net link supports round-the-clock US-dollar funding in eligible jurisdictions, while SGB customer-trade pricing is planned for coming months. The post Kraken parent j",
-     "short_pl": "Payward's SGB Net link supports round-the-clock US-dollar funding in eligible jurisdictions, while SGB customer-trade pricing is planned for coming months. The post Kraken parent j",
-     "long_en": "Analysis: Payward's SGB Net link supports round-the-clock US-dollar funding in eligible jurisdictions, while SGB customer-trade pricing is planned for coming months. The post Kraken parent joins Singapore Gulf",
-     "long_pl": "Analiza: Payward's SGB Net link supports round-the-clock US-dollar funding in eligible jurisdictions, while SGB customer-trade pricing is planned for coming months. The post Kraken parent joins Singapore Gulf"
+     "title": "From Uptober to Spooky Szn? Bitcoin Cuts September Gains in Half",
+     "url": "https://decrypt.co/380462/uptober-spooky-szn-bitcoin-cuts-september-gains",
+     "source": "DECRYPT",
+     "short_en": "Day traders are selling, leveraged longs are getting flushed and ETF money is heading for the door. The daily chart still holds the line, but its cushion is shrinking.",
+     "short_pl": "Day traders are selling, leveraged longs are getting flushed and ETF money is heading for the door. The daily chart still holds the line, but its cushion is shrinking.",
+     "long_en": "Analysis: Day traders are selling, leveraged longs are getting flushed and ETF money is heading for the door. The daily chart still holds the line, but its cushion is shrinking.",
+     "long_pl": "Analiza: Day traders are selling, leveraged longs are getting flushed and ETF money is heading for the door. The daily chart still holds the line, but its cushion is shrinking."
     }
    ]
   }
  },
- "total_analysis_en": "- BTC $85,294 (-0.6%) after the CLARITY Act failed its Senate vote — choppy.\n- Alts bleed harder (top losers: XLM -3.6%, M -3.3%, SUI -2.7%) — BTC dominance 58.7%.\n- Global mcap $2.91T (+0.0% 24h) — sellers in control.\n- Watch: Fed outcome + BTC $74k. Avoid leveraged longs into the print. Not financial advice.",
- "total_analysis_pl": "- BTC $85,294 (-0.6%) po upadku CLARITY w Senacie — zmienno.\n- Alty tracą mocniej — dominacja BTC 58.7%.\n- Globalna kapitalizacja $2.91T (+0.0% 24h) — sprzedający maj przedy.\n- Obserwuj: wynik Fed + BTC $74k. Nie goniy dźwigni w rynku bez pokrycia.",
- "social_narrative_en": "Trending heat: NEAR, ZRO, RLC, BTC, SOL — meme-coin churn while BTC trades at $85,294; retail attention is chasing, price choppy.",
- "social_narrative_pl": "Puls social: NEAR, ZRO, RLC, BTC, SOL — gorączka memecoinow przy BTC $85,294; ceny zmienno, detaliści czekają w kolejce."
+ "total_analysis_en": "- BTC $81,339 (-2.3%) after the CLARITY Act failed its Senate vote — risk-off.\n- Alts bleed harder (top losers: NEAR -14.1%, ZEC -12.8%, PUMP -12.5%) — BTC dominance 59.2%.\n- Global mcap $2.76T (+0.0% 24h) — sellers in control.\n- Watch: Fed outcome + BTC $74k. Avoid leveraged longs into the print. Not financial advice.",
+ "total_analysis_pl": "- BTC $81,339 (-2.3%) po upadku CLARITY w Senacie — podaz.\n- Alty tracą mocniej — dominacja BTC 59.2%.\n- Globalna kapitalizacja $2.76T (+0.0% 24h) — sprzedający maj przedy.\n- Obserwuj: wynik Fed + BTC $74k. Nie goniy dźwigni w rynku bez pokrycia.",
+ "social_narrative_en": "Trending heat: SIMD, TRUMP, QTC, DRV, NEAR — meme-coin churn while BTC trades at $81,339; retail attention is chasing, price risk-off.",
+ "social_narrative_pl": "Puls social: SIMD, TRUMP, QTC, DRV, NEAR — gorączka memecoinow przy BTC $81,339; ceny podaz, detaliści czekają w kolejce."
 }
